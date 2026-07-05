@@ -1,1 +1,698 @@
-{}
+{
+  "en": {
+    "bosses": [
+      {
+        "slug": "haze-piece-boss-drops",
+        "file": "haze-piece-boss-drops"
+      },
+      {
+        "slug": "haze-piece-bosses",
+        "file": "haze-piece-bosses"
+      },
+      {
+        "slug": "haze-piece-kaido-drops",
+        "file": "haze-piece-kaido-drops"
+      },
+      {
+        "slug": "haze-piece-sea-beast",
+        "file": "haze-piece-sea-beast"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "haze-piece-codes",
+        "file": "haze-piece-codes"
+      }
+    ],
+    "fruits": [
+      {
+        "slug": "haze-piece-best-fruit-for-grinding",
+        "file": "haze-piece-best-fruit-for-grinding"
+      },
+      {
+        "slug": "haze-piece-dragon-fruit",
+        "file": "haze-piece-dragon-fruit"
+      },
+      {
+        "slug": "haze-piece-fruit-stock",
+        "file": "haze-piece-fruit-stock"
+      },
+      {
+        "slug": "haze-piece-fruit-tier-list",
+        "file": "haze-piece-fruit-tier-list"
+      },
+      {
+        "slug": "haze-piece-fruit",
+        "file": "haze-piece-fruit"
+      },
+      {
+        "slug": "haze-piece-gear-2",
+        "file": "haze-piece-gear-2"
+      },
+      {
+        "slug": "haze-piece-gear-4",
+        "file": "haze-piece-gear-4"
+      },
+      {
+        "slug": "haze-piece-gear-5",
+        "file": "haze-piece-gear-5"
+      },
+      {
+        "slug": "haze-piece-how-to-get-fruits",
+        "file": "haze-piece-how-to-get-fruits"
+      },
+      {
+        "slug": "haze-piece-rubber-fruit",
+        "file": "haze-piece-rubber-fruit"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "haze-piece-beginner-guide",
+        "file": "haze-piece-beginner-guide"
+      },
+      {
+        "slug": "haze-piece-islands",
+        "file": "haze-piece-islands"
+      },
+      {
+        "slug": "haze-piece-level-guide",
+        "file": "haze-piece-level-guide"
+      },
+      {
+        "slug": "haze-piece-map",
+        "file": "haze-piece-map"
+      },
+      {
+        "slug": "haze-piece-max-level",
+        "file": "haze-piece-max-level"
+      },
+      {
+        "slug": "haze-piece-npc-location",
+        "file": "haze-piece-npc-location"
+      },
+      {
+        "slug": "haze-piece-quests",
+        "file": "haze-piece-quests"
+      },
+      {
+        "slug": "haze-piece-second-sea",
+        "file": "haze-piece-second-sea"
+      },
+      {
+        "slug": "haze-piece-third-sea",
+        "file": "haze-piece-third-sea"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "haze-piece-buso-haki",
+        "file": "haze-piece-buso-haki"
+      },
+      {
+        "slug": "haze-piece-conqueror-haki",
+        "file": "haze-piece-conqueror-haki"
+      },
+      {
+        "slug": "haze-piece-flash-step",
+        "file": "haze-piece-flash-step"
+      },
+      {
+        "slug": "haze-piece-haki-v2",
+        "file": "haze-piece-haki-v2"
+      },
+      {
+        "slug": "haze-piece-haki",
+        "file": "haze-piece-haki"
+      },
+      {
+        "slug": "haze-piece-how-to-get-haki",
+        "file": "haze-piece-how-to-get-haki"
+      },
+      {
+        "slug": "haze-piece-observation-haki",
+        "file": "haze-piece-observation-haki"
+      },
+      {
+        "slug": "haze-piece-sky-walk",
+        "file": "haze-piece-sky-walk"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "haze-piece-all-swords",
+        "file": "haze-piece-all-swords"
+      },
+      {
+        "slug": "haze-piece-bisento",
+        "file": "haze-piece-bisento"
+      },
+      {
+        "slug": "haze-piece-dark-blade",
+        "file": "haze-piece-dark-blade"
+      },
+      {
+        "slug": "haze-piece-dual-swordsman",
+        "file": "haze-piece-dual-swordsman"
+      },
+      {
+        "slug": "haze-piece-enma",
+        "file": "haze-piece-enma"
+      },
+      {
+        "slug": "haze-piece-sword-tier-list",
+        "file": "haze-piece-sword-tier-list"
+      },
+      {
+        "slug": "haze-piece-swords",
+        "file": "haze-piece-swords"
+      },
+      {
+        "slug": "haze-piece-three-sword-style",
+        "file": "haze-piece-three-sword-style"
+      }
+    ]
+  },
+  "es": {
+    "bosses": [
+      {
+        "slug": "haze-piece-boss-drops",
+        "file": "haze-piece-boss-drops"
+      },
+      {
+        "slug": "haze-piece-bosses",
+        "file": "haze-piece-bosses"
+      },
+      {
+        "slug": "haze-piece-kaido-drops",
+        "file": "haze-piece-kaido-drops"
+      },
+      {
+        "slug": "haze-piece-sea-beast",
+        "file": "haze-piece-sea-beast"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "haze-piece-codes",
+        "file": "haze-piece-codes"
+      }
+    ],
+    "fruits": [
+      {
+        "slug": "haze-piece-best-fruit-for-grinding",
+        "file": "haze-piece-best-fruit-for-grinding"
+      },
+      {
+        "slug": "haze-piece-dragon-fruit",
+        "file": "haze-piece-dragon-fruit"
+      },
+      {
+        "slug": "haze-piece-fruit-stock",
+        "file": "haze-piece-fruit-stock"
+      },
+      {
+        "slug": "haze-piece-fruit-tier-list",
+        "file": "haze-piece-fruit-tier-list"
+      },
+      {
+        "slug": "haze-piece-fruit",
+        "file": "haze-piece-fruit"
+      },
+      {
+        "slug": "haze-piece-gear-2",
+        "file": "haze-piece-gear-2"
+      },
+      {
+        "slug": "haze-piece-gear-4",
+        "file": "haze-piece-gear-4"
+      },
+      {
+        "slug": "haze-piece-gear-5",
+        "file": "haze-piece-gear-5"
+      },
+      {
+        "slug": "haze-piece-how-to-get-fruits",
+        "file": "haze-piece-how-to-get-fruits"
+      },
+      {
+        "slug": "haze-piece-rubber-fruit",
+        "file": "haze-piece-rubber-fruit"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "haze-piece-beginner-guide",
+        "file": "haze-piece-beginner-guide"
+      },
+      {
+        "slug": "haze-piece-islands",
+        "file": "haze-piece-islands"
+      },
+      {
+        "slug": "haze-piece-level-guide",
+        "file": "haze-piece-level-guide"
+      },
+      {
+        "slug": "haze-piece-map",
+        "file": "haze-piece-map"
+      },
+      {
+        "slug": "haze-piece-max-level",
+        "file": "haze-piece-max-level"
+      },
+      {
+        "slug": "haze-piece-npc-location",
+        "file": "haze-piece-npc-location"
+      },
+      {
+        "slug": "haze-piece-quests",
+        "file": "haze-piece-quests"
+      },
+      {
+        "slug": "haze-piece-second-sea",
+        "file": "haze-piece-second-sea"
+      },
+      {
+        "slug": "haze-piece-third-sea",
+        "file": "haze-piece-third-sea"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "haze-piece-buso-haki",
+        "file": "haze-piece-buso-haki"
+      },
+      {
+        "slug": "haze-piece-conqueror-haki",
+        "file": "haze-piece-conqueror-haki"
+      },
+      {
+        "slug": "haze-piece-flash-step",
+        "file": "haze-piece-flash-step"
+      },
+      {
+        "slug": "haze-piece-haki-v2",
+        "file": "haze-piece-haki-v2"
+      },
+      {
+        "slug": "haze-piece-haki",
+        "file": "haze-piece-haki"
+      },
+      {
+        "slug": "haze-piece-how-to-get-haki",
+        "file": "haze-piece-how-to-get-haki"
+      },
+      {
+        "slug": "haze-piece-observation-haki",
+        "file": "haze-piece-observation-haki"
+      },
+      {
+        "slug": "haze-piece-sky-walk",
+        "file": "haze-piece-sky-walk"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "haze-piece-all-swords",
+        "file": "haze-piece-all-swords"
+      },
+      {
+        "slug": "haze-piece-bisento",
+        "file": "haze-piece-bisento"
+      },
+      {
+        "slug": "haze-piece-dark-blade",
+        "file": "haze-piece-dark-blade"
+      },
+      {
+        "slug": "haze-piece-dual-swordsman",
+        "file": "haze-piece-dual-swordsman"
+      },
+      {
+        "slug": "haze-piece-enma",
+        "file": "haze-piece-enma"
+      },
+      {
+        "slug": "haze-piece-sword-tier-list",
+        "file": "haze-piece-sword-tier-list"
+      },
+      {
+        "slug": "haze-piece-swords",
+        "file": "haze-piece-swords"
+      },
+      {
+        "slug": "haze-piece-three-sword-style",
+        "file": "haze-piece-three-sword-style"
+      }
+    ]
+  },
+  "ja": {
+    "bosses": [
+      {
+        "slug": "haze-piece-boss-drops",
+        "file": "haze-piece-boss-drops"
+      },
+      {
+        "slug": "haze-piece-bosses",
+        "file": "haze-piece-bosses"
+      },
+      {
+        "slug": "haze-piece-kaido-drops",
+        "file": "haze-piece-kaido-drops"
+      },
+      {
+        "slug": "haze-piece-sea-beast",
+        "file": "haze-piece-sea-beast"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "haze-piece-codes",
+        "file": "haze-piece-codes"
+      }
+    ],
+    "fruits": [
+      {
+        "slug": "haze-piece-best-fruit-for-grinding",
+        "file": "haze-piece-best-fruit-for-grinding"
+      },
+      {
+        "slug": "haze-piece-dragon-fruit",
+        "file": "haze-piece-dragon-fruit"
+      },
+      {
+        "slug": "haze-piece-fruit-stock",
+        "file": "haze-piece-fruit-stock"
+      },
+      {
+        "slug": "haze-piece-fruit-tier-list",
+        "file": "haze-piece-fruit-tier-list"
+      },
+      {
+        "slug": "haze-piece-fruit",
+        "file": "haze-piece-fruit"
+      },
+      {
+        "slug": "haze-piece-gear-2",
+        "file": "haze-piece-gear-2"
+      },
+      {
+        "slug": "haze-piece-gear-4",
+        "file": "haze-piece-gear-4"
+      },
+      {
+        "slug": "haze-piece-gear-5",
+        "file": "haze-piece-gear-5"
+      },
+      {
+        "slug": "haze-piece-how-to-get-fruits",
+        "file": "haze-piece-how-to-get-fruits"
+      },
+      {
+        "slug": "haze-piece-rubber-fruit",
+        "file": "haze-piece-rubber-fruit"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "haze-piece-beginner-guide",
+        "file": "haze-piece-beginner-guide"
+      },
+      {
+        "slug": "haze-piece-islands",
+        "file": "haze-piece-islands"
+      },
+      {
+        "slug": "haze-piece-level-guide",
+        "file": "haze-piece-level-guide"
+      },
+      {
+        "slug": "haze-piece-map",
+        "file": "haze-piece-map"
+      },
+      {
+        "slug": "haze-piece-max-level",
+        "file": "haze-piece-max-level"
+      },
+      {
+        "slug": "haze-piece-npc-location",
+        "file": "haze-piece-npc-location"
+      },
+      {
+        "slug": "haze-piece-quests",
+        "file": "haze-piece-quests"
+      },
+      {
+        "slug": "haze-piece-second-sea",
+        "file": "haze-piece-second-sea"
+      },
+      {
+        "slug": "haze-piece-third-sea",
+        "file": "haze-piece-third-sea"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "haze-piece-buso-haki",
+        "file": "haze-piece-buso-haki"
+      },
+      {
+        "slug": "haze-piece-conqueror-haki",
+        "file": "haze-piece-conqueror-haki"
+      },
+      {
+        "slug": "haze-piece-flash-step",
+        "file": "haze-piece-flash-step"
+      },
+      {
+        "slug": "haze-piece-haki-v2",
+        "file": "haze-piece-haki-v2"
+      },
+      {
+        "slug": "haze-piece-haki",
+        "file": "haze-piece-haki"
+      },
+      {
+        "slug": "haze-piece-how-to-get-haki",
+        "file": "haze-piece-how-to-get-haki"
+      },
+      {
+        "slug": "haze-piece-observation-haki",
+        "file": "haze-piece-observation-haki"
+      },
+      {
+        "slug": "haze-piece-sky-walk",
+        "file": "haze-piece-sky-walk"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "haze-piece-all-swords",
+        "file": "haze-piece-all-swords"
+      },
+      {
+        "slug": "haze-piece-bisento",
+        "file": "haze-piece-bisento"
+      },
+      {
+        "slug": "haze-piece-dark-blade",
+        "file": "haze-piece-dark-blade"
+      },
+      {
+        "slug": "haze-piece-dual-swordsman",
+        "file": "haze-piece-dual-swordsman"
+      },
+      {
+        "slug": "haze-piece-enma",
+        "file": "haze-piece-enma"
+      },
+      {
+        "slug": "haze-piece-sword-tier-list",
+        "file": "haze-piece-sword-tier-list"
+      },
+      {
+        "slug": "haze-piece-swords",
+        "file": "haze-piece-swords"
+      },
+      {
+        "slug": "haze-piece-three-sword-style",
+        "file": "haze-piece-three-sword-style"
+      }
+    ]
+  },
+  "pt": {
+    "bosses": [
+      {
+        "slug": "haze-piece-boss-drops",
+        "file": "haze-piece-boss-drops"
+      },
+      {
+        "slug": "haze-piece-bosses",
+        "file": "haze-piece-bosses"
+      },
+      {
+        "slug": "haze-piece-kaido-drops",
+        "file": "haze-piece-kaido-drops"
+      },
+      {
+        "slug": "haze-piece-sea-beast",
+        "file": "haze-piece-sea-beast"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "haze-piece-codes",
+        "file": "haze-piece-codes"
+      }
+    ],
+    "fruits": [
+      {
+        "slug": "haze-piece-best-fruit-for-grinding",
+        "file": "haze-piece-best-fruit-for-grinding"
+      },
+      {
+        "slug": "haze-piece-dragon-fruit",
+        "file": "haze-piece-dragon-fruit"
+      },
+      {
+        "slug": "haze-piece-fruit-stock",
+        "file": "haze-piece-fruit-stock"
+      },
+      {
+        "slug": "haze-piece-fruit-tier-list",
+        "file": "haze-piece-fruit-tier-list"
+      },
+      {
+        "slug": "haze-piece-fruit",
+        "file": "haze-piece-fruit"
+      },
+      {
+        "slug": "haze-piece-gear-2",
+        "file": "haze-piece-gear-2"
+      },
+      {
+        "slug": "haze-piece-gear-4",
+        "file": "haze-piece-gear-4"
+      },
+      {
+        "slug": "haze-piece-gear-5",
+        "file": "haze-piece-gear-5"
+      },
+      {
+        "slug": "haze-piece-how-to-get-fruits",
+        "file": "haze-piece-how-to-get-fruits"
+      },
+      {
+        "slug": "haze-piece-rubber-fruit",
+        "file": "haze-piece-rubber-fruit"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "haze-piece-beginner-guide",
+        "file": "haze-piece-beginner-guide"
+      },
+      {
+        "slug": "haze-piece-islands",
+        "file": "haze-piece-islands"
+      },
+      {
+        "slug": "haze-piece-level-guide",
+        "file": "haze-piece-level-guide"
+      },
+      {
+        "slug": "haze-piece-map",
+        "file": "haze-piece-map"
+      },
+      {
+        "slug": "haze-piece-max-level",
+        "file": "haze-piece-max-level"
+      },
+      {
+        "slug": "haze-piece-npc-location",
+        "file": "haze-piece-npc-location"
+      },
+      {
+        "slug": "haze-piece-quests",
+        "file": "haze-piece-quests"
+      },
+      {
+        "slug": "haze-piece-second-sea",
+        "file": "haze-piece-second-sea"
+      },
+      {
+        "slug": "haze-piece-third-sea",
+        "file": "haze-piece-third-sea"
+      }
+    ],
+    "haki": [
+      {
+        "slug": "haze-piece-buso-haki",
+        "file": "haze-piece-buso-haki"
+      },
+      {
+        "slug": "haze-piece-conqueror-haki",
+        "file": "haze-piece-conqueror-haki"
+      },
+      {
+        "slug": "haze-piece-flash-step",
+        "file": "haze-piece-flash-step"
+      },
+      {
+        "slug": "haze-piece-haki-v2",
+        "file": "haze-piece-haki-v2"
+      },
+      {
+        "slug": "haze-piece-haki",
+        "file": "haze-piece-haki"
+      },
+      {
+        "slug": "haze-piece-how-to-get-haki",
+        "file": "haze-piece-how-to-get-haki"
+      },
+      {
+        "slug": "haze-piece-observation-haki",
+        "file": "haze-piece-observation-haki"
+      },
+      {
+        "slug": "haze-piece-sky-walk",
+        "file": "haze-piece-sky-walk"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "haze-piece-all-swords",
+        "file": "haze-piece-all-swords"
+      },
+      {
+        "slug": "haze-piece-bisento",
+        "file": "haze-piece-bisento"
+      },
+      {
+        "slug": "haze-piece-dark-blade",
+        "file": "haze-piece-dark-blade"
+      },
+      {
+        "slug": "haze-piece-dual-swordsman",
+        "file": "haze-piece-dual-swordsman"
+      },
+      {
+        "slug": "haze-piece-enma",
+        "file": "haze-piece-enma"
+      },
+      {
+        "slug": "haze-piece-sword-tier-list",
+        "file": "haze-piece-sword-tier-list"
+      },
+      {
+        "slug": "haze-piece-swords",
+        "file": "haze-piece-swords"
+      },
+      {
+        "slug": "haze-piece-three-sword-style",
+        "file": "haze-piece-three-sword-style"
+      }
+    ]
+  }
+}

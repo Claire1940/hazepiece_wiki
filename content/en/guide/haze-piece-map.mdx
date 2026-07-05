@@ -1,0 +1,205 @@
+import { Map, Target, Shield, Swords, Trophy, Sparkles } from "lucide-react"
+import { Callout } from "@/components/mdx/Callout"
+import { Card, CardGrid } from "@/components/mdx/CardGrid"
+import { Checklist } from "@/components/mdx/Checklist"
+import { FAQ } from "@/components/mdx/FAQ"
+import { Steps, Step } from "@/components/mdx/Steps"
+import { Section } from "@/components/mdx/Section"
+
+export const metadata = {
+  title: "Haze Piece Map: Island Routes, Bosses, and Progression",
+  description: "Use the Haze Piece map to route Sea 1 and Sea 2 bosses, track key drops, and plan faster progression in the Haze Seas rework.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Haze+Piece+Map+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Haze Piece map** routing works best when you match island order to respawn timers and one loot target.
+- **Sea 1** favors quick bosses, early accessories, and unlock items like Tremor Key and Shusui.
+- **Sea 2** is where the strongest weapon routes open, including Enma, Zenith, Dough, and Dark Blade.
+- **Route discipline** matters more than wandering; keep one damage lane and one mobility tool ready.
+</Callout>
+
+<Section icon={Map} title="Haze Piece Map Route Overview">
+
+The Haze Piece map is easier to use when you treat it like a progression board instead of a travel screen. Sea 1 teaches the route, Sea 2 expands the loot pool, and super bosses turn the map into a timed farm loop. If you know what each island is for, you stop wasting time on low-value detours and start clearing the bosses that actually move your build forward.
+
+<CardGrid cols={3}>
+  <Card title="Quest First">
+    - **Best for:** Fast leveling
+    - Focus on island quests before chasing rare drops
+    - Smooth early progress with low travel friction
+  </Card>
+  <Card title="Drop First">
+    - **Best for:** Target farming
+    - Chain bosses with useful accessories or weapons
+    - Strong when your build already clears fast
+  </Card>
+  <Card title="Unlock First">
+    - **Best for:** New systems
+    - Chase route items that open stronger bosses
+    - Ideal for players pushing into Sea 2
+  </Card>
+</CardGrid>
+
+Use this quick comparison to pick a route style before you start farming.
+
+| Route Style | Best For | Main Stops | Risk |
+|---|---|---|---|
+| Quest First | Fast EXP | Starter Island, Clown Island, Logue City | Lower drop focus |
+| Drop First | Loot hunting | Shark Park, Marine Base Town, Thriller Boat | Slower leveling |
+| Unlock First | Progression gates | Marine HQ, Fishman Island, Sky Islands | Longer travel |
+| Boss Rotation | Endgame farming | Sea 2 super bosses | Higher build demand |
+
+<Callout type="tip" title="Route Logic">
+If a boss respawns in about 30 seconds, keep your loop short and your movement skill ready. If the target is summon-based or hourly, plan the rest of your session around that timer.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sea 1 Route: Starter to Marine HQ">
+
+Sea 1 is the map where your route starts to matter. The best early path is not random exploration; it is a clean chain of fast respawns, helpful accessories, and a few unlock items that unlock better farming later. Starter Island, Clown Island, Shark Park, Logue City, Marine Base Town, and Marine HQ give you the most efficient early momentum. After that, you can branch into Sky Islands, Impel Jail, Fishman Island, and Thriller Boat.
+
+<Steps>
+  <Step num="1" title="Start with the shortest kill loop">
+    Open on Starter Island and clear the first boss route so you build EXP without wasting travel time.
+  </Step>
+  <Step num="2" title="Add early accessory bosses">
+    Move through Clown Island and Shark Park, then keep only the bosses that drop gear you can use right away.
+  </Step>
+  <Step num="3" title="Push toward utility islands">
+    Add Logue City and Marine Base Town so you can pick up useful midgame drops and prepare for Haki progress.
+  </Step>
+  <Step num="4" title="Finish the Sea 1 item chain">
+    Route Marine HQ, Sky Islands, and Thriller Boat when you are ready for Tremor Key, Golden Staff, and Shusui farming.
+  </Step>
+</Steps>
+
+Here is the Sea 1 boss map in a compact form.
+
+| Island | Boss | Respawn | Key Drop | Priority |
+|---|---|---|---|---|
+| Starter Island | Bandit Boss | 30 seconds | Eyepatch | Early accessory |
+| Clown Island | Clown Boss | 30 seconds | Clown Nose | Early EXP route |
+| Shark Park | Shark Boss | 30 seconds | Shark Blade | Early sword target |
+| Marine Base Town | Marine Captain | 30 seconds | Iron Jaw | Haki support |
+| Logue City | Tashi Boss | 30 seconds | Glasses | Midgame utility |
+| Marine HQ | Ice Admiral | 30 seconds | Tremor Key | Super boss unlock |
+| Sky Islands | Thunder God | 30 seconds | Golden Staff | Weapon route |
+| Thriller Boat | Ryummy | 30 seconds | Shusui | 3SS route |
+
+<Callout type="warning" title="Sea 1 Timing">
+Do not treat every boss the same. Regular island bosses refresh quickly, but the super boss chain behind Marine HQ and the summon-style routes need a stricter plan. If you miss the window, your route slows down fast.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sea 2 Route: Unlocks, Super Bosses, and Endgame Stops">
+
+Sea 2 is where the map stops being a leveling path and becomes a checklist of unlocks. The important stops are the bosses that feed Three Sword Style, Dragon routes, Dough routes, Dark Blade progression, and Zenith. At this stage, you are not just moving across islands; you are choosing which premium route deserves your time.
+
+| Sea | Island | Boss | Spawn Rule | Key Drop | Why It Matters |
+|---|---|---|---|---|---|
+| Sea 2 | Snowy Graveyard | 3SS Boss | 30 seconds | Green Cloak | 3SS route |
+| Sea 2 | Dragon Island | Mace V2 Boss | 30 seconds | Dragon Orb | Dragon Boss access |
+| Sea 2 | Dragon Island | Dragon Boss | Summon | Horns, Drums of Liberation | Gear route |
+| Sea 2 | Cake Island | Soul Boss | 30 seconds | Mirror Fragment | Dough route |
+| Sea 2 | Mirror World | Dough Boss | Summon | Dough Scarf, Dough Trident | High-value farm |
+| Sea 2 | Flower Capital | Enma Boss | 60 minutes | Enma Sword | 3SS progression |
+| Sea 2 | Foggy Castle | Darkblade V2 Boss | Route-based | Night Hat, Night Necklace | Premium sword route |
+| Sea 2 | Shadow Island | Zenith Super Boss | Storm spawn | Zenith Sword | Guaranteed top sword |
+| Sea 2 | Deep Seas | Sea Beast | 20 to 60 minutes | Sea Beast Heart, Hammer V2 | Late-game materials |
+
+If you are choosing just one Sea 2 target, start with the boss that unlocks the next step of your build. The map becomes much easier when you farm progression items first and rare cosmetics second.
+
+<Callout type="success" title="Best Sea 2 Approach">
+Use Sea 2 to secure guaranteed route items first, then move into rare drops once your damage and mobility are stable. That keeps your farming sessions profitable instead of speculative.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Best Drops to Target First">
+
+Not every drop deserves the same amount of attention. Some items improve your stats, some open a new boss route, and others become the backbone of a stronger build. The best Haze Piece map plan is simple: secure unlock items first, then move into weapon and accessory upgrades, then push toward rare endgame drops.
+
+| Drop | Best Source | Why It Matters | Priority |
+|---|---|---|---|
+| Eyepatch | Bandit Boss | Early stat boost and easy first farm | High |
+| Shark Blade | Shark Boss | First strong sword route | High |
+| Tremor Key | Ice Admiral | Opens a super boss chain | High |
+| Shusui | Ryummy | Required for Three Sword Style routing | High |
+| Enma | Enma Boss | Major 3SS progression step | High |
+| Dragon Orb | Mace V2 Boss | Summons Dragon Boss | Medium-High |
+| Mirror Fragment | Soul Boss | Opens the Dough route | Medium-High |
+| Zenith Sword | Zenith Super Boss | Guaranteed premium sword | Highest |
+| Dough Trident | Dough Boss | Strong weapon reward | High |
+| Sea Beast Heart | Sea Beast | Late-game material for advanced builds | Medium |
+
+If you only have time for one target per session, choose the drop that opens the next boss tier. That approach keeps your map route moving forward instead of stalling on low-impact farming.
+
+<Callout type="info" title="Priority Rule">
+A rare drop is only valuable if it fits your current route. If your build cannot clear the boss consistently, move one step earlier in the chain and stabilize first.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Map Prep, Farming Checklist, and Official Links">
+
+A clean route starts before you step onto the island. You want one damage lane, one mobility plan, and one target item for the session. That is the difference between efficient farming and drifting from boss to boss without finishing anything meaningful.
+
+<Checklist
+  id="map-prep"
+  title="Session Checklist:"
+  items={[
+    "Pick one damage lane: Fruit, Sword, or Fighting Style",
+    "Note the respawn type before you travel",
+    "Keep one mobility option ready for long island gaps",
+    "Set one unlock target and one drop target",
+    "Bookmark the official game, Trello, and Discord links"
+  ]}
+/>
+
+Use this quick reference when you need the official hubs for route checks, update news, or live game access.
+
+| Link | Best Use | URL |
+|---|---|---|
+| Roblox game page | Play access and live title changes | https://www.roblox.com/games/6918802270/Haze-Seas |
+| Official Trello | Boss, item, and system reference | https://trello.com/b/nn8bpTB0/haze-piece-official-trello |
+| Official Discord | Update posts, codes, and announcements | https://discord.com/invite/hazeseas |
+| Official X account | Short news and release reminders | https://x.com/RealHazeStudios |
+
+<Callout type="warning" title="Map Safety">
+Do not trust random screenshots for route planning. Use the official hubs for live updates, then keep your own short list of bosses and drops so your session stays focused.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Haze Piece Map FAQ">
+
+<Callout type="info" title="Quick Answers">
+These are the route questions players ask most when they start using the Haze Piece map as a progression tool.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best way to read the Haze Piece map?",
+    answer: "Read it by progression, not geography. Start with fast Sea 1 bosses, move into unlock items, then shift into Sea 2 routes that support your build."
+  },
+  {
+    question: "Which Sea 1 bosses are worth farming first?",
+    answer: "Starter Island, Shark Park, Logue City, and Marine HQ are strong early stops because they combine quick respawns with useful drops like Eyepatch, Shark Blade, Glasses, and Tremor Key."
+  },
+  {
+    question: "What should I target first in Sea 2?",
+    answer: "Prioritize route items first, especially Enma, Dragon Orb, Mirror Fragment, Zenith Sword, and Dough Trident. Those drops open stronger farming loops."
+  },
+  {
+    question: "Do respawn timers matter that much?",
+    answer: "Yes. Quick 30-second bosses are great for tight loops, while 60-minute or summon-based bosses need a planned session. Timer awareness is what keeps your route efficient."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,206 @@
+import { Map, Target, Shield, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece second sea: ルートガイド、ボス報酬 & ヒント",
+  description: "haze piece second sea の進行ルートを、参加条件、優先ボス、種族と Haki の解放、武器の選び方、Sea 2 の進行テクニックまで含めて計画しましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0B1F33/fff?text=Second+Sea+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece second sea** は中盤の区切り地点です。解放したら、Sea 2 のボスと強化に集中しましょう。
+- **Level 2200+** に加えて、宝箱、Sea Beast の討伐、Zenith Boss、そして各種費用が主な参加条件です。
+- **Buso、Observation、D. Clan** は、長い戦闘を生き残れるビルドほど価値が高まります。
+- **Zenith、Enma、Dough ルート** は、Sea 2 で最も強い進行先です。
+- **Race V2** は、強力なパッシブを単なる再抽選要員ではなく、終盤で本当の価値に変えます。
+</Callout>
+
+<Section icon={Map} title="haze piece second sea の概要">
+
+**haze piece second sea** を進めるなら、Sea 2 は観光ではなく進行のチェックポイントとして捉えましょう。最適なルートはシンプルです。まず解放し、コア装備を確保し、その後でビルドを前進させる島を周回します。
+
+<CardGrid cols={3}>
+  <Card title="参加条件">
+    Sea 2 は **Level 2200+**、50個の宝箱、Sea Beast、Zenith Boss、そして参加費用から始まります。
+  </Card>
+  <Card title="何が変わるか">
+    進行の中心は **スーパー ボス**、より良い武器ルート、そして種族最適化へ移ります。
+  </Card>
+  <Card title="最初の目標">
+    まずは **1つのダメージ軸** を固めてから、Haki と機動力を足して周回を安定させましょう。
+  </Card>
+</CardGrid>
+
+| Sea 2 の重点 | 優先度 | 重要な理由 |
+|---|---|---|
+| 参加解放 | 高 | 島々のルートと最初の Race Engineer ルートを開放する |
+| ボス周回 | 高 | EXP、資金、賞金、ドロップ狙いを進められる |
+| 武器強化 | 高 | バースト火力が上がると Sea 2 のボスが安全かつ高速になる |
+| Race V2 | 中 | 特に耐久型ビルドで終盤価値が高い |
+| Haki 成長 | 高 | 長期戦でも剣とスタイル系ビルドを活かせる |
+
+<Callout type="tip" title="ブックマーク推奨の公式リンク">
+ライブのゲームデータ、更新情報、ルート変更は公式ハブを確認しましょう。
+- Roblox ゲームページ: [Haze Seas on Roblox](https://www.roblox.com/games/6918802270/Haze-Seas)
+- 公式 Trello: [Haze Piece / Haze Seas Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello)
+- Discord: [Haze Seas Discord](https://discord.com/invite/hazeseas)
+- X: [@RealHazeStudios](https://x.com/RealHazeStudios)
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="時間を無駄にせず Sea 2 に到達する方法">
+
+最も無駄のない道は、条件を中途半端に行き来するのではなく、解放条件を一気に片付けることです。装備が整っていないまま向かうと、Sea 2 は報酬よりも足を引っ張る場面が増えます。
+
+<Steps>
+  <Step num="1" title="レベル条件を満たす">
+    旅に出る前に、キャラクターを **Level 2200+** まで上げましょう。Sea 2 は、すでに安定した周回ループを持つプレイヤー向けです。
+  </Step>
+  <Step num="2" title="必要な宝箱を集める">
+    解放ルートの一部として **50個の宝箱** を集めます。普段の島周回と並行して進めると、寄り道感が薄れます。
+  </Step>
+  <Step num="3" title="Sea Beast と Zenith Boss を倒す">
+    この2つは戦闘試験です。ここで苦戦するなら、Sea 2 のボス周回は非効率になりやすいです。
+  </Step>
+  <Step num="4" title="Race Engineer で参加費を支払う">
+    Sea 2 の最初の島では、V2 ルートを開く前に Race Engineer が **$1M** と **100 Gems** を要求します。
+  </Step>
+</Steps>
+
+| 解放条件 | 必要数 | 実用的なヒント |
+|---|---|---|
+| レベル | 2200+ | 先にメインクエストの周回を終える |
+| 宝箱 | 50 | 島を巡回しながら開ける |
+| Sea Beast | 1回討伐 | 安全にバーストを出せるビルドで挑む |
+| Zenith Boss | 1回討伐 | 戦闘用に機動力と回避を温存する |
+| 通貨 | $1M と 100 Gems | 序盤に適当な再抽選へ使わない |
+
+<Callout type="warning" title="解放を急ぎすぎない">
+Sea 2 は、ビルドがすでに機能している状態で入る方が強いです。火力が不安定なら、まずはコアとなる果実、剣、またはスタイルの計画を完成させてから進みましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sea 2 で狙うべきボスとドロップ">
+
+Sea 2 のボス周回は、アカウントが整理され始める場所です。基本方針は、今のビルドに合うボスを選び、短時間で倒せるようになったらスーパー ボスへ移行することです。
+
+| Sea 2 ターゲット | 出現条件 | 主なドロップ | 最適な用途 |
+|---|---|---|---|
+| 3SS Boss | 討伐後に再出現 | Green Cloak | 剣の進行準備 |
+| Enma Boss | 60 分間隔のスーパー ボス | Enma Sword | Three Sword Style ルート |
+| Dragon Boss | Dragon Orb で召喚 | Horns, Drums of Liberation | Gum と終盤価値 |
+| Dough Boss | Mirror World ルート | Dough Scarf, Dough Trident | 高価値ボス周回 |
+| Darkblade V2 Boss | Foggy Castle ルート | Strongest Swordsman タイトル、Night アイテム | 上位剣の強化ルート |
+| Zenith Boss | Shadow Island の Storm イベント | Zenith Sword | 確実な剣の進行 |
+
+| 島ルート | 最初に狩るもの | メモ |
+|---|---|---|
+| Snowy Graveyard | 3SS Boss | 序盤の強い剣ルート |
+| Dragon Island | Mace V2 Boss, Dragon Orb | Dragon Boss 周回の下準備 |
+| Cake Island | Soul Boss, Mirror Fragment | Dough Boss の解放につながる |
+| Foggy Castle | Darkblade V2 Boss | ハイエンド剣ルート |
+| Shadow Island | Zenith Super Boss | Sea 2 でも特に安定した目標 |
+| Mirror World | Dough Boss | 労力に対する報酬密度が高い |
+
+<Callout type="success" title="最優先の周回先">
+最速で成果を出したいなら、まずは **Zenith**、**Enma**、**Dough** を狙いましょう。これらのルートなら、弱いドロップに振り回されずに Sea 2 の進行を進められます。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="使い続けられる種族、Haki、ビルド">
+
+Sea 2 は、種族と Haki の選択がメイン火力軸を支えるほど楽になります。D. Clan は最も希少な価値枠ですが、他の種族でもビルドに合っていれば十分活躍できます。
+
+<CardGrid cols={4}>
+  <Card title="D. Clan">
+    Conqueror's Haki にアクセスでき、体力とスタミナのボーナスも強い **Mythical** 種族。
+  </Card>
+  <Card title="Dragonborne">
+    体力、再生、機動力の価値が高く、Sea 2 を安全に移動しやすい耐久寄りのルート。
+  </Card>
+  <Card title="Fishborne">
+    水が多いルート、泳ぎ速度、果実使いの安全性に優れています。
+  </Card>
+  <Card title="Human">
+    低コストの機動力枠で、Observation を軸にした立ち回りにも役立ちます。
+  </Card>
+</CardGrid>
+
+| 種族 | レア度 | Sea 2 での価値 | 向いている用途 |
+|---|---|---|---|
+| D. Clan | Mythical | 体力、スタミナ、Conqueror's Haki | オールラウンドな終盤 |
+| Dragonborne | Legendary | 体力、再生、Skywalk 強化 | 安全な移動と耐久 |
+| Demon | Rare | ライフスティール、ダッシュ圧力 | 長期戦と継戦能力 |
+| Beastborne | Uncommon | 移動速度、スタミナ | 高速移動ビルド |
+| Fishborne | Uncommon | 泳ぎ速度、水耐性 | 海移動と果実使い |
+
+| Haki | 解放条件 | 進行価値 | 最適な用途 |
+|---|---|---|---|
+| Buso Haki | Level 350, $100,000 | 武器とスタイルの火力強化 | 剣と近接ビルド |
+| Observation Haki | Level 600, $150,000 | 回避と生存力 | PvP とボス戦の安全性 |
+| Conqueror's Haki | D. Clan のみ | 集団制御と圧力 | 希少種族ビルド |
+
+<Callout type="info" title="Sea 2 のビルドルール">
+まずは **Fruit**、**Sword**、**Style** のどれか1本に絞りましょう。そのうえで、弱点を補う Haki と種族を足してください。新しい弱点を増やす選び方は避けるべきです。
+</Callout>
+
+<Checklist
+  id="sea2-build-checklist"
+  title="Sea 2 ビルドチェックリスト:"
+  items={[
+    "ポイントを早く分散しすぎず、1つの主要ダメージ軸を維持する",
+    "大量のボス周回に入る前に Buso Haki を解放する",
+    "長期戦や PvP 圧力を想定するなら Observation Haki を取る",
+    "Race V2 は、ベース種族がすでにビルドに合ってから使う",
+    "ボス周回を速くする機動力ツールを優先する"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="進行チェックリストと FAQ">
+
+レアドロップを追い始める前に、この最終確認で Sea 2 のルートを整えましょう。最速のアカウントは、たいてい基礎を先に終わらせています。
+
+| よくあるミス | より良い選択 | 結果 |
+|---|---|---|
+| 適当に再抽選を早く買いすぎる | ビルド計画のために資源を温存する | 無駄な進行が減る |
+| 火力不足のままボスを追う | まずメイン軸を完成させる | 周回が速くなる |
+| Haki を無視する | 先に Buso と Observation を解放する | 戦闘が安全になる |
+| Race V2 の準備を飛ばす | 参加後にルートを計画する | 終盤の伸びが良くなる |
+
+<Callout type="info" title="Sea 2 の優先順位">
+Sea 2 を解放し、Buso と Observation を確保し、Zenith か Enma を周回し、その後で次の強化が種族再抽選なのか、武器ルートなのか、スーパー ボス周回なのかを決めましょう。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "haze piece second sea を最速で始める方法は？",
+    answer: "Level 2200+ まで上げ、50個の宝箱を集め、Sea Beast と Zenith Boss を倒し、その後 Race Engineer で $1M と 100 Gems を支払います。"
+  },
+  {
+    question: "Sea 2 ではどのボスを最初に狩るべき？",
+    answer: "Zenith と Enma は、武器進行に直結し、より強いルート選択肢を開けるので、序盤の目標として非常に優秀です。"
+  },
+  {
+    question: "Sea 2 に D. Clan は必須？",
+    answer: "いいえ。D. Clan の価値は主に Conqueror's Haki を解放できる点にありますが、他の種族でもビルドに合っていれば問題ありません。"
+  },
+  {
+    question: "Sea 2 で最初に解放すべき Haki は？",
+    answer: "火力目的なら通常は Buso Haki が先で、戦闘が長く厳しくなるほど Observation Haki の価値が高まります。"
+  }
+]} />
+
+</Section>

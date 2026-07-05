@@ -10,7 +10,14 @@
       "twitterDescription": "Haze Piece Wiki covers active codes, Devil Fruits, races, Haki, weapons, bosses, and beginner routes for the Haze Seas Roblox rework."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "fruits": "Fruits",
+    "haki": "Haki",
+    "weapons": "Weapons",
+    "bosses": "Bosses"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1199,125 +1206,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "Haze Piece Codes",
+      "description": "Active Haze Piece codes for free gems, stat chips, and trait rerolls, plus a step-by-step redeem guide and expired code list.",
+      "metaTitle": "Haze Piece Codes - Free Gems & Trait Rerolls",
+      "metaDescription": "Get free gems, stat chips, and trait rerolls with active Haze Piece codes. Updated daily with verified working codes and a full redeem walkthrough.",
+      "categoryLabel": "HAZE PIECE CODES",
+      "whatIs": "What are Haze Piece Codes?",
+      "whatIsDescription": "Haze Piece codes released by Haze Studios give free gems, stat chips, trait rerolls, and event currency. Each code is time-limited and case-sensitive, so we track the active list, expiry status, and exact rewards for every Haze Seas update.",
+      "why": "Why redeem Haze Piece codes?",
+      "whySteps": {
+        "step1Title": "Free Progression Resources",
+        "step1Description": "Claim gems, stat chips, and rerolls that speed up early Haze Seas leveling without spending Robux",
+        "step2Title": "Catch Time-Limited Drops",
+        "step2Description": "Redeem codes before they expire, since Haze Studios rotates them with every update",
+        "step3Title": "Avoid Redemption Errors",
+        "step3Description": "Use exact capitalization and confirm whether a code has already been claimed on your account"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Haze Piece Codes"
+    },
+    "guide": {
       "title": "Haze Piece Guides",
-      "description": "Complete Haze Seas gameplay guides from beginner basics to advanced Haki, fruit, and boss strategies.",
-      "metaTitle": "Haze Piece Guides - Beginner to Advanced Haze Seas Strategies",
-      "metaDescription": "Complete Haze Piece guides covering codes, beginner tips, Devil Fruits, Haki, races, weapons, and boss drops for the Haze Seas Roblox rework.",
+      "description": "Haze Piece beginner walkthroughs, leveling routes, island progression, NPC locations, and Second and Third Sea guides for Haze Seas.",
+      "metaTitle": "Haze Piece Guides - Beginner Routes & Progression",
+      "metaDescription": "Complete Haze Piece guides for Haze Seas: beginner walkthrough, fastest leveling routes, island order, NPC quest locations, and Second and Third Sea progression.",
       "categoryLabel": "HAZE PIECE GUIDES",
       "whatIs": "What are Haze Piece Guides?",
-      "whatIsDescription": "Comprehensive Haze Seas guides covering codes, Devil Fruits, races, Haki, weapons, bosses, and beginner progression for Haze Piece players.",
+      "whatIsDescription": "Haze Piece guides cover the full Haze Seas progression path: a first-hour checklist, the fastest leveling routes, island order, key NPC and quest locations, max-level strategies, and Second and Third Sea unlock conditions.",
       "why": "Why read Haze Piece guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand fruits, Haki, and races and avoid common Haze Piece beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven Haze Seas routes to level, farm, and unlock mobility tools",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for bossing, PvP, and Second Sea progression"
+        "step1Title": "Plan Your Leveling Route",
+        "step1Description": "Follow the optimal Haze Seas island order to hit max level without wasted grinding",
+        "step2Title": "Find Quest NPCs Fast",
+        "step2Description": "Locate trainers, quest givers, and key NPCs on each island to keep progression smooth",
+        "step3Title": "Unlock New Seas",
+        "step3Description": "Prepare the right fruits, Haki, and gear to push Second and Third Sea content"
       },
       "featured": "Featured & Essential",
       "all": "All Haze Piece Guides"
     },
-    "crafting": {
-      "title": "Haze Piece Fruits and Gear",
-      "description": "Master Devil Fruits, weapons, swords, and fighting styles with spawn rules, rarities, and build routes for Haze Seas.",
-      "metaTitle": "Haze Piece Fruits and Gear - Devil Fruits, Weapons & Styles",
-      "metaDescription": "Master Haze Piece fruits, weapons, swords, and fighting styles in Haze Seas with spawn timers, rarity data, and recommended build paths.",
-      "categoryLabel": "FRUITS & GEAR",
-      "whatIs": "What are Fruits and Gear?",
-      "whatIsDescription": "Haze Piece fruits, swords, weapons, and fighting styles define your damage path. Learn spawn timers, rarities, and trainer routes to build a strong Haze Seas loadout.",
-      "why": "Why plan your Haze Piece build?",
+    "fruits": {
+      "title": "Haze Piece Fruits",
+      "description": "All 35 Haze Piece Devil Fruits with rarity, spawn and despawn timers, VIP server limits, awakening routes, and how to get each fruit.",
+      "metaTitle": "Haze Piece Fruits - Devil Fruit List, Spawns & Rarity",
+      "metaDescription": "Complete Haze Piece Devil Fruit database: all 35 fruits with rarity, 60-minute spawn and 20-minute despawn timers, VIP server limits, and awakening routes.",
+      "categoryLabel": "HAZE PIECE FRUITS",
+      "whatIs": "What are Haze Piece Fruits?",
+      "whatIsDescription": "Haze Piece features 35 Devil Fruits that grant unique combat and mobility powers. Fruits spawn every 60 minutes and despawn after 20 minutes, with VIP servers capped at 5 fruits. Each fruit has a rarity tier, awakening path, and best-use scenario across farming, bossing, and PvP.",
+      "why": "Why learn Haze Piece fruits?",
       "whySteps": {
-        "step1Title": "Pick a Damage Path",
-        "step1Description": "Choose Fruit, Sword, or Combat and pair it with Defense for steady Haze Seas scaling",
-        "step2Title": "Track Fruit Spawns",
-        "step2Description": "Time 60-minute fruit spawns and 20-minute despawns to upgrade efficiently",
-        "step3Title": "Unlock Movement and Haki",
-        "step3Description": "Grab Flash Step, Buso Haki, and Observation Haki as their level gates open"
+        "step1Title": "Know the Spawn Rules",
+        "step1Description": "Track 60-minute spawns and 20-minute despawns to grab the fruits you need",
+        "step2Title": "Pick the Right Fruit",
+        "step2Description": "Match fruit rarity and skills to your farming, bossing, PvP, or mobility goals",
+        "step3Title": "Plan Awakenings",
+        "step3Description": "Save resources for Gear 2, Gear 4, Gear 5, Dragon, and Rubber fruit awakenings"
       },
       "featured": "Featured & Essential",
-      "all": "All Fruits and Gear"
+      "all": "All Haze Piece Fruits"
     },
-    "items": {
-      "title": "Haze Piece Items",
-      "description": "Detailed Haze Piece item guides covering swords, accessories, boss drops, and gamepass weapons with stats and usage tips.",
-      "metaTitle": "Haze Piece Items - Swords, Accessories & Boss Drops",
-      "metaDescription": "Complete Haze Piece item database for Haze Seas including swords, accessories, boss drops, and gamepass weapons with stats and usage tips.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Haze Piece Items?",
-      "whatIsDescription": "Comprehensive Haze Seas guides for swords, accessories, boss-dropped gear, and gamepass weapons. Learn stats, trainer routes, and optimal Haze Piece loadouts.",
-      "why": "Why check Haze Piece item guides?",
+    "haki": {
+      "title": "Haze Piece Haki",
+      "description": "Unlock and upgrade every Haze Piece Haki type: Observation, Armament (Buso), Conqueror, Flash Step, and Sky Walk in Haze Seas.",
+      "metaTitle": "Haze Piece Haki - Unlock & Upgrade All Haki Types",
+      "metaDescription": "Master Haze Piece Haki in Haze Seas: Observation Haki, Buso (Armament) Haki, Conqueror Haki, Flash Step, Sky Walk, and Haki V2 with unlock levels and upgrade routes.",
+      "categoryLabel": "HAZE PIECE HAKI",
+      "whatIs": "What is Haze Piece Haki?",
+      "whatIsDescription": "Haze Piece Haki unlocks passive combat and mobility boosts: Observation Haki dodges attacks, Buso (Armament) Haki reinforces damage, Conqueror Haki stuns groups, and Flash Step and Sky Walk expand movement. Each Haki has a level gate, a trainer location, and a clear upgrade path.",
+      "why": "Why unlock Haze Piece Haki?",
       "whySteps": {
-        "step1Title": "Learn Boss Drops",
-        "step1Description": "Find which Haze Seas bosses drop the swords and accessories you need",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your Haze Piece build and progression stage",
-        "step3Title": "Improve Combat",
-        "step3Description": "Equip the right swords and accessories to handle bosses and PvP"
+        "step1Title": "Hit the Level Gates",
+        "step1Description": "Unlock Observation and Buso Haki as soon as their level requirements open up",
+        "step2Title": "Find the Haki Trainers",
+        "step2Description": "Locate each Haki trainer on the Haze Seas map and pay the right cost",
+        "step3Title": "Upgrade for Endgame",
+        "step3Description": "Push Haki V2, Conqueror Haki, and movement tech for Second and Third Sea content"
       },
       "featured": "Featured & Essential",
-      "all": "All Haze Piece Items"
+      "all": "All Haze Piece Haki Guides"
     },
-    "biomes": {
-      "title": "Haze Piece Islands and Map",
-      "description": "Explore Haze Seas islands, NPC locations, boss spawns, sea events, and quest routes across First and Second Sea.",
-      "metaTitle": "Haze Piece Islands and Map - Haze Seas Locations",
-      "metaDescription": "Explore Haze Piece islands and the Haze Seas map including NPC locations, boss spawns, sea events, and quest routes across First and Second Sea.",
-      "categoryLabel": "ISLANDS & MAP",
-      "whatIs": "What are Haze Piece Islands?",
-      "whatIsDescription": "Haze Seas islands guide you through level-gated zones, quest NPCs, boss spawns, and sea events. Learn what to expect on each Haze Piece route and how to prepare.",
-      "why": "Why explore Haze Piece islands?",
+    "weapons": {
+      "title": "Haze Piece Weapons",
+      "description": "Haze Piece swords, fighting styles, and accessories: sword tier list, trainer locations, boss drops, and the best weapons for every Haze Seas build.",
+      "metaTitle": "Haze Piece Weapons - Swords, Styles & Accessories",
+      "metaDescription": "Complete Haze Piece weapons guide for Haze Seas: sword tier list, all swords, fighting styles, Three Sword Style, Bisento, Dark Blade, Enma, and the best accessories.",
+      "categoryLabel": "HAZE PIECE WEAPONS",
+      "whatIs": "What are Haze Piece Weapons?",
+      "whatIsDescription": "Haze Piece weapons cover swords, fighting styles, and accessories that define your damage output. Learn sword rarities, trainer locations, boss-dropped gear like Dark Blade and Enma, Three Sword Style and Dual Swordsman paths, and the accessories that round out each build.",
+      "why": "Why plan Haze Piece weapons?",
       "whySteps": {
-        "step1Title": "Find Quest NPCs",
-        "step1Description": "Locate the island quests that drive the fastest Haze Piece progression",
-        "step2Title": "Avoid Danger",
-        "step2Description": "Understand boss level gates and sea events before pushing forward",
-        "step3Title": "Plan Your Route",
-        "step3Description": "Prepare the right fruits, Haki, and gear for each Haze Seas zone"
+        "step1Title": "Choose a Combat Style",
+        "step1Description": "Pick Sword, Three Sword Style, or Dual Swordsman and train with the right instructor",
+        "step2Title": "Hunt Boss Drops",
+        "step2Description": "Target bosses that drop Dark Blade, Enma, Bisento, and other high-tier weapons",
+        "step3Title": "Round Out Accessories",
+        "step3Description": "Pair weapons with the right accessory buffs for your farming or PvP build"
       },
       "featured": "Featured & Essential",
-      "all": "All Islands and Map Guides"
+      "all": "All Haze Piece Weapons"
     },
-    "building": {
-      "title": "Haze Piece Races and Haki",
-      "description": "Master race rerolls, D. Clan, Conqueror Haki, Buso Haki, and Observation Haki with unlock conditions and upgrade routes.",
-      "metaTitle": "Haze Piece Races and Haki - Unlock & Upgrade Guide",
-      "metaDescription": "Master Haze Piece races, race rerolls, D. Clan, Conqueror Haki, Buso Haki, and Observation Haki with unlock conditions and upgrade routes for Haze Seas.",
-      "categoryLabel": "RACES & HAKI",
-      "whatIs": "What are Haze Piece Races and Haki?",
-      "whatIsDescription": "Haze Piece races and Haki systems shape your PvE and PvP power. Learn race rarities, reroll strategy, D. Clan value, and each Haki unlock route across the Haze Seas map.",
-      "why": "Why plan Haze Piece races and Haki?",
+    "bosses": {
+      "title": "Haze Piece Bosses",
+      "description": "Haze Piece boss locations, level requirements, drop tables, and recommended strategies across every Haze Seas island and sea event.",
+      "metaTitle": "Haze Piece Bosses - Locations, Drops & Strategies",
+      "metaDescription": "Defeat every Haze Piece boss in Haze Seas: island locations, level requirements, drop tables including Kaido drops, Sea Beast spawns, and recommended strategies.",
+      "categoryLabel": "HAZE PIECE BOSSES",
+      "whatIs": "What are Haze Piece Bosses?",
+      "whatIsDescription": "Haze Piece bosses guard each island and drop the swords, accessories, and fruits that drive progression. Each boss has a level requirement, a fixed drop table, and a respawn timer, while sea events like the Sea Beast drop rare high-value loot across First and Second Sea.",
+      "why": "Why hunt Haze Piece bosses?",
       "whySteps": {
-        "step1Title": "Reroll Strategically",
-        "step1Description": "Use Race Spins at the right time to chase D. Clan and high-value races",
-        "step2Title": "Unlock Haki on Schedule",
-        "step2Description": "Hit the Buso and Observation Haki level gates as you progress",
-        "step3Title": "Upgrade for PvP and PvE",
-        "step3Description": "Push Conqueror Haki and race upgrades for endgame Haze Seas content"
+        "step1Title": "Target the Right Drops",
+        "step1Description": "Learn which bosses drop the weapons, accessories, and fruits your build needs",
+        "step2Title": "Match Level Requirements",
+        "step2Description": "Fight bosses in the right order so level gates never block your farming",
+        "step3Title": "Handle Sea Events",
+        "step3Description": "Prepare for Sea Beast and raid-style encounters that drop rare Haze Seas loot"
       },
       "featured": "Featured & Essential",
-      "all": "All Races and Haki Guides"
-    },
-    "support": {
-      "title": "Haze Piece Support",
-      "description": "Technical support, platform compatibility, code redemption help, and troubleshooting for Haze Seas players.",
-      "metaTitle": "Haze Piece Support - Haze Seas Help & Fixes",
-      "metaDescription": "Get Haze Piece support including code redemption help, platform compatibility, Roblox troubleshooting, and Haze Seas fix guides.",
-      "categoryLabel": "SUPPORT",
-      "whatIs": "What is Haze Piece Support?",
-      "whatIsDescription": "Haze Piece and Haze Seas support covers code redemption issues, Roblox platform help, control setup, and common troubleshooting steps for Haze Seas players.",
-      "why": "Why check Haze Piece support?",
-      "whySteps": {
-        "step1Title": "Fix Code Issues",
-        "step1Description": "Resolve expired, case-sensitive, or already-redeemed Haze Piece codes",
-        "step2Title": "Platform Help",
-        "step2Description": "Get Haze Seas running on PC, mobile, and Xbox with the right settings",
-        "step3Title": "Report Bugs",
-        "step3Description": "Share issues with Haze Studios through official Discord and Roblox channels"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Haze Piece Support Articles"
+      "all": "All Haze Piece Boss Guides"
     }
   }
 }

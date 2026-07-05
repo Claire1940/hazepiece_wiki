@@ -1,0 +1,256 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Haze Piece Bisento: rota de drop de boss, dicas de upgrade V2",
+  description: "Aprenda a farmar a rota do Bisento em Haze Piece, desbloquear chefes do Tremor Key, garantir progresso no White Orb e montar a arma para bossing e PvP.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Haze+Piece+Bisento+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Haze Piece"
+}
+
+<Callout type="info" title="Guia rápido">
+- **Haze Piece Bisento** é melhor tratada como uma arma para bossing com uma rota de upgrade clara.
+- **Ice Admiral** é o alvo principal do farm porque o Tremor Key inicia a cadeia de invocação.
+- **Tremor Girl** é o principal ponto de progresso para o White Orb e a rota do Bisento V2.
+- **Builds focadas em arma** geralmente ficam mais suaves do que distribuições de atributos divididos para esta arma.
+- **Eficiência da rota** importa mais do que farm aleatório quando você está buscando valor de endgame.
+</Callout>
+
+<Section icon={Swords} title="Visão geral do Haze Piece Bisento">
+
+Bisento não é o tipo de arma que você pega e esquece. Em Haze Piece, ela faz mais sentido como uma arma de progressão estruturada: farme o chefe certo, garanta o item de invocação certo e então siga pela rota de upgrade em vez de vagar de ilha em ilha esperando que o jogo lhe dê um milagre.
+
+| Topic | Bisento Notes |
+|---|---|
+| Role | Heavy melee weapon with strong bossing value |
+| Best use | Burst damage, safe farming, and short combo windows |
+| Main goal | Push toward the V2 route instead of stopping at baseline value |
+| Strongest phase | Mid to late game |
+| Route anchor | Tremor Key, Tremor Girl, White Orb |
+
+<Callout type="tip" title="Mentalidade prática">
+Se você quer valor real do Bisento, planeje sua sessão em torno de um único objetivo: garantir primeiro a rota de invocação e só depois pensar em otimização.
+</Callout>
+
+**Pontos de referência oficiais**
+| Hub | Why it helps |
+|---|---|
+| [Roblox game page](https://www.roblox.com/games/6918802270/Haze-Seas) | Check live title, game state, and platform access |
+| [Official Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) | Verify weapon, boss, and system references |
+| [Discord server](https://discord.com/invite/hazeseas) | Track update notes, code timing, and community help |
+
+**Resumo de valor do Bisento**
+| Situation | Rating | Why |
+|---|---|---|
+| Boss farming | 5/5 | Heavy hits and clear target pressure |
+| PvP bursts | 4/5 | Strong punish windows if you stay close |
+| Leveling | 3/5 | Good, but not the fastest pure grind weapon |
+| Solo play | 4/5 | Works well if your route is organized |
+| Endgame setup | 4/5 | Much better once the upgrade path is unlocked |
+
+<Callout type="success" title="O que esperar">
+Esta arma recompensa jogadores que gostam de um loop de combate simples: aproximar, bater forte, recuar, resetar e repetir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como desbloquear a rota do Bisento V2">
+
+A versão mais forte desta arma está ligada a uma cadeia de chefes, e não a uma compra casual em vendedor. Isso significa que sua primeira tarefa não é otimizar dano. Sua primeira tarefa é obter acesso.
+
+<Steps>
+  <Step num="1" title="Farme o alvo do Tremor Key">
+    Vá até **Marine HQ** e foque no **Ice Admiral**. A rota indica **5% de chance de drop do Tremor Key**, então espere várias tentativas em vez de uma única limpeza bem-sucedida.
+  </Step>
+  <Step num="2" title="Vá até o local de invocação">
+    Vá para **Marine Base Town** e encontre o **portão trancado dos Piratas do Whitebeard**. Esta é a rota que leva ao encontro com a Tremor Girl.
+  </Step>
+  <Step num="3" title="Use a chave e derrote o chefe">
+    Abra o portão com o Tremor Key, derrote a **Tremor Girl** e verifique a tabela de recompensas com cuidado. Este é o checkpoint importante para a rota do **White Orb** e do Bisento V2.
+  </Step>
+  <Step num="4" title="Repita somente se a rota estiver incompleta">
+    Se você já possui o **Bisento V1**, continue farmando a rota até concluir o caminho de upgrade. Se não, trate o encontro como seu objetivo de longo prazo em vez de uma missão paralela aleatória.
+  </Step>
+</Steps>
+
+| Route Step | Location | Main Objective | Priority |
+|---|---|---|---|
+| Ice Admiral farm | Marine HQ | Secure Tremor Key | Highest |
+| Summon setup | Marine Base Town | Open the locked gate | Highest |
+| Boss clear | Whitebeard Pirates gate area | Defeat Tremor Girl | Highest |
+| Reward check | Same route | Track White Orb and Bisento V2 progress | High |
+
+<Callout type="warning" title="Não perca tempo">
+Não fique farmando demais chefes não relacionados quando seu verdadeiro gargalo é o drop da chave. A rota só fica mais rápida quando você se compromete com o alvo correto.
+</Callout>
+
+**Checklist de upgrade do Bisento**
+<Checklist
+  id="bisento-upgrade-checklist"
+  title="Antes de correr atrás do Bisento V2:"
+  items={[
+    "Tenha uma build de bossing que consiga derrotar o Ice Admiral com eficiência",
+    "Saiba o caminho de viagem de Marine HQ até Marine Base Town",
+    "Deixe espaço no inventário para drops e recompensas",
+    "Acompanhe suas tentativas pela chave em vez de farmar às cegas",
+    "Mantenha sua arma principal equipada para uma velocidade de clear consistente"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Melhores builds do Bisento e prioridades de atributos">
+
+O Bisento tem melhor desempenho quando seus atributos e ferramentas de movimento apoiam pressão de curta distância. Se sua build estiver espalhada demais, a arma começa a parecer mais lenta do que deveria. O objetivo é simples: fazer cada golpe valer e reduzir o número de aberturas desperdiçadas.
+
+<CardGrid cols={3}>
+  <Card title="Build para Bossing">
+    - **Arma primeiro**
+    - Defesa em segundo
+    - Melhor para clears solo consistentes
+    - Mais forte quando você controla o espaçamento
+  </Card>
+  <Card title="Build Híbrida">
+    - **Arma e Fruta**
+    - Boa para farm misto
+    - Flexível em sessões longas
+    - Progressão um pouco mais lenta
+  </Card>
+  <Card title="Build de Burst para PvP">
+    - **Arma mais mobilidade**
+    - Punição após esquivas
+    - Funciona bem em lutas curtas
+    - Menos tolerante se você errar o timing
+  </Card>
+</CardGrid>
+
+| Build Type | Stat Priority | Strength | Weak Point |
+|---|---|---|---|
+| Bossing | Weapon > Defense | Best raw route consistency | Needs good positioning |
+| Hybrid | Weapon/Fruit > Defense | Flexible for mixed content | Slower than a focused build |
+| PvP Burst | Weapon > Mobility > Defense | High punish potential | Missed timing hurts more |
+| Starter-safe | Defense > Weapon | Easier survival while learning | Lower kill speed |
+
+<Callout type="success" title="Melhor regra geral">
+Se estiver em dúvida, vá primeiro para uma build de bossing. O Bisento tende a funcionar melhor quando seu dano é focado, e não diluído.
+</Callout>
+
+**Prioridades do loop de dano**
+| Priority | What to Focus On | Why It Helps |
+|---|---|---|
+| 1 | Clean opening hits | Starts the fight on your terms |
+| 2 | Short combo routes | Reduces downtime between attacks |
+| 3 | Safe reset tools | Lets you survive longer fights |
+| 4 | Mobility | Keeps bosses and players in range |
+
+</Section>
+
+<Section icon={Sparkles} title="Rota de farm e planejamento da sessão">
+
+A forma mais inteligente de farmar o Bisento é tratar a sessão como uma rota, e não como um estado de espírito. Comece de onde vem a chave, vá direto ao ponto de invocação e pare de tentar fazer várias coisas ao mesmo tempo em metade do mapa.
+
+| Order | Action | Result |
+|---|---|---|
+| 1 | Farm Ice Admiral | Chance to get Tremor Key |
+| 2 | Move to Marine Base Town | Reach the gate route faster |
+| 3 | Open the locked summon path | Trigger the Tremor Girl encounter |
+| 4 | Clear the boss | Progress the Bisento V2 route |
+| 5 | Recheck your inventory | Make sure rewards are not wasted |
+
+**Tabela de preparação da sessão**
+| Prep Item | Why It Matters | Recommended Level of Attention |
+|---|---|---|
+| Mobility tool | Saves travel time between islands | High |
+| Stable damage | Makes the key farm faster | High |
+| Inventory space | Prevents drop issues | Medium |
+| Route memory | Cuts down wasted time | High |
+| Patience | The key drop is not guaranteed | High |
+
+<Callout type="info" title="Eficiência da rota">
+As melhores runs geralmente são as mais entediantes: mesmo chefe, mesmo caminho, mesmo objetivo, repetidos com disciplina.
+</Callout>
+
+**Fluxo sugerido da sessão**
+1. Aqueça com algumas tentativas rápidas no Ice Admiral.
+2. Vá imediatamente ao local de invocação se a chave cair.
+3. Derrote a Tremor Girl e veja se a rota avançou.
+4. Se não avançou, volte ao farm da chave e repita.
+5. Pare quando o próximo passo de upgrade estiver garantido, e não quando você estiver cansado.
+
+</Section>
+
+<Section icon={Trophy} title="O que priorizar depois de conseguir o Bisento">
+
+Depois que a arma estiver em mãos, sua função muda. Você não está mais apenas farmando acesso. Você está montando uma build em torno de uma arma que quer janelas limpas de dano e lutas controladas.
+
+| Priority | Focus | Why |
+|---|---|---|
+| 1 | Keep the weapon equipped in boss sessions | You want mastery and muscle memory |
+| 2 | Pair with a stable defense setup | Surviving longer matters in route farming |
+| 3 | Test short combo strings | Helps in PvP and boss punish windows |
+| 4 | Avoid over-investing in unrelated gear | Keeps progression efficient |
+| 5 | Revisit the upgrade route if needed | Some progression is route-locked |
+
+<Callout type="tip" title="Primeiro melhore, depois colete">
+Se você estiver escolhendo entre farmar mais ou experimentar mais, feche primeiro a rota da arma. A variedade de builds é mais útil depois que sua ferramenta principal estiver estável.
+</Callout>
+
+**Erros comuns para evitar**
+- Correr atrás de chefes aleatórios antes de concluir a rota da chave
+- Dividir os atributos de forma equilibrada demais
+- Ignorar espaço no inventário antes de longas sessões de farm
+- Tratar o Bisento como uma arma puramente para leveling
+- Esquecer que lutas repetíveis contra chefes fazem parte do plano
+
+**Checklist de avaliação rápida**
+<Checklist
+  id="bisento-evaluation"
+  title="Depois de desbloquear a arma:"
+  items={[
+    "Teste a arma em um chefe que você já conhece",
+    "Verifique se o timing dos seus combos parece estável",
+    "Compare a velocidade de clear antes e depois da rota de upgrade",
+    "Mantenha as notas da rota salvas para farm futuro",
+    "Respec somente se a nova build realmente melhorar seus clears"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ do Bisento">
+
+<Callout type="info" title="Foco do FAQ">
+Estas respostas são construídas em torno das perguntas mais comuns sobre o Bisento: acesso, valor da rota e onde a arma se encaixa em um plano real de progressão.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O Haze Piece Bisento é bom para farmar chefes?",
+    answer: "Sim, especialmente se você quer uma arma que recompensa dano controlado e de curta distância. Ela é mais forte quando você monta a build em torno de hits consistentes em vez de tentar fazer tudo ao mesmo tempo."
+  },
+  {
+    question: "Como começo a rota do Bisento V2?",
+    answer: "Comece com o Ice Admiral em Marine HQ, busque o Tremor Key e depois vá até o portão trancado dos Piratas do Whitebeard em Marine Base Town para chegar à Tremor Girl."
+  },
+  {
+    question: "O que devo priorizar antes de farmar a rota de upgrade?",
+    answer: "Uma build estável para bossing, mobilidade suficiente para viajar rápido e espaço de inventário suficiente para lidar com recompensas sem atrasar a run."
+  },
+  {
+    question: "Devo usar o Bisento como arma de leveling ou de bossing?",
+    answer: "Ele combina mais com bossing. Você pode upar com ele, mas seu valor real aparece quando é usado em lutas curtas, controladas e em progressão baseada em rota."
+  }
+]} />
+
+<Callout type="success" title="Conclusão final">
+Se você quer o resultado mais limpo, trate o Bisento como uma arma de rota: farme a chave, chegue ao ponto de invocação, derrote o chefe e só então ajuste a build.
+</Callout>
+
+</Section>

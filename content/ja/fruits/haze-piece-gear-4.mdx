@@ -1,0 +1,210 @@
+import { Map, Target, Swords, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece gear 4: 解放ルート、Book、装備構成",
+  description: "haze piece gear 4 ガイドでは、G4 Boss ルート、Gear 4 Book の入手、Gum Fruit の相性、装備構成、そして Haze Seas 向けのボス周回のコツを解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Gear+4+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece gear 4** は、G4 Boss ルート、Bubble Island の周回、そして Gear 4 Book アイテムを中心に進めます。
+- **Gum Fruit の相性** が重要なのは、Dragon Boss ルートで Drums of Liberation も解放できるからです。
+- **ダメージ系統は1本に絞る** ほうが、特にレベリング中や Gems を貯めている段階では安定します。
+- **公式リンク** を確認しておけば、長い周回に入る前に現行の Haze Seas 構成を把握できます。
+</Callout>
+
+<Section icon={Map} title="haze piece gear 4 の解放ルートとボス優先度">
+
+Haze Piece の Gear 4 は、適当に狙うサブ目標ではなく、集中して回す周回ルートとして考えるのが最適です。現在の Roblox 版は Haze Seas のリワーク配下にあるため、ルートを組むときは両方の名称を追っておくと便利です。まずは公式の [Roblox experience page](https://www.roblox.com/games/6918802270/Haze-Seas) と [公式 Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) を確認してから、周回に時間を使いましょう。
+
+Gear 4 を考えるうえで一番わかりやすい整理は、Bubble Island が主目的、G4 Boss が周回対象、そして Gear 4 Book アイテムが狙う報酬だということです。Gum Fruit を軸にするなら、Dragon Boss ルートの価値も上がります。というのも、その先で Drums of Liberation に繋がるからです。
+
+<CardGrid cols={3}>
+  <Card title="Gum 優先">
+    - **向いている場面** 長時間のボス周回
+    - Gear 4 との相性が最も高い
+    - Fruit 中心のビルドにしたい場合に強い
+  </Card>
+  <Card title="剣サポート">
+    - **向いている場面** 単体火力の押し込み
+    - 武器ルートがすでに安定しているなら有効
+    - Fruit の再抽選に寄りすぎずにボスを倒しやすい
+  </Card>
+  <Card title="ハイブリッド">
+    - **向いている場面** 柔軟な進行
+    - 周回と戦闘を切り替えやすい
+    - 完成まで少し時間はかかるが、総合的には安全
+  </Card>
+</CardGrid>
+
+| プレイヤータイプ | 優先度 | 理由 | 最適な行動 |
+|---|---|---|---|
+| Gum メイン | 高 | Gear 4 と Gum 中心の進行が噛み合う | Bubble Island を周回し、Fruit ルートを維持する |
+| 剣メイン | 中 | Gear 4 は役立つが、武器の基盤も重要 | 追加強化を追う前に武器基盤を完成させる |
+| ハイブリッド構成 | 高 | ボスにも雑魚にも対応しやすい | Fruit 系統と武器系統を1本ずつ維持する |
+| カジュアル勢 | 低〜中 | レベリングの流れが安定してからのほうが強い | コア装備が整ってから周回を始める |
+
+<Callout type="tip" title="優先度ルール">
+まだビルドが不安定なら、先にレベル上げと基本機動力を固めましょう。ダメージ、耐久、ルート理解が揃っていれば、Gear 4 はかなり狙いやすくなります。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="時間を無駄にせずルートを回す方法">
+
+Gear 4 を追うときは、単なる“ドロップ待ち”ではなく、ルートとして考えるとスムーズです。現在の Haze Seas には 35 Fruits、世界湧き 60 分、消滅 20 分、VIP サーバーでの 5 Fruit 制限があります。つまり、Fruit 探しとボスルートは競合させるのではなく、連携させるべきです。
+
+以下の手順で周回効率を上げ、目的なく島を行き来するのを防ぎましょう。
+
+<Steps>
+  <Step num="1" title="現行環境を確認する">
+    まずは公式 Roblox ページと Trello を開き、古いメモではなく現在の Haze Seas 構成を前提にします。
+  </Step>
+  <Step num="2" title="メイン構成を固定する">
+    早い段階でダメージ系統を1つ決めましょう。主な伸び方が Fruit、Sword、ハイブリッドのどれかを把握できると、Gear 4 は狙いやすくなります。
+  </Step>
+  <Step num="3" title="Bubble Island をボス目標にする">
+    G4 Boss を繰り返し周回対象にして、ルートを短く保ちます。狙うべき核心報酬は Gear 4 Book です。
+  </Step>
+  <Step num="4" title="必要なら Gum ルートを追加する">
+    Gum Fruit で進めるなら、Dragon Boss ルートも回転に入れて Drums of Liberation も狙えるようにします。
+  </Step>
+</Steps>
+
+| ルートの確認地点 | 目的 | メモ |
+|---|---|---|
+| Bubble Island | G4 Boss を周回する | Gear 4 の本命で、最も直接的なルート |
+| Dragon Boss ルート | Gum の進行を支援する | Fruit 寄りの構成なら特に有効 |
+| Fruit 探索ウィンドウ | 使える Fruit を確保する | 世界湧き、消滅時間、VIP 制限が重要 |
+| 強化チェック地点 | ビルドを安定させる | ルートが整う前に資源を使い切らない |
+
+| タイマー規則 | 値 | 役立つ理由 |
+|---|---|---|
+| World Fruit Spawn | **60分** | Fruit の確認タイミングを組みやすい |
+| Fruit Despawn | **20分** | 無駄な移動や取り逃しを減らせる |
+| VIP Server Fruit Limit | **5 Fruits** | プライベート周回の計画が立てやすい |
+
+<Checklist
+  id="gear4-prep"
+  title="周回前の準備:"
+  items={[
+    "メインのダメージステータスを1つ決めて、最後まで貫く",
+    "本当に必要な強化に使う分の Cash と Gems を確保する",
+    "G4 Boss を繰り返す前に Bubble Island のルートを把握しておく",
+    "相性を最大限活かしたいなら Gum Fruit を使う",
+    "古い周回メモに従わないよう、公式リンクを確認する"
+  ]}
+/>
+
+<Callout type="warning" title="この罠に注意">
+見た目のいい再抽選候補に資源をばらまかないでください。Gear 4 の進行を最も遅らせるのは、実際にアイテムを落とすルートを終える前にビルドを何度も変えることです。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gear 4 に最適な装備構成とステータス配分">
+
+最適な Gear 4 装備は、実際のプレイスタイルに合っている構成です。多くのプレイヤーは、ステータス配分が弱いままルートだけ追いかけ、なぜボスが遅く感じるのか分からなくなります。着実に進めたいなら、Defense を副ステータスにして、メインの系統に火力を任せましょう。
+
+この考え方は、Bubble Island の周回と Fruit 探し、ボス討伐、そしてより良い武器ルートへの寄り道を両立したい人に特に向いています。
+
+<CardGrid cols={3}>
+  <Card title="ボス溶かし型">
+    - **メインステータス:** Fruit
+    - 広範囲への圧力が強い
+    - Gum 系の進行が好きなら最も扱いやすい
+  </Card>
+  <Card title="安全周回型">
+    - **メインステータス:** Defense + Fruit
+    - 長時間プレイでの生存力が高い
+    - リトライ回数を減らしたい人に向いている
+  </Card>
+  <Card title="柔軟型">
+    - **メインステータス:** Sword またはハイブリッド
+    - 1つの型に固定したくない人に便利
+    - 最適化は遅いが、適応しやすい
+  </Card>
+</CardGrid>
+
+| 装備構成 | メインステータス | 副次 | 強み | 弱み |
+|---|---|---|---|---|
+| Gum 優先 | Fruit | Defense | 強いボス圧力と自然な進行 | 近接距離に依存しやすいと柔軟性が落ちる |
+| 剣サポート | Sword | Defense | 単体火力が高く、締めが速い | 安定した武器ルートが必要 |
+| ハイブリッド | バランス型 | Defense | 混成相手にも対応しやすい | 完成まで時間がかかる |
+| 初心者向け安全構成 | Defense | Fruit または Sword | ルートを覚えながらでも生き残りやすい | 最初の火力上限は低め |
+
+| 注力分野 | ベストプラクティス | 重要な理由 |
+|---|---|---|---|
+| 火力 | 1系統に絞る | 混成配分は進行を遅らせる |
+| 生存 | Defense を副次にする | 長いボス戦でも安定しやすい |
+| 機動力 | ルート速度を重視する | 移動が速いほど周回回数が増える |
+| 資源管理 | Gems は意味のある強化に残す | ビルド完成前の無駄遣いを防げる |
+
+<Callout type="success" title="ビルドのコツ">
+Gear 4 のルートを快適にしたいなら、まずは“地味で安定した構成”にしましょう。派手だけど途中で崩れる装備より、安定した構成のほうがボスを早く倒せます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gear 4 を狙うときに避けるべき失敗">
+
+Gear 4 でつまずく原因の多くは、難易度ではなく進め方です。プレイヤーはアイテムを追いますが、周回効率を作る準備を見落としがちです。そこに時間が消えていきます。ルートは規律を持って回し、ビルドは広げすぎず、ボス周回に仕事をさせましょう。
+
+もう1つの大きな問題は、アップデートや噂のたびに反応しすぎることです。Haze Piece のプレイヤーは今でも旧名と新名の両方で検索しており、ライブゲームの表記は Haze Seas に移っています。これは普通のことです。大事なのは、ルートを現在の環境と公式リンクに結びつけておくことです。
+
+| 失敗例 | 代償 | より良い行動 |
+|---|---|---|
+| ダメージ系統を増やしすぎる | 成長が遅くなり、ボス処理も弱くなる | 1つのメイン系統に絞る |
+| Bubble Island を無視する | Gear 4 の周回時間を失う | G4 Boss をルートの中心に置く |
+| Gems を早く使いすぎる | 進行資源の無駄になる | 本当に残すビルドにだけ強化を回す |
+| すべての Fruit を同時に追う | 移動が増えて成果が減る | 60分湧きのリズムで整理する |
+
+<Callout type="info" title="賢い計画">
+35 Fruits のロスターと 5 Fruit の VIP 上限は、先を読んで動くプレイヤーほど得をします。次の回収タイミングが分かっていれば、無駄な移動を減らして強化に時間を回せます。
+</Callout>
+
+実践的なルートは次のとおりです。
+
+- 主力のダメージ源は一貫させる。
+- Bubble Island を繰り返しのボス停止地点にする。
+- Gum Fruit を計画に入れている場合のみ Dragon Boss 周回を追加する。
+- ビルドを作り直す前に公式の更新を確認する。
+- Gear 4 はリセットボタンではなく、進行の節目として扱う。
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="クイック回答">
+以下の回答を参考に、Gear 4 を今すぐ狙うべきか、それとも Haze Seas の進行が進んでからの節目にするべきかを判断してください。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "haze piece gear 4 は序盤に狙う価値がありますか？",
+    answer: "コアビルドがすでに安定しているなら、序盤から狙う価値はあります。まだステータス、レベル、機動力を整えている途中なら、まずはそちらを先に完成させてから Gear 4 ルートに戻りましょう。"
+  },
+  {
+    question: "Gear 4 Book アイテムはどこで入手できますか？",
+    answer: "主な対象は Bubble Island の G4 Boss です。ルートを短く保ち、周回を繰り返し、Book をループの核心報酬として扱いましょう。"
+  },
+  {
+    question: "フルルートに Gum Fruit は必須ですか？",
+    answer: "Gum Fruit は最も自然に噛み合う選択です。というのも、より広い進行ルートが Dragon Boss ルートを通じて Drums of Liberation に繋がるからです。"
+  },
+  {
+    question: "Haze Piece と Haze Seas のどちらのガイドを見ればいいですか？",
+    answer: "検索では両方の名前を使ってください。ライブの Roblox 版は Haze Seas として表示されますが、今でも多くのプレイヤーは Haze Piece という名前を使っています。"
+  }
+]} />
+
+</Section>

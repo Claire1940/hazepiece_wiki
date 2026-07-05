@@ -1,0 +1,217 @@
+import { Map, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece gear 2: 高速ファーミング向けビルドのロードアウトガイド",
+  description: "haze piece gear 2 を、1つの主力ダメージステータス、賢い Haki の組み合わせ、そして整ったファーミングルートを軸に構築して、クエストとボスの処理をより速く行うためのガイドです。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f2747/fff?text=Gear+2+Loadout+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece gear 2** は、単体の完成ビルドというより、瞬間火力と機動力のウィンドウとして使うのが最適です。
+- **果実先行のステータス振り** は、クエスト周回とボスへの圧力に対して、最もきれいな周回速度を生みます。
+- **Defense は重要** です。コンボ中に被弾すると Gear 2 の価値が一気に下がるからです。
+- **Haki の組み合わせ** は、雑なハイブリッド構成を強いるのではなく、ダメージの時間帯を延ばす方向で考えましょう。
+- **安全な雑魚で練習** してから、このビルドを PvP やボス戦に持ち込みましょう。
+</Callout>
+
+<Section icon={Map} title="haze piece gear 2 が今も重要な理由">
+
+haze piece gear 2 は、テンポを整えるためのツールとして扱うと最も強くなります。移動を速くし、戦闘の立ち上がりを速くし、雑魚が戦闘を長引かせる前に倒し切るのに役立ちます。Haze Piece のようなゲームでは、こうした価値は単純な理論値以上に重要です。きれいに組まれた Gear 2 構成なら、クエスト処理、ボスへの圧力、不利な交換からの離脱をこなしつつ、ビルド全体を一芸特化の紙装甲にしなくて済みます。
+
+**主要参考リンク**
+
+| Resource | Best use | Link |
+|---|---|---|
+| Roblox experience | ライブ更新を確認し、現在のバージョンに入る | [Open Roblox page](https://www.roblox.com/games/6918802270/Haze-Seas) |
+| Official Trello | システムメモ、Gear ルート、更新構造を確認する | [Open Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) |
+| Official Discord | 告知、コード配布、ヘルプチャンネルを追う | [Open Discord](https://discord.com/invite/hazeseas) |
+
+<CardGrid cols={3}>
+  <Card title="クエストファーミング">
+    - **高速処理**
+    - 短いダウンタイム
+    - 序盤進行に最適
+  </Card>
+  <Card title="ボスへの圧力">
+    - **瞬間火力の窓**
+    - より安全なクールダウン運用
+    - より良い確定反撃タイミング
+  </Card>
+  <Card title="PvP の追撃">
+    - **機動力の価値**
+    - より良い先手
+    - 離脱しやすい
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="編集ルール">
+まずは 1 つの主軸ダメージに絞って構築しましょう。残りの装備が Gear 2 と競合するのではなく、支える形になるほど、Gear 2 は強く感じられます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gear 2 に最適なステ振りとビルドタイプ">
+
+Gear 2 で最も多い失敗は、ポイントを均等に振りすぎることです。ステータスが複数のダメージ軸に分散すると、瞬間火力が準備運動のような弱いダメージに変わってしまいます。主力となるダメージ源を 1 つに絞り、Defense を十分に確保し、2 本目の軸はコンボの締めを直接強化できる場合のみ追加しましょう。
+
+| Build Type | Main Focus | Best For | Risk |
+|---|---|---|---|
+| 果実先行 | 果実、Defense | クエスト周回、ボス削り | 生存を軽視すると弱い |
+| ハイブリッド | 果実、Sword、Defense | 柔軟な戦闘 | 最高火力は下がる |
+| PvP バースト | 果実、Defense、Haki | 決闘と奇襲 | 継戦しづらい |
+| レベリングルート | 果実、Defense、少量 Melee | 序盤の育成 | 終盤の伸びが限定的 |
+
+| Stage | Fruit | Defense | Secondary Stat | Notes |
+|---|---|---|---|---|
+| 序盤 | **60%** | **30%** | 10% Melee or Sword | 生き残って素早く処理する |
+| 中盤 | **50%** | **30%** | 20% Sword or Haki support | 制御力と安全なリセットを追加する |
+| 終盤 | **45%** | **35%** | 20% utility or finisher stat | ボス戦と PvP により適している |
+
+<Callout type="warning" title="ハイブリッドを盛りすぎないこと">
+Gear 2 が弱く感じるとき、その原因はたいていステータスの分散です。「何でも少しずつ」より、整理された振り分けのほうがたいてい強いです。
+</Callout>
+
+**推奨ビルド優先順位**
+
+| Priority | What to raise first | Why it helps |
+|---|---|---|
+| 1 | 主力ダメージステータス | Gear 2 に本物の瞬間火力を与える |
+| 2 | Defense | 近距離のやり取りで生き残りやすくなる |
+| 3 | 機動力または Haki 補助 | 圧力と離脱手段を伸ばす |
+| 4 | 2 次のフィニッシャー性能 | ベース火力ではなく、コンボの締めを強化する |
+
+</Section>
+
+<Section icon={Target} title="Gear 2 の解放ルートと練習ルート">
+
+バージョンによって詳細は変わるので、最も賢い方法は、ゲーム内で現在の解放手順を確認し、そのうえで低リスクの相手でリズムを練習することです。このビルドは、きれいに発動でき、圧力を維持でき、戦闘がぐちゃつく前に離脱できてこそ意味があります。
+
+<Steps>
+  <Step num="1" title="現在の発動条件を確認する">
+    いまのバージョンで Gear 2 に紐づく、ライブの果実ルートやトレーナールートを確認しましょう。ゲームが再構成されているなら、古いルートは当てにしないでください。
+  </Step>
+  <Step num="2" title="まずは基礎キットを完成させる">
+    Gear 2 のタイミングを追う前に、主力ダメージ軸がすでに使える状態になっていることを確認しましょう。基礎が弱いと、どんな変身も弱く感じます。
+  </Step>
+  <Step num="3" title="クエスト雑魚で試す">
+    ボス戦や PvP で使う前に、通常の敵を相手にオープナー、追撃、離脱を練習しましょう。
+  </Step>
+  <Step num="4" title="ボスと決闘に移る">
+    タイミングが自然に感じられるようになったら、瞬間火力の窓が重要で、移動によって安全なリセットを作れる戦闘で Gear 2 を使いましょう。
+  </Step>
+</Steps>
+
+| Practice Drill | Goal | Success Signal |
+|---|---|---|
+| オープナーループ | 戦闘をきれいに始める | 焦らず最初のコンボを当てられる |
+| バーストウィンドウ | 短い隙にダメージを詰め込む | 反撃される前に敵の HP を削れる |
+| リセットルート | 圧力をかけたあと安全に離脱する | 不利な交換をせずに引ける |
+| クールダウン習慣 | 重要スキルを要所で使う | 低価値の敵に Gear 2 を無駄撃ちしなくなる |
+
+<Callout type="success" title="良い練習習慣">
+まずは圧力の低い雑魚で練習しましょう。そこでオープナーが滑らかなら、ボス相手でもたいていかなりやりやすくなります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="最適な組み合わせとロードアウト">
+
+Gear 2 は、攻撃時間を伸ばすツールと組み合わせると大きく強くなります。多くの場合、それは Haki、信頼できるフィニッシャー、または最初のバースト後に再び戦闘へ戻れる機動系ツールを意味します。
+
+<CardGrid cols={4}>
+  <Card title="Buso Haki">
+    - **ダメージ増加**
+    - 接触時の交換が強い
+    - ボスへの圧力が高い
+  </Card>
+  <Card title="Observation Haki">
+    - **より安全な間合い**
+    - より良い回避タイミング
+    - PvP での読み合いが安定する
+  </Card>
+  <Card title="Sword フィニッシャー">
+    - **コンボの締め**
+    - 単体火力が向上
+    - 果実始動のあとに有効
+  </Card>
+  <Card title="機動系ツール">
+    - **追撃が速い**
+    - リセットしやすい
+    - マップ制御がしやすい
+  </Card>
+</CardGrid>
+
+| Pairing | Why It Works | Best Use |
+|---|---|---|
+| Gear 2 + Buso Haki | 近距離ダメージを引き上げる | ボス戦と周回ルート |
+| Gear 2 + Observation Haki | 不利な交換を避けやすくする | PvP と強敵雑魚 |
+| Gear 2 + Sword finisher | バーストの締めをきれいにする | ハイブリッド戦闘 |
+| Gear 2 + Mobility fruit | オープナー後も圧力を維持できる | 移動と追撃戦 |
+
+<Callout type="tip" title="ロードアウトのルール">
+ダメージ用、生存用、移動用からそれぞれ 1 つずつ選びましょう。そうすれば、ホットバーを増やしすぎずに Gear 2 を有効活用できます。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="チェックリストとよくあるミス">
+
+ビルドを確定する前に、最後の確認を短く行いましょう。Gear 2 は、何でもボタン連打でうまくいくことを期待するプレイヤーではなく、きちんと整理されたプレイヤーに報いてくれます。
+
+<Checklist
+  id="gear2-setup"
+  title="Gear 2 セットアップチェックリスト:"
+  items={[
+    "主力ダメージステータスを 1 つに絞る",
+    "反撃を受けても耐えられるだけ Defense を上げる",
+    "Gear 2 を Buso か Observation Haki と組み合わせる",
+    "まずは通常の雑魚でオープナーを練習する",
+    "バーストはボスか本番の PvP ウィンドウまで温存する"
+  ]}
+/>
+
+| Mistake | Fix | Why It Hurts |
+|---|---|---|
+| ステ振りが均等すぎる | 主軸を 1 つ選ぶ | ダメージがすぐ落ちる |
+| 早すぎる Gear 2 の使用 | まず雑魚で練習する | 圧力がかかるとタイミングが崩れる |
+| Defense への投資不足 | 耐久を増やす | 1 回のミスで終わる |
+| 便利アイテムが多すぎる | ホットバーを整理する | 反応が遅くなり、コンボが弱くなる |
+| 低価値の雑魚にバーストを使う | 本命に温存する | 重要な場面で価値を失う |
+
+<Callout type="warning" title="最も多いミス">
+Gear 2 ビルドは、あらゆる問題を一度に解決するためのものではありません。全部やろうとすると、結局どれも中途半端になりがちです。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "haze piece gear 2 はファーミング向きですか、それとも PvP 向きですか？",
+    answer: "どちらにも使えますが、Gear 2 は速い移動、短いバーストウィンドウ、きれいなリセットを活かせるので、ファーミングのほうがたいてい扱いやすいです。"
+  },
+  {
+    question: "Gear 2 でフルハイブリッドにすべきですか？",
+    answer: "たいていはおすすめしません。軽いハイブリッドなら成立しますが、十分な Defense を確保した集中型ダメージ軸のほうが安定します。"
+  },
+  {
+    question: "まず何を Gear 2 と組み合わせるべきですか？",
+    answer: "ダメージ目的なら Buso Haki が最も安全な最初の組み合わせです。より守備的に立ち回るなら Observation Haki も役立ちます。"
+  },
+  {
+    question: "いつ Gear 2 から乗り換えるべきですか？",
+    answer: "次のルートで、明確により強い瞬間火力、より安全な移動、またはより高いボス圧力が得られるまで使い続けましょう。"
+  }
+]} />
+
+<Callout type="info" title="最終まとめ">
+haze piece gear 2 を強く感じたいなら、構成はシンプルに保ちましょう。主軸ダメージを 1 つ、十分な Defense、そしてバーストウィンドウを守ってくれる組み合わせが基本です。
+</Callout>
+
+</Section>

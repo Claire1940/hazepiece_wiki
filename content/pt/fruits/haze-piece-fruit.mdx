@@ -1,0 +1,198 @@
+import { Map, Trophy, Target, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece fruit: Tempos de Spawn, Tier List e Rotas",
+  description: "O guia de frutas de Haze Piece cobre tempos de spawn, rotas para obtenção, classificações por tier e as melhores escolhas para farm, boss, PvP e progressão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Haze+Piece+Fruit+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de haze piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As rotas de **haze piece fruit** agora se sobrepõem às de Haze Seas, então leve os dois nomes em conta quando pesquisar e planejar.
+- As **frutas do mundo** aparecem a cada 60 minutos e desaparecem após 20, então o timing vence a exploração aleatória.
+- **Frutas de tier S** como Dragon, Dough e Gum entregam o melhor valor de farm no longo prazo.
+- **Rerolls na dealer e trocas** são as formas mais rápidas de mirar em uma fruta específica de propósito.
+</Callout>
+
+<Section icon={Map} title="haze piece fruit: Regras de Spawn e Rotas de Farm">
+
+Na progressão de **haze piece fruit**, a jogada mais inteligente é tratar a caça por frutas como uma rota, não como uma loteria. Haze Seas lista 35 frutas, e as regras mais importantes do sistema são simples: os spawns no mundo acontecem por timer, os despawns são curtos e o farm em VIP só consegue manter um número limitado de spawns de frutas.
+
+<Callout type="tip" title="Rota Primeiro, Sorte Depois">
+Acompanhe seu próprio horário de coleta e depois verifique árvores, rolagens da dealer e trocas nessa ordem fixa. Essa rotina economiza mais tempo do que trocar de servidor aleatoriamente.
+</Callout>
+
+| Sistema | Valor | O que isso significa |
+| --- | --- | --- |
+| Spawn de fruta no mundo | 60 minutos | As frutas aparecem sob as árvores por timer |
+| Despawn de fruta | 20 minutos | Frutas não coletadas desaparecem rápido |
+| Limite do servidor VIP | 5 frutas | Rotas curtas e controladas funcionam melhor |
+| Rota da dealer | Gacha da Cynthia | Melhor para rolagens direcionadas do que esperar |
+| Rota de troca | Troca entre jogadores | Útil quando você quer uma fruta específica |
+
+<CardGrid cols={3}>
+  <Card title="Spawns no Mundo">
+    - Melhor para verificações programadas
+    - Forte para quem farma ativamente
+    - Exige o hábito de usar timer
+  </Card>
+  <Card title="Rerolls na Dealer">
+    - Melhor para rerolls controlados
+    - Bom quando você precisa de upgrades rápido
+    - Custa Cash ou Gems
+  </Card>
+  <Card title="Trocas">
+    - Melhor para buscar frutas raras
+    - Evita RNG ruim
+    - Funciona bem quando você entende a demanda
+  </Card>
+</CardGrid>
+
+Uma rota prática é checar a janela de spawn, rolar se sua fruta atual for fraca e trocar apenas quando você tiver um alvo claro. Isso evita que você fique com uma fruta iniciante por tempo demais, sem deixar de ter um caminho para algo melhor.
+
+</Section>
+
+<Section icon={Trophy} title="Tier List e Melhores Escolhas de Frutas">
+
+O elenco atual é amplo o bastante para que uma tier list limpa faça diferença. Use isso como um filtro de progressão, não como um selo de verdade permanente. A melhor fruta é aquela que ajuda você a limpar missões, bosses e rotas de viagem com o menor atrito possível.
+
+<Callout type="warning" title="Regra da Tier List">
+Esta classificação é baseada em progressão, velocidade de farm, pressão em bosses e mobilidade. Mudanças de atualização podem alterar a ordem, então sempre revise seus próprios objetivos de build.
+</Callout>
+
+| Tier | Melhores Escolhas | Melhor Para |
+| --- | --- | --- |
+| S | Dragon, Dough, Gum, Electricity, Phoenix, Shadow, Okuchi | Poder geral, boss, PvP, late game |
+| A | Darkness, Magma, Venom, Light, Leopard, Tremor, Wolf | Progressão forte e combate flexível |
+| B | Ice, Flame, Gas, Gravity, Buddha, Snow, Mammoth, String, Love | Conforto do início ao meio do jogo |
+| C | Operation, Paw, Smoke, Sand, Barrier, Bomb, Chop | Opções temporárias de início ou utilidade |
+| D | Clear, Spin, Spike | Troque o quanto antes |
+
+<CardGrid cols={4}>
+  <Card title="Dragon">
+    - Dano pesado em transformação
+    - Forte para PvP e bosses
+    - Opção premium de late game
+  </Card>
+  <Card title="Dough">
+    - Farm amplo em área
+    - Ótimo para limpar missões
+    - Excelente para dano em grupo
+  </Card>
+  <Card title="Gum">
+    - Escala bem ao longo do tempo
+    - Rota forte para progressão
+    - Recompensa builds dedicadas
+  </Card>
+  <Card title="Phoenix">
+    - Ótima mobilidade
+    - Bom valor de sustain
+    - Útil em vários modos
+  </Card>
+</CardGrid>
+
+| Atividade | Faixa de Tier Ideal | Escolhas Comuns |
+| --- | --- | --- |
+| Farm | S a A | Dough, Darkness, Magma |
+| Boss | S a A | Dragon, Phoenix, Tremor |
+| PvP | S a A | Dragon, Leopard, Shadow |
+| Mobilidade | S a A | Light, Phoenix, Electricity |
+
+Se você quer uma regra simples, mantenha as frutas que melhoram sua velocidade de limpeza e troque qualquer coisa que só pareça rara. Um rótulo chamativo não importa se ele deixa sua rota nas ilhas mais lenta.
+
+</Section>
+
+<Section icon={Target} title="Como Escolher a Build Certa de Fruta">
+
+A forma mais fácil de desperdiçar progresso é rolar uma fruta antes de saber o que sua build quer. Escolha primeiro um caminho e depois selecione uma fruta que dê suporte a esse caminho, em vez de lutar contra ele.
+
+<Callout type="success" title="Lógica de Build que Funciona">
+Uma boa fruta deve ajudar você a limpar mais conteúdo por minuto. Se ela também melhorar a viagem ou a segurança contra bosses, melhor ainda.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Escolha um caminho de dano">
+    Decida se sua build será baseada em dano de fruta, espadas ou estilos de luta. Misturar os três cedo demais geralmente desacelera o progresso.
+  </Step>
+  <Step num="2" title="Combine a fruta com sua atividade principal">
+    Use frutas de AoE para missões, frutas de burst para bosses e frutas de mobilidade quando a viagem importar mais do que o dano bruto.
+  </Step>
+  <Step num="3" title="Verifique sua rota de obtenção">
+    Compare spawns no mundo, rolagens da dealer e trocas. A rota mais rápida é aquela que você consegue repetir de forma consistente.
+  </Step>
+  <Step num="4" title="Substitua frutas fracas de propósito">
+    Assim que aparecer uma opção mais forte, saia das escolhas de iniciante antes que elas comecem a segurar sua velocidade de up.
+  </Step>
+</Steps>
+
+| Tipo de Jogador | Melhores Tipos de Fruta | Por quê |
+| --- | --- | --- |
+| Iniciante | Ice, Flame, Buddha | Limpezas mais seguras e controle mais fácil |
+| Farmer de Missões | Dough, Magma, Darkness | AoE rápido e agrupamento confiável de inimigos |
+| Jogador de PvP | Dragon, Leopard, Shadow | Burst, pressão e mobilidade |
+| Viajante | Light, Phoenix, Electricity | Valor de movimento e reposicionamento |
+
+<Checklist
+  id="fruit-build-checklist"
+  title="Antes de Travar uma Fruta:"
+  items={[
+    "A fruta melhora sua velocidade de limpeza, não apenas sua contagem de raridade.",
+    "Você tem uma rota para upar ou usá-la de forma eficaz.",
+    "Ela combina com sua arma principal ou plano de combate.",
+    "Você sabe qual é o próximo upgrade que quer depois dela.",
+    "Você não está segurando uma fruta fraca só porque ela parece familiar."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Links Oficiais, Erros e FAQ">
+
+Depois que sua build estiver definida, mantenha suas fontes de pesquisa enxutas. As páginas oficiais mais úteis são a página do jogo, o Trello e o Discord, porque cobrem sistemas ao vivo, mudanças de atualização e alertas da comunidade sem ruído extra.
+
+<Callout type="info" title="Mantenha Suas Fontes Organizadas">
+Use links oficiais para dados ao vivo e depois dependa de uma única tier list para tomar suas próprias decisões. Ficar pulando entre guias demais geralmente cria mais confusão do que clareza.
+</Callout>
+
+| Recurso | Link | Melhor Uso |
+| --- | --- | --- |
+| Página do jogo no Roblox | [Haze Seas no Roblox](https://www.roblox.com/games/6918802270/Haze-Seas) | Iniciar o jogo e verificar o título ao vivo |
+| Trello oficial | [Trello de Haze Piece / Haze Seas](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) | Referências de fruta, arma, raça e sistemas |
+| Discord oficial | [Discord da Haze Studios](https://discord.com/invite/hazeseas) | Codes, anúncios e notas de atualização |
+| X oficial | [RealHazeStudios](https://x.com/RealHazeStudios) | Posts curtos de lançamento e lembretes |
+
+| Erro Comum | Custo | Melhor Ação |
+| --- | --- | --- |
+| Ignorar timers de spawn | Perder janelas de fruta | Acompanhe o ciclo de 60 minutos |
+| Segurar uma fruta iniciante fraca por tempo demais | Missões mais lentas | Troque por uma opção mais forte |
+| Rolar antes de escolher uma build | Recursos desperdiçados | Decida primeiro um caminho |
+| Esquecer a mobilidade | Rotas mais lentas | Mantenha em mente uma fruta boa para viagem |
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor fruta de haze piece para progressão geral?",
+    answer: "Dragon, Dough e Gum são ótimas escolhas gerais porque ajudam no farm, em bosses e no crescimento da build no longo prazo."
+  },
+  {
+    question: "Com que frequência as frutas aparecem em Haze Seas?",
+    answer: "As frutas do mundo aparecem a cada 60 minutos e desaparecem após 20 minutos, então acertar o timing das checagens faz muita diferença."
+  },
+  {
+    question: "A tier list é oficial?",
+    answer: "Não. Ela é uma classificação prática de progressão baseada em velocidade de farm, valor contra bosses, pressão no PvP e mobilidade."
+  },
+  {
+    question: "Devo manter uma fruta iniciante se ela for fácil de usar?",
+    answer: "Só se ela ainda melhorar sua velocidade de limpeza. Caso contrário, suba para uma fruta mais forte assim que puder."
+  }
+]} />
+
+</Section>

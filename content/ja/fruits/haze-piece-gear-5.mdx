@@ -1,0 +1,212 @@
+import { Sparkles, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece gear 5: ビルドガイド、コンボ、装備のヒント",
+  description: "Gum の育成、種族選び、覇気、ボス、終盤の武器の組み合わせを通して、haze piece gear 5 のビルド、周回、ルート取りを学ぼう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Gear+5+Build+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece gear 5** は、ランダムなステ振りではなく、Gum 中心の終盤ルートとして組むのが最適です。
+- **Gum、Buso Haki、機動力** を最初の 3 つの優先事項にしましょう。
+- **Dragon Boss** と **G4 Boss** は、このビルドルートにおける終盤の重要チェックポイントです。
+- **コード、フルーツの出現タイマー、ボスのルート取り** は、純粋な周回よりも成長速度を上げてくれます。
+</Callout>
+
+<Section icon={Sparkles} title="Haze Piece Gear 5 ルート概要">
+
+まずは公式ハブから始めましょう。[Roblox のゲームページ](https://www.roblox.com/games/6918802270/Haze-Seas)、[公式 Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello)、そして [Discord サーバー](https://discord.com/invite/hazeseas) です。現在のゲーム名は Haze Seas ですが、Gum ルートは今でも Gear 5 風の進行ロジックとして最も強力です。
+
+<Callout type="tip" title="ビルドの考え方">
+これは進行計画として捉えましょう。良いフルーツを集め、適切な覇気を解放し、その上に武器とボス報酬を重ねていく流れです。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Gum コア">
+    - **終盤で最も近い路線**
+    - Drums of Liberation ルートを使用
+    - 集中した育成に報いる
+  </Card>
+  <Card title="ハイブリッド剣">
+    - **序盤のダメージが安定**
+    - ボス周回中にも使いやすい
+    - フルーツ専用より育てやすい
+  </Card>
+  <Card title="機動力優先">
+    - **島移動が速い**
+    - クエストの稼働率が上がる
+    - ボスの位置取りが強くなる
+  </Card>
+</CardGrid>
+
+| 優先度 | 最適 | 重要な理由 | 入手ルート |
+|---|---|---|---|
+| フルーツ | **Gum** | Gear 5 らしい成長と進行の中核 | フルーツ抽選 / 取引 |
+| 覇気 | **Buso + Observation** | 火力、防御、生存力 | トレーナーとレベル上げ |
+| ボス | **G4 Boss, Dragon Boss** | 終盤進行に必要な重要アイテム | Bubble Island、Dragon Island |
+| 移動 | **Flash Step, Skywalk, 移動系フルーツ** | クエスト回しとボス巡回を高速化 | トレーナーとフルーツのユーティリティ |
+
+<Callout type="warning" title="重要">
+クエストのループが安定する前に、レアボスを追いかけすぎないでください。弱いビルドは、得る以上に時間を失います。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="最適なビルド要素：フルーツ、種族、覇気">
+
+最もきれいなルートはシンプルです。まず Gum、次に種族補助、最後に覇気です。Haze Seas には十分な強化システムがあるので、雑なビルドはすぐに停滞しがちです。特にフルーツ火力、剣のバースト、生存手段を比較し始めると、その差がはっきり出ます。
+
+<Callout type="info" title="基本方針">
+Gear 5 風の構成を狙うなら、Gum を軸にして、保険用の武器ルートを 1 つ残しておきましょう。
+</Callout>
+
+| スロット | 最適候補 | 有力な代替案 | 合う理由 |
+|---|---|---|---|
+| フルーツ | **Gum** | Dragon, Dough, Light | 終盤ルートに最も近い |
+| 種族 | **D. Clan** | Dragonborne, Beastborne, Skyborne | 体力、スタミナ、Conqueror's Haki へのアクセス |
+| 覇気 | **Buso Haki** | Observation Haki | 火力維持と安全な周回 |
+| ステータス重視 | **フルーツ / 防御** | 剣 / 防御 | ボス戦と進行の安定性に最適 |
+
+| 種族 | 主な価値 | 最適な使い方 | 補足 |
+|---|---|---|---|
+| D. Clan | **体力、スタミナ、Conqueror's Haki** | 終盤の圧力 | 総合力が最も高いルート |
+| Dragonborne | **体力、回復、Skywalk 強化** | 安全な移動 | 耐久重視なら優秀 |
+| Beastborne | **移動速度、スタミナ** | 高速周回 | アクティブなクエストループ向き |
+| Skyborne | **滑空と Skywalk の強化** | 移動 | 島巡りに役立つ |
+
+<Checklist
+  id="gear5-setup"
+  title="このビルドに本格的に入る前に:"
+  items={[
+    "終盤ルートに本腰を入れる前に、Gum を所持するか狙いを定めておく",
+    "Level 350 で Buso Haki、Level 600 で Observation Haki を解放する",
+    "ボス巡回とフルーツ確認のための移動手段を常に用意しておく",
+    "主力のダメージルートを 1 本に絞り、ポイントを薄く広げすぎない"
+  ]}
+/>
+
+<Callout type="success" title="良いルール">
+Gear 5 ビルドは、頻繁な振り直しなしで周回、移動、生存ができるときに強く感じられます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="段階的な周回ルート">
+
+ランダムに島を飛び回るより、安定した進行を望むならこのルートを使いましょう。ゲームのフルーツタイマーとボス報酬は計画性に報いるため、最短ルートはたいてい無駄なリセットを避ける道です。
+
+<Callout type="warning" title="タイミングが重要">
+ワールドフルーツは 60 分ごとに出現し、20 分後に消えます。VIP サーバーでは最大 5 個までフルーツが出現します。
+</Callout>
+
+<Steps>
+  <Step num="1" title="まず有効なコードを受け取る">
+    長時間の周回に入る前に、使えるコードを先に引き換えましょう。現在の例には **OKUCHI**、**PATCH**、**RELEASE**、**FREECASH**、**FREEGEMS** があります。
+  </Step>
+  <Step num="2" title="メインフルーツを確保する">
+    ディーラーのロール、取引、またはワールド出現を使って **Gum** を固定しましょう。まだ取れない場合は、強い周回用フルーツでつなぎながら進みます。
+  </Step>
+  <Step num="3" title="基本の覇気を解放する">
+    **Level 350 で Buso Haki**、**Level 600 で Observation Haki** まで進めましょう。この 2 つの強化は、小さな火力上昇よりずっと重要です。
+  </Step>
+  <Step num="4" title="適切なボスを周回する">
+    **Bubble Island の G4 Boss** と **Dragon Island の Dragon Boss** を優先します。これらのルートが、終盤の Gum 進行を支えます。
+  </Step>
+  <Step num="5" title="武器ルートを 1 つ加える">
+    フルーツと相性の良い剣やスタイルを使いましょう。欲しいのは保険のダメージであって、ステ振りと競合する別ビルドではありません。
+  </Step>
+</Steps>
+
+| コード | 報酬 | 最適な使い方 |
+|---|---|---|
+| OKUCHI | **5 Race Spins** | 種族の引き直し |
+| PATCH | **25 Gems + 2x EXP** | 序盤進行 |
+| RELEASE | **1時間の 2x EXP** | 長時間の周回 |
+| FREECASH | **50,000 Cash** | 強化とロール |
+| FREEGEMS | **50 Gems** | フルーツまたは引き直しの補助 |
+
+<Callout type="tip" title="ルートのコツ">
+EXP ブーストはクエストループの前に使い、種族の引き直しは自分が実際に支えられるものが分かるまで温存しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="武器、ボス報酬、強化ルート">
+
+最適な武器は、ボス戦をきれいに回したいのか、それとも PvP の圧力をより安全にしたいのかで変わります。Gear 5 風のルートでは、武器は主役ではなく補助です。効率よく、維持しやすくしておきましょう。
+
+<Callout type="info" title="武器のルール">
+ボス周回を速くする武器ルートを 1 つ選び、それ以外でステ振りに合わない選択肢の強化は止めましょう。
+</Callout>
+
+| 武器 | 最適用途 | 入手方法 | 合う理由 |
+|---|---|---|---|
+| **Three Sword Style V2** | バーストと周回 | 3SS の進行からクラフト | 総合力の高い剣ルート |
+| **Dark Blade V2** | 終盤火力 | Foggy Castle のアップグレードルート | 最高級の終盤選択肢 |
+| **Golden Staff V2** | 射程圧力 | Golden Staff V1 からの強化ルート | Electricity 系の立ち回りと相性が良い |
+| **Dough Trident** | ボス用ユーティリティ | Dough Boss のドロップ | Gum から方向転換する場合に有効 |
+
+| ボス | ドロップ | 重要な理由 | ルート価値 |
+|---|---|---|---|
+| **G4 Boss** | Gear 4 Book アイテム | Gum 進行を支える | 高 |
+| **Dragon Boss** | Drums of Liberation | Gum Fruit を使う際の重要な終盤報酬 | 非常に高い |
+| **Sea Beast** | Hammer, core, heart | 素材と武器の周回 | 中〜高 |
+| **Ryummy** | Shusui | 剣ルートの補助 | 中 |
+
+終盤の道筋をもっと明確にしたいなら、Gum に安定した剣ルートを組み合わせ、キラキラしたドロップを全部追いかけるのはやめましょう。最強のルートは、クエストのループとボス討伐時間を短縮してくれるルートです。
+
+<Callout type="success" title="最適な組み合わせ">
+Gum、Buso Haki、そして整理された武器ルートの組み合わせは、この進行マップで最も信頼できる Gear 5 風の構成です。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ、到達目標、最終チェックリスト">
+
+終盤は焦点を絞りましょう。次に何を目指すかが明確になるほど、このビルドは強くなります。フルーツ、覇気、ボス報酬、武器強化のどれかです。
+
+<Callout type="tip" title="最終アドバイス">
+火力は十分なのにルート取りが遅いなら、まず移動を改善しましょう。ルート取りが良いのに火力が弱いなら、フルーツか武器ルートを見直してください。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "haze piece gear 5 に最適なフルーツは何ですか？",
+    answer: "Gum が最適です。終盤の進行ルートの軸になり、Drums of Liberation のボス報酬とも噛み合うからです。"
+  },
+  {
+    question: "最初にどの覇気を解放すべきですか？",
+    answer: "まずは火力用の Buso Haki、その次に回避と生存用の Observation Haki です。この順番なら周回効率を保てます。"
+  },
+  {
+    question: "Gear 5 に剣ビルドは必要ですか？",
+    answer: "いいえ。剣は補助ルートであり、中核ではありません。ボス討伐やクエストループを速める場合だけ使いましょう。"
+  },
+  {
+    question: "最終ルートを追う前に何を周回すべきですか？",
+    answer: "有効なコードを回収し、強いフルーツを確保し、覇気を解放してから、G4 Boss と Dragon Boss のドロップを狙いましょう。"
+  }
+]} />
+
+<Checklist
+  id="final-goals"
+  title="終盤の到達目標:"
+  items={[
+    "Gum、または代用として十分強いフルーツを確保する",
+    "Buso と Observation の覇気到達目標に届かせる",
+    "G4 Boss と Dragon Boss のルートを周回する",
+    "武器ルートを 1 本選び、その強化を継続する",
+    "コードとフルーツタイマーを活用して、無駄な周回時間を最小化する"
+  ]}
+/>
+
+</Section>

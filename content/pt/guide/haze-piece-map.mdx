@@ -1,0 +1,205 @@
+import { Map, Target, Shield, Swords, Trophy, Sparkles } from "lucide-react"
+import { Callout } from "@/components/mdx/Callout"
+import { Card, CardGrid } from "@/components/mdx/CardGrid"
+import { Checklist } from "@/components/mdx/Checklist"
+import { FAQ } from "@/components/mdx/FAQ"
+import { Steps, Step } from "@/components/mdx/Steps"
+import { Section } from "@/components/mdx/Section"
+
+export const metadata = {
+  title: "Mapa de Haze Piece: Rotas das Ilhas, Chefes e Progressão",
+  description: "Use o mapa de Haze Piece para roteirizar os chefes de Sea 1 e Sea 2, acompanhar os drops principais e planejar uma progressão mais rápida na reformulação de Haze Seas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Haze+Piece+Map+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de Haze Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O roteamento do **mapa de Haze Piece** funciona melhor quando você combina a ordem das ilhas com os timers de respawn e um alvo de loot.
+- **Sea 1** favorece chefes rápidos, acessórios iniciais e itens de desbloqueio como Tremor Key e Shusui.
+- **Sea 2** é onde as rotas dos melhores armas se abrem, incluindo Enma, Zenith, Dough e Dark Blade.
+- **Disciplina de rota** importa mais do que ficar vagando; mantenha uma lane de dano e uma ferramenta de mobilidade prontas.
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Rota no Mapa de Haze Piece">
+
+O mapa de Haze Piece fica mais fácil de usar quando você o trata como um painel de progressão, e não como uma tela de viagem. Sea 1 ensina a rota, Sea 2 expande a pool de loot, e os superchefes transformam o mapa em um loop de farm cronometrado. Se você sabe para que serve cada ilha, para de perder tempo com desvios de pouco valor e começa a derrotar os chefes que realmente fazem sua build avançar.
+
+<CardGrid cols={3}>
+  <Card title="Missão Primeiro">
+    - **Melhor para:** Up rápido de nível
+    - Foque nas missões das ilhas antes de correr atrás de drops raros
+    - Progresso inicial suave com pouca fricção de viagem
+  </Card>
+  <Card title="Drop Primeiro">
+    - **Melhor para:** Farm direcionado
+    - Engate chefes em cadeia com acessórios ou armas úteis
+    - Forte quando sua build já limpa rápido
+  </Card>
+  <Card title="Desbloqueio Primeiro">
+    - **Melhor para:** Novos sistemas
+    - Corra atrás de itens de rota que abrem chefes mais fortes
+    - Ideal para jogadores avançando para Sea 2
+  </Card>
+</CardGrid>
+
+Use esta comparação rápida para escolher um estilo de rota antes de começar a farmar.
+
+| Estilo de Rota | Melhor para | Paradas Principais | Risco |
+|---|---|---|---|
+| Missão Primeiro | EXP rápida | Starter Island, Clown Island, Logue City | Menos foco em drops |
+| Drop Primeiro | Caça a loot | Shark Park, Marine Base Town, Thriller Boat | Up de nível mais lento |
+| Desbloqueio Primeiro | Portões de progressão | Marine HQ, Fishman Island, Sky Islands | Viagens mais longas |
+| Rotação de Chefes | Farm de endgame | Superchefes de Sea 2 | Maior exigência de build |
+
+<Callout type="tip" title="Lógica da Rota">
+Se um chefe renasce em cerca de 30 segundos, mantenha seu loop curto e sua habilidade de movimento pronta. Se o alvo depende de summon ou é horário, planeje o restante da sessão em torno desse timer.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Sea 1: Starter até Marine HQ">
+
+Sea 1 é o mapa onde sua rota começa a importar de verdade. O melhor caminho inicial não é exploração aleatória; é uma sequência limpa de respawns rápidos, acessórios úteis e alguns itens de desbloqueio que liberam um farm melhor mais tarde. Starter Island, Clown Island, Shark Park, Logue City, Marine Base Town e Marine HQ dão o impulso inicial mais eficiente. Depois disso, você pode seguir para Sky Islands, Impel Jail, Fishman Island e Thriller Boat.
+
+<Steps>
+  <Step num="1" title="Comece com o loop de eliminação mais curto">
+    Comece em Starter Island e limpe a primeira rota de chefe para ganhar EXP sem desperdiçar tempo de viagem.
+  </Step>
+  <Step num="2" title="Adicione chefes de acessórios iniciais">
+    Passe por Clown Island e Shark Park, e então mantenha apenas os chefes que dropam equipamentos que você pode usar imediatamente.
+  </Step>
+  <Step num="3" title="Avance para as ilhas de utilidade">
+    Adicione Logue City e Marine Base Town para pegar drops úteis de meio de jogo e se preparar para o progresso de Haki.
+  </Step>
+  <Step num="4" title="Finalize a cadeia de itens de Sea 1">
+    Faça a rota de Marine HQ, Sky Islands e Thriller Boat quando estiver pronto para farmar Tremor Key, Golden Staff e Shusui.
+  </Step>
+</Steps>
+
+Aqui está o mapa de chefes de Sea 1 em um formato compacto.
+
+| Ilha | Chefe | Respawn | Drop Principal | Prioridade |
+|---|---|---|---|---|
+| Starter Island | Bandit Boss | 30 segundos | Eyepatch | Acessório inicial |
+| Clown Island | Clown Boss | 30 segundos | Clown Nose | Rota inicial de EXP |
+| Shark Park | Shark Boss | 30 segundos | Shark Blade | Primeiro alvo de espada |
+| Marine Base Town | Marine Captain | 30 segundos | Iron Jaw | Suporte para Haki |
+| Logue City | Tashi Boss | 30 segundos | Glasses | Utilidade de meio de jogo |
+| Marine HQ | Ice Admiral | 30 segundos | Tremor Key | Desbloqueio de superchefe |
+| Sky Islands | Thunder God | 30 segundos | Golden Staff | Rota de arma |
+| Thriller Boat | Ryummy | 30 segundos | Shusui | Rota de 3SS |
+
+<Callout type="warning" title="Tempo em Sea 1">
+Não trate todo chefe da mesma forma. Os chefes normais das ilhas renovam rápido, mas a cadeia de superchefes atrás de Marine HQ e as rotas baseadas em summon precisam de um plano mais rígido. Se você perder a janela, sua rota desacelera rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rota de Sea 2: Desbloqueios, Superchefes e Paradas de Endgame">
+
+Sea 2 é onde o mapa deixa de ser um caminho de evolução e vira uma checklist de desbloqueios. As paradas importantes são os chefes que alimentam Three Sword Style, rotas de Dragon, rotas de Dough, progressão de Dark Blade e Zenith. Nesta fase, você não está apenas se movendo entre ilhas; está escolhendo qual rota premium merece seu tempo.
+
+| Sea | Ilha | Chefe | Regra de Spawn | Drop Principal | Por que Isso Importa |
+|---|---|---|---|---|---|
+| Sea 2 | Snowy Graveyard | 3SS Boss | 30 segundos | Green Cloak | Rota de 3SS |
+| Sea 2 | Dragon Island | Mace V2 Boss | 30 segundos | Dragon Orb | Acesso ao Dragon Boss |
+| Sea 2 | Dragon Island | Dragon Boss | Summon | Horns, Drums of Liberation | Rota de equipamento |
+| Sea 2 | Cake Island | Soul Boss | 30 segundos | Mirror Fragment | Rota de Dough |
+| Sea 2 | Mirror World | Dough Boss | Summon | Dough Scarf, Dough Trident | Farm de alto valor |
+| Sea 2 | Flower Capital | Enma Boss | 60 minutos | Enma Sword | Progressão de 3SS |
+| Sea 2 | Foggy Castle | Darkblade V2 Boss | Baseada em rota | Night Hat, Night Necklace | Rota premium de espada |
+| Sea 2 | Shadow Island | Zenith Super Boss | Spawn de storm | Zenith Sword | Espada top garantida |
+| Sea 2 | Deep Seas | Sea Beast | 20 a 60 minutos | Sea Beast Heart, Hammer V2 | Materiais de fim de jogo |
+
+Se você for escolher apenas um alvo de Sea 2, comece com o chefe que desbloqueia o próximo passo da sua build. O mapa fica muito mais fácil quando você faz farm de itens de progressão primeiro e cosméticos raros depois.
+
+<Callout type="success" title="Melhor Abordagem para Sea 2">
+Use Sea 2 para garantir primeiro os itens de rota garantidos e, depois, avance para os drops raros quando seu dano e sua mobilidade estiverem estáveis. Isso mantém suas sessões de farm lucrativas em vez de especulativas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Drops para Priorizar Primeiro">
+
+Nem todo drop merece a mesma atenção. Alguns itens melhoram seus atributos, outros abrem uma nova rota de chefe, e outros se tornam a base de uma build mais forte. O melhor plano no mapa de Haze Piece é simples: garanta primeiro os itens de desbloqueio, depois avance para upgrades de armas e acessórios, e então vá em direção aos drops raros de endgame.
+
+| Drop | Melhor Fonte | Por que Isso Importa | Prioridade |
+|---|---|---|---|
+| Eyepatch | Bandit Boss | Bônus inicial de atributos e primeiro farm fácil | Alta |
+| Shark Blade | Shark Boss | Primeira rota forte de espada | Alta |
+| Tremor Key | Ice Admiral | Abre uma cadeia de superchefes | Alta |
+| Shusui | Ryummy | Necessário para a rota de Three Sword Style | Alta |
+| Enma | Enma Boss | Passo importante na progressão de 3SS | Alta |
+| Dragon Orb | Mace V2 Boss | Invoca o Dragon Boss | Médio-Alta |
+| Mirror Fragment | Soul Boss | Abre a rota de Dough | Médio-Alta |
+| Zenith Sword | Zenith Super Boss | Espada premium garantida | Mais alta |
+| Dough Trident | Dough Boss | Recompensa forte de arma | Alta |
+| Sea Beast Heart | Sea Beast | Material de fim de jogo para builds avançadas | Média |
+
+Se você só tiver tempo para um alvo por sessão, escolha o drop que abre o próximo tier de chefe. Essa abordagem mantém sua rota avançando em vez de travar em farm de baixo impacto.
+
+<Callout type="info" title="Regra de Prioridade">
+Um drop raro só é valioso se combinar com sua rota atual. Se sua build não consegue derrotar o chefe de forma consistente, volte um passo na cadeia e estabilize primeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparação do Mapa, Checklist de Farm e Links Oficiais">
+
+Uma rota limpa começa antes de você pisar na ilha. Você quer uma lane de dano, um plano de mobilidade e um item-alvo para a sessão. Essa é a diferença entre farm eficiente e ficar vagando de chefe em chefe sem concluir nada relevante.
+
+<Checklist
+  id="map-prep"
+  title="Checklist da Sessão:"
+  items={[
+    "Escolha uma lane de dano: Fruta, Espada ou Estilo de Luta",
+    "Anote o tipo de respawn antes de viajar",
+    "Mantenha uma opção de mobilidade pronta para longos intervalos entre ilhas",
+    "Defina um alvo de desbloqueio e um alvo de drop",
+    "Salve nos favoritos os links oficiais do jogo, Trello e Discord"
+  ]}
+/>
+
+Use esta referência rápida quando precisar dos hubs oficiais para checar rotas, novidades de atualização ou acesso ao jogo ao vivo.
+
+| Link | Melhor Uso | URL |
+|---|---|---|
+| Página do jogo no Roblox | Acesso ao jogo e mudanças de título ao vivo | https://www.roblox.com/games/6918802270/Haze-Seas |
+| Trello oficial | Referência de chefes, itens e sistemas | https://trello.com/b/nn8bpTB0/haze-piece-official-trello |
+| Discord oficial | Posts de atualização, códigos e anúncios | https://discord.com/invite/hazeseas |
+| Conta oficial no X | Notícias rápidas e lembretes de lançamento | https://x.com/RealHazeStudios |
+
+<Callout type="warning" title="Segurança do Mapa">
+Não confie em capturas de tela aleatórias para planejar rotas. Use os hubs oficiais para atualizações ao vivo e, depois, mantenha sua própria lista curta de chefes e drops para que sua sessão continue focada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ do Mapa de Haze Piece">
+
+<Callout type="info" title="Respostas Rápidas">
+Estas são as perguntas de rota que os jogadores mais fazem quando começam a usar o mapa de Haze Piece como ferramenta de progressão.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de ler o mapa de Haze Piece?",
+    answer: "Leia por progressão, não por geografia. Comece com os chefes rápidos de Sea 1, avance para os itens de desbloqueio e depois vá para rotas de Sea 2 que sustentem sua build."
+  },
+  {
+    question: "Quais chefes de Sea 1 valem a pena farmar primeiro?",
+    answer: "Starter Island, Shark Park, Logue City e Marine HQ são boas paradas iniciais porque combinam respawns rápidos com drops úteis como Eyepatch, Shark Blade, Glasses e Tremor Key."
+  },
+  {
+    question: "O que devo priorizar primeiro em Sea 2?",
+    answer: "Priorize primeiro os itens de rota, especialmente Enma, Dragon Orb, Mirror Fragment, Zenith Sword e Dough Trident. Esses drops abrem loops de farm mais fortes."
+  },
+  {
+    question: "Timers de respawn fazem tanta diferença assim?",
+    answer: "Sim. Chefes rápidos de 30 segundos são ótimos para loops curtos, enquanto chefes de 60 minutos ou baseados em summon precisam de uma sessão planejada. Ter consciência do timer é o que mantém sua rota eficiente."
+  }
+]} />
+
+</Section>

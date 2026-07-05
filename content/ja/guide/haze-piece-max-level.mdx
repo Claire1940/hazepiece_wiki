@@ -1,0 +1,185 @@
+import { Map, Target, Swords, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Haze Piece Max Level: 2026年の進行上限とルートガイド",
+  description: "Haze Piece Max Level では、2026年の最速レベル上げルート、主要な解放ゲート、最適なクエスト順序、ビルド優先度、そして Haze Seas におけるエンドゲーム進行を解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Max+Level+Guide",
+  date: "2026-07-05",
+  author: "Haze Piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Haze Piece Max Level** は、まずルート取りの問題です。ランダムな周回よりも、クエストの流れ、解放ゲート、ビルドの集中が重要です。
+- **レベルゲート** は 40、350、600、そして 2200+ で、エンドゲーム要素へ最速で進む道筋を形づくります。
+- **コードとブースト** は序盤に役立ちますが、きれいな島クエストの周回に入る前に使うのが最も効果的です。
+- **1本のダメージ軸** と Defense を組み合わせるのが、多くのプレイヤーにとって最も安全なレベリング構成です。
+</Callout>
+
+<Section icon={Map} title="Haze Piece Max Level のルートとレベルゲート">
+
+Haze Piece Max Level は、単なるひとつの数値ではなく、進行ルートとして捉えるのが最適です。現在の Roblox 体験は Haze Seas [RELEASE + UPD 1] として案内されているため、賢い検索方法は、レベル上げ中に両方の名称を押さえておくことです。
+
+最初のセッションでは機動力を確保し、その次に Haki、さらに Sea 2 へのアクセスへ進みましょう。この順番なら処理速度を高く保てて、まだ十分に使えない要素に時間を無駄にしなくて済みます。
+
+<CardGrid cols={3}>
+  <Card title="クエスト先行">
+    - **最速の安定XP**
+    - きれいな島ルート
+    - ソロ進行に最適
+  </Card>
+  <Card title="コード強化スタート">
+    - **EXP、Cash、Gems、Spins**
+    - 序盤の勢いが強い
+    - 長時間の周回前に最適
+  </Card>
+  <Card title="1本のダメージ軸">
+    - **Fruit、Sword、Style**
+    - ステ振りの計画が立てやすい
+    - ボスとクエストの処理が安定する
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="ルートの原則">
+ゲーム側が自然に先へ進ませるまでは、現在の島のクエストチェーンに留まりましょう。ボス狩りはルートを補助するものであって、置き換えるものではありません。
+</Callout>
+
+| レベルゲート | 解放要素 | 重要な理由 |
+|---|---|---|
+| 40 | Flash Step | 機動力向上、引き寄せ時の安全性、島内移動の高速化 |
+| 350 | Buso Haki | 武器と戦闘スタイルのダメージ強化 |
+| 600 | Observation Haki | 回避、ボス戦の安全性、PvP 生存力の向上 |
+| 2200+ | Race Engineer ルート | Sea 2 の Race V2 進行と後半最適化 |
+
+実践的な結論はシンプルです。次の派手なドロップではなく、次のゲートに向けてビルドしましょう。Flash Step、Buso、Observation、Sea 2 までの道筋をすでに把握していれば、その後の伸びはずっと滑らかになります。
+
+</Section>
+
+<Section icon={Target} title="最速のレベリング方法とクエストの流れ">
+
+現在の上限まで最もスムーズに進みたいなら、この順番に従ってください。
+
+<Callout type="warning" title="過剰なボス周回は避ける">
+ボスは有用ですが、早い段階でレアドロップを追いすぎると逆に遅くなることがあります。まずはクエストの周回を安定させましょう。
+</Callout>
+
+<Steps>
+  <Step num="1" title="周回前にブーストを受け取る">
+    Race Spins、EXP ブースト、Cash、Gems などの有効な報酬から始めましょう。セッション開始直後は、長い周回ブロック全体を支えられるため、使うのに最適なタイミングです。
+  </Step>
+  <Step num="2" title="島のクエストチェーンを終わらせる">
+    サイドコンテンツに寄り道する前に、現在の島のクエスト目標を片付けましょう。そうすることで XP の流れが安定し、次の解放へ自然に進めます。
+  </Step>
+  <Step num="3" title="ボスをルートの目印として使う">
+    ボスは、遠回りになるときではなく、進行ルート上にあるときだけ戦いましょう。ここで初めて、ビルドがより良いドロップと高速クリアという形で力を発揮します。
+  </Step>
+  <Step num="4" title="機動力と Haki を予定どおり解放する">
+    Flash Step、Buso Haki、Observation Haki は贅沢品ではなく、進行のための道具です。レベルゲートと必要コストを満たしたら、すぐに取得しましょう。
+  </Step>
+  <Step num="5" title="ビルドが安定したら Sea 2 に進む">
+    弱いステ配分のまま後半コンテンツに入ってはいけません。焦って称号や見栄を追うより、集中したビルドと安定した処理速度のほうが重要です。
+  </Step>
+</Steps>
+
+| 方法 | XP 価値 | 最適な用途 | リスク |
+|---|---|---|---|
+| クエスト周回 | 最も安定して高い | 序盤〜中盤のレベリング | 集中を保てば低い |
+| ボス周回 | ボーナスXPとドロップが強い | ボスがルートに合うとき | 遠回りしすぎると中程度 |
+| フルーツ集め | 生XPより実用性重視 | 処理ツールの強化 | レベリングを止めすぎると時間ロス |
+| コード | 一気に得る価値、周回そのものではない | 長時間セッションの前 | 実際のルートを無視するとXPは増えない |
+
+有効な報酬セットとしては、**OKUCHI**、**PATCH**、**RELEASE**、**FREECASH**、**FREEGEMS** のようなコード系ブーストを意識しておきましょう。勢いが切れてから使うより、長いレベリングセッションの最初に使うほうが圧倒的に価値があります。
+
+</Section>
+
+<Section icon={Swords} title="レベリング中のおすすめビルド">
+
+レベル上げが快適か苦痛かは、ビルドで決まります。Fruit ビルドはフルーツで集団処理が速いときに最適、Sword ビルドは武器の入手・運用が強いときに最適、Fighting Style ビルドは安定した近接火力を求めるときに最適です。
+
+<Callout type="success" title="ビルドルール">
+ほとんどの場合、**Defense** を第2優先にしましょう。すべての軸にポイントを分散させると、伸びが遅くなりがちです。
+</Callout>
+
+| ビルド | ステータス優先度 | 序盤に最適なツール | 切り替え時期 |
+|---|---|---|---|
+| Fruit | Fruit > Defense | Flame、Ice、Light、Shadow | 処理速度がクエスト密度に追いつかなくなったら |
+| Sword | Sword > Defense | Shark Blade、Shusui、Gryphon | 熟練度の伸びがクエスト報酬より遅く感じたら |
+| Fighting Style | Style/Combat > Defense | Black Leg、Electro、Fishman | リーチや AoE が周回の妨げになり始めたら |
+
+Haki も同じレベリング設計の一部です。周回中の手間を減らしてくれるからです。
+
+| Haki | 解放条件 | レベリング中の価値 |
+|---|---|---|
+| Flash Step | Level 40 | 移動高速化、安全な引き寄せ、ルート取りの改善 |
+| Buso Haki | Level 350 | 武器とスタイルのダメージ強化 |
+| Observation Haki | Level 600 | 回避、ボス戦の安全性、生存力向上 |
+| Conqueror's Haki | D. Clan | 集団制御と希少レース価値 |
+
+Haki の表は、チェックポイント一覧として使いましょう。ビルドが強くても移動手段が遅れていれば、プレイ感はまだ遅いままです。優秀なレベリングキャラは、たいていメインのダメージ軸と、次に解放される便利ツールを組み合わせています。
+
+</Section>
+
+<Section icon={Shield} title="上限を追う前のチェックリスト">
+
+結局のところ、最速ルートとは、燃え尽きずに繰り返せるルートです。整理されたチェックリストがあれば、進行を効率化する地味だけど重要な要素を忘れずに済みます。
+
+<Callout type="info" title="準備チェック">
+最高のレベリングセッションは、戦闘が始まる前から始まっています。ブーストを整え、ステ軸を決め、次のゲートを把握しておきましょう。
+</Callout>
+
+<Checklist
+  id="haze-piece-max-level-checklist"
+  title="周回前チェックリスト:"
+  items={[
+    "最初のクエスト周回前に有効コードを受け取る",
+    "メインのダメージ軸を1つ決め、Defense を第2優先にする",
+    "ボスに寄り道する前に島のクエストを終わらせる",
+    "Flash Step、Buso Haki、Observation Haki を適切なタイミングで解放する",
+    "後半コンテンツに入る前に 2200+ の Sea 2 ルートに備える"
+  ]}
+/>
+
+| 公式リソース | 最適な用途 | リンク |
+|---|---|---|
+| Roblox ゲームページ | 現在の体験版を遊び、最新タイトルを確認する | [Haze Seas on Roblox](https://www.roblox.com/games/6918802270/Haze-Seas) |
+| 公式 Trello | フルーツ、武器、種族、ボス、各種システムの参照 | [Haze Piece / Haze Seas Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) |
+| Discord サーバー | 更新情報、コード、コミュニティ支援、パッチノート | [Haze Studios Discord](https://discord.com/invite/hazeseas) |
+| X アカウント | 短い更新投稿とリリース通知 | [@RealHazeStudios](https://x.com/RealHazeStudios) |
+| YouTube チャンネル | トレーラーとビジュアル更新プレビュー | [Haze Studios YouTube](https://www.youtube.com/@RealHazeStudios) |
+
+ライブの変更を確認したいなら、まずこれらの公式ハブを使いましょう。そうすれば、古い前提ではなく、現在のゲーム状態に沿ったルートを保てます。
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="よくある質問">
+ここでの回答は、噂に基づく近道ではなく、現在の進行ルートに焦点を当てています。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "目指すべき Haze Piece の最大レベルは 1 つだけありますか？",
+    answer: "Haze Piece Max Level は固定のスローガンではなく、現行エンドゲームへ向かうルートとして捉えてください。大事なのは主要な解放ゲートに到達し、その後も集中したビルドで Sea 2 に進むことです。"
+  },
+  {
+    question: "レベリングを速くするために最初に何をすべきですか？",
+    answer: "有効な報酬を受け取り、1つのダメージ軸を選び、何より先に島のクエストを片付けましょう。そうすることで最も良い XP の流れが生まれ、無駄な寄り道を防げます。"
+  },
+  {
+    question: "レベリング中にボスを周回すべきですか？",
+    answer: "はい。ただし、ボスがルートに合っている場合だけです。ボスはメインのレベリング計画ではなく、ドロップや追加価値をもたらすサイド目標として使うのが最も強いです。"
+  },
+  {
+    question: "新規プレイヤーに最適な構成は何ですか？",
+    answer: "Fruit、Sword、Fighting Style のいずれかを主軸にし、Defense を第2優先にした構成が最も安全です。早めに Flash Step を取り、その後はレベルに合わせて Buso Haki と Observation Haki を目指しましょう。"
+  }
+]} />
+
+</Section>

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "fruits": "Frutas",
+    "haki": "Haki",
+    "weapons": "Armas",
+    "bosses": "Chefes"
+  }
+}

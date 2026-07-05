@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Haze Piece ドラゴンフルーツ：ティア表、ビルド、出現のコツ",
+  description: "Haze Piece のドラゴンフルーツが現在の Haze Seas メタでどの位置にあるのかを解説します。ティア評価、最適なビルド、出現の傾向、実践的な成長ルートまでまとめています。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Dragon+Fruit+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Haze Piece Dragon Fruit** は、強力な範囲攻撃、変身価値、ボスへの圧力を備えた神話級の終盤向け選択肢です。
+- **最も価値を発揮する場面** は、クエストの密集地帯、ボス戦、PvP のバースト勝負のように、射程と火力の両方が重要な場面です。
+- **ステータス優先度** は、通常は Fruit を最優先、次に Defense、その弱点を Haki と機動力で補う形が基本です。
+- 現在の構成のほうが島をより速く、より安全に回せるなら、序盤に全面リセットを急ぐ必要はありません。
+</Callout>
+
+<Section icon={Sparkles} title="Haze Piece Dragon Fruit の概要">
+
+Haze Piece Dragon Fruit は、高価値の神話級ラインに位置しています。真価を発揮するのは、アカウントに十分なレベル、資金、機動力が揃っていて、その性能を支えられる段階です。現在の Haze Seas の構造では、Dragon Fruit は初日から狙うものというより、終盤のアップグレードとして扱うのが基本です。
+
+| 項目 | Dragon Fruit の概要 |
+|---|---|
+| レアリティ | 神話級 |
+| 役割 | 変身 DPS、範囲圧力 |
+| 向いている用途 | ボス戦、PvP、密集狩り |
+| 主な強み | 強い火力の発生区間と広い攻撃範囲 |
+| 主な弱点 | タイミングと安定したビルドが必要 |
+| 総合評価 | 適切なステータスと Haki があれば最上位級 |
+
+<CardGrid cols={3}>
+  <Card title="PvE周回">
+    - **広いヒット範囲**
+    - 密集クエストに強い
+    - 敵がきれいに固まるほど有利
+  </Card>
+  <Card title="ボス火力">
+    - **高いバースト区間**
+    - しっかりした削り性能
+    - きれいな位置取りが活きる
+  </Card>
+  <Card title="PvP圧力">
+    - **無視しづらい脅威**
+    - 相手の移動ミスを誘発
+    - Observation Haki との相性が良い
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="ビルドルール">
+Dragon Fruit は、1つの主力火力ルートに集中したときに最も強くなります。早い段階で分散すると、周回速度も耐久力も下がりやすくなります。
+</Callout>
+
+| 用途 | Dragon が合う理由 | 合わせたい要素 |
+|---|---|---|
+| ソロクエスト | 高い集団火力と安全な処理 | Defense、機動力、Haki |
+| ボス狩り | 準備後のバーストが強い | Buso Haki、火力アクセサリー |
+| PvP | 読みやすい動きを咎めやすい | Observation Haki、間合い管理 |
+| 終盤周回 | ルートが最適化されているほど効率的 | 高速移動、スタミナ補助 |
+
+</Section>
+
+<Section icon={Map} title="Dragon Fruit の出現と入手ルート">
+
+Dragon Fruit は、運よりもルートで考えるほうが価値を出しやすい果実です。現在の Haze Seas のフルーツシステムは、ワールド出現、ディーラーロール、トレード圧が絡むため、最善策はマップをさまようことではなく、安定した周回ループを1本持つことです。
+
+<Callout type="warning" title="タイミングが重要">
+ワールドフルーツは60分ごとに出現し、20分で消えます。VIP サーバーでは最大 5 個のフルーツ出現を保持できます。ゆっくり推測するより、素早く確認するほうが強いです。
+</Callout>
+
+<Steps>
+  <Step num="1" title="資金とコードから始める">
+    まずは初期報酬で少し資金を作ってから、ロールや高額購入に進みましょう。そうすれば、最初の Dragon 狙いで進行度を大きく削られずに済みます。
+  </Step>
+  <Step num="2" title="出現時間を追う">
+    木のルートをタイマーで管理します。20分の消滅時間を逃すと、フルーツは消えてルート移動が無駄になります。
+  </Step>
+  <Step num="3" title="コントロールしたいならディーラーロールを使う">
+    すぐに結果が欲しいなら、待つよりディーラーロールのほうが向いています。長時間の周回でも繰り返しやすいのも利点です。
+  </Step>
+  <Step num="4" title="最後はトレードで詰める">
+    Dragon Fruit が目的で、すでに別のプレイヤーが持っているなら、終わりまで引き続けるよりトレードのほうがきれいな解決策になることがあります。
+  </Step>
+</Steps>
+
+| ルート | 最適な用途 | 補足 |
+|---|---|---|
+| ワールド出現チェック | 無料狙いの探索 | タイマーと固定島ループがあると最強 |
+| フルーツディーラーロール | 即時試行 | 待つより自分で管理したい人向け |
+| トレード | 目的特化の入手 | 現在の価値を把握してからが有利 |
+| VIP サーバー周回 | 少人数でのフルーツ管理 | 繰り返しルート確認を合わせやすい |
+
+| 公式リソース | 役立つ理由 |
+|---|---|
+| [Official Roblox game page](https://www.roblox.com/games/6918802270/Haze-Seas) | 現在の Haze Seas 体験への起点 |
+| [Official Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) | システム参照、アイテム、ルート計画に最適 |
+| [Official Discord](https://discord.com/invite/hazeseas) | 更新情報、コード配布、コミュニティ連携に便利 |
+
+</Section>
+
+<Section icon={Target} title="Dragon Fruit の最適ビルドと相性">
+
+Dragon Fruit は柔軟ですが、「全部押して勝つ」タイプの果実ではありません。最も強い結果を出すには、育成、ボス戦、PvP のどれに使うかを明確に合わせる必要があります。そこで初めて、この果実の広い攻撃力と変身価値が本領を発揮します。
+
+<Callout type="info" title="プロのコツ">
+Dragon Fruit が扱いづらいと感じるなら、原因は果実そのものより、ルートかステータスにあることが多いです。きれいな間合い管理と、狙う相手の選び方がとても重要です。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Fruit 主軸">
+    - **Dragon の恩恵が最大**
+    - 直接火力に最適
+    - Defense の補助が必要
+  </Card>
+  <Card title="ハイブリッド構成">
+    - **柔軟な火力配分**
+    - 混合コンテンツで安全
+    - バーストはやや控えめ
+  </Card>
+  <Card title="PvP 制御">
+    - **強い仕掛けのタイミング**
+    - Haki の発動管理が重要
+    - 読み合いが活きる
+  </Card>
+</CardGrid>
+
+| ビルド種別 | ステータス重視 | 強み | トレードオフ |
+|---|---|---|---|
+| Fruit 主軸 | Fruit 最優先、Defense 次点 | 最高の火力上限 | ミス時の自由度が低い |
+| ハイブリッド | Fruit、Defense、補助ステータス | 全体的に安定 | 純粋な Fruit 型よりバーストが低い |
+| PvP 制御 | Fruit、Defense、Haki 補助 | 安全な対人戦と圧力 | より高いタイミング精度が必要 |
+| ボスハンター | Fruit、Defense、機動力補助 | 強い反撃区間 | 気軽な巡回にはやや不便 |
+
+| 状況 | Dragon がすべきこと | 引くべきタイミング |
+|---|---|---|
+| 密集した雑魚 | AoE で開幕し、素早く処理 | 敵が散り始めたら |
+| ボス戦 | きれいな隙に火力を合わせる | ボスの行動パターンがリセットされた後 |
+| PvP | 移動を強要してミスを咎める | クールダウンが切れたとき |
+| 移動中の戦闘 | 射程で空間を支配する | 地形で角度が崩れるとき |
+
+</Section>
+
+<Section icon={Shield} title="Dragon Fruit 成長チェックリスト">
+
+Dragon Fruit は、アカウントの他の要素が支えられるほど強くなります。つまり、Haki、移動手段、資金、そして安定した周回ルートが必要です。これらが不足していると、強い果実でも重たく感じられます。
+
+<Callout type="success" title="準備チェック">
+すでに効率よく周回でき、圧力に耐え、勢いを落とさず島を移動できるようになったなら、Dragon Fruit を優先する価値があります。
+</Callout>
+
+<Checklist
+  id="dragon-fruit-prep"
+  title="Dragon Fruit 準備チェックリスト:"
+  items={[
+    "再抽選やトレードの前に、安定した資金を確保する。",
+    "Dragon Fruit でルートが遅くならないよう、基本の機動力を解放する。",
+    "本格的なボス周回の前に Buso Haki を整える。",
+    "PvP や安全な戦闘を重視するなら Observation Haki も追加する。",
+    "序盤からポイントを散らしすぎず、主力火力のステータスを1つに絞る。"
+  ]}
+/>
+
+| 成長段階 | 最優先事項 | 重要な理由 |
+|---|---|---|
+| 序盤 | 速いクエスト進行と扱いやすい果実 | 資金とレベルを効率よく伸ばせる |
+| 中盤 | Haki の解放と移動改善 | Dragon Fruit を安全に使いやすくなる |
+| 終盤 | ボス戦と PvP の最適化 | Dragon の火力区間を最大化できる |
+| エンドゲーム | ルート効率とトレード | Dragon を本当の強化に変えやすい |
+
+<Callout type="tip" title="ルートの考え方">
+良い Dragon ルートは、ランダムな放浪ではなく、繰り返し回せる島を軸に作ります。移動に使う時間が短いほど、果実の価値は大きく返ってきます。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dragon Fruit FAQ">
+
+<Callout type="info" title="FAQ メモ">
+ここでは、Dragon Fruit をいつ保持するか、いつ狙うか、そして何が性能を引き出すのかといった、実践的な進行に焦点を当てています。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Haze Piece Dragon Fruit は、より速い初期向けフルーツよりも残す価値がありますか？",
+    answer: "多くの場合はあります。ただし、アカウントがそれに見合う段階にある場合です。Dragon Fruit は終盤で大きく価値を出しますが、ゆっくり重いプレイスタイルを支えられる構成でなければ真価は出ません。"
+  },
+  {
+    question: "初心者はすぐに Dragon Fruit を追うべきですか？",
+    answer: "必ずしもそうではありません。序盤は、資金、Haki、移動手段が揃うまで、よりシンプルな果実のほうがクエスト処理で得をすることが多いです。"
+  },
+  {
+    question: "Haze Seas で Dragon Fruit を最も支えるものは何ですか？",
+    answer: "Buso Haki、Observation Haki、Defense への投資、そしてきれいな島ルートの4つが、Dragon Fruit をかなり強く感じさせてくれます。"
+  },
+  {
+    question: "Dragon Fruit は周回向きですか、それとも PvP 向きですか？",
+    answer: "どちらにも対応できますが、敵が射程内にとどまる場面で最も輝きます。そのため、ボス戦や密集周回で特に強力です。"
+  }
+]} />
+
+</Section>

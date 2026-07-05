@@ -1,0 +1,238 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece swords: ティアリスト、強化、ロードアウト",
+  description: "Haze Seas 向けの Haze Piece の swords ガイドでは、最適なブレード、強化ルート、戦闘スタイルの組み合わせ、そしてスムーズな進行のための公式リンクを紹介します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Swords+Loadout+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece swords** は、主要なダメージの軸を1つに絞り、強化を分散させないと最も効果を発揮します。
+- **最優先事項** は、マスタリー条件、ボスドロップ、そして Haki や移動手段のような補助ツールです。
+- **序盤の最適ルート** は、信頼できる剣に低コストの戦闘スタイルを組み合わせて対応範囲を広げることです。
+- **終盤の価値** は、Dark Blade V2、3SS V2、Zenith のようなルート武器から得られます。
+- **公式リンク** は、アップデート経路、武器の条件、ゲーム内の変更点を確認するのに役立ちます。
+</Callout>
+
+<Section icon={Map} title="剣の進路を選ぶ">
+
+haze piece swords は、特化したビルドほど報われます。あらゆる武器タイプにポイントを分散すると、レベル上げもボス処理も遅くなります。基本はシンプルです。剣主体のルートを選び、足りない部分は補助スタイルで補い、マスタリーと島の進行が追いついた時だけ希少な強化を狙いましょう。
+
+<Callout type="tip" title="ビルドルール">
+武器の軸は1つをコアのダメージ源として維持しましょう。機動力、集団制御、あるいは安全な周回のために、フルーツや戦闘スタイルを活用してください。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="剣主体">
+    - **最大バースト**
+    - ボスへの高火力
+    - Haki とマスタリーで伸びやすい
+  </Card>
+  <Card title="ハイブリッドビルド">
+    - **最も柔軟**
+    - クエスト処理がしやすい
+    - PvE と PvP の両方に向く
+  </Card>
+  <Card title="スタータービルド">
+    - **低コスト**
+    - 序盤のレベリングが簡単
+    - 後から切り替えやすい
+  </Card>
+</CardGrid>
+
+| ビルド | 主軸 | 強み | 向いている用途 |
+|---|---|---|---|
+| 剣主体 | 剣 + 防御 | **単体火力が最も高い** | ボス周回、終盤ルート |
+| ハイブリッド | 剣 + フルーツ/スタイル | **バランスの良い対応力** | クエスト、混成戦闘、移動 |
+| スタータービルド | 基本剣 + スタイル | **安くて安定** | 新規プレイヤー、序盤の島 |
+
+| 優先度 | まず強化するもの | 重要な理由 |
+|---|---|---|
+| 1 | 武器マスタリー | より良い技と滑らかなコンボを解放する |
+| 2 | 防御 | ボスとの殴り合いで生存しやすくなる |
+| 3 | 移動 | 位置調整や遠距離対象の追跡に役立つ |
+| 4 | 補助スタイル | 剣の射程が足りない場面で制御を追加する |
+
+</Section>
+
+<Section icon={Swords} title="最初に狙うべき最強の剣">
+
+すべてのブレードが初日に追う価値があるわけではありません。強力なルート剣は、たいていボス、素材、または進行条件に紐づいています。つまり、本当に重要なのは、ドロップを掘り始める前に必要条件の流れを整えることです。
+
+<Callout type="warning" title="進行警告">
+レベル、マスタリー、そして島へのアクセスが揃っていないうちに、希少な剣だけを追いかけすぎないでください。使えるようになる前にインベントリで眠っている武器は、「上位互換」でも弱く感じることがあります。
+</Callout>
+
+| 剣 | ティア | 入手方法 | 最適用途 |
+|---|---|---|---|
+| Dual Dark Blade | S+ | Ancient Blade Relics、Dark Blade V2 のマスタリー、Abyssal Eye、Beli を使い Doran the Forge でクラフト | 終盤 PvE、PvP バースト |
+| Three Sword Style V2 | S+ | 3SS V1 から、マスタリー300と Ancient Blade Relics でクラフト | 剣主体のバーストと周回 |
+| Dark Blade V2 | S | 犠牲とボス手順の後、Foggy Castle で強化ルートを進める | 万能火力、強い進行性能 |
+| Zenith | S | Shadow Island の Zenith Boss から確定ドロップ | Sea 2 の剣進行 |
+| Gryphon | A | Red Emperor から5%ドロップ | PvP 圧力とコンボ |
+| Shusui | A | Thriller Boat の Ryummy から5%ドロップ | 3SS 進行に必要なルート |
+| Enma | A | Enma Boss から10%ドロップ | 3SS 進行に必要なルート |
+| Dough Trident | A | Mirror World の Dough Boss からドロップ | ボス周回とハイブリッドビルド |
+| Ace | A | Final Quest のプールから入手できる希少報酬 | コレクタービルドとバースト戦闘 |
+
+| ルート剣 | プレイヤーが狙う理由 | 狙うタイミング |
+|---|---|---|
+| Shusui | Three Sword Style の道を開く | 中盤進行 |
+| Enma | 3SS の必要条件を完成させる | Sea 1 後半、または Sea 2 |
+| Zenith | 剣ビルドの終盤へ進む確定ステップ | Sea 2 解放直後 |
+| Dark Blade V2 | 全体的な価値が高いプレミア強化ルート | 犠牲ルートを回せる時 |
+
+<Callout type="info" title="編集部おすすめ">
+迷わず進めたいなら、まず Shusui、Enma、Zenith を狙い、その後は好みの戦闘リズムに応じて Dark Blade V2 か 3SS V2 に分岐するとよいでしょう。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="強化ルートと解放手順">
+
+Haze Seas における優秀な剣ルートは、運任せのガチャではありません。段階的な連鎖です。つまり、考え方はプランナーそのものです。レベル条件を満たし、移動手段を確保し、適切な Haki を入手し、火力が安定してから武器条件を周回する、という流れです。
+
+<Callout type="info" title="ルートの考え方">
+剣プランがボスドロップに依存するなら、そのボスルートもビルドの一部です。島の連なりは寄り道ではなく、強化準備として扱いましょう。
+</Callout>
+
+<Steps>
+  <Step num="1" title="武器の軸を固定する">
+    剣主体で行くのか、ハイブリッド構成にするのか、あるいは安価な序盤のつなぎを使うのかを決めましょう。これでステータスと資源の方向性が揃います。
+  </Step>
+  <Step num="2" title="移動手段と Haki を解放する">
+    Flash Step は早い段階で役立ち、Buso Haki はレベル350で価値が高まり、Observation Haki は後半の安全な戦闘や回避で真価を発揮します。
+  </Step>
+  <Step num="3" title="前提となる剣を集める">
+    まずはルート上の剣を進めましょう。例として、3SS 用の Shusui、あるいは Zenith や Dark Blade V2 へつながるボスルートがあります。
+  </Step>
+  <Step num="4" title="強化チェーンを完成させる">
+    最初に使える形で止めず、マスタリー、素材、ボス解放を使って最終形まで仕上げましょう。
+  </Step>
+</Steps>
+
+| 解放要素 | 条件 | 重要な理由 |
+|---|---|---|
+| Flash Step | レベル40 | 序盤の移動で安全な周回を可能にする |
+| Buso Haki | レベル350 と $100,000 | 武器と戦闘スタイルの火力を強化する |
+| Observation Haki | レベル600 と $150,000 | 回避と PvP の安全性を高める |
+| 3SS V1 | Zenith、Shusui、Enma をマスタリー300で所持 | Three Sword Style の道を開く |
+| Dark Blade V2 ルート | Foggy Castle の強化チェーン | プレミアな終盤剣ルート |
+
+| 実践順序 | 行動 | 結果 |
+|---|---|---|
+| 序盤 | クエストでレベルを上げる | Haki と移動への到達が早くなる |
+| 中盤 | ルート剣を周回する | マスタリーの進行が滑らかになる |
+| 終盤 | 強化を完成させる | ボス戦と PvP の出力が強くなる |
+
+<Callout type="tip" title="高速進行のコツ">
+クエスト周回やボス周回の前に、EXP と資金のブーストを使いましょう。周回時間が短く感じられ、剣ルートの進行を止めずに済みます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="剣ビルドに最適な戦闘スタイル">
+
+戦闘スタイルが穴を埋めると、剣ビルドは一気に強くなります。AoE を足すものもあれば、スタン圧力や安全な近接火力を補うものもあります。大事なのは、同じ弱点をもう一度重ねないことです。
+
+<CardGrid cols={4}>
+  <Card title="Black Leg">
+    - **安い導入**
+    - 強い AoE
+    - 周回支援に最適
+  </Card>
+  <Card title="Electro">
+    - **スタン圧力**
+    - 良好なバースト
+    - 剣との相性が非常に良い
+  </Card>
+  <Card title="Dragon Claw">
+    - **攻撃的**
+    - 高いバースト感
+    - PvP の殴り合いに強い
+  </Card>
+  <Card title="Cyborg">
+    - **ハイブリッド射程**
+    - 柔軟なダメージ
+    - 混成戦闘に向く
+  </Card>
+</CardGrid>
+
+| スタイル | コスト | 強み | 剣との相性 |
+|---|---|---|---|
+| Black Leg | 50,000 Beli | AoE とコンボの流れ | 周回と序盤支援に良い |
+| Electro | 450,000 Beli | スタンとバースト | **最も万能な剣の相棒** |
+| Dragon Claw | 150 Gems | 攻撃的な圧力 | PvP と近距離の差し返しに強い |
+| Fishman | 450,000 Beli | 重い一撃 | 耐久寄りの近接構成と相性が良い |
+| Cyborg | 800,000 Beli | 近接と遠距離のハイブリッド手段 | 柔軟性を重視するなら有力 |
+
+| 使う場面 | 推奨スタイル | 理由 |
+|---|---|---|
+| 序盤の周回 | Black Leg | 安くて作りやすい |
+| 剣のバースト | Electro | スタンの隙とコンボ制御を追加できる |
+| PvP の殴り合い | Dragon Claw | 短い戦闘で強く押し込める |
+| 混成コンテンツ | Cyborg | 射程の穴と圧力を補える |
+
+<Callout type="success" title="最良の組み合わせ">
+haze piece swords を本気でやるなら、Electro が最も扱いやすい万能パートナーです。大幅なリセットを強制せずに制御を追加できます。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="チェックリスト、公式リンク、FAQ">
+
+効率を保つ最短ルートは、進行ルートを見える化することです。公式ページをブックマークし、更新チャンネルを追い、短い目標リストを用意して、気分で別の周回に流れないようにしましょう。
+
+<Callout type="tip" title="整理整頓を忘れずに">
+長い剣周回に入る前に、必ず公式情報を確認しましょう。条件、ボス、更新ルートが変わった時に、無駄な時間を大きく減らせます。
+</Callout>
+
+<Checklist
+  id="sword-progression-goals"
+  title="剣ルートのチェックリスト:"
+  items={[
+    "主軸となるダメージ源を1つ選ぶ: 剣、ハイブリッド、またはスターター",
+    "Flash Step と最初に使える Haki を解放する",
+    "希少な強化を狙う前に、まず1本ルート剣を周回する",
+    "ボスとの殴り合いを耐えられるだけの防御を確保する",
+    "公式リンクで武器ルートと最新情報を確認する"
+  ]}
+/>
+
+| 公式リソース | 最適な用途 | リンク |
+|---|---|---|
+| Roblox ゲームページ | ライブ環境を起動する | [Robloxページを開く](https://www.roblox.com/games/6918802270/Haze-Seas) |
+| 公式 Trello | 武器、スタイル、ボス、システム | [Trelloを開く](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) |
+| Discord サーバー | コード、更新情報、コミュニティの助け | [Discordに参加](https://discord.com/invite/hazeseas) |
+| X アカウント | 短い告知とリリースノート | [Xプロフィールを見る](https://x.com/RealHazeStudios) |
+| YouTube チャンネル | トレーラーと映像紹介 | [YouTubeを視聴](https://www.youtube.com/@RealHazeStudios) |
+
+<FAQ items={[
+  {
+    question: "haze piece swords で最初に狙うべき剣ルートは何ですか？",
+    answer: "まずは信頼できる序盤剣から始め、Flash Step を解放し、レベルとマスタリーが整ったら Shusui や Zenith のようなルート武器へ進みましょう。"
+  },
+  {
+    question: "ハイブリッドビルドは純剣より優れていますか？",
+    answer: "ハイブリッドは混成コンテンツに向いていますが、純剣はルートにしっかり乗れば、ボス火力や終盤バーストでより伸びやすいです。"
+  },
+  {
+    question: "Dark Blade V2 と 3SS V2 はどちらを先に狙うべきですか？",
+    answer: "入手可能な素材と好みの戦闘スタイルに合う方を選びましょう。Dark Blade V2 はプレミアで柔軟、3SS V2 は剣主体の強力なルートです。"
+  },
+  {
+    question: "すでに剣を使っているなら、戦闘スタイルは必要ですか？",
+    answer: "はい。Electro や Black Leg のような補助スタイルは、AoE、スタン制御、移動の穴を埋めてくれるため、剣ビルドがかなり扱いやすくなります。"
+  }
+]} />
+
+</Section>

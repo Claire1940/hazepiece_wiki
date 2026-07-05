@@ -1,0 +1,244 @@
+import { Map, Swords, Shield, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Haze Pieceのボス：ドロップ、ルート、最適な攻略順",
+  description: "Haze SeasのRobloxリワークと進行ループにおける、Sea 1、Sea 2、そしてスーパー・ボスのHaze Pieceボス、ボスドロップ、出現ルール、ルート順を解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Drops+Route+Guide",
+  date: "2026-07-05",
+  author: "Haze Piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Haze Pieceのボス**は、Sea 1の解放、Sea 2のパワースパイク、そして召喚専用のスーパー・ボスという順で倒すのが最適です。
+- **Sea 1のボス**は序盤のアクセサリーや解放要素を落とすため、レアな追跡戦よりも30秒リスポーンの周回を優先しましょう。
+- **Sea 2のボス**は、特にEnma、Zenith、Dough、Darkblade V2のルートで、より強力な剣系ルートを解放します。
+- **最適なボス用ビルド**は、1本の火力軸、機動力、そして安定したHakiツールを重視して、安全に処理できる構成にします。
+</Callout>
+
+<Section icon={Map} title="Haze Pieceのボス概要">
+
+Haze Pieceのボスは単なる火力チェックではなく、Haze Seasで勢いを作るための最も効率的な手段です。最短ルートはだいたいシンプルで、まずSea 1のボスを倒して序盤装備を集め、次にSea 2へ進んでより強い解放要素を獲得し、その後で召喚ボスや長いクールダウンを持つスーパー・ボスに時間を使います。
+
+**動画の要点:**
+- ボス周回は基本的に、総討伐数よりも**ドロップ優先度**が重要です。
+- Sea 1のボスは**序盤のアクセサリーと武器**に最適です。
+- Sea 2のボスは通常、**終盤進行の門**を開きます。
+- スーパー・ボスは、ビルドで素早く安全に倒せるようになってから狙う価値があります。
+
+公式情報: [Official Roblox experience](https://www.roblox.com/games/6918802270/Haze-Seas)、[Official Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello)、[Discord server](https://discord.com/invite/hazeseas)。2026-07-05更新。
+
+<CardGrid cols={4}>
+  <Card title="Sea 1のボス">
+    - **30秒リスポーン**
+    - 序盤アクセサリー
+    - 高速EXP周回
+  </Card>
+  <Card title="Sea 2のボス">
+    - **上位ドロップ**
+    - 武器ルート
+    - 終盤準備
+  </Card>
+  <Card title="スーパー・ボス">
+    - **召喚条件**
+    - レア素材
+    - 高級武器
+  </Card>
+  <Card title="最優先">
+    - **まずドロップ**
+    - 次に火力
+    - 見た目系は最後
+  </Card>
+</CardGrid>
+
+| ルート | 最適な周回時期 | 主な報酬 | 優先度 |
+|---|---|---|---|
+| Sea 1の島ボス | 序盤レベリング | アクセサリー、EXP、基本武器 | 高 |
+| Sea 1のスーパー・ボス | 中盤 | 召喚アイテム、レア素材 | 中 |
+| Sea 2のボス | 終盤への移行 | 強力な剣、主要素材 | 高 |
+| Sea 2のスーパー・ボス | エンドゲーム | 高級武器、レアアクセサリー | 非常に高い |
+
+<Callout type="tip" title="ルートの基本ルール">
+もしあるボスが小さなアクセサリーしか落とさず、近くにもっと良い進行ボスがいるなら、先に進行ボスを倒しましょう。効率的なルーティングは、行き当たりばったりの周回に勝ります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sea 1のボスルートとドロップ対象">
+
+Sea 1では、ビルドが本格的に形になり始めます。ここにいる多くのボスはリスポーンが速いため、完璧さを追う必要はありません。狙うべきは、有用なドロップを積み重ねつつレベルを上げ、次の島を解放していくことです。ルートは短くまとめ、明確な目的なしに島を行き来しないようにしましょう。
+
+<Callout type="warning" title="序盤で避けるべきミス">
+レアそうに見えるという理由だけで、1体のボスに長く張り付きすぎないでください。Sea 1では、低確率の1アイテムを追うより、進行速度のほうが重要です。
+</Callout>
+
+| 島 | ボス | 出現ルール | 主要ドロップ | 重要な理由 |
+|---|---|---|---|---|
+| スターター島 | Bandit Boss | 30秒 | Eyepatchアクセサリー | 最初の簡単なボス周回 |
+| クラウン島 | Clown Boss | 30秒 | Clown Noseアクセサリー | シンプルな序盤報酬 |
+| Shark Park | Shark Boss | 30秒 | Shark Blade | 序盤の剣ルート |
+| Sea Restaurant | Krieg Boss | 30秒 | Gold Pauldrons | 耐久力強化 |
+| Logue City | Tashi Boss | 30秒 | Glassesアクセサリー | 使い勝手の良い装備 |
+| Sky Islands | Thunder God | 30秒 | Golden Staff | 強力な武器ルート |
+| Fishman Island | Neptune Boss | 30秒 | Fork | Fishman武器の準備 |
+| Thriller Boat | Ryummy | 30秒 | Shusui | 3SS進行 |
+| Marine HQ | Ice Admiral | 30秒 | Tremor Key | スーパー・ボス解放 |
+| Impel Jail | Warden Boss | 30秒 | Match | Fire Fist召喚ルート |
+
+| Sea 1ドロップ | 最適な使い道 | 残すか置き換えるか | メモ |
+|---|---|---|---|
+| Eyepatch | 序盤火力 | しばらく残す | 最初の枠として優秀 |
+| Clown Nose | 序盤ユーティリティ | 後で置き換え | すぐに集めやすい |
+| Shark Blade | 剣ルート | 残す | 序盤の強力な武器候補 |
+| Glasses | ユーティリティ枠 | 状況次第 | レベリング中に便利 |
+| Shusui | 3SS系統 | 残す | Sea 1でも屈指の狙い目ドロップ |
+| Tremor Key | 解放アイテム | 必ず残す | 主要なスーパー・ボスルートを開く |
+
+<Callout type="info" title="Sea 1の優先順位">
+きれいな進行ルートを作りたいなら、まずはShark Boss、Ryummy、Ice Admiralを最優先にしましょう。この3体で武器価値、終盤準備、ボス連鎖の進行を一通りカバーできます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sea 2のボスルートとパワースパイク">
+
+Sea 2では、ボス周回の成果が一気に大きくなります。ここで落ちるドロップは最終ビルドを形作りやすく、特に剣、召喚アイテム、長期的なアクセサリー強化を狙う場合に重要です。ここではルート判断も明確になり、素材目的で回すボスと、より良いボスを解放するために回すボスが分かれてきます。
+
+| 島 | ボス | 出現ルール | 主要ドロップ | 最適な用途 |
+|---|---|---|---|---|
+| Snowy Graveyard | 3SS Boss | 30秒 | Green Cloak | 3SS準備 |
+| Dragon Island | Mace V2 Boss | 30秒 | Dragon Orb | Dragon召喚ルート |
+| Cake Island | Soul Boss | 30秒 | Mirror Fragment | Dough解放 |
+| Winter Island | Snow Boss | 30秒 | Snow Orb | 素材ルート |
+| Snake Amazon | Love Boss | 30秒 | Snake Earrings | アクセサリー周回 |
+| Flower Capital | Enma Boss | 60分 | Enma Sword | 3SS V2ルート |
+| Shadow Island | Zenith Super Boss | Storm spawn | Zenith Sword | 確定終盤剣 |
+| Mirror World | Dough Boss | クエスト + 召喚 | Dough Scarf, Dough Trident | 高価値周回 |
+| Foggy Castle | Darkblade V2 Boss | 強化ルート | Darkblade V2 | 高級剣ルート |
+| Deep Seas | Sea Beast | 20〜60分 | Sea Beast Heart, Hammer V2 | 終盤素材 |
+
+| Sea 2のボス | 主な報酬タイプ | 周回スタイル | 推奨優先度 |
+|---|---|---|---|
+| Enma Boss | 剣の解放 | 予約制のボス時間 | 非常に高い |
+| Zenith Super Boss | 確定武器 | イベント型 | 非常に高い |
+| Dough Boss | 武器 + アクセサリー | 召喚連鎖 | 高 |
+| Darkblade V2 Boss | 強化ルート | 素材重視 | 高 |
+| Sea Beast | 素材 + タイトル | ローテーション周回 | 中 |
+
+<Callout type="success" title="Sea 2のパワースパイク">
+Sea 1を安定して進められているなら、Sea 2が本格的な主戦場です。Enma、Zenith、Dough、Darkblade V2は、この段階で最も大きな長期的成長になります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="スーパー・ボスの解放と周回ループ">
+
+スーパー・ボスでは、計画性が重要になります。自然出現するものもあれば、クエストアイテムが必要なもの、特定の強化ルートに紐づくものもあります。賢いやり方は、それらを寄り道ではなくチェックポイントとして扱うことです。まずは解放条件を軸にルートを組み、その報酬に時間をかける価値があるときだけ周回しましょう。
+
+<Steps>
+  <Step num="1" title="Sea 1の進行ループを終える">
+    まずは高速ボスを倒し、安定した武器かフルーツのルートを確保し、後の召喚につながるアイテムを解放します。
+  </Step>
+  <Step num="2" title="召喚アイテムを意図的に集める">
+    Tremor Key、Match、Dragon Orb、Mirror Fragmentなどは、実際に狙うボスとつながっている場合だけ集めましょう。
+  </Step>
+  <Step num="3" title="Sea 2のルートボスへ進む">
+    低価値の対象に長く時間を使う前に、Enma、Zenith、Doughのルートを優先します。
+  </Step>
+  <Step num="4" title="スーパー・ボス用の時間を確保する">
+    60分タイマー、強化連鎖、確定エンドゲーム報酬があるボスには、長めのセッションを使いましょう。
+  </Step>
+  <Step num="5" title="1本のメイン火力軸に合わせて強化する">
+    主要軸をFruit、Sword、Fighting Styleのどれか1つに固定すると、ボス討伐が速く安定します。
+  </Step>
+</Steps>
+
+<Checklist
+  id="bossing-goals"
+  title="ボス周回チェックリスト:"
+  items={[
+    "ボス追跡用に機動スキルを1つ用意しておく",
+    "安全に戦うための信頼できるHaki構成を持つ",
+    "レアなSea 2連鎖を狙う前にSea 1のドロップを集める",
+    "召喚アイテムを簡単なルート表で管理する",
+    "より強いドロップが出たら低価値アクセサリーを入れ替える"
+  ]}
+/>
+
+| ボスタイプ | 解放方法 | 重要な理由 | 周回スタイル |
+|---|---|---|---|
+| 標準ボス | 島の出現 | 高速EXPとアクセサリー | 高速ループ |
+| スーパー・ボス | タイマーまたは召喚 | レア武器と素材 | 計画的セッション |
+| 強化ボス | クラフト連鎖 | ビルド固有の大きな強化 | 目的特化の周回 |
+| イベントボス | 天候またはイベント出現 | 高価値の確定ドロップ | 窓狙い周回 |
+
+<Callout type="info" title="効率的なループ">
+最適なボスルートは、たいてい「高速Sea 1ボス → 重要なSea 1解放 → Sea 2の進行ボス → 召喚専用スーパー・ボス」という流れです。このパターンなら、移動ではなく報酬に時間を使えます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="装備構成、報酬、FAQ">
+
+最適なボス用ビルドは、何を狙うかで変わります。高速処理なら、広範囲フルーツか強力な剣が有効です。安全重視なら、純粋な火力よりも機動力とHakiのほうが重要です。レアドロップを集めるなら、派手なコンボより安定性を優先しましょう。
+
+<CardGrid cols={4}>
+  <Card title="Fruit優先ビルド">
+    - **AoEに最適**
+    - ボス集団に強い
+    - 共通ルートで優秀
+  </Card>
+  <Card title="Sword優先ビルド">
+    - **瞬間火力に最適**
+    - Enmaルートで強い
+    - 集中攻撃に向く
+  </Card>
+  <Card title="Style優先ビルド">
+    - **近接戦に最適**
+    - Hakiと相性が良い
+    - 安全な周回に強い
+  </Card>
+  <Card title="機動力サポート">
+    - **追跡に最適**
+    - 移動ロスを減らす
+    - イベントボスで役立つ
+  </Card>
+</CardGrid>
+
+| ビルドタイプ | 最適なボスターゲット | 強み | 弱み |
+|---|---|---|---|
+| Fruitビルド | 集団ボス、Sea Beast、Dough Boss | 広範囲火力 | 移動が遅くなりがち |
+| Swordビルド | Enma、Zenith、Darkblade V2 | 高速バースト | 位置取りが重要 |
+| Fighting styleビルド | Sea 1およびSea 2の標準ボス | 柔軟な近接圧力 | 射程が短い |
+| ハイブリッドビルド | 混成ルート周回 | バランスの取れた制御 | 事前計画が必要 |
+
+<Callout type="tip" title="装備ルール">
+まずは1つのボス用アイデンティティを決めましょう。何でもこなそうとする混成構成より、役割を絞ったビルドのほうが速く倒せます。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Haze Pieceのボスで最初に回るべきルートは何ですか？",
+    answer: "Shark Boss、Ryummy、Ice Admiralのような高速なSea 1ボスから始めましょう。役立つドロップ、解放アイテム、そしてより速い進行が手に入ります。"
+  },
+  {
+    question: "Sea 2で特に重要なボスはどれですか？",
+    answer: "Enma Boss、Zenith Super Boss、Dough Boss、Darkblade V2 Bossが最重要です。より強い武器や終盤ルートにつながります。"
+  },
+  {
+    question: "スーパー・ボスは序盤から周回すべきですか？",
+    answer: "通常はおすすめしません。まずは通常ボスを素早く倒せるようになり、安定した火力軸を持ってからのほうが効率的です。"
+  },
+  {
+    question: "ボス周回に最適なビルドは何ですか？",
+    answer: "Fruit、Sword、Fighting Styleのどれかに絞ったビルドが最適です。そこに機動力とHakiを足して、速く安定した討伐を目指しましょう。"
+  }
+]} />
+
+</Section>

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "コード",
+    "guide": "ガイド",
+    "fruits": "悪魔の実",
+    "haki": "Haki",
+    "weapons": "武器",
+    "bosses": "ボス"
+  }
+}

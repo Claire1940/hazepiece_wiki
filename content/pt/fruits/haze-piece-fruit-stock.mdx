@@ -1,0 +1,207 @@
+import { Map, Target, Trophy, Shield, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "estoque de frutas de haze piece: cronômetros de spawn, estoque e guia de farm",
+  description: "Acompanhe o estoque de frutas em Haze Seas com cronômetros de spawn, regras de despawn, limites VIP, rolagens do dealer, rotas de troca e as melhores frutas para manter ou ignorar.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2b4c7e/fff?text=Fruit+Stock+Guide",
+  date: "2026-07-05",
+  author: "Equipe da Wiki de haze piece"
+}
+
+<Callout type="tip" title="Guia Rápido">
+- **o estoque de frutas de haze piece** gira em torno de spawns mundiais a cada 60 minutos, despawn de 20 minutos e um bom timing de rota.
+- **Priorize frutas de mobilidade e farm** primeiro; elas economizam mais tempo do que dano puro no início da progressão.
+- **Use rolagens do dealer e trocas** para transformar drops ruins em valor maior no longo prazo.
+- **Acompanhe os resets do servidor com atenção** para não perder as janelas de frutas de alto valor.
+</Callout>
+
+<Section icon={Map} title="Como Funciona o Estoque de Frutas em Haze Piece">
+
+O estoque de frutas em Haze Piece fica mais fácil de administrar quando você pensa em três camadas: **spawns mundiais**, **rolagens do dealer** e **trocas**. O jogo agora aparece como **Haze Seas** no Roblox, mas os jogadores ainda buscam pelos dois nomes, então o planejamento de estoque deve cobrir ambos os termos.
+
+<Callout type="info" title="Noções Básicas do Estoque">
+Guarde uma regra simples em mente: **o timing do spawn importa mais do que vagar aleatoriamente**. Se você entrar em um servidor e não acompanhar o cronômetro, você perde a melhor parte do ciclo de estoque.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Spawns Mundiais">
+    - **ciclo de spawn de 60 minutos**
+    - **janela de despawn de 20 minutos**
+    - Melhor para farm baseado em rota
+  </Card>
+  <Card title="Dealer de Frutas">
+    - **acesso a rolagem aleatória**
+    - Bom para rerolls direcionados
+    - Útil quando você tem Cash ou Gems sobrando
+  </Card>
+  <Card title="Trocas">
+    - **Transforme duplicatas em valor**
+    - Ótimo para caçar frutas raras
+    - Melhor depois que você entende a demanda
+  </Card>
+</CardGrid>
+
+| Fonte | O que fornece | Comportamento de reset | Melhor uso |
+|---|---|---|---|
+| Spawns mundiais | Coleta natural de frutas | A cada 60 minutos, despawn após 20 | Farm baseado em cronômetro |
+| Dealer de frutas | Rolagem aleatória de frutas | Sempre disponível | Rolagens direcionadas |
+| Trocas | Troca entre jogadores | Sem cronômetro | Melhorar pulls fracos |
+| Servidores VIP | Farm controlado de frutas | Até 5 spawns de frutas | Otimização de rota |
+
+A página oficial do Roblox e o Trello oficial são as duas referências mais úteis para mudanças relacionadas ao estoque:
+- Página oficial do jogo no Roblox: https://www.roblox.com/games/6918802270/Haze-Seas
+- Trello oficial: https://trello.com/b/nn8bpTB0/haze-piece-official-trello
+
+</Section>
+
+<Section icon={Target} title="Melhor Rota para Acompanhar o Estoque de Frutas">
+
+A rota mais rápida de estoque não é complicada. Ela é um loop construído em torno de **cronômetros, entrada no servidor e um caminho fixo pelas ilhas**. Se você ficar trocando de ilha a cada poucos minutos, normalmente desperdiça a janela que estava tentando pegar.
+
+<Callout type="tip" title="Dica de Rota">
+Use a mesma ordem sempre. Uma rota repetível vence uma rota “inteligente” que muda a cada sessão.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Entre em um servidor novo">
+    Comece pela experiência oficial do Roblox e entre em um servidor limpo para que sua janela de cronômetro seja fácil de acompanhar.
+  </Step>
+  <Step num="2" title="Defina o seu cronômetro de frutas">
+    Registre o horário de entrada no servidor ou a última coleta confirmada. O **ciclo de spawn de 60 minutos** é sua principal referência.
+  </Step>
+  <Step num="3" title="Varra o caminho da ilha">
+    Verifique os agrupamentos de árvores e as áreas comuns de spawn sempre na mesma ordem a cada run.
+  </Step>
+  <Step num="4" title="Use rolagens do dealer após a varredura">
+    Se os spawns mundiais falharem, gaste Cash ou Gems apenas quando a rolagem puder melhorar sua build.
+  </Step>
+  <Step num="5" title="Troque duplicatas em vez de acumular">
+    Transforme extras fracos em valor maior antes que seu inventário fique bagunçado.
+  </Step>
+</Steps>
+
+| Rota | Custo de tempo | Risco | Melhor para |
+|---|---|---|---|
+| Varredura em servidor novo | Baixo | Baixo | Verificações casuais de estoque |
+| Loop de cronômetro VIP | Médio | Baixo | Colecionadores eficientes |
+| Rota dealer primeiro | Baixo | Baixo | Jogadores com recursos sobrando |
+| Rota de troca e upgrade | Médio | Médio | Progresso de longo prazo |
+
+Se você estiver farmando com amigos, deixe uma pessoa como responsável pelo cronômetro e outra pela checagem da rota. Essa divisão pequena deixa a caça ao estoque muito mais organizada.
+
+</Section>
+
+<Section icon={Trophy} title="Quais Frutas Valem a Pena Manter">
+
+Nem toda fruta merece espaço no armazenamento. Para o planejamento de estoque, a pergunta real não é “Isso é raro?” e sim **“Isso me ajuda a me mover, farmar ou lutar mais rápido?”** É por isso que frutas de mobilidade e de farm seguro frequentemente superam pulls chamativos durante a progressão.
+
+<Callout type="warning" title="Não Supervalorize a Raridade">
+Uma fruta rara não é automaticamente uma boa fruta para o seu estágio atual. Se ela atrasa missões ou desperdiça tempo, na prática ela é um downgrade.
+</Callout>
+
+| Fruta | Manter, Trocar ou Ignorar | Por quê |
+|---|---|---|
+| Light | Manter | Viagem rápida e farm inicial fácil |
+| Flame | Manter | Bom AoE inicial e uso simples |
+| Buddha | Manter | Farm seguro e lutas sustentadas |
+| Shadow | Manter | Útil para farm e pressão no PvP |
+| Gum | Manter | Forte valor de progressão no longo prazo |
+| Dragon | Guardar | Fruta premium de caça no endgame |
+| Spin | Ignorar | Fraca demais para progressão séria |
+| Clear | Ignorar | Dano limitado |
+| Bomb | Trocar | Boa no início, mais fraca depois |
+| Ice | Manter | Controle confiável para iniciantes |
+
+| Estilo de jogo | Melhores alvos de estoque | O que você quer |
+|---|---|---|
+| Início de jogo | Light, Flame, Ice | Velocidade, segurança, limpezas fáceis |
+| Meio de jogo | Buddha, Shadow, Magma | Poder consistente de farm |
+| Fim de jogo | Dough, Dragon, Leopard, Phoenix | Maior pressão no endgame |
+| Foco em PvP | Phoenix, Shadow, Leopard | Mobilidade e potencial de burst |
+
+A regra mais limpa é simples: **mantenha qualquer coisa que economize tempo**. Se uma fruta deixa missões mais suaves, chefes mais seguros ou viagens mais rápidas, ela normalmente vale mais do que um pull raro aleatório.
+
+</Section>
+
+<Section icon={Shield} title="Cronômetros, Limites e Erros Comuns">
+
+A maioria dos erros de estoque vem da impaciência, não da má sorte. Os jogadores perdem frutas porque checam tarde demais, se movem com muita frequência ou esquecem a janela de despawn. Um loop disciplinado é o que separa uma rota de estoque útil de uma rota bagunçada.
+
+<Callout type="warning" title="Ponto de Falha Comum">
+A **janela de despawn de 20 minutos** é curta. Se você não estiver na rota quando o spawn aparecer, a fruta pode sumir antes de você chegar.
+</Callout>
+
+| Erro | Por que atrapalha | Correção |
+|---|---|---|
+| Ignorar o tempo de despawn | Coletas perdidas | Verifique imediatamente após o spawn |
+| Pular aleatoriamente entre ilhas | Desperdiça a janela do cronômetro | Use uma rota fixa |
+| Rodar sem orçamento | Gasta Cash ou Gems muito rápido | Defina um limite de gasto |
+| Guardar iniciadores fracos por muito tempo | Farm mais lento | Substitua cedo |
+| Esquecer o limite VIP | Coordenação ruim | Planeje em torno do limite de 5 frutas |
+
+| Regra do sistema | Valor | Uso prático |
+|---|---|---|
+| Intervalo de spawn mundial | **60 minutos** | Comece seu cronômetro de rota aqui |
+| Janela de despawn da fruta | **20 minutos** | Cheque rápido ou perca o drop |
+| Limite do servidor VIP | **5 frutas** | Bom para farm controlado |
+| Acesso ao dealer | Sempre ativo | Use quando os spawns mundiais falharem |
+
+<Checklist
+  id="stock-habits"
+  title="Hábitos de Estoque para Manter:"
+  items={[
+    "Acompanhe o ciclo de spawn de 60 minutos",
+    "Cheque as rotas pelas árvores antes que a janela de despawn feche",
+    "Guarde Cash e Gems para rolagens melhores",
+    "Mantenha sempre uma fruta de mobilidade",
+    "Troque duplicatas em vez de guardar extras fracos"
+  ]}
+/>
+
+Se você só lembrar de uma coisa, lembre disso: **estoque de frutas é, прежде de tudo, um jogo de timing e, em segundo lugar, de sorte**.
+
+</Section>
+
+<Section icon={Swords} title="Referência Rápida e FAQ">
+
+Aqui está a maneira mais curta e prática de pensar sobre gestão de estoque: cheque o cronômetro, escolha a rota e role apenas quando o resultado melhorar sua build. Essa abordagem escala muito melhor do que tentar pegar toda fruta que você vê.
+
+<Callout type="success" title="Melhor Prática">
+Na dúvida, priorize **mobilidade, farm e combate seguro**. Esses atributos mantêm sua progressão andando mesmo quando o pool de estoque não ajuda.
+</Callout>
+
+| Situação | Melhor movimento | Por quê |
+|---|---|---|
+| Você acabou de entrar em um servidor | Inicie um cronômetro | Você precisa de um ponto de referência |
+| Você encontrou uma fruta fraca | Troque ou ignore | Economize espaço para algo melhor |
+| Você tem recursos sobrando | Role o dealer | Boa chance de upgrade |
+| Sua rota está bagunçada | Reinicie o loop | Consistência vence |
+| Você está farmando com amigos | Divida funções | Checagens mais rápidas e menos perdas |
+
+<FAQ items={[
+  {
+    question: "O que significa exatamente haze piece fruit stock?",
+    answer: "Refere-se a acompanhar como as frutas aparecem, despawnam e são substituídas por meio de spawns mundiais, rolagens do dealer e trocas."
+  },
+  {
+    question: "Haze Piece ainda é o mesmo jogo que Haze Seas?",
+    answer: "A experiência no Roblox agora aparece como Haze Seas, mas os jogadores ainda pesquisam por Haze Piece, então os dois nomes importam para páginas de estoque e guias."
+  },
+  {
+    question: "Qual é o cronômetro de estoque mais importante?",
+    answer: "O ciclo de spawn mundial de 60 minutos é o cronômetro principal, mas a janela de despawn de 20 minutos é o que normalmente causa perdas de coleta."
+  },
+  {
+    question: "Quais frutas são mais seguras para manter no início?",
+    answer: "Light, Flame, Ice, Buddha, Shadow e Gum são as opções iniciais mais práticas porque ajudam com mobilidade, farm ou consistência."
+  }
+]} />
+
+</Section>

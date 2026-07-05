@@ -1,0 +1,242 @@
+import { Map, Swords, Shield, Trophy, Target, Sparkles, Link2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece ダークブレード: V2の解放、技、ビルドガイド",
+  description: "Haze Piece で Dark Blade V2 を解放する方法、技セットの比較、PvE と PvP 向けに最適な剣ビルドを学びましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Dark+Blade+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece dark blade** は、瞬間火力、ボスへの圧力、終盤向けの剣メイン構成のために作られたプレミアムな剣ルートです。
+- **Dark Blade V2** には、果実の供物、ボス連戦、そして Foggy Castle の強化ルートが必要です。
+- **最適な組み合わせ** は、Buso Haki、Observation Haki、そして高火力の剣ルートに寄ります。
+- **効率よく周回** するには、強化ルートを追う前に前提ボスを先に倒しておきましょう。
+- **リワーク後の名称** も意識しましょう。多くのプレイヤーはいまだに Haze Piece で検索しますが、公式では Haze Seas が現在の呼称です。
+</Callout>
+
+<Section icon={Swords} title="haze piece dark blade の概要">
+
+Dark Blade は、武器そのものに合わせてビルドを組むのではなく、ビルドを Dark Blade に合わせて組むタイプの武器です。現在の Haze Piece から Haze Seas への進行では、これはプレミアムな剣ルートに位置します。ボス戦に強く、PvP では危険なほど厄介で、ゆっくり安全に削るのではなく、きれいな瞬間火力を求めるハイブリッドビルドでも価値があります。
+
+<Callout type="tip" title="際立つ理由">
+もしあなたのビルドがすでに剣寄りなら、Dark Blade V2 は雑なステ振りよりも、正確な立ち回りに報いてくれます。高価値な武器を1本決め打ちし、進行ルートを絞って進めたいプレイヤーに向いています。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="PvE 周回">
+    - **強力な瞬間火力**
+    - ボスダメージに優秀
+    - Haki の補助と相性が良い
+  </Card>
+  <Card title="PvP 圧力">
+    - **素早い差し返し性能**
+    - コンボ重視の戦闘で活躍
+    - 立ち位置の良さが重要
+  </Card>
+  <Card title="ハイブリッドルート">
+    - **剣先行の装備構成**
+    - 柔軟なビルド選択
+    - 終盤で高い伸びしろ
+  </Card>
+</CardGrid>
+
+| 武器ルート | 主な強み | 最適な用途 | リスク |
+|---|---|---|---|
+| Dark Blade V2 | 瞬間火力と圧力 | ボス戦、PvP、ハイブリッド剣ビルド | 準備コストが高い |
+| Zenith | 確定的なボス進行 | 3SS の準備、Sea 2 進行 | ルート依存度が高い |
+| Gryphon | コンボ圧力 | PvP と柔軟な火力運用 | ドロップ運次第 |
+| Three Sword Style V2 | 終盤の剣スケーリング | 剣メインの進行 | 生成・強化の道のりが長い |
+
+<Callout type="success" title="実践的な結論">
+終盤コンテンツでも存在感を保てる剣ルートを1本選ぶなら、Dark Blade V2 はかなり有力です。最安ではありませんが、プレミアムルートの中でも特に洗練された選択肢のひとつです。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="解放ルートと必要条件">
+
+強化ルートは理屈の上では単純ですが、実際にはかなり高くつきます。重要なのはボス部屋を覚えることではなく、間違った島の連鎖に時間を使い始める前に、各条件を満たしているか確認することです。
+
+<Callout type="warning" title="ルートを急がない">
+Dark Blade V2 のルートでは、Legendary 以上の果実を供物として要求されます。もし今の唯一の良い果実をレベリングに使っているなら、代替案が整うまで待ちましょう。
+</Callout>
+
+<Steps>
+  <Step num="1" title="供物用の果実を用意する">
+    Dark Blade の強化ルート用に、Legendary 以上の果実を持っていきましょう。Common や Rare の予備で代用できると思わないことです。
+  </Step>
+  <Step num="2" title="Dark Blade 強化ルートに到達する">
+    Foggy Castle に行き、Dark Blade Upgrader のルートを進めます。ここがボス召喚の前にある核心の関門です。
+  </Step>
+  <Step num="3" title="前提ボスのルートをクリアする">
+    進行状況に応じて必要な 3SS Boss か Enma 関連ルートを倒し、そのまま強化の連鎖を続けます。
+  </Step>
+  <Step num="4" title="召喚費用を払ってボスを倒す">
+    50 Gems を支払って Dark Blade Boss を召喚し、倒すことでルートを完了させます。
+  </Step>
+</Steps>
+
+| 必要条件 | 値 | 備考 |
+|---|---|---|
+| 果実の供物 | Legendary 以上 | 強化ルートの核心条件 |
+| 強化場所 | Foggy Castle | Dark Blade 強化の中心地 |
+| ボス連鎖 | 3SS Boss または Enma ルート | 最終召喚前の進行チェックポイント |
+| 召喚費用 | 50 Gems | Dark Blade Boss 出現に必要 |
+| 最終行動 | ボスを倒す | 武器ルートを完了する |
+
+| 公式リソース | ブックマークする理由 | リンク |
+|---|---|---|
+| Roblox のゲームページ | 現在の体験名と名称変更を確認できる | [Roblox Haze Seas page](https://www.roblox.com/games/6918802270/Haze-Seas) |
+| Trello ボード | 武器、ボス、ルートの参照に最適 | [Official Haze Piece Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) |
+| Discord サーバー | 更新情報やコミュニティ告知に便利 | [Haze Seas Discord](https://discord.com/invite/hazeseas) |
+
+<Callout type="info" title="ルートの考え方">
+時間を無駄にしない最短の方法はシンプルです。まず供物用の果実を確保し、次に Foggy Castle のルートを確認し、その後で初めて召喚に Gems を使いましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="最適ビルド、ステ振り、組み合わせ">
+
+Dark Blade は、他の装備が足を引っ張らなくなったときに最も強くなります。つまり、散らばったステータスポイントを減らし、中途半端な武器案を減らし、必要なら Haki、アクセサリー、そして第2の火力軸で意図的に支えるということです。
+
+<Callout type="success" title="最適ビルドルール">
+まず剣を軸に組みましょう。Dark Blade を主武器にするなら、ステータスと補助ツールはその選択を弱めるのではなく、強めるべきです。
+</Callout>
+
+| ビルドタイプ | ステータス優先度 | 補助ツール | 向いている用途 |
+|---|---|---|---|
+| 剣メイン | Sword > Defense | Buso Haki、機動補助ツール | PvP とボス戦 |
+| ハイブリッド瞬間火力 | Sword > Fruit > Defense | Observation Haki、コンボ始動 | 混成戦闘 |
+| 安全進行型 | Defense > Sword | 安定移動手段、基本 Haki | 中盤のレベリング |
+| 終盤圧力型 | Sword > Defense > Utility | ボス用アクセサリー、火力バフ | エンドゲーム |
+
+<CardGrid cols={4}>
+  <Card title="剣メイン">
+    - **最も武器に集中した構成**
+    - きれいな瞬間火力サイクル
+    - Dark Blade に本気で寄せるなら最適
+  </Card>
+  <Card title="ハイブリッド瞬間火力">
+    - **より柔軟な戦い方**
+    - 果実始動と相性が良い
+    - 最適化は少し難しい
+  </Card>
+  <Card title="PvP 圧力">
+    - **差し返し重視の立ち回り**
+    - 間合い管理が重要
+    - Observation Haki と相性が良い
+  </Card>
+  <Card title="ボス火力">
+    - **安定した瞬間火力窓**
+    - 立ち上がりの隙に強い
+    - Buso Haki を有効化しているとさらに良い
+  </Card>
+</CardGrid>
+
+| Dark Blade の技 | 用途 | 得意なこと |
+|---|---|---|
+| Z - Midnight Flash | 間合い詰め | 素早い接近と差し返しの準備 |
+| X - Trillion Slashes | 瞬間火力コンボ | 密集した相手への強い圧力 |
+| C - Midnight Havoc | フィニッシャー | 対象がすでに拘束されている時に最適 |
+
+<Callout type="tip" title="組み合わせの助言">
+Buso Haki は剣ダメージ用の明白な補助候補であり、Observation Haki は、攻め気味の Dark Blade で起こりがちな空振り後の差し返しを生き残る助けになります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="周回ルート、優先ボス、チェックリスト">
+
+Dark Blade が最終目標なら、最適なルートはたいてい、余計な寄り道を最小限にしてそこへ辿り着けるルートです。つまり、適切なボスを周回し、果実の計画を安定させ、使い捨ての強化でインベントリを空にしないことが大切です。
+
+<Callout type="warning" title="よくある失敗">
+プレイヤーは最終召喚を急ぎすぎて、予備の果実がないまま詰むことがよくあります。それでは剣の強化が、ビルド全体のリセットになってしまいます。
+</Callout>
+
+| ボスまたはルート | 場所 | 重要な理由 |
+|---|---|---|
+| Dark Blade Upgrader | Foggy Castle | V2 ルートの主経路 |
+| 3SS Boss | Sea 2 ルート | 剣進行の有用なチェックポイント |
+| Enma Boss | Sea 2 ルート | 重要な剣進行目標 |
+| Zenith Boss | Shadow Island の嵐イベント | 強力な代替剣進行ルート |
+| Dark Blade Boss | 最終召喚戦 | 強化完了に必須 |
+
+<Checklist
+  id="dark-blade-prep"
+  title="強化ルートを始める前に:"
+  items={[
+    "供物の段階に備えて、Legendary 以上の果実を用意しておく",
+    "最終召喚用に 50 Gems を確保しておく",
+    "今いる島を離れる前に Foggy Castle へのルートを確認する",
+    "ボス戦の前に基本的な Haki 支援を解放しておく",
+    "果実の在庫が少ない場合に備えて、予備のビルド案を残しておく"
+  ]}
+/>
+
+<Steps>
+  <Step num="1" title="進行ルートを固定する">
+    Dark Blade を主武器にするのか、ハイブリッドルートの一部にするのかを決めます。その選択でステ振りも補助ツールも変わります。
+  </Step>
+  <Step num="2" title="前提連鎖を終わらせる">
+    召喚の段階に進む前に、必要なボスのチェックポイントをクリアします。これで時間を節約でき、ルートの戻りを防げます。
+  </Step>
+  <Step num="3" title="強化資源を確保する">
+    果実の供物と Gems は、レベリング用の予算と分けて管理しましょう。臨時の強化に使ってはいけません。
+  </Step>
+</Steps>
+
+<Callout type="info" title="ルート優先度">
+最も安全なのは、まずボス連鎖を終わらせ、その後で果実の供物を使い、最後に召喚戦を始めることです。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ と最終おすすめ">
+
+Dark Blade は、剣ルートに本気で取り組み、ルートを尊重するプレイヤーに報いてくれます。気軽に拾うような感覚で扱うと強化ルートは長く感じますが、ビルド目標として扱えば、終盤で追いかける価値の高い剣のひとつになります。
+
+<Callout type="tip" title="最終おすすめ">
+ボス戦、PvP、そして剣中心の進行でも価値を保ちながら、後でビルド全体を作り直す必要がない武器が欲しいなら、Dark Blade V2 を使いましょう。
+</Callout>
+
+| 状況 | 最適な選択 | 理由 |
+|---|---|---|
+| 序盤のレベリング | より安全な武器か果実ルート | Dark Blade は急ぐには高価すぎる |
+| 中盤の剣重視 | Dark Blade の準備ルート | ビルド方針を固める良い時期 |
+| 終盤の PvP | Dark Blade V2 | 強い瞬間火力と差し返し性能 |
+| ボス周回 | Dark Blade V2 | 安定したダメージ窓 |
+
+<FAQ items={[
+  {
+    question: "haze piece dark blade は序盤から狙う価値がありますか？",
+    answer: "普通はありません。Legendary 以上の果実の供物、Foggy Castle の進行、そして召喚に必要な 50 Gems があるため、中盤から終盤に向いています。"
+  },
+  {
+    question: "Dark Blade V2 は他の剣ルートと何が違うのですか？",
+    answer: "きれいな瞬間火力、ボスへの圧力、そして高級感のある終盤武器としての手触りが価値の中心です。すでに剣ダメージに寄せたビルドで最も活きます。"
+  },
+  {
+    question: "Dark Blade にはどの Haki を組み合わせるべきですか？",
+    answer: "まずは Buso Haki です。武器ダメージを高めてくれるからです。Observation Haki は、攻め気味の戦闘や差し返しの局面で生存を助けます。"
+  },
+  {
+    question: "Dark Blade と Three Sword Style V2 のどちらを狙うべきですか？",
+    answer: "プレミアムな単一武器ルートが欲しいなら Dark Blade を選びましょう。より長い剣進行チェーンと、追加のクラフト工程が好みなら Three Sword Style V2 です。"
+  }
+]} />
+
+<Callout type="success" title="要点">
+Dark Blade は、高い圧力を持つ武器ルートを求める剣メイン向けの、賢い長期目標です。狙うなら、それに合わせてビルドを組み、資源を貯め、インベントリとボスルートの準備が整う前に無理に進めようとしないことです。
+</Callout>
+
+</Section>

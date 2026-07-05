@@ -1,0 +1,210 @@
+import { Map, Swords, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece 三刀流: 2026年セットアップガイドと装備構成",
+  description: "Haze Seas向けに、Haze Pieceの三刀流ルート、必要な剣、熟練度の準備、ステータス優先度、ボスドロップ、終盤の装備構成を解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Three+Sword+Style+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece 三刀流**は、レベル上げを始める前に剣のルートを計画しておくと最も強くなります。
+- **Three Sword Style V1**には、Zenith、Shusui、Enmaをそれぞれ熟練度300まで上げる必要があります。
+- **Three Sword Style V2**は、ベースのスタイルが完成したあとに、より洗練された終盤向けバースト構成を追加します。
+- **ボス周回**が重要なのは、必要な剣がそれぞれ特定の島ボスのルートから入手できるためです。
+- **ステータスの配分**が効率を左右します。火力の系統を早い段階で分散させすぎないようにしましょう。
+</Callout>
+
+<Section icon={Swords} title="haze piece 三刀流: このルートが強い理由">
+
+三刀流は、Haze Pieceで最も洗練された剣メインの進行ルートの1つです。これは「何でも同時にやる」のではなく、1つの武器系統に集中し、核となる剣が揃った時点でより強力な形へと強化していく構成だからです。
+
+このルートで最大の失敗は、基本のスタイルが完成する前に派手な装備へ急ぐことです。剣に特化したビルドは、ボスの処理が速く、熟練度稼ぎも速く、進行の流れもシンプルになります。
+
+<Callout type="tip" title="基本ルール">
+まずは必要な3本の剣を最優先で揃え、そのあとで熟練度、Haki、そして1つの補助火力手段を組み立てましょう。
+</Callout>
+
+| ルート | 強み | 最適な用途 | 主なリスク |
+|---|---|---|---|
+| Three Sword Style V1 | 安定したバースト、明確な個性、シンプルな進行 | 中盤の剣使い | ボスの周回ルートを無視すると準備に時間がかかる |
+| Three Sword Style V2 | 終盤の圧力がさらに高く、コンボの流れもより滑らか | 終盤のPvE/PvP | より多くの素材と熟練度が必要 |
+| Dark Blade V2 | 高性能な万能武器ルート | 混成ビルド | 別の強化ルートが必要 |
+| Gryphon | 素早い圧力と柔軟な戦闘 | 攻撃的なプレイヤー | 3SS進行との直接的な相乗効果は少ない |
+
+<CardGrid cols={3}>
+  <Card title="PvE向けに最適">
+    ボスへの高いダメージ、安定した周回、敵をまとめて処理できると熟練度ループも回しやすくなります。
+  </Card>
+  <Card title="PvP向けに最適">
+    強いバーストの瞬間、予測しやすいコンボ構成、タイミングが上達するほど価値が高まります。
+  </Card>
+  <Card title="進行向けに最適">
+    シンプルな目標の流れ: 剣を集める → 熟練度を上げる → V1を解放する → V2へ強化する。
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="解放ルートと剣の必要条件">
+
+解放の流れ自体は分かりやすいですが、順番が重要です。必要な剣、十分な熟練度、そして関係のないドロップに時間を使わずにルートを終える忍耐が必要になります。
+
+現在の Haze Seas の進行データにおける基本要件はシンプルです。Zenith、Shusui、Enma が Three Sword Style V1 の土台であり、V2 はその基礎の上に追加の熟練度と遺物を加えて成立します。
+
+<Callout type="warning" title="ルート警告">
+必要な剣を確保する前に、寄り道の周回に時間をかけすぎないようにしましょう。解放の連鎖を早めに終えるほど、このスタイルは伸びやすくなります。
+</Callout>
+
+| アイテム | 必要条件 | 入手元 |
+|---|---|---|
+| Zenith | 確定剣ドロップ | Shadow Island の Zenith Super Boss |
+| Shusui | ドロップ率5% | Thriller Boat の Ryummy |
+| Enma | ドロップ率10% | Enma Boss |
+| Three Sword Style V1 | Zenith、Shusui、Enma の熟練度300 | Land of Gods の Rock Shrine |
+| Three Sword Style V2 | 3SS V1、熟練度300、Ancient Blade Relics 5個 | クラフト強化ルート |
+
+<Steps>
+  <Step num="1" title="まず Zenith を周回する">
+    まずは Zenith を狙いましょう。確定で入手できる剣であり、進行の確かな軸になるからです。
+  </Step>
+  <Step num="2" title="Shusui と Enma を確保する">
+    Ryummy で Shusui を狙い、Enma Boss を倒して Enma を入手するまで周回を続けます。
+  </Step>
+  <Step num="3" title="各剣の熟練度300を目指す">
+    ボス周回やクエスト周回の間は武器を装備し続けて、熟練度要件が二重の作業にならないようにします。
+  </Step>
+  <Step num="4" title="Rock Shrine のルートを使う">
+    3本の剣と熟練度が揃ったら、Land of Gods で 3SS V1 の解放手順を完了します。
+  </Step>
+  <Step num="5" title="V2へ強化する">
+    V1が安定したら、V2のクラフトルートに必要な遺物と熟練度を集めます。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="おすすめのステータス、Haki、装備の組み合わせ">
+
+最強の Three Sword Style 構成は、ランダムに火力を盛ることではありません。スタイルに生存力と、戦闘を短く終わらせるための補助層を組み合わせることが重要です。Haki とステータスの設計で、このビルドは効率的になります。
+
+ステータスについては、主火力の系統を優先しつつ、Defense の余地を十分に残すのが安全です。剣メインなら、武器ダメージがビルドの中心であるべきです。ポイントを広く散らしすぎると、実際以上に弱く感じてしまいます。
+
+<Callout type="tip" title="ビルドのヒント">
+序盤は剣ダメージと Buso Haki を組み合わせ、レベル進行が次の区切りに到達したら Observation を追加しましょう。
+</Callout>
+
+| ビルド枠 | 推奨選択 | 理由 |
+|---|---|---|
+| 主ステータス | Sword | Three Sword Style のダメージを直接支える |
+| 副ステータス | Defense | ボス周回とPvPのやり取りを安定させる |
+| 序盤のHaki | Buso Haki | 武器と格闘スタイルのダメージを強化する |
+| 終盤の実用枠 | Observation Haki | 回避性能と安全な戦闘時間を増やす |
+| 補助装備 | 火力または生存系アクセサリー | 射程、生存力、機動力の不足を補う |
+
+| Haki | 解放条件 | レベル / コスト | 最適な使い方 |
+|---|---|---|---|
+| Buso Haki | Luke Town の Old Man Silver | レベル350、$100,000 | 剣ダメージとボスへの圧力 |
+| Observation Haki | Marine Base Town のトレーナー | レベル600、$150,000 | 回避、PvPの安全性、索敵 |
+| Conqueror's Haki | D. Clan のみ | 種族条件で解放 | 群衆への圧力、レア種族ビルド |
+
+<Checklist
+  id="three-sword-style-build"
+  title="ビルドのチェック項目:"
+  items={[
+    "主火力ステータスは Sword を維持する",
+    "ボスの大技に耐えられるだけの Defense を確保する",
+    "本格的なボス周回の前に Buso Haki を解放する",
+    "レベル進行が許す段階で Observation Haki を追加する",
+    "早い段階で第2の完全な火力系統に分散しない"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="ボスルートと周回の優先順位">
+
+周回ルートは、剣を中心に組み立てるべきであり、その逆ではありません。つまり、Three Sword Style の進行を直接前に進めるボスドロップを狙うということです。それらが揃えば、ルート全体はかなり滑らかになります。
+
+現在のボスデータでは、必要な剣が特定の島から手に入るため、ルート設計がしやすくなっています。各周回を寄り道ではなく、進捗のチェックポイントとして扱いましょう。そうすることで、周回効率が上がり、所持品管理も絞られます。
+
+<Callout type="success" title="周回の目標">
+まずは必要な剣を落とすボスを終え、そのあと余剰の周回で素材、ジェム、アクセサリー強化を進めましょう。
+</Callout>
+
+| ボス | 島 | 主なドロップ | 重要な理由 |
+|---|---|---|---|
+| Ryummy | Thriller Boat | Shusui | 必要な3本の剣の1つ |
+| Enma Boss | Flower Capital | Enma | 解放連鎖の核となる剣 |
+| Zenith Super Boss | Shadow Island | Zenith | 確定剣であり、ルートの軸 |
+| Dark Blade Upgrader route | Foggy Castle | Dark Blade V2 ルート | 上位の剣ビルドへ移行する場合に有用 |
+| Dual Swordsman | Logue City | Book素材 | 剣系の進行ルートに役立つ |
+
+| 優先度 | 周回対象 | 理由 |
+|---|---|---|
+| 1 | 必要な剣 | まずスタイルを解放するため |
+| 2 | 熟練度 | ルートを準備から成果へ変える |
+| 3 | Hakiのレベル | 火力と安全性を高める |
+| 4 | アクセサリー | 快適さと周回速度を上げる |
+| 5 | 追加のボス素材 | V2と今後の武器強化に備える |
+
+### 公式参考リンク
+
+| ソース | リンク | 確認日 |
+|---|---|---|
+| Roblox experience | https://www.roblox.com/games/6918802270/Haze-Seas | 2026-07-05 |
+| 公式Trello | https://trello.com/b/nn8bpTB0/haze-piece-official-trello | 2026-07-05 |
+| 公式Discord | https://discord.com/invite/hazeseas | 2026-07-05 |
+
+</Section>
+
+<Section icon={Trophy} title="最終チェックリストとFAQ">
+
+ルートが終わったら、最も大切なのは安定性を固めることです。つまり、剣の熟練度を確認し、Hakiの解放状況を確かめ、純粋な剣メインを続けるのか、それとも実用性のためにフルーツを組み合わせるのかを決める段階です。
+
+最もきれいな終盤体験を求めるなら、Three Sword Style は「ドロップ集め」ではなく「ビルド」として扱うのが最適です。すべての要素が同じ戦闘計画を支えるとき、このルートは最大の力を発揮します。
+
+<Callout type="info" title="最後に">
+戦闘計画が1時間ごとに変わるようでは、進行は遅くなります。別の要素に大きく投資する前に、まずは剣の系統に専念しましょう。
+</Callout>
+
+<Checklist
+  id="three-sword-style-final"
+  title="終盤の到達目標:"
+  items={[
+    "Zenith、Shusui、Enma を所有する",
+    "必要な各剣の熟練度を300に到達させる",
+    "Three Sword Style V1 を解放する",
+    "V2強化ルート用の遺物を集める",
+    "周回用に信頼できる Haki とステータス構成を1つ維持する"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "haze piece three sword style を最速で始める方法は？",
+    answer: "必要な剣のボスから始め、その後はクエスト周回をしながら熟練度を上げ、主要ステータスを強化しましょう。剣の連鎖を早く終えるほど、このスタイルは強くなります。"
+  },
+  {
+    question: "Three Sword Style を使うにはゲーム内のすべての剣が必要ですか？",
+    answer: "いいえ。V1の基本ルートは Zenith、Shusui、Enma を中心に進み、V2はその基礎に追加条件を重ねていきます。"
+  },
+  {
+    question: "このビルドで最初に解放すべき Haki はどれですか？",
+    answer: "武器ダメージを直接支えられるため、最初は Buso Haki が最適です。Observation Haki は、その後の回避と安全性でより価値が高まります。"
+  },
+  {
+    question: "Three Sword Style はフルーツビルドより強いですか？",
+    answer: "目的によります。Three Sword Style は剣メインのプレイヤーにとても強力ですが、フルーツビルドのほうが周回ルートによっては楽に感じる人もいます。続けられる系統を選びましょう。"
+  }
+]} />
+
+</Section>

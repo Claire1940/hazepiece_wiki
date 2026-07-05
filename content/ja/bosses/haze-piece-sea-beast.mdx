@@ -1,0 +1,233 @@
+import { Map, Shield, Swords, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece Sea Beast: スポーン時間、ドロップ & 周回ルート",
+  description: "Haze Piece と Haze Seas における Sea Beast の仕組みを解説します。Sea 1 と Sea 2 のスポーンウィンドウ、ドロップ、準備用ロードアウト、そして最も安全な周回ルートまで網羅しています。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Sea+Beast+Farm+Route",
+  date: "2026-07-05",
+  author: "haze piece Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece sea beast** は、タイミング、位置取り、バースト火力が重要なオープンウォーターのボスとして考えるのが最適です。
+- **Sea 1 と Sea 2** ではスポーンウィンドウが異なるため、ルート設計は素のDPSと同じくらい重要です。
+- **機動力と継戦力を持ち込んでから** 参加しないと、戦闘が長いリセットループに変わることがあります。
+- **Sea Beast の素材や武器進行** などの主要ドロップを優先し、追加周回は後回しにしましょう。
+</Callout>
+
+<Section icon={Map} title="haze piece Sea Beast 概要">
+
+Haze Piece は現在 Haze Seas のリワークと並行しているため、Sea Beast は単純な殴り合いというより、きれいなルート実行が重要な相手になっています。安定して価値を出したいなら、ハンターのように考えましょう。ルートを把握し、移動手段を常に使える状態にして、利益を得るためのインベントリ容量を確保したまま到着することが大切です。
+
+**このボスを計画して狩る価値があるのはなぜか？** 答えはシンプルです。Sea Beast は、適切なタイミングを報酬で返してくれる数少ない相手のひとつであり、進行に役立つ素材も落とし、ソロでも少人数でも周回しやすいからです。つまり、ただの寄り道ではなく、中盤から終盤にかけての重要な目標になります。
+
+<CardGrid cols={4}>
+  <Card title="ソロ狩り">
+    - **機動力があると最適**
+    - 距離を保てるならより安全
+    - 規律あるバーストの見極めが必要
+  </Card>
+  <Card title="デュオ周回">
+    - **バランスの良い火力**
+    - ターゲット管理がしやすい
+    - 混成ビルドと相性が良い
+  </Card>
+  <Card title="クルー掃討">
+    - **最速のクリア**
+    - 偵察しやすい
+    - 1人がタイミング管理できると強い
+  </Card>
+  <Card title="スキップ判断">
+    - **時間の無駄を防ぐ**
+    - ビルドに継戦力がないときに使う
+    - 無理に悪い戦闘をするより良い
+  </Card>
+</CardGrid>
+
+| Key | Value | Why it matters |
+|---|---|---|
+| Boss type | **Open-water boss** | 立ち止まって殴り合うより、移動と間合いの管理が重要です。 |
+| Core value | **Materials, title, weapon route** | ルート効率が良ければ、報酬の価値は周回するに足ります。 |
+| Best playstyle | **Burst + mobility** | 短いダメージウィンドウでリスクを下げ、戦闘を安定させます。 |
+| Best team size | **Solo to small crew** | 複数人は有利ですが、全員がリセットのタイミングを理解している場合に限ります。 |
+
+<Callout type="tip" title="ライブ情報を参照しよう">
+周回ルートを考えるときは、公式の [Roblox experience page](https://www.roblox.com/games/6918802270/Haze-Seas) と [Haze Studios Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) を開いておきましょう。ライブ環境は変化することがあり、この2つが現在の流れを確認する最も確実な手段です。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="スポーンウィンドウ、ゾーン、ドロップ">
+
+Sea Beast の周回は、どこで狩るかによってかなり変わります。Sea 1 はウィンドウが長く、Sea 2 はより短い間隔で再挑戦できます。この違いだけで周回のリズムは大きく変わり、Sea 1 はより許容が広く、Sea 2 は待ち時間を抑えた効率周回に向いています。
+
+最も安全なのは、1つのエリアを選んで規律を守ることです。海を行き来するのは、スポーン待ち・撃破・リセットを狙っている場合でも、思った以上に時間を浪費しがちです。
+
+<Callout type="warning" title="タイミングが重要">
+スポーンウィンドウを気軽なイベントタイマーのように扱わないでください。到着が遅れたり、ルートを外れたり、最後の撃破時刻を忘れたりすると、周回効率は本来より大きく落ちます。
+</Callout>
+
+| Route | Spawn Window | Boss Location | Notable Drops | Best Use |
+|---|---|---|---|---|
+| Sea 1 | **30-120 minutes** | **Rocky Pillars** | Beast Slayer title, Sea Beast Core, Sea Beast Hammer V1 | 長時間のセッションと柔軟な予定に最適 |
+| Sea 2 | **20-60 minutes** | **Deep Seas** | Beast Slayer title, Sea Beast Heart, Sea Beast Hammer V2 | 高速な連続周回と短いループに最適 |
+
+| Drop | Value | Best For |
+|---|---|---|
+| Sea Beast Core | **High** | クラフトと一般的な進行 |
+| Sea Beast Heart | **High** | 終盤素材の収集 |
+| Sea Beast Hammer V1 | **Good** | 序盤の武器進行 |
+| Sea Beast Hammer V2 | **Very high** | より強力な武器ルートと反復周回 |
+| Beast Slayer title | **Niche** | コレクションや自慢用 |
+
+| Region | Pressure Level | Farming Style |
+|---|---|---|
+| Sea 1 | **Moderate** | 戦闘を覚えながら自信をつけるのに向いています。 |
+| Sea 2 | **Higher** | すでにルートを把握していて、速度を重視する人向けです。 |
+
+<Callout type="info" title="実践ルール">
+落ち着いて進めたいなら Sea 1、より密度の高い周回ループを回したいなら Sea 2 を選びましょう。ビルドが弱いなら、長めの Sea 1 ウィンドウのほうが扱いやすいことが多いです。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="戦闘向けベストロードアウト">
+
+Sea Beast に最適なロードアウトは、派手さではありません。移動しながら繰り返しダメージを与えられるよう、生き残りやすい構成であることが重要です。つまり、機動手段を1つ、安定した火力手段を1つ、そして戦闘が長引いたときに耐えられる手段を1つ用意するのが理想です。
+
+多くのプレイヤーは火力を盛りすぎて、立て直しに時間を失います。より整った構成のほうが、死ぬ時間、移動し直す時間、不利な交戦を立て直そうとする時間が減るため、結果的に速くなりやすいです。
+
+<CardGrid cols={4}>
+  <Card title="機動力">
+    - **Flash Step などの移動手段**
+    - 距離をリセットしやすい
+    - 無駄な被弾を減らせる
+  </Card>
+  <Card title="火力">
+    - **安定した AoE かバースト**
+    - Fruit、Sword、Style のいずれでも可
+    - すでに使い慣れた系統を選ぶ
+  </Card>
+  <Card title="継戦力">
+    - **防御と回復**
+    - ソロ時の圧力に耐えやすくなる
+    - 焦ってリセットする回数を減らせる
+  </Card>
+  <Card title="ユーティリティ">
+    - **Observation 系の認識力**
+    - 飛んでくる攻撃を読みやすい
+    - オープンウォーター周回で強い
+  </Card>
+</CardGrid>
+
+| Role | Pick | Notes |
+|---|---|---|
+| Mobility | **Fast movement tool** | 戦闘をコントロールしやすくし、待機時間を減らします。 |
+| Damage | **One main damage lane** | 早い段階で分散せず、Fruit、Sword、Fighting Style のどれかに絞りましょう。 |
+| Sustain | **Defense or healing support** | ソロ周回や乱れた引き寄せを扱いやすくします。 |
+| Utility | **Vision or dodge tools** | 長期戦でテンポを失いにくくなります。 |
+
+<Checklist
+  id="sea-beast-prep"
+  title="準備チェックリスト:"
+  items={[
+    "ルートに入る前に、移動手段を1つ持っておく。",
+    "報酬用に、インベントリの空きを少なくとも1枠は残す。",
+    "戦闘開始前に、主軸の火力系統を決めておく。",
+    "遠距離圧への安全な代替手段を用意する。",
+    "次のスポーンを追いやすいよう、最後の撃破時刻を記録する。"
+  ]}
+/>
+
+<Callout type="success" title="最適な考え方">
+Sea Beast 戦は、見栄よりも稼働率を重視すると安定します。危険なコンボで位置取りを失うなら、安全なループのほうが強い選択肢になることが多いです。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sea Beast を効率よく周回する方法">
+
+効率的な周回の大半は、判断疲れを減らすことです。ルートを理解したら、移動→発見→交戦→回収→リセット、という流れを繰り返せるようにしましょう。このリズムは、毎回完璧な戦闘を狙うことより重要です。
+
+目的は、見栄えを良くすることではありません。すべてのクリアが価値を生むように、ループをきれいに保つことです。ルートが雑だと、良いドロップでも遅く感じます。移動時間と回復時間が利益を削るからです。
+
+<Callout type="info" title="ルートのルール">
+今いるサーバー、ビルド、パーティ構成で綺麗にリセットできないなら、無理にもう1回やるのではなく、いったん止まってルートを組み直しましょう。
+</Callout>
+
+<Steps>
+  <Step num="1" title="適切な海を選ぶ">
+    より長くて許容の広いウィンドウが欲しいなら Sea 1 を選びましょう。ビルドが速い連戦に耐えられるなら Sea 2 を選びます。
+  </Step>
+  <Step num="2" title="立ち回りを決める">
+    移動手段を準備し、インベントリを空け、ボスが現れる前に安全な退路を1つ思い浮かべておきましょう。
+  </Step>
+  <Step num="3" title="安全な時間にバーストする">
+    安全に踏み込めるタイミングでボスを削り、圧力が重なってテンポを奪われる前に離脱します。
+  </Step>
+  <Step num="4" title="回収、記録、リセット">
+    ドロップを回収し、撃破時刻を記録し、ルートを外れずに次のスポーン計画へそのまま移ります。
+  </Step>
+</Steps>
+
+| Mistake | Problem | Better Play |
+|---|---|---|
+| 純粋な火力ばかり追う | 逃げ手段を失って、倒されやすくなる | 移動手段と継戦手段を1つずつ残す |
+| スポーンタイミングを無視する | 最適な周回ウィンドウを逃す | 最後の撃破を記録してルートをリセットする |
+| インベントリ満タンで戦う | 報酬処理が面倒、または遅れる | 始める前に空きを確保する |
+| 近接だけに過度に寄せる | 移動中に捕まりやすくなる | 安全に稼働率を保てる遠距離の保険を持つ |
+
+<Callout type="tip" title="ソロでの良い習慣">
+撃破のたびに、ひとつだけ自問しましょう。ルートは速くなったか、それとも混乱が増したか。雑になったなら、次の周回はもっと単純にするべきです。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ とクイックアンサー">
+
+このボスは、一回きりの相手として扱うのをやめ、繰り返し回せるルートとして考えたときに最も簡単になります。構成が安定すれば、通常の周回セッションに組み込めるほど予測しやすくなります。
+
+同じことは、Sea Beast の素材を狙う場合でも、武器ルートを進める場合でも、単にオープンシーの進行を整えたい場合でも当てはまります。ランダムな挑戦より、安定した反復のほうが勝ちます。
+
+<Callout type="tip" title="FAQ の焦点">
+ここでの回答は、もっとも実用的な周回、つまりタイミングが整っていて、ロードアウトが妥当で、無駄の少ないランに向けています。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "haze piece sea beast は Sea 1 と Sea 2 のどちらで周回するのが良いですか？",
+    answer: "ウィンドウが長い Sea 1 のほうが扱いやすく、短時間で繰り返しクリアしたいなら Sea 2 のほうが向いています。"
+  },
+  {
+    question: "ボスに挑む前に何を持っていけばいいですか？",
+    answer: "移動手段を1つ、主軸の火力手段を1つ、そして圧力を受けても何度もリセットしなくて済むだけの継戦力を持ち込みましょう。"
+  },
+  {
+    question: "どのドロップを優先して狙うべきですか？",
+    answer: "Sea Beast Core、Sea Beast Heart、そして Hammer 系の武器ルートが、多くのプレイヤーにとって最も実用的です。"
+  },
+  {
+    question: "ソロでも周回できますか？",
+    answer: "はい。ただし、移動力と継戦力の両方があるとソロ周回はより安定します。小人数なら、全員がルートを理解していればさらに簡単です。"
+  }
+]} />
+
+| Situation | Best Move | Why |
+|---|---|---|
+| 初めての周回 | **Sea 1 ルート** | より許容が広く、立て直しやすい |
+| 高速な反復周回 | **Sea 2 ルート** | ウィンドウが短く、ループが締まる |
+| ビルドが弱い | **グループを組む** | リスクを下げ、クリアを安定させる |
+| ビルドが強い | **ソロかデュオ** | 判断が速く、混乱が少ない |
+
+<Callout type="success" title="最終結論">
+最もきれいに Sea Beast を周回したいなら、ルートはシンプルに、インベントリは空けて、タイミングは一定に保ちましょう。そのほうが、派手な戦いを無理に押し通すより、たいてい報酬が良くなります。
+</Callout>
+
+</Section>

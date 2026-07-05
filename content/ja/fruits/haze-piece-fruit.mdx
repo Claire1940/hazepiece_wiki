@@ -1,0 +1,198 @@
+import { Map, Trophy, Target, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece fruit: 出現タイマー、ティアリスト、ルート",
+  description: "Haze Pieceのフルーツガイドでは、出現タイマー、入手ルート、ティア順位、そして周回・ボス戦・PvP・進行に最適なおすすめを解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Haze+Piece+Fruit+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece fruit** のルートは現在 Haze Seas と重なっているため、検索や計画では両方の名前を押さえておきましょう。
+- **ワールドフルーツ** は60分ごとに出現し、20分で消えるので、行き当たりばったりよりもタイミングが重要です。
+- Dragon、Dough、Gum のような **Sティアのフルーツ** は、長期的な周回価値が最も高いです。
+- **ディーラーロールとトレード** は、特定のフルーツを狙って入手する最速の手段です。
+</Callout>
+
+<Section icon={Map} title="haze piece fruit: 出現ルールと周回ルート">
+
+**haze piece fruit** の進行では、フルーツ集めを運試しではなくルートとして扱うのが最も賢い選択です。Haze Seas には35種類のフルーツがあり、最重要のシステムルールはシンプルです。ワールド出現はタイマー管理で発生し、消失までの時間は短く、VIP周回では保持できるフルーツ出現数にも上限があります。
+
+<Callout type="tip" title="ルートが先、運は後">
+自分の回収時刻を記録し、そのあとに木、ディーラーロール、トレードを決まった順番で確認しましょう。この習慣は、適当にサーバー移動するよりもはるかに時間を節約できます。
+</Callout>
+
+| システム | 値 | 意味 |
+| --- | --- | --- |
+| ワールドフルーツの出現 | 60分 | フルーツは木の下にタイマーで出現する |
+| フルーツの消失 | 20分 | 未回収のフルーツはすぐに消える |
+| VIPサーバー上限 | 5個のフルーツ | 小規模で管理された周回ループが最適 |
+| ディーラールート | Cynthia gacha | 待つよりも狙ったロールに向いている |
+| トレードルート | プレイヤー交換 | 特定のフルーツが欲しいときに有用 |
+
+<CardGrid cols={3}>
+  <Card title="ワールド出現">
+    - 予定チェックに最適
+    - アクティブに集める人向け
+    - タイマー習慣が必要
+  </Card>
+  <Card title="ディーラーロール">
+    - 管理しやすい再ロールに最適
+    - すぐに強化したいときに便利
+    - Cash または Gems を消費
+  </Card>
+  <Card title="トレード">
+    - レアなフルーツを狙うのに最適
+    - 望ましくない RNG を回避できる
+    - 需要が分かると非常に使いやすい
+  </Card>
+</CardGrid>
+
+実用的なルートは、出現時間帯を確認し、今のフルーツが弱ければロールし、明確な狙いがあるときだけトレードすることです。そうすれば、スターターフルーツを長く持ちすぎずに、より良いものへ進む道を確保できます。
+
+</Section>
+
+<Section icon={Trophy} title="ティアリストと最適フルーツ候補">
+
+現在のラインナップは十分に多いので、整理されたティアリストが重要です。これは永久不変の評価ではなく、進行のためのフィルターとして使ってください。最適なフルーツとは、クエスト、ボス、移動ループを最小の手間でこなせるものです。
+
+<Callout type="warning" title="ティアリストの基準">
+この順位は、進行、周回速度、ボスへの強さ、機動力を基準にしています。アップデートで順位は変わる可能性があるため、自分のビルド目的は常に見直しましょう。
+</Callout>
+
+| ティア | 最適候補 | 向いている用途 |
+| --- | --- | --- |
+| S | Dragon, Dough, Gum, Electricity, Phoenix, Shadow, Okuchi | 総合力、ボス戦、PvP、終盤 |
+| A | Darkness, Magma, Venom, Light, Leopard, Tremor, Wolf | 強い進行力と柔軟な戦闘 |
+| B | Ice, Flame, Gas, Gravity, Buddha, Snow, Mammoth, String, Love | 序盤〜中盤の快適さ |
+| C | Operation, Paw, Smoke, Sand, Barrier, Bomb, Chop | 一時的なスターターまたはユーティリティ |
+| D | Clear, Spin, Spike | できるだけ早く置き換えたい |
+
+<CardGrid cols={4}>
+  <Card title="Dragon">
+    - 強力な変身ダメージ
+    - PvP とボス戦に強い
+    - 終盤向けの上位選択肢
+  </Card>
+  <Card title="Dough">
+    - 広範囲 AoE 周回
+    - クエスト処理が非常に得意
+    - 集団へのダメージが優秀
+  </Card>
+  <Card title="Gum">
+    - 時間とともに伸びる性能
+    - 進行に強いルートを作れる
+    - 継続的な育成に報いる
+  </Card>
+  <Card title="Phoenix">
+    - 優れた機動力
+    - しっかりした継戦能力
+    - 複数のモードで有用
+  </Card>
+</CardGrid>
+
+| 活動 | 最適ティア範囲 | よく使われる候補 |
+| --- | --- | --- |
+| 周回 | S〜A | Dough, Darkness, Magma |
+| ボス戦 | S〜A | Dragon, Phoenix, Tremor |
+| PvP | S〜A | Dragon, Leopard, Shadow |
+| 移動 | S〜A | Light, Phoenix, Electricity |
+
+シンプルに言うなら、処理速度を上げるフルーツは残し、レアに見えるだけのものはトレードに回しましょう。島巡回を遅くするなら、見た目の派手さは意味がありません。
+
+</Section>
+
+<Section icon={Target} title="自分に合ったフルーツビルドの選び方">
+
+進行を無駄にしやすい最短ルートは、自分のビルド方針を決める前にフルーツを回してしまうことです。まずは1つの軸を選び、その軸を支えるフルーツを選びましょう。逆らうものを選ぶべきではありません。
+
+<Callout type="success" title="機能するビルドルール">
+良いフルーツは、1分あたりに処理できるコンテンツ量を増やしてくれるべきです。さらに移動やボス戦の安全性まで上がるなら、なお良いです。
+</Callout>
+
+<Steps>
+  <Step num="1" title="ダメージの軸を1つ決める">
+    フルーツ火力、剣、格闘スタイルのどれを中心に育てるかを決めましょう。3つを早い段階で混ぜすぎると、たいてい進行が遅くなります。
+  </Step>
+  <Step num="2" title="主な活動に合わせてフルーツを選ぶ">
+    クエストにはAoE系、ボスには瞬間火力系、移動が重要なら機動力のあるフルーツを使いましょう。
+  </Step>
+  <Step num="3" title="入手ルートを確認する">
+    ワールド出現、ディーラーロール、トレードを比較してください。最速ルートは、安定して繰り返せるものです。
+  </Step>
+  <Step num="4" title="弱いフルーツは意図的に置き換える">
+    より強い選択肢が出たら、スターター級の候補はレベル上げ速度を妨げる前に外しましょう。
+  </Step>
+</Steps>
+
+| プレイヤータイプ | 向いているフルーツ種別 | 理由 |
+| --- | --- | --- |
+| 初心者 | Ice, Flame, Buddha | 安全に処理しやすく、操作しやすい |
+| クエスト周回勢 | Dough, Magma, Darkness | 高速AoEと安定した敵集め |
+| PvPプレイヤー | Dragon, Leopard, Shadow | 瞬間火力、圧力、機動力 |
+| 移動重視 | Light, Phoenix, Electricity | 移動性能と位置取りの価値が高い |
+
+<Checklist
+  id="fruit-build-checklist"
+  title="フルーツを確定する前に:"
+  items={[
+    "そのフルーツが上位レア度であることより、処理速度を改善すること。",
+    "レベル上げや有効活用のためのルートがあること。",
+    "主力武器または戦闘プランに合っていること。",
+    "次に欲しいアップグレードが分かっていること。",
+    "慣れているという理由だけで弱いスターターを持ち続けていないこと。"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="公式リンク、よくあるミス、FAQ">
+
+ビルドが固まったら、調査元は絞りましょう。最も役立つ公式ページは、ゲームページ、Trello、Discord です。ライブ情報、アップデート変更、コミュニティ通知を余計なノイズなしで確認できます。
+
+<Callout type="info" title="情報源はきれいに保つ">
+ライブデータは公式リンクで確認し、判断は1つのティアリストに絞りましょう。ガイドをあちこち見比べすぎると、たいてい明確さより混乱が増えます。
+</Callout>
+
+| リソース | リンク | 最適な使い方 |
+| --- | --- | --- |
+| Roblox ゲームページ | [Haze Seas on Roblox](https://www.roblox.com/games/6918802270/Haze-Seas) | ゲームを起動し、ライブのタイトルを確認する |
+| 公式 Trello | [Haze Piece / Haze Seas Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) | フルーツ、武器、種族、システムの参照 |
+| 公式 Discord | [Haze Studios Discord](https://discord.com/invite/hazeseas) | コード、告知、アップデート नोटेस |
+| 公式 X | [RealHazeStudios](https://x.com/RealHazeStudios) | 短い公開投稿やリマインド |
+
+| よくあるミス | 損失 | より良い行動 |
+| --- | --- | --- |
+| 出現タイマーを無視する | フルーツ回収の機会を逃す | 60分サイクルを記録する |
+| 弱いスターターを長く持ちすぎる | クエスト進行が遅くなる | より強い候補に置き換える |
+| ビルドを決める前にロールする | リソースの無駄 | まず軸を決める |
+| 機動力を忘れる | ルートが遅くなる | 移動向きのフルーツを意識する |
+
+<FAQ items={[
+  {
+    question: "総合的な進行に最適な haze piece fruit は何ですか？",
+    answer: "Dragon、Dough、Gum は、周回、ボス戦、長期的なビルド成長を支えるため、総合的に強い候補です。"
+  },
+  {
+    question: "Haze Seas ではフルーツはどのくらいの頻度で出現しますか？",
+    answer: "ワールドフルーツは60分ごとに出現し、20分後に消えるため、確認タイミングがとても重要です。"
+  },
+  {
+    question: "このティアリストは公式ですか？",
+    answer: "いいえ。周回速度、ボス性能、PvP 圧力、機動力に基づく実用的な進行ランキングです。"
+  },
+  {
+    question: "使いやすいならスターターフルーツは残すべきですか？",
+    answer: "そのフルーツがまだ処理速度を上げるなら残しても構いません。そうでないなら、できるだけ早くより強いフルーツに移行しましょう。"
+  }
+]} />
+
+</Section>

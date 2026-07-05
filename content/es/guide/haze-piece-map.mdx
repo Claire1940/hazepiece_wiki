@@ -1,0 +1,205 @@
+import { Map, Target, Shield, Swords, Trophy, Sparkles } from "lucide-react"
+import { Callout } from "@/components/mdx/Callout"
+import { Card, CardGrid } from "@/components/mdx/CardGrid"
+import { Checklist } from "@/components/mdx/Checklist"
+import { FAQ } from "@/components/mdx/FAQ"
+import { Steps, Step } from "@/components/mdx/Steps"
+import { Section } from "@/components/mdx/Section"
+
+export const metadata = {
+  title: "Mapa de Haze Piece: rutas de islas, jefes y progresión",
+  description: "Usa el mapa de Haze Piece para trazar rutas de jefes en Sea 1 y Sea 2, seguir botines clave y planear una progresión más rápida en la revisión de Haze Seas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Haze+Piece+Map+Guide",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de Haze Piece"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La ruta del mapa de Haze Piece** funciona mejor cuando alineas el orden de las islas con los temporizadores de reaparición y un objetivo de botín.
+- **Sea 1** favorece a los jefes rápidos, los accesorios tempranos y objetos de desbloqueo como Tremor Key y Shusui.
+- **Sea 2** es donde se abren las rutas de armas más fuertes, incluidas Enma, Zenith, Dough y Dark Blade.
+- La **disciplina de ruta** importa más que deambular; mantén listo un canal de daño y una herramienta de movilidad.
+</Callout>
+
+<Section icon={Map} title="Resumen de la ruta del mapa de Haze Piece">
+
+El mapa de Haze Piece es más fácil de usar cuando lo tratas como un tablero de progresión en lugar de una pantalla de viaje. Sea 1 te enseña la ruta, Sea 2 amplía el grupo de botín y los superjefes convierten el mapa en un ciclo de farmeo cronometrado. Si sabes para qué sirve cada isla, dejas de perder tiempo en desvíos de poco valor y empiezas a eliminar a los jefes que realmente hacen avanzar tu build.
+
+<CardGrid cols={3}>
+  <Card title="Primero misiones">
+    - **Ideal para:** Subir de nivel rápido
+    - Enfócate en las misiones de las islas antes de perseguir botines raros
+    - Progreso inicial fluido con poca fricción de viaje
+  </Card>
+  <Card title="Primero botín">
+    - **Ideal para:** Farmear objetivos
+    - Encadena jefes con accesorios o armas útiles
+    - Muy fuerte cuando tu build ya limpia rápido
+  </Card>
+  <Card title="Primero desbloqueos">
+    - **Ideal para:** Nuevos sistemas
+    - Persigue objetos de ruta que abren jefes más fuertes
+    - Ideal para jugadores que avanzan hacia Sea 2
+  </Card>
+</CardGrid>
+
+Usa esta comparación rápida para elegir un estilo de ruta antes de empezar a farmear.
+
+| Estilo de ruta | Ideal para | Paradas principales | Riesgo |
+|---|---|---|---|
+| Primero misiones | EXP rápida | Starter Island, Clown Island, Logue City | Menor enfoque en botín |
+| Primero botín | Caza de botín | Shark Park, Marine Base Town, Thriller Boat | Subida de nivel más lenta |
+| Primero desbloqueos | Puertas de progresión | Marine HQ, Fishman Island, Sky Islands | Viaje más largo |
+| Rotación de jefes | Farmeo de endgame | Superjefes de Sea 2 | Mayor demanda de build |
+
+<Callout type="tip" title="Lógica de ruta">
+Si un jefe reaparece en unos 30 segundos, mantén tu ciclo corto y tu habilidad de movimiento lista. Si el objetivo depende de invocación o es por hora, planifica el resto de tu sesión en torno a ese temporizador.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Sea 1: de Starter a Marine HQ">
+
+Sea 1 es el mapa donde tu ruta empieza a importar. El mejor camino inicial no es explorar al azar; es una cadena limpia de reapariciones rápidas, accesorios útiles y algunos objetos de desbloqueo que abren mejores farmeos más adelante. Starter Island, Clown Island, Shark Park, Logue City, Marine Base Town y Marine HQ te dan el impulso inicial más eficiente. Después de eso, puedes desviarte hacia Sky Islands, Impel Jail, Fishman Island y Thriller Boat.
+
+<Steps>
+  <Step num="1" title="Empieza con el ciclo de eliminación más corto">
+    Comienza en Starter Island y limpia la primera ruta de jefes para ganar EXP sin desperdiciar tiempo de viaje.
+  </Step>
+  <Step num="2" title="Añade jefes de accesorios tempranos">
+    Pasa por Clown Island y Shark Park, y luego quédate solo con los jefes que sueltan equipo que puedas usar de inmediato.
+  </Step>
+  <Step num="3" title="Avanza hacia islas de utilidad">
+    Añade Logue City y Marine Base Town para recoger botines útiles de mitad de partida y prepararte para el progreso de Haki.
+  </Step>
+  <Step num="4" title="Termina la cadena de objetos de Sea 1">
+    Recorre Marine HQ, Sky Islands y Thriller Boat cuando estés listo para farmear Tremor Key, Golden Staff y Shusui.
+  </Step>
+</Steps>
+
+Aquí está el mapa de jefes de Sea 1 en formato compacto.
+
+| Isla | Jefe | Reaparición | Botín clave | Prioridad |
+|---|---|---|---|---|
+| Starter Island | Bandit Boss | 30 segundos | Eyepatch | Accesorio temprano |
+| Clown Island | Clown Boss | 30 segundos | Clown Nose | Ruta temprana de EXP |
+| Shark Park | Shark Boss | 30 segundos | Shark Blade | Objetivo temprano de espada |
+| Marine Base Town | Marine Captain | 30 segundos | Iron Jaw | Apoyo para Haki |
+| Logue City | Tashi Boss | 30 segundos | Glasses | Utilidad de mitad de partida |
+| Marine HQ | Ice Admiral | 30 segundos | Tremor Key | Desbloqueo de superjefe |
+| Sky Islands | Thunder God | 30 segundos | Golden Staff | Ruta de arma |
+| Thriller Boat | Ryummy | 30 segundos | Shusui | Ruta de 3SS |
+
+<Callout type="warning" title="Temporización de Sea 1">
+No trates a todos los jefes igual. Los jefes normales de isla reaparecen rápido, pero la cadena de superjefes detrás de Marine HQ y las rutas basadas en invocación necesitan un plan más estricto. Si pierdes la ventana, tu ruta se ralentiza rápidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ruta de Sea 2: desbloqueos, superjefes y paradas de endgame">
+
+Sea 2 es donde el mapa deja de ser una ruta de subida de nivel y se convierte en una lista de desbloqueos. Las paradas importantes son los jefes que alimentan Three Sword Style, las rutas de Dragon, las rutas de Dough, la progresión de Dark Blade y Zenith. En esta etapa, no solo te mueves entre islas; estás eligiendo qué ruta premium merece tu tiempo.
+
+| Sea | Isla | Jefe | Regla de aparición | Botín clave | Por qué importa |
+|---|---|---|---|---|---|
+| Sea 2 | Snowy Graveyard | 3SS Boss | 30 segundos | Green Cloak | Ruta de 3SS |
+| Sea 2 | Dragon Island | Mace V2 Boss | 30 segundos | Dragon Orb | Acceso al Dragon Boss |
+| Sea 2 | Dragon Island | Dragon Boss | Invocación | Horns, Drums of Liberation | Ruta de equipo |
+| Sea 2 | Cake Island | Soul Boss | 30 segundos | Mirror Fragment | Ruta de Dough |
+| Sea 2 | Mirror World | Dough Boss | Invocación | Dough Scarf, Dough Trident | Farmeo de alto valor |
+| Sea 2 | Flower Capital | Enma Boss | 60 minutos | Enma Sword | Progresión de 3SS |
+| Sea 2 | Foggy Castle | Darkblade V2 Boss | Basado en ruta | Night Hat, Night Necklace | Ruta premium de espada |
+| Sea 2 | Shadow Island | Zenith Super Boss | Aparición de tormenta | Zenith Sword | Espada top garantizada |
+| Sea 2 | Deep Seas | Sea Beast | 20 a 60 minutos | Sea Beast Heart, Hammer V2 | Materiales de final de partida |
+
+Si solo vas a elegir un objetivo de Sea 2, empieza por el jefe que desbloquea el siguiente paso de tu build. El mapa se vuelve mucho más fácil cuando farmeas primero los objetos de progresión y después los cosméticos raros.
+
+<Callout type="success" title="Mejor enfoque para Sea 2">
+Usa Sea 2 para asegurar primero los objetos de ruta garantizados y luego pasa a los botines raros una vez que tu daño y movilidad estén estables. Eso mantiene tus sesiones de farmeo rentables en lugar de especulativas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mejores botines para priorizar primero">
+
+No todos los botines merecen la misma atención. Algunos objetos mejoran tus estadísticas, otros abren una nueva ruta de jefes y otros se convierten en la base de una build más fuerte. El mejor plan para el mapa de Haze Piece es simple: asegúrate primero los objetos de desbloqueo, luego pasa a mejoras de armas y accesorios, y después empuja hacia botines raros de endgame.
+
+| Botín | Mejor fuente | Por qué importa | Prioridad |
+|---|---|---|---|
+| Eyepatch | Bandit Boss | Aumento temprano de estadísticas y primer farmeo fácil | Alta |
+| Shark Blade | Shark Boss | Primera ruta fuerte de espada | Alta |
+| Tremor Key | Ice Admiral | Abre una cadena de superjefes | Alta |
+| Shusui | Ryummy | Necesario para la ruta de Three Sword Style | Alta |
+| Enma | Enma Boss | Gran paso de progresión de 3SS | Alta |
+| Dragon Orb | Mace V2 Boss | Invoca al Dragon Boss | Media-Alta |
+| Mirror Fragment | Soul Boss | Abre la ruta de Dough | Media-Alta |
+| Zenith Sword | Zenith Super Boss | Espada premium garantizada | Máxima |
+| Dough Trident | Dough Boss | Recompensa de arma fuerte | Alta |
+| Sea Beast Heart | Sea Beast | Material de final de partida para builds avanzadas | Media |
+
+Si solo tienes tiempo para un objetivo por sesión, elige el botín que abra el siguiente nivel de jefes. Ese enfoque mantiene tu ruta avanzando en vez de estancarse en farmeos de poco impacto.
+
+<Callout type="info" title="Regla de prioridad">
+Un botín raro solo vale la pena si encaja en tu ruta actual. Si tu build no puede derrotar al jefe de forma consistente, retrocede un paso en la cadena y estabiliza primero.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación del mapa, lista de farmeo y enlaces oficiales">
+
+Una ruta limpia empieza antes de pisar la isla. Quieres un canal de daño, un plan de movilidad y un objeto objetivo para la sesión. Esa es la diferencia entre farmear con eficiencia y saltar de jefe en jefe sin terminar nada importante.
+
+<Checklist
+  id="map-prep"
+  title="Lista de verificación de sesión:"
+  items={[
+    "Elige un canal de daño: Fruta, Espada o Estilo de combate",
+    "Anota el tipo de reaparición antes de viajar",
+    "Mantén lista una opción de movilidad para los largos huecos entre islas",
+    "Define un objetivo de desbloqueo y un objetivo de botín",
+    "Guarda en favoritos los enlaces oficiales del juego, Trello y Discord"
+  ]}
+/>
+
+Usa esta referencia rápida cuando necesites los canales oficiales para comprobar rutas, leer noticias de actualizaciones o entrar al juego en vivo.
+
+| Enlace | Mejor uso | URL |
+|---|---|---|
+| Página del juego en Roblox | Acceso para jugar y cambios de título en vivo | https://www.roblox.com/games/6918802270/Haze-Seas |
+| Trello oficial | Referencia de jefes, objetos y sistemas | https://trello.com/b/nn8bpTB0/haze-piece-official-trello |
+| Discord oficial | Publicaciones de actualizaciones, códigos y anuncios | https://discord.com/invite/hazeseas |
+| Cuenta oficial de X | Noticias breves y recordatorios de lanzamiento | https://x.com/RealHazeStudios |
+
+<Callout type="warning" title="Seguridad del mapa">
+No confíes en capturas aleatorias para planear rutas. Usa los canales oficiales para las actualizaciones en vivo y luego mantén tu propia lista corta de jefes y botines para que tu sesión siga enfocada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes del mapa de Haze Piece">
+
+<Callout type="info" title="Respuestas rápidas">
+Estas son las preguntas de ruta que más hacen los jugadores cuando empiezan a usar el mapa de Haze Piece como herramienta de progresión.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor forma de leer el mapa de Haze Piece?",
+    answer: "Léelo por progresión, no por geografía. Empieza con los jefes rápidos de Sea 1, pasa a los objetos de desbloqueo y luego cambia a rutas de Sea 2 que apoyen tu build."
+  },
+  {
+    question: "¿Qué jefes de Sea 1 vale la pena farmear primero?",
+    answer: "Starter Island, Shark Park, Logue City y Marine HQ son buenas paradas tempranas porque combinan reapariciones rápidas con botines útiles como Eyepatch, Shark Blade, Glasses y Tremor Key."
+  },
+  {
+    question: "¿Qué debería priorizar primero en Sea 2?",
+    answer: "Prioriza primero los objetos de ruta, especialmente Enma, Dragon Orb, Mirror Fragment, Zenith Sword y Dough Trident. Esos botines abren ciclos de farmeo más fuertes."
+  },
+  {
+    question: "¿Importan tanto los temporizadores de reaparición?",
+    answer: "Sí. Los jefes rápidos de 30 segundos son excelentes para ciclos cortos, mientras que los jefes de 60 minutos o basados en invocación necesitan una sesión planificada. Entender los temporizadores es lo que mantiene eficiente tu ruta."
+  }
+]} />
+
+</Section>

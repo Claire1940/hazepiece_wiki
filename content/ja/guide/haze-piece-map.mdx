@@ -1,0 +1,205 @@
+import { Map, Target, Shield, Swords, Trophy, Sparkles } from "lucide-react"
+import { Callout } from "@/components/mdx/Callout"
+import { Card, CardGrid } from "@/components/mdx/CardGrid"
+import { Checklist } from "@/components/mdx/Checklist"
+import { FAQ } from "@/components/mdx/FAQ"
+import { Steps, Step } from "@/components/mdx/Steps"
+import { Section } from "@/components/mdx/Section"
+
+export const metadata = {
+  title: "Haze Piece マップ: 島ルート、ボス、進行",
+  description: "Haze Piece のマップを使って Sea 1 と Sea 2 のボスを回り、重要ドロップを追跡し、Haze Seas リワークでより速い進行計画を立てましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Haze+Piece+Map+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Haze Piece マップ** のルートは、島の順番をリスポーン時間と1つの戦利品目標に合わせると最も効果的です。
+- **Sea 1** は、短いボス討伐、序盤アクセサリー、Tremor Key や Shusui のような解放アイテムに向いています。
+- **Sea 2** では、Enma、Zenith、Dough、Dark Blade など、最強クラスの武器ルートが開放されます。
+- **ルートの規律** は寄り道より重要です。火力用の1本と移動手段を1つ、常に準備しておきましょう。
+</Callout>
+
+<Section icon={Map} title="Haze Piece マップのルート概要">
+
+Haze Piece のマップは、移動画面ではなく進行ボードとして扱うと使いやすくなります。Sea 1 ではルートの流れを学び、Sea 2 で戦利品の幅が広がり、スーパーボスによってマップは時間管理型の周回ループになります。各島の役割を把握していれば、価値の低い寄り道で時間を無駄にせず、実際にビルドを前進させるボスだけを倒せるようになります。
+
+<CardGrid cols={3}>
+  <Card title="クエスト優先">
+    - **向いている用途:** 高速レベリング
+    - レアドロップを追う前に島のクエストを優先する
+    - 移動のロスが少なく、序盤がスムーズ
+  </Card>
+  <Card title="ドロップ優先">
+    - **向いている用途:** 目標周回
+    - 役立つアクセサリーや武器を落とすボスを連続で狙う
+    - すでに火力が高いビルドで強い
+  </Card>
+  <Card title="解放優先">
+    - **向いている用途:** 新システム開放
+    - より強いボスを開放するルートアイテムを追う
+    - Sea 2 へ進むプレイヤーに最適
+  </Card>
+</CardGrid>
+
+周回を始める前に、この簡易比較でルートスタイルを決めましょう。
+
+| ルートスタイル | 向いている用途 | 主な立ち寄り先 | リスク |
+|---|---|---|---|
+| クエスト優先 | 高速EXP | Starter Island, Clown Island, Logue City | ドロップ重視度が低い |
+| ドロップ優先 | 戦利品狩り | Shark Park, Marine Base Town, Thriller Boat | レベリングが遅め |
+| 解放優先 | 進行の関門 | Marine HQ, Fishman Island, Sky Islands | 移動距離が長い |
+| ボスローテーション | エンドゲーム周回 | Sea 2 のスーパーボス | ビルド要求が高い |
+
+<Callout type="tip" title="ルートの考え方">
+ボスのリスポーンが約30秒なら、ループは短く、移動技はすぐ使える状態にしておきましょう。対象が召喚式や1時間単位なら、そのタイマーを軸にセッション全体を組み立てます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sea 1 ルート: Starter から Marine HQ へ">
+
+Sea 1 は、ルートの重要性が本格的に見えてくるマップです。最適な序盤ルートは、ランダム探索ではありません。高速リスポーン、役立つアクセサリー、そして後の周回を強化する解放アイテムをつなぐ、きれいな連鎖です。Starter Island、Clown Island、Shark Park、Logue City、Marine Base Town、Marine HQ は、序盤の勢いを最も効率よく作れます。その後は Sky Islands、Impel Jail、Fishman Island、Thriller Boat に分岐できます。
+
+<Steps>
+  <Step num="1" title="最短の討伐ループから始める">
+    Starter Island から始めて最初のボスルートを処理し、移動時間を無駄にせず EXP を稼ぎます。
+  </Step>
+  <Step num="2" title="序盤アクセサリーボスを追加する">
+    Clown Island と Shark Park を回り、すぐ使える装備を落とすボスだけを残します。
+  </Step>
+  <Step num="3" title="実用島へ進む">
+    Logue City と Marine Base Town を追加して、中盤で役立つドロップを拾い、Haki 進行の準備をします。
+  </Step>
+  <Step num="4" title="Sea 1 のアイテム連鎖を終える">
+    Tremor Key、Golden Staff、Shusui の周回準備が整ったら、Marine HQ、Sky Islands、Thriller Boat を回します。
+  </Step>
+</Steps>
+
+以下は Sea 1 のボスマップを簡潔にまとめたものです。
+
+| 島 | ボス | リスポーン | 主要ドロップ | 優先度 |
+|---|---|---|---|---|
+| Starter Island | Bandit Boss | 30秒 | Eyepatch | 序盤アクセサリー |
+| Clown Island | Clown Boss | 30秒 | Clown Nose | 序盤EXPルート |
+| Shark Park | Shark Boss | 30秒 | Shark Blade | 序盤の剣狙い |
+| Marine Base Town | Marine Captain | 30秒 | Iron Jaw | Haki 支援 |
+| Logue City | Tashi Boss | 30秒 | Glasses | 中盤の実用枠 |
+| Marine HQ | Ice Admiral | 30秒 | Tremor Key | スーパーボス解放 |
+| Sky Islands | Thunder God | 30秒 | Golden Staff | 武器ルート |
+| Thriller Boat | Ryummy | 30秒 | Shusui | 3SS ルート |
+
+<Callout type="warning" title="Sea 1 のタイミング">
+すべてのボスを同じように扱わないでください。通常の島ボスはすぐ再出現しますが、Marine HQ の先にあるスーパーボス連鎖や召喚式のルートは、より厳密な計画が必要です。タイミングを逃すと、ルートの速度は一気に落ちます。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sea 2 ルート: 解放要素、スーパーボス、終盤の立ち寄り先">
+
+Sea 2 では、マップはレベリング用の道ではなく、解放条件のチェックリストになります。重要なのは、Three Sword Style、Dragon ルート、Dough ルート、Dark Blade の進行、そして Zenith へつながるボスです。この段階では、単に島を移動しているのではありません。どの優先ルートに時間を割くべきかを選んでいるのです。
+
+| Sea | 島 | ボス | 出現条件 | 主要ドロップ | 重要な理由 |
+|---|---|---|---|---|---|
+| Sea 2 | Snowy Graveyard | 3SS Boss | 30秒 | Green Cloak | 3SS ルート |
+| Sea 2 | Dragon Island | Mace V2 Boss | 30秒 | Dragon Orb | Dragon Boss へのアクセス |
+| Sea 2 | Dragon Island | Dragon Boss | 召喚 | Horns, Drums of Liberation | 装備ルート |
+| Sea 2 | Cake Island | Soul Boss | 30秒 | Mirror Fragment | Dough ルート |
+| Sea 2 | Mirror World | Dough Boss | 召喚 | Dough Scarf, Dough Trident | 高価値周回 |
+| Sea 2 | Flower Capital | Enma Boss | 60分 | Enma Sword | 3SS 進行 |
+| Sea 2 | Foggy Castle | Darkblade V2 Boss | ルート式 | Night Hat, Night Necklace | プレミアム剣ルート |
+| Sea 2 | Shadow Island | Zenith Super Boss | ストーム出現 | Zenith Sword | 最上位剣の確定入手 |
+| Sea 2 | Deep Seas | Sea Beast | 20〜60分 | Sea Beast Heart, Hammer V2 | 終盤素材 |
+
+Sea 2 で1つだけ狙うなら、自分のビルドの次の段階を解放するボスから始めましょう。進行に必要なアイテムを先に集め、レアな見た目系は後回しにすると、マップがずっと扱いやすくなります。
+
+<Callout type="success" title="Sea 2 の最適な進め方">
+Sea 2 では、まず確定で取れるルートアイテムを確保し、その後で火力と機動力が安定してからレアドロップに移りましょう。そうすれば、周回は運任せではなく、利益の出るものになります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="最初に狙うべきおすすめドロップ">
+
+すべてのドロップが同じ重要度というわけではありません。ステータスを上げるもの、新しいボスルートを開くもの、より強いビルドの土台になるものがあります。Haze Piece のマップ計画で最も大事なのはシンプルです。まず解放アイテムを確保し、次に武器とアクセサリーを強化し、最後にレアな終盤ドロップへ進みます。
+
+| ドロップ | 主な入手元 | 重要な理由 | 優先度 |
+|---|---|---|---|
+| Eyepatch | Bandit Boss | 序盤のステータス強化、最初の簡単な周回 | 高 |
+| Shark Blade | Shark Boss | 最初の強力な剣ルート | 高 |
+| Tremor Key | Ice Admiral | スーパーボス連鎖を解放 | 高 |
+| Shusui | Ryummy | Three Sword Style ルートに必要 | 高 |
+| Enma | Enma Boss | 3SS 進行の大きな節目 | 高 |
+| Dragon Orb | Mace V2 Boss | Dragon Boss を召喚 | 中〜高 |
+| Mirror Fragment | Soul Boss | Dough ルートを開放 | 中〜高 |
+| Zenith Sword | Zenith Super Boss | プレミアム剣の確定入手 | 最優先 |
+| Dough Trident | Dough Boss | 強力な武器報酬 | 高 |
+| Sea Beast Heart | Sea Beast | 上位ビルド向けの終盤素材 | 中 |
+
+1回のセッションで1つだけ狙うなら、次のボス段階を開けるドロップを選びましょう。そのほうが、低効率な周回で足止めされずに、マップルートを前へ進められます。
+
+<Callout type="info" title="優先ルール">
+レアドロップの価値は、今のルートに合っていてこそです。ビルドでそのボスを安定して倒せないなら、少し前の段階に戻って先に安定化しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="マップ準備、周回チェックリスト、公式リンク">
+
+きれいなルートは、島に降り立つ前から始まっています。1つの火力手段、1つの移動手段、そしてセッション用の目標アイテムを決めておきましょう。それが、効率的な周回と、ボスを渡り歩くだけで何も終わらない状態との違いです。
+
+<Checklist
+  id="map-prep"
+  title="セッションチェックリスト:"
+  items={[
+    "火力の軸を1つ選ぶ: Fruit、Sword、または Fighting Style",
+    "移動前にリスポーン種類を確認する",
+    "長い島間移動のために移動手段を1つ確保する",
+    "1つの解放目標と1つのドロップ目標を決める",
+    "公式ゲーム、Trello、Discord のリンクをブックマークする"
+  ]}
+/>
+
+ルート確認、更新情報、ゲームへのアクセスが必要なときは、この簡易参照を使ってください。
+
+| リンク | 主な用途 | URL |
+|---|---|---|
+| Roblox ゲームページ | プレイアクセス、タイトル変更の確認 | https://www.roblox.com/games/6918802270/Haze-Seas |
+| 公式 Trello | ボス、アイテム、システムの参照 | https://trello.com/b/nn8bpTB0/haze-piece-official-trello |
+| 公式 Discord | 更新情報、コード、告知 | https://discord.com/invite/hazeseas |
+| 公式 X アカウント | 短いニュース、リリース告知 | https://x.com/RealHazeStudios |
+
+<Callout type="warning" title="マップの安全性">
+ルート計画に、無作為なスクリーンショットは使わないでください。最新情報は公式ハブで確認し、さらに自分用のボスとドロップの短いリストを持っておくと、セッションの焦点がぶれません。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Haze Piece マップ FAQ">
+
+<Callout type="info" title="よくある答え">
+Haze Piece のマップを進行ツールとして使い始めたプレイヤーが、最もよく聞くルートの質問です。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Haze Piece のマップはどう読むのが一番いいですか？",
+    answer: "地理ではなく進行で読みましょう。まず Sea 1 の速いボスから始め、解放アイテムへ進み、その後でビルドを支える Sea 2 ルートに移ります。"
+  },
+  {
+    question: "最初に周回する価値がある Sea 1 のボスはどれですか？",
+    answer: "Starter Island、Shark Park、Logue City、Marine HQ は、短いリスポーンと Eyepatch、Shark Blade、Glasses、Tremor Key のような有用ドロップを両立しているため、序盤の立ち寄り先として優秀です。"
+  },
+  {
+    question: "Sea 2 では何を最優先で狙うべきですか？",
+    answer: "まずはルートアイテムを優先しましょう。特に Enma、Dragon Orb、Mirror Fragment、Zenith Sword、Dough Trident です。それらのドロップが、より強い周回ループを開きます。"
+  },
+  {
+    question: "リスポーン時間はそんなに重要ですか？",
+    answer: "はい。30秒の高速ボスは短いループに最適ですが、60分ボスや召喚式ボスは計画的なセッションが必要です。タイマーを把握することが、ルート効率を保つ鍵です。"
+  }
+]} />
+
+</Section>

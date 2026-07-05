@@ -1,0 +1,218 @@
+import { Map, Target, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Haze Piece NPCの場所: クエスト、トレーナー、ボスのマップガイド",
+  description: "Sea 1 と Sea 2 をまたいだ Haze Piece の NPC 位置を、トレーナーの場所、クエスト拠点、ボス、販売NPC、そして2026年向けの効率的なルートのコツとともに追跡します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/0f172a/fff?text=NPC+Location+Guide",
+  date: "2026-07-05",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Haze Piece の NPC 位置** は、クエスト拠点、トレーナー、ボスの出現地点を1つの島ループでつなぐと最速です。
+- **Sea 1** は、レアドロップを追う前に移動手段、覇気、序盤ボスを解放するための場所です。
+- **Sea 2** では、上位の武器、種族、召喚NPCが追加され、計画的に回る価値があります。
+- **公式リンク** は、使われていない島ルートへ向かう前に更新内容を確認するのに役立ちます。
+</Callout>
+
+<Section icon={Map} title="Haze Piece NPC位置の基本">
+
+この Haze Piece NPC 位置マップを使えば、無駄な航海を減らし、クエスト拠点からトレーナー、そしてボスへと、寄り道を最小限にして移動できます。最も効率的なルートはシンプルです。島を特定し、NPCの種類を確認し、解放や納品が終わったらすぐに離れること。そうすることで、特に Haze Seas でマップが広がってきた後のレベリングとファーミングの流れを、きれいに保てます。
+
+<CardGrid cols={4}>
+  <Card title="クエスト拠点">
+    その島のEXPとCash進行を進めるNPC。
+  </Card>
+  <Card title="トレーナー">
+    移動、覇気、スタイルの解放で移動時間を短縮するNPC。
+  </Card>
+  <Card title="販売NPC">
+    リロール、ロール、強化に使うフルーツや便利系NPC。
+  </Card>
+  <Card title="ボスゲート">
+    レアドロップや強化につながる出現地点と召喚ルート。
+  </Card>
+</CardGrid>
+
+| NPCの種類 | 最初に行く場所 | 重要な理由 | 優先度 |
+|---|---|---|---|
+| クエスト提供者 | 現在の島の拠点 | 高速EXP、Cash、次エリア解放 | 非常に高い |
+| 移動トレーナー | Sea 1 序盤の島々 | 以降のすべてのルートを速くする | 非常に高い |
+| 覇気トレーナー | Marine Base Town または Luke Town ルート | 戦闘力と防御面の実用性を追加 | 高い |
+| フルーツ販売NPC | Starter Island と以降の販売地点 | 序盤ビルド変更を支援 | 高い |
+| ボスNPC | 進行中の島 | ドロップ、素材、称号を解放 | 高い |
+
+<Callout type="tip" title="ルール">
+1回の遠征で島のNPCをすべて回らないでください。目的の解放を終えたら次へ進むこと。効率的なルート取りは、見た目重視の観光より常に勝ちます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sea 1 のおすすめNPC拠点">
+
+Sea 1 は、多くのプレイヤーが後で時間を節約できる習慣を身につける場所です。重要なのは、クエストNPCと近くの解放NPCを組み合わせられる島です。そうした島なら、何度も引き返さずにレベル上げとビルド強化を進められます。序盤を進める間は、この表を開いたままにしておきましょう。
+
+| 島 | 主要NPC | 入手・解放するもの | 最適な使い方 |
+|---|---|---|---|
+| Starter Island | Fruit Dealer Cynthia、Bandit Boss ルート | 序盤ロール、初期クエストの流れ | 旅の開始地点として使い、使えるフルーツを確保する |
+| Clown Island | Flash Step トレーナー | Level 40 で Flash Step | 序盤の機動力強化 |
+| Luke Town | Old Man Silver | Level 350 で Buso Haki | 最初の大きな戦闘強化 |
+| Logue City | Tashi Boss ルート | EXP、Cash、ボス進行 | Sea 1 中盤のレベリング地点 |
+| Marine Base Town | Observation Haki トレーナー、Marine Captain | Level 600 で Observation Haki | Sea 1 後半の実用解放 |
+| Tall Woods | King Gorilla Boss ルート、Fire Fist 召喚ルート | ボスドロップと召喚進行 | 強力なファーミング寄り道 |
+| Sky Islands | Thunder God | 武器とアクセサリのルート | 高価値ボスファーミング |
+| Impel Jail | Warden Boss | Fire Fist ルート向け | 召喚準備 |
+| Fishman Island | Neptune Boss | Fork と島の進行 | ボスと素材のルート |
+| Thriller Boat | Ryummy | Shusui ルートとアクセサリ狩り | 剣の進行地点 |
+
+| Sea 1 拠点 | 移動パターン | 避けること | 効率評価 |
+|---|---|---|---|
+| Starter から Clown Island | クエスト先行、トレーナー後回し | 目的なしでうろつくこと | 5/5 |
+| Luke Town から Marine Base Town | 覇気の進行チェーン | 純火力だけを追って覇気を飛ばすこと | 5/5 |
+| Impel Jail から Tall Woods | 召喚アイテムのループ | 準備前にレアボスを追いかけること | 4/5 |
+| Fishman Island から Thriller Boat | ボスと剣のルート | 1つの島を長く掘りすぎること | 4/5 |
+
+<Callout type="warning" title="Sea 1 で避けたい失敗">
+多くのプレイヤーは、ボス島に早く行きすぎます。移動手段と覇気が弱いと、ルートは速くなるどころか遅くなります。先に解放、後でファームです。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="重要なトレーナー、販売NPC、解放NPC">
+
+Haze Piece で最強のNPCが、必ずしも最強のボスとは限りません。最も価値があるのは、移動速度、生存力、クエスト処理速度を変えてくれる解放NPCです。1つだけ覚えるなら、実用NPCの連なりを覚えましょう。
+
+| NPC | 場所 | 必要条件 | 結果 |
+|---|---|---|---|
+| Cynthia the Fruit Dealer | Starter Island と以降の販売地点 | Cash または Gems | 序盤ビルド向けのフルーツロール |
+| Flash Step トレーナー | Clown Island | Level 40 | 高速移動ツール |
+| Old Man Silver | Luke Town | Level 350 と $100,000 | Buso Haki 解放 |
+| Observation Haki トレーナー | Marine Base Town Island | Level 600 と $150,000 | Observation Haki 解放 |
+| Race Engineer | Sea 2 最初の島 | Level 2200 以上 | Race V2 ルート |
+| Nikk0lapz | Foggy Castle | 強化ルート条件 | Dark Blade 進行 |
+| Doran the Forge | クラフト系ルートNPC | レア素材とCash | 上位武器クラフト |
+
+<Steps>
+  <Step num="1" title="まず移動を解放する">
+    可能になったらすぐに Flash Step を取りましょう。以降の島ルートをすべて短縮できます。
+  </Step>
+  <Step num="2" title="次に Buso Haki を取る">
+    Level と Cash の条件を満たしたら、Luke Town で Old Man Silver を利用します。
+  </Step>
+  <Step num="3" title="Observation Haki を追加する">
+    生存力とPvPの安全性を高めたいタイミングで Marine Base Town へ向かいましょう。
+  </Step>
+  <Step num="4" title="Sea 2 は種族作業のために残す">
+    Race Engineer のルートに近づき、移動の価値があると判断できる時だけ Sea 2 に進みます。
+  </Step>
+</Steps>
+
+<Callout type="success" title="最適な実用順">
+移動を先、覇気を次、種族強化を最後。この順番なら進行が滑らかで、行き止まりの寄り道を避けられます。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sea 2 のNPC位置とボスルート">
+
+Sea 2 では、マップの計画性が報われ始めます。いくつかの島は、武器、種族強化、召喚アイテム、ボスドロップと結びついており、ビルドを終盤まで支えてくれます。最短ルートを目指すなら、島から島へ行き当たりばったりで回るのではなく、Sea 2 のルート表を用意しておきましょう。
+
+| 島 | NPCまたはボス | 出現ルール | 主要ドロップまたは解放 |
+|---|---|---|---|
+| Snowy Graveyard | 3SS Boss | 倒されるたびに再出現 | Green Cloak アクセサリ |
+| Dragon Island | Mace V2 Boss | 倒されるたびに再出現 | Dragon Orb |
+| Cake Island | Soul Boss | 倒されるたびに再出現 | Mirror Fragment |
+| Winter Island | Snow Boss | 倒されるたびに再出現 | Snow Orb |
+| Snake Amazon | Love Boss | 倒されるたびに再出現 | Snake Earrings |
+| Flower Capital | Enma Boss | 60分ごとに再出現 | Enma Sword |
+| Foggy Castle | Darkblade V2 Boss ルート | クラフトと召喚のルート | Dark Blade 強化ルート |
+| Shadow Island | Zenith Super Boss | 嵐イベントで出現 | Zenith Sword |
+| Deep Seas | Sea Beast | 20〜60分で再出現 | Sea Beast Heart、Hammer V2 |
+
+| Sea 2 の目的地 | 重要な理由 | 向いているビルド | ルート価値 |
+|---|---|---|---|
+| Flower Capital | 剣の進行 | 剣メイン | 素晴らしい |
+| Dragon Island | レア変身ルート | フルーツメイン | 素晴らしい |
+| Foggy Castle | 上位武器強化 | 後半の近接ビルド | 素晴らしい |
+| Deep Seas | 素材集め | 混成ビルド | 高い |
+| Shadow Island | 確定剣ターゲット | 剣の進行 | 素晴らしい |
+
+<Callout type="info" title="Sea 2 のルート取りのコツ">
+特定ドロップを狙うなら、目的物が手に入るまで1本の Sea 2 チェーンに留まりましょう。島を頻繁に切り替えるのは、勢いを失う最短ルートです。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="高速NPCルーティングのチェックリスト">
+
+NPC の場所が分かったら、本当の勝負は再現性のあるルート作りです。下のチェックリストは、移動を効率化し、目的を明確に保つのに役立ちます。周回するたびに使いましょう。
+
+<Checklist
+  id="npc-route-checklist"
+  title="出発前に確認:"
+  items={[
+    "次に解放するNPCがいる島をマーキングする。",
+    "先にレベル、Cash、Gem の条件が必要か確認する。",
+    "長距離の航海前には移動手段を使う。",
+    "サイド島を探索する前に、クエストまたはボスの目的を終わらせる。",
+    "販売NPCやトレーナーに戻るのは、ルートが本当の強化につながる時だけにする。"
+  ]}
+/>
+
+| ルート目標 | おすすめの場所 | 主なNPC | 時短ポイント |
+|---|---|---|---|
+| 移動 | Clown Island | Flash Step トレーナー | 島間移動を速くする |
+| 最初の覇気 | Luke Town | Old Man Silver | 戦闘ループが強くなる |
+| 実用覇気 | Marine Base Town | Observation トレーナー | ボス戦をより安全にする |
+| フルーツ変更 | Starter Island | Fruit Dealer Cynthia | 序盤のビルド自由度 |
+| 終盤武器 | Foggy Castle | Darkblade ルート | 上位強化ルート |
+
+<Callout type="tip" title="公式情報">
+ルーティング中はこれらを開いたままにしてください。2026-07-05 時点の島名や更新関連の変更を確認する最速手段です。
+</Callout>
+
+| 日付 | 公式リソース | リンク |
+|---|---|---|
+| 2026-07-05 | Roblox のゲームページ | [Roblox の Haze Seas](https://www.roblox.com/games/6918802270/Haze-Seas) |
+| 2026-07-05 | 公式 Trello | [Haze Piece / Haze Seas Trello](https://trello.com/b/nn8bpTB0/haze-piece-official-trello) |
+| 2026-07-05 | 公式 Discord | [Haze Studios Discord](https://discord.com/invite/hazeseas) |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="FAQ ノート">
+ここでは、実用的なNPCルートに絞って、どこへ行くか、何を解放するか、どの島を最初に回るかを説明します。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Haze Piece の NPC 位置情報を使う最速の方法は？",
+    answer: "すべての島をルートのノードとして扱いましょう。目的を1つ決め、対応するNPCのところへ行き、解放を終えたら、サイド作業に流れる前に離れます。"
+  },
+  {
+    question: "新規プレイヤーは最初にどこへ行くべき？",
+    answer: "Starter Island から始めて、次に Clown Island で Flash Step を取りましょう。その後、レベルと Cash の準備ができたら Luke Town で Buso Haki へ進みます。"
+  },
+  {
+    question: "進行に最も重要なNPCは？",
+    answer: "最も価値があるのは、Cynthia the Fruit Dealer、Flash Step トレーナー、Old Man Silver、Observation Haki トレーナー、そして Sea 2 の Race Engineer です。"
+  },
+  {
+    question: "より良いNPC報酬のために Sea 2 は必須？",
+    answer: "すぐに必須ではありませんが、より大きな武器、種族、召喚ルートが始まるのは Sea 2 です。Sea 1 のループが安定しているなら、移行を計画する価値があります。"
+  }
+]} />
+
+<Callout type="success" title="最終まとめ">
+Sea 1 の実用チェーンと Sea 2 のボスチェーンを覚えておけば、次にどこへ行くべきか常に分かります。それこそが、きれいに整理された NPC マップの本当の強みです。
+</Callout>
+
+</Section>
