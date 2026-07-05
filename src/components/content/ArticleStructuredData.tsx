@@ -49,7 +49,7 @@ export function ArticleStructuredData({
 		'@type': 'Article',
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: frontmatter.image || `${siteUrl}/images/hero.webp`,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {

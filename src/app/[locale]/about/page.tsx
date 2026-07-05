@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About Haze Piece Wiki - Your Ultimate Roblox Game Resource',
-    description: 'Learn about Haze Piece Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Haze Piece Roblox game.',
+    description: 'Learn about Haze Piece Wiki, a community-driven resource hub providing comprehensive guides, fruit locations, combat strategies, and active codes for the Haze Piece Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Learn about our mission to provide the best Haze Piece game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
           alt: 'Haze Piece Wiki',
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'About Haze Piece Wiki',
       description: 'Learn about our mission to provide the best Haze Piece game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -75,10 +75,10 @@ export default function About() {
             <p>
               Haze Piece Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
               master the Roblox game "Haze Piece". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              devil fruit locations, weapon stats, boss strategies, and active codes to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
+              Whether you're a new pirate just setting sail on the Grand Seas or a seasoned veteran looking to optimize your build,
               Haze Piece Wiki is here to support you every step of the way.
             </p>
           </div>
@@ -96,7 +96,7 @@ export default function About() {
             </p>
             <ul>
               <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Build useful tools:</strong> Develop fruit tier lists, stat calculators, and code trackers that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
@@ -105,7 +105,7 @@ export default function About() {
             <p>
               We envision Haze Piece Wiki as the <strong>go-to destination</strong> for every Haze Piece player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              fruit guides, want to explore new seas, or are looking for advanced PvP tactics.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🍇</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Devil Fruit Guide</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Complete devil fruit locations, rarities, and ability breakdowns to help you find and master
+                every fruit in the game. Build the ultimate power set!
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">🗺️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Sea & Island Maps</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Detailed guides on every sea and island, their levels, hidden secrets, and dangers.
+                Sail the Grand Seas with confidence.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">⚔️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Boss Raid Guides</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Complete information on every boss and raid, their attack patterns, drops, and the best
+                strategies to take them down. Conquer the strongest foes.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">🎁</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Active Codes & Rewards</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Up-to-date working codes for free resets, XP boosts, and exclusive rewards.
+                Never miss a code with our constantly refreshed list.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">🗡️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">PvP & Combat Tactics</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Essential combat tips, fighting style breakdowns, and Haki guides.
+                Learn how to dominate every battle on the high seas.
               </p>
             </div>
 
@@ -195,7 +195,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've discovered a new fruit combo, found a hidden island,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>

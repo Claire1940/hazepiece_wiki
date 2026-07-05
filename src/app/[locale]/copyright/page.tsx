@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Copyright and intellectual property information for Haze Piece Wiki.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
           alt: 'Haze Piece Wiki',
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Copyright Notice - Haze Piece Wiki',
       description: 'Copyright and intellectual property information.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -152,7 +152,7 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Roblox Corporation</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
               <li><strong>Haze Piece</strong> - Trademark of the game developers</li>
               <li><strong>Haze Piece Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
