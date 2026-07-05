@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Haze Piece Wiki - Codes, Fruits & Tier List",
+      "description": "Haze Piece Wiki covers active codes, fruits, tier lists, races, Haki, weapons, bosses, and beginner routes for the Haze Seas Roblox rework guide.",
+      "keywords": "haze piece, haze seas, roblox, codes, fruits, tier list, races, haki, bosses",
+      "ogTitle": "Haze Piece Wiki - Codes, Fruits & Tier List",
+      "ogDescription": "Haze Piece Wiki covers active codes, fruits, tier lists, races, Haki, weapons, bosses, and beginner routes for the Haze Seas Roblox rework guide.",
+      "twitterTitle": "Haze Piece Wiki - Codes, Fruits & Tier List",
+      "twitterDescription": "Haze Piece Wiki covers active codes, Devil Fruits, races, Haki, weapons, bosses, and beginner routes for the Haze Seas Roblox rework."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Pirate Action RPG",
+    "title": "Haze Piece Wiki",
+    "description": "Explore the Haze Piece and Haze Seas Roblox rework with active codes, Devil Fruits, races, Haki, weapons, bosses, maps, and beginner progression guides.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "243M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "35",
+        "label": "Fruits Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "10+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "50K+",
+        "label": "Peak CCU"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Set Sail in Haze Seas?",
+    "description": "Join the Haze Studios community on Discord for codes, fruit tier lists, Haki guides, boss drops, and the latest Haze Seas updates!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Haze Piece Wiki",
+    "description": "Your complete resource hub for Haze Piece and Haze Seas codes, Devil Fruits, races, Haki, weapons, bosses, and beginner guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Roblox Game",
+    "youtube": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Haze Piece Wiki. Not affiliated with Haze Studios.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

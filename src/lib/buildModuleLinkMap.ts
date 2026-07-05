@@ -77,9 +77,10 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of game brand prefix, e.g. "Lucid Blocks" / "Haze Piece" / "Haze Seas")
+  const brandPrefixRe = /lucid blocks?\s*|haze (?:piece|seas)\s*/g
+  const strippedQuery = normalizedQuery.replace(brandPrefixRe, '').trim()
+  const strippedTitle = normalizedTitle.replace(brandPrefixRe, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
