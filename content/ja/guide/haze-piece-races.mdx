@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "haze piece races: 最強レースランキングとバフガイド",
+  description: "haze piece の全レースを希少度、ステータス、プレイスタイル別に比較。PvP、機動力、金策に最適なロールを選ぶための2026年版ガイドです。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Race+Rankings+Guide",
+  date: "2026-07-06",
+  author: "haze piece Wiki チーム"
+}
+
+<Callout type="info" title="要点まとめ">
+- **haze piece races** は、序盤のシンプルな実用枠から、ビルドを決定づける超レアの Mythic まで幅広いです。
+- **D Clan** は、覇王色の覇気、スカイウォーク、そしてバランスの取れたステータスにより、最強の上限候補です。
+- **Demon** と **Mink** は、速度、移動制御、素早い周回を重視するなら最上位候補です。
+- **Dragonoid** と **Lunarian** は、機動力と戦闘補助の両方で優秀なハイブリッド性能を持ちます。
+- **Fishman** は水上移動で依然として非常に強く、特にフルーツ主体や島を渡り歩くビルドで真価を発揮します。
+</Callout>
+
+<Section icon={Map} title="haze piece races: 希少度ランクと重要バフ">
+
+このセクションでは、レースのプールを希少度ごとに整理し、ロール結果を素早く判断できるようにします。重要なのはシンプルで、現在はベース形態が最も大事です。派手な見た目よりも、純粋なバフと実用性を優先して判断しましょう。
+
+**動画の見どころ:**
+- すべてのレースは、一般から Mythic まで明確な希少度ランクに分かれています。
+- 序盤のロールでも、スタミナ、機動力、生存力の不足を補えるなら十分価値があります。
+- Legendary と Mythic のレースは、移動・戦闘・金策のやり方を大きく変えます。
+- 小さなステータス上昇よりも、速度や移動補助のほうが重要になる場面が多いです。
+- 現在のレースプールは、進化系統よりもベース形態を中心に構成されています。
+
+<YouTubeEmbed videoId="_iSfDetZkM4" title="Every Race Showcase Haze Piece Roblox" />
+
+| 希少度ティア | レース | 出現率 | だいたいの意味 |
+|---|---|---:|---|
+| Common | Human, Elf, Third Eye Tribe | 各55% | かなり出やすく、影響は小さいか限定的 |
+| Uncommon | Skypiea, Fishman, Mink, Cyborg | 各35% | 実用性と機動力の価値が高い |
+| Special | Celestial Dragon, Demon | 各8.9% | 特色がはっきりした、特定用途向けの強化 |
+| Legendary | Dragonoid, Lunarian | 各1% | 強力な特典を持つ高価値ハイブリッド |
+| Mythic | D Clan | 0.1% | 最強クラスの上限、最も入手困難 |
+
+<Callout type="warning" title="希少度に関する重要事項">
+希少度だけでロールを判断しないでください。移動、クエスト、耐久の問題を解決してくれるなら、低希少度のレースのほうがあなたの進行に合うこともあります。
+</Callout>
+
+| レース | 希少度 | 出現率 | 基本的な特徴 |
+|---|---|---:|---|
+| Human | Common | 55% | 基本ロール、実質的な恩恵なし |
+| Elf | Common | 55% | 軽い回復支援 |
+| Third Eye Tribe | Common | 55% | わずかなスタミナ増加 |
+| Skypiea | Uncommon | 35% | ジャンプ重視の空中機動 |
+| Fishman | Uncommon | 35% | 水上移動と泳ぎ速度 |
+| Mink | Uncommon | 35% | 高速な地上移動とジャンプ圧 |
+| Cyborg | Uncommon | 35% | 回復と体力支援 |
+| Celestial Dragon | Special | 8.9% | クエスト報酬金ボーナスとバランス型ステータス |
+| Demon | Special | 8.9% | 圧倒的な歩行速度優位 |
+| Dragonoid | Legendary | 1% | 強力なハイブリッド性能を持つ戦闘機動型 |
+| Lunarian | Legendary | 1% | スカイウォークを軸にした空中制御 |
+| D Clan | Mythic | 0.1% | 最高峰の総合性能と無料の覇王色の覇気 |
+
+<Callout type="tip" title="プールの見方">
+機動力を重視するなら Demon、Mink、Lunarian、Dragonoid を優先しましょう。ルート効率を重視するなら、Celestial Dragon と Fishman も要チェックです。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PvP、周回、移動におけるレースの性能比較">
+
+ここでは実用面を重視して整理します。希少度だけでなく、自分が最も多く行う行動、つまりプレイヤーとの戦闘、クエスト周回、素早いマップ移動に合わせてレースを選びましょう。
+
+<Callout type="info" title="ステータス傾向">
+haze piece races の多くは、速度・機動力・継戦力の3系統のどれかに分かれます。最強クラスのロールは、このうち2つを同時に兼ね備えていることが多いです。
+</Callout>
+
+| レース | 主なバフ | 最適な用途 |
+|---|---|---|
+| Human | なし | つなぎのロールのみ |
+| Elf | HP回復 +2.5% | 序盤の継戦力 |
+| Third Eye Tribe | スタミナ +2.5% | 基本的なエネルギー支援 |
+| Skypiea | ジャンプ力 +25 | 垂直移動、島移動 |
+| Fishman | 泳ぎ速度 +35、体力 +2.5% | 水上ルート、フルーツ使いの安全性 |
+| Mink | 歩行速度 +15、ジャンプ力 +15、スタミナ +2.5% | 高速移動、PvPでの圧力 |
+| Cyborg | HP回復 +2.5%、体力 +2.5% | 耐久重視、安全な周回 |
+| Celestial Dragon | クエスト報酬金 +15、スタミナ +5%、体力 +5% | クエスト金策 |
+| Demon | 歩行速度 +50、スタミナ +5%、体力 +5% | 最速クラスの地上移動 |
+| Dragonoid | 観察回避 +1、ジャンプ力 +25、HP回復 +10、体力 +10 | 高機動戦闘 |
+| Lunarian | Skywalk +1、ジャンプ力 +25、HP回復 +10、スタミナ +10 | 空中制御と追跡手段 |
+| D Clan | 体力 +10%、スタミナ +10%、観察回避 +1、Skywalk +1、無料の覇王色の覇気 | 総合性能の最高峰 |
+
+<Callout type="success" title="最強のステータス組み合わせ">
+最も価値が高いのは、速度＋スタミナ、または機動力＋継戦力の組み合わせです。だからこそ、Mink、Demon、Dragonoid、Lunarian、D Clan が際立っています。
+</Callout>
+
+| ステータス種別 | 代表的な最適レース | 重要な理由 |
+|---|---|---|
+| 地上速度 | Demon, Mink | 金策ルートが速くなり、追跡力も上がる |
+| ジャンプ力 | Skypiea, Mink, Dragonoid, Lunarian | 地形制御と逃走ルートが向上する |
+| 継戦力 | Elf, Cyborg, D Clan | 長期戦に強く、安定して進行できる |
+| 実用性 | Fishman, Celestial Dragon, D Clan | ルートを改善する特殊な利点がある |
+
+</Section>
+
+<Section icon={Trophy} title="プレイスタイル別の最強 haze piece races">
+
+最短で答えが欲しいなら、まずプレイスタイルを優先し、そのあとに希少度を見てください。その順番なら、より明確な目的が定まり、見た目は良いけれどビルドに合わないロールでスピンを無駄にするのを防げます。
+
+<Callout type="tip" title="最適選択の考え方">
+日々の行動を最も改善してくれるレースを選びましょう。戦闘よりも島移動のほうが多いなら、純粋な火力より機動力のほうが価値を持つことがあります。
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="総合最強">
+    **D Clan**  
+    Mythic の上限、無料の覇王色の覇気、そして高水準の総合ステータス。
+  </Card>
+  <Card title="最速">
+    **Demon**  
+    圧倒的な歩行速度上昇で、ルート移動と圧力に非常に強いです。
+  </Card>
+  <Card title="最高の機動力">
+    **Lunarian**  
+    Skywalk とジャンプ力のおかげで、空中制御を実感しやすいです。
+  </Card>
+  <Card title="最強の実用性">
+    **Fishman**  
+    泳ぎ速度は、フルーツ使いと海上移動で大きな強みになります。
+  </Card>
+</CardGrid>
+
+| プレイスタイル | 最適レース | 合っている理由 |
+|---|---|---|
+| PvPでの圧力 | Demon, Dragonoid | 速度、追跡手段、より強いポジショニング |
+| 島移動 | Mink, Lunarian, Skypiea | ジャンプ力と移動の流れが良い |
+| クエスト金策 | Celestial Dragon, D Clan | 報酬金ボーナス、または高い総合価値 |
+| 安全な周回 | Cyborg, Elf, D Clan | 継戦力が高く、長く活動しやすい |
+| 水上ルート | Fishman | 水中・水上移動が最大の強み |
+
+<Callout type="warning" title="避けるべきミス">
+よりレアなレースがあるというだけで、今使っている実用性の高いレースを reroll で手放さないでください。ビルドに完璧に合うロールは、弱めの“高級”ロールより優れていることが多いです。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="レースの引き方、再抽選、固定のしかた">
+
+良い再抽選計画があれば、資源を早い段階で無駄にせずに済みます。目標は、どんな代償を払っても Mythic を追い続けることではありません。今のビルドを本当に改善するレースが出た時点で止めることです。
+
+<Callout type="success" title="再抽選の目標">
+スピンする前に狙いを決めておきましょう。速度、機動力、継戦力、クエスト報酬のいずれでも構いません。目標に合ったロールが出たら、そこで止めてそのレースを軸に組み立てます。
+</Callout>
+
+<Steps>
+  <Step num="1" title="主軸のルートを決める">
+    PvP、クエスト周回、移動、水上移動のどれを最も重視するか決めましょう。これだけでレース候補が一気に絞れます。
+  </Step>
+  <Step num="2" title="希少度の下限を決める">
+    序盤なら強い Uncommon で十分です。終盤なら Legendary か Mythic の価値を狙ってもよいでしょう。
+  </Step>
+  <Step num="3" title="実際の効果を比較する">
+    どれだけレアかではなく、何が得られるかを見てください。移動バフは、小さなステータス上昇より役立つことがあります。
+  </Step>
+  <Step num="4" title="ビルドに合わせて固定する">
+    そのレースが戦闘スタイルや周回ルートを支えるなら、そこで決めて、見栄のための再抽選はやめましょう。
+  </Step>
+</Steps>
+
+<Checklist
+  id="race-rollback-checklist"
+  title="そのロールを残す前に確認すること:"
+  items={[
+    "そのレースが今のプレイスタイルを改善している",
+    "そのボーナスは、机上の空論ではなく毎回役立つ",
+    "なぜそのレースが自分のルートに合うのか説明できる",
+    "よりレアなロールでも、今の主な問題を自動では解決できない",
+    "レースに合わせてビルドを組む覚悟がある"
+  ]}
+/>
+
+| 優先度 | 注目レース | 残す理由 |
+|---|---|---|
+| 1 | D Clan | 最強の総合性能と最高の上限 |
+| 2 | Dragonoid, Lunarian | 強力なハイブリッド機動力と戦闘補助 |
+| 3 | Demon, Mink | 移動と圧力に優れた速度性能 |
+| 4 | Fishman, Cyborg, Celestial Dragon | 特定ルートで非常に便利 |
+| 5 | Human, ほかの低影響な Common | 一時的なつなぎが必要な場合のみ保持 |
+
+<Callout type="info" title="実用ルール">
+毎回のプレイで時間を節約できるレースは、ほとんど気づかないような派手なロールよりも価値が高いことが多いです。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<Callout type="info" title="FAQ の補足">
+最適なレースは、あなたが最もよく行うことによって変わります。希少度を比べるときも、その点を忘れないでください。実用性とルート適性は、見た目の豪華さより重要なことが多いです。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "多くのプレイヤーにとって最強の haze piece races は何ですか？",
+    answer: "総合的には D Clan が最強候補です。機動力と戦闘の流れを重視するなら、Demon、Lunarian、Dragonoid、Mink も非常に優秀です。"
+  },
+  {
+    question: "Human は haze piece races で残す価値がありますか？",
+    answer: "Human はこのプールで最も弱いロールです。実用的なボーナスがあるものに再抽選するまでの、あくまで一時的なつなぎとしてしか意味がありません。"
+  },
+  {
+    question: "機動力とマップ制御に最適なレースはどれですか？",
+    answer: "Lunarian、Dragonoid、Mink、Skypiea はどれも目立ちます。純粋な地上速度を求めるなら、Demon が最も攻撃的な選択です。"
+  },
+  {
+    question: "Mythic レースを狙ってすぐ再抽選すべきですか？",
+    answer: "必ずしもそうではありません。Uncommon や Special のレースですでに今のルートが解決できているなら、そのまま保持して後で再抽選するほうが賢い場合があります。"
+  }
+]} />
+
+</Section>
