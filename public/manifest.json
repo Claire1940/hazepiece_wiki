@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Haze Piece Wiki - Codes, Fruits & Tier List",
+  "short_name": "Haze Piece",
+  "description": "Haze Piece Wiki covers active codes, Devil Fruits, tier lists, races, Haki, weapons, bosses, and beginner routes for the Haze Seas Roblox rework guide.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#18A6C4",
   "background_color": "#0a0a0a",
   "icons": [
     {
