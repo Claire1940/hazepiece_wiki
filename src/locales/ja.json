@@ -1,10 +1,1976 @@
 {
+  "seo": {
+    "home": {
+      "title": "Haze Piece Wiki - コード、フルーツ＆ティアリスト",
+      "description": "Haze Piece Wikiでは、Haze Seas Robloxリワークガイドの有効なコード、フルーツ、ティアリスト、種族、覇気、武器、ボス、初心者向けルートを網羅しています。",
+      "keywords": "haze piece, haze seas, roblox, コード, フルーツ, ティアリスト, 種族, 覇気, ボス",
+      "ogTitle": "Haze Piece Wiki - コード、フルーツ＆ティアリスト",
+      "ogDescription": "Haze Piece Wikiでは、Haze Seas Robloxリワークガイドの有効なコード、フルーツ、ティアリスト、種族、覇気、武器、ボス、初心者向けルートを網羅しています。",
+      "twitterTitle": "Haze Piece Wiki - コード、フルーツ＆ティアリスト",
+      "twitterDescription": "Haze Piece Wikiでは、Haze Seas Robloxリワークの有効なコード、悪魔の実、種族、覇気、武器、ボス、初心者向けルートを網羅しています。"
+    }
+  },
   "nav": {
     "codes": "コード",
     "guide": "ガイド",
-    "fruits": "悪魔の実",
-    "haki": "Haki",
+    "fruits": "フルーツ",
+    "haki": "覇気",
     "weapons": "武器",
     "bosses": "ボス"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Robloxでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "Roblox海賊アクションRPG",
+    "title": "Haze Piece Wiki",
+    "description": "有効なコード、悪魔の実、種族、覇気、武器、ボス、マップ、初心者向け攻略ガイドで、Haze PieceとHaze Seas Robloxリワークを探索しましょう。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnRobloxCTA": "Robloxでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2億4300万+",
+        "label": "総訪問数"
+      },
+      "stat2": {
+        "value": "35",
+        "label": "入手可能なフルーツ"
+      },
+      "stat3": {
+        "value": "10+",
+        "label": "有効なコード"
+      },
+      "stat4": {
+        "value": "5万+",
+        "label": "最高同時接続者数"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Haze Pieceのゲームプレイ",
+    "description": "Haze Seasを航海し、悪魔の実を回し、覇気を習得し、種族をリロールし、島々でボスを倒して強くなる、Haze PieceのRoblox海賊アクションRPG。"
+  },
+  "tools": {
+    "title": "Haze Piece",
+    "titleHighlight": "リソース",
+    "subtitle": "Haze Seasの有効なコード、公式リンク、初心者向けルート、悪魔の実一覧、種族、覇気、武器、ボス攻略マップなど、Haze Pieceのあらゆる情報を網羅。",
+    "cards": [
+      {
+        "icon": "ギフト",
+        "title": "Haze Pieceコード",
+        "description": "種族スピン、ジェム、キャッシュ、経験値ブーストが手に入るHaze Seasの有効なコード"
+      },
+      {
+        "icon": "Link2",
+        "title": "Haze PieceのTrelloとDiscord",
+        "description": "公式Trello、Discord、Roblox、X（旧Twitter）、YouTubeへのリンク"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Haze Piece初心者ガイド",
+        "description": "序盤の進め方、ダメージステータス、悪魔の実、覇気の解放条件"
+      },
+      {
+        "icon": "Crown",
+        "title": "Haze Piece 悪魔の実ティアリスト",
+        "description": "ファーム、ボス戦、PvPにおける全35種類の悪魔の実のランク付け"
+      },
+      {
+        "icon": "Apple",
+        "title": "Haze Piece 悪魔の実とストック",
+        "description": "出現タイマー、消滅時間、ディーラーガチャ、全悪魔の実リスト"
+      },
+      {
+        "icon": "Dna",
+        "title": "Haze Pieceの種族と覇気",
+        "description": "種族パッシブ、V2へのルート、リロール方法、武装色・見聞色・覇王色の覇気"
+      },
+      {
+        "icon": "Swords",
+        "title": "Haze Pieceの武器と格闘スタイル",
+        "description": "剣とスタイルのティア、習得技、解放に必要な素材"
+      },
+      {
+        "icon": "Map",
+        "title": "Haze Pieceのボスドロップとマップ",
+        "description": "島ボス、スーパーボス、ドロップ率、召喚アイテム、第2の海へのルート"
+      }
+    ]
+  },
+  "modules": {
+    "hazePieceCodes": {
+      "eyebrow": "無料報酬",
+      "title": "Haze PieceのHaze Seas用コード",
+      "subtitle": "現在有効なHaze Seasコードを入力して、種族スピン、ジェム、キャッシュ、経験値ブーストを受け取りましょう。ゲーム内のメニューを開き、宝箱またはギフトアイコンをタップし、コードを貼り付けて「Redeem」を押してください。",
+      "intro": "Haze Pieceは現在Robloxで「Haze Seas」として運営されているため、コードを探す際は両方の名前で検索してください。レベル上げの前に有効なアップデートコードを引き換えて、経験値ブースト、種族スピン、ジェム、キャッシュで序盤を有利に進めましょう。",
+      "activeTabLabel": "有効",
+      "expiredTabLabel": "期限切れ",
+      "copyLabel": "コピー",
+      "copiedLabel": "コピー済み",
+      "rewardLabel": "報酬",
+      "howToRedeemTitle": "Haze Pieceコードの引き換え方法",
+      "howToRedeem": "ゲーム内のメニューを開き、宝箱またはギフトアイコンを選択し、有効なHaze Seasコードを貼り付けて「Redeem」を押してください。コードは大文字と小文字を区別するため、表示通りにコピーしてください。",
+      "items": [
+        {
+          "code": "OKUCHI",
+          "reward": "種族スピン 5回",
+          "category": "種族スピン",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "Sub2XenoTy",
+          "reward": "20分間の経験値2倍ブースト",
+          "category": "経験値ブースト",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "Sub2CaptainMaui",
+          "reward": "20分間の経験値2倍ブースト",
+          "category": "経験値ブースト",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "PATCH",
+          "reward": "25ジェムと15分間の経験値2倍ブースト",
+          "category": "ジェムと経験値",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "RELEASE",
+          "reward": "1時間の経験値2倍ブースト",
+          "category": "経験値ブースト",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "FREECASH",
+          "reward": "50,000 キャッシュ",
+          "category": "キャッシュ",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "FREEGEMS",
+          "reward": "50 ジェム",
+          "category": "ジェム",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "SUBSCRIBETOHAZEYT",
+          "reward": "50,000 キャッシュ",
+          "category": "キャッシュ",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "Sub2Nikkolapz",
+          "reward": "20分間の経験値2倍ブースト",
+          "category": "経験値ブースト",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "Sub2BadiTubes",
+          "reward": "20分間の経験値2倍ブースト",
+          "category": "経験値ブースト",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "Sub2BrosSiam",
+          "reward": "20分間の経験値2倍ブースト",
+          "category": "経験値ブースト",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "Sub2BuilderboyTV",
+          "reward": "20分間の経験値2倍ブースト",
+          "category": "経験値ブースト",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "HAZESEAS2026",
+          "reward": "種族スピン10回",
+          "category": "種族スピン",
+          "status": "有効",
+          "requirement": "ゲーム内で引き換え"
+        },
+        {
+          "code": "275KNEXTLETSGO",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "XMAS2023",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "NEXTCODEAT400KLIKES",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "NEXT300KCOOL",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "NEXTAT350KLIKES",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "VALENTINES2024",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "HAZEPIECE23",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "WOW325KMLG",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "GOGOGAGA",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "LETSGET450K2024",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "LETSGO375KHAZE",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "425KNEXTCODE123",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        },
+        {
+          "code": "グループ限定",
+          "reward": "期限切れの報酬",
+          "category": "期限切れ",
+          "status": "期限切れ",
+          "requirement": "引き換え不可"
+        }
+      ]
+    },
+    "hazePieceTrelloDiscord": {
+      "eyebrow": "公式リンク",
+      "title": "Haze PieceのTrello、Discord、Roblox、X、YouTube",
+      "subtitle": "アップデートニュース、コード配布、Trelloデータ、Robloxグループ報酬、動画ショーケースについては、公式のHaze Seasリンクハブをご利用ください。",
+      "intro": "これらはHaze Pieceのプレイヤーに必要な主要な公式リンクです：Robloxゲームページ、公式Trello、Discordの招待、Haze Studios Robloxコミュニティ、RealHazeStudiosのXアカウント、Haze StudiosのYouTubeチャンネル。",
+      "openLinkLabel": "開く",
+      "items": [
+        {
+          "label": "公式Trello",
+          "href": "https://trello.com/b/nn8bpTB0/haze-piece-official-trello",
+          "type": "Trello",
+          "badge": "公式",
+          "bestFor": "悪魔の実、武器、戦闘スタイル、種族、NPC、ボス、アイテム、システム情報"
+        },
+        {
+          "label": "Discordサーバー",
+          "href": "https://discord.com/invite/hazeseas",
+          "type": "Discord",
+          "badge": "公式",
+          "bestFor": "コード、先行公開、アップデートの投稿、コミュニティのサポート、バグ報告、パーティー募集"
+        },
+        {
+          "label": "Robloxゲームページ",
+          "href": "https://www.roblox.com/games/6918802270/Haze-Seas",
+          "type": "Robloxゲーム",
+          "badge": "公式",
+          "bestFor": "プレイボタン、ゲームの説明、対応プラットフォーム、サーバー、ゲームパス、タイトルのリアルタイム変更"
+        },
+        {
+          "label": "Haze Studios Robloxコミュニティ",
+          "href": "https://www.roblox.com/communities/6602131/HS-Haze-Studios",
+          "type": "Robloxグループ",
+          "badge": "公式",
+          "bestFor": "グループメンバーシップ、コミュニティのお知らせ、グループ限定報酬、開発者の投稿"
+        },
+        {
+          "label": "XのRealHazeStudios",
+          "href": "https://x.com/RealHazeStudios",
+          "type": "X",
+          "badge": "公式",
+          "bestFor": "短いお知らせ、アップデートの通知、リリース投稿、開発メディア"
+        },
+        {
+          "label": "Haze Studios YouTube",
+          "href": "https://www.youtube.com/@RealHazeStudios",
+          "type": "YouTube",
+          "badge": "公式",
+          "bestFor": "トレーラー、悪魔の実の紹介、カットシーン、リリース動画、ビジュアルアップデートのプレビュー"
+        }
+      ]
+    },
+    "hazePieceBeginnerGuide": {
+      "eyebrow": "初心者ルート",
+      "title": "Haze Seas向けHaze Piece初心者ガイド",
+      "subtitle": "シンプルな序盤のルートを進めましょう：コードを引き換え、島のクエストをクリアし、1つのダメージパスを選択し、実用的な悪魔の実を手に入れ、核となる移動スキルと覇気ツールを解放します。",
+      "intro": "Haze Seasでは、集中した育成が報われます。Haze Pieceの新規プレイヤーは、島のクエストを進め、1つの主要なダメージステータスに投資し、防御をサブステータスとして維持し、レベル要件を満たしたらすぐに移動スキルや覇気ツールを解放する必要があります。",
+      "checklistLabel": "チェックリスト",
+      "items": [
+        {
+          "step": 1,
+          "title": "Robloxのゲームページから開始する",
+          "summary": "公式のRobloxエクスペリエンスからHaze Seasを起動し、海賊または海軍として序盤の方向性を選択します。",
+          "checklist": [
+            "スターター報酬を受け取る前に、ゲームに「いいね」と「お気に入り」を登録します。",
+            "グループ限定報酬を獲得するために、公式のHaze Studios Robloxコミュニティに参加します。",
+            "PC、モバイル、またはXboxの操作を使用します。RobloxのページにモバイルとXboxのサポートが記載されています。"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "周回を始める前にコードを引き換える",
+          "summary": "メニューを開き、宝箱またはギフトのアイコンを選択し、有効なコードを入力して「Redeem（引き換え）」を押します。",
+          "checklist": [
+            "長時間のプレイに入る前に、Race Spin（種族スピン）のコードを引き換えます。",
+            "クエストの周回やボス狩りを始める前に、EXP（経験値）ブーストコードを使用します。",
+            "悪魔の実を回したり、序盤のアップグレードを購入したりする前に、キャッシュとジェムのコードを使用します。"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "現在の島でクエストを周回する",
+          "summary": "クエストNPCは経験値とキャッシュを報酬として与えつつ、次のレベル制限へと導いてくれるため、初心者にとって最速のルートです。",
+          "checklist": [
+            "ランダムな敵を倒すのではなく、島のクエストを受注しましょう。",
+            "必要な敵またはボスを倒し、クエストを報告します。",
+            "ゲームで新しいエリアが解放されたら、ハイライトされた次の目的地に移動します。"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "1つのメインダメージステータスを中心にビルドを組む",
+          "summary": "Fruit（悪魔の実）、Sword（剣）、またはCombat（格闘）のいずれかをメインのダメージルートとして選択し、Defense（防御）をサブステータスとして維持します。",
+          "checklist": [
+            "Fruit（悪魔の実）ビルド：Fruitを優先し、次にDefense。",
+            "Sword（剣）ビルド：Swordを優先し、次にDefense。",
+            "Fighting Style（格闘スタイル）ビルド：Combatを優先し、次にDefense。"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "早い段階で実用的な悪魔の実を手に入れる",
+          "summary": "クエストのクリア速度を上げる悪魔の実を手に入れるために、Fruit Dealer（悪魔の実のディーラー）のCynthia、スターター報酬、木の下のスポーン、デイリー報酬、またはトレードを利用します。",
+          "checklist": [
+            "Fruit DealerのCynthiaは、キャッシュまたはジェムでランダムな悪魔の実を回すことができます。",
+            "ワールド内の悪魔の実（World Fruits）は60分ごとに木の下にスポーンし、20分後に消滅します。",
+            "VIPサーバーでは、一度に最大5つの悪魔の実のスポーンを保持できます。"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "重要な移動スキルと覇気ツールを解放する",
+          "summary": "移動スキルと覇気は、中盤の移動やロギア戦をスムーズにするため、より大きなダメージ数値を追い求めるあまりトレーナーを無視しないようにしましょう。",
+          "checklist": [
+            "Flash Stepは、レベル40でClown Islandのトレーナーから習得できます。",
+            "Buso Hakiは、レベル350でLuke TownのOld Man Silverから習得できます。",
+            "Observation Hakiは、レベル600でMarine Base Town Islandのトレーナーから習得できます。"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "クエストの周回が安定してからボスを利用する",
+          "summary": "ボスは安全に倒せるようになったら周回する価値があります。経験値や現金、剣やアクセサリーのドロップが狙えるためです。",
+          "checklist": [
+            "レベル上げ中に自然に出会うボスと戦いましょう。",
+            "レアなドロップを追い求めるために、効率の良いクエストを早すぎる段階で捨てないようにしましょう。",
+            "より難易度の高い島へ進む前に、メインのダメージソースを強化しましょう。"
+          ]
+        }
+      ]
+    },
+    "hazePieceFruitsTierList": {
+      "eyebrow": "フルーツランキング",
+      "title": "Haze Piece フルーツ最強ティアリスト",
+      "subtitle": "現在の Haze Seas のフルーツラインナップを、周回速度、ボス攻略の価値、PvP性能、機動力、そして全体的な進行価値で比較します。",
+      "intro": "Haze Seas のRoblox説明文には35種類のフルーツが記載されています。フルーツは60分ごとにスポーンし、20分後に消滅します。VIPサーバーでは最大5つのフルーツスポーンを保持できるため、このティア表では Haze Piece のプレイヤーが進行中に保持、トレード、または交換すべきものに焦点を当てています。",
+      "tierNote": "この Haze Piece フルーツティアリストは、一般的な進行シナリオにおける推奨ランキングを反映したものです。これはコミュニティによるガイドであり、公式な Haze Seas の分類ではありません。",
+      "bestForLabel": "おすすめ用途",
+      "rarityLabel": "レア度",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "メタピック",
+          "summary": "高ダメージ、周回、PvP性能、機動力、または終盤のスケーリングに優れた、総合的に最高のフルーツ。",
+          "fruits": [
+            {
+              "name": "Dragon",
+              "rarity": "Mythical",
+              "role": "変身DPS",
+              "bestFor": [
+                "全コンテンツ対応",
+                "ボス攻略",
+                "PvP"
+              ],
+              "note": "強力な範囲攻撃と変身の価値により、最高峰の終盤向けフルーツとなっています。"
+            },
+            {
+              "name": "Dough",
+              "rarity": "Mythical",
+              "role": "範囲攻撃周回",
+              "bestFor": [
+                "クエスト周回",
+                "ボス攻略",
+                "PvE"
+              ],
+              "note": "広範囲攻撃により、敵の集団を倒すのに最も適したフルーツの一つです。"
+            },
+            {
+              "name": "Gum",
+              "rarity": "Mythical",
+              "role": "形態スケーリング",
+              "bestFor": [
+                "PvE",
+                "PvP",
+                "終盤"
+              ],
+              "note": "ギア形式の進行により、長期的に強力な戦闘価値を発揮します。"
+            },
+            {
+              "name": "Electricity",
+              "rarity": "Mythical",
+              "role": "高速な範囲攻撃性能",
+              "bestFor": [
+                "範囲DPS",
+                "機動力",
+                "PvP"
+              ],
+              "note": "素早い雷の技と位置調整ツールにより、アクティブな戦闘で強力です。"
+            },
+            {
+              "name": "フェニックス",
+              "rarity": "レジェンダリー",
+              "role": "機動力と維持力",
+              "bestFor": [
+                "PvP",
+                "移動",
+                "ボス戦"
+              ],
+              "note": "飛行能力、機動力、そして強力な戦闘ツールにより、複数のモードで役立ちます。"
+            },
+            {
+              "name": "シャドウ",
+              "rarity": "レジェンダリー",
+              "role": "パッシブな範囲制御",
+              "bestFor": [
+                "周回",
+                "PvP",
+                "機動力"
+              ],
+              "note": "エリアへの圧力と位置調整により、素材集めや戦闘に最適です。"
+            },
+            {
+              "name": "大口真神",
+              "rarity": "ミシカル",
+              "role": "アップデート果実",
+              "bestFor": [
+                "PvP",
+                "ボス戦",
+                "エンドゲーム"
+              ],
+              "note": "「大口真神」アップデートと現在のコードサイクルに関連する、新たな高価値の果実。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "非常に強力",
+          "summary": "最もレアな引きを必要とせず、周回、ボス戦、またはPvPをこなせる信頼性の高い果実。",
+          "fruits": [
+            {
+              "name": "闇",
+              "rarity": "レジェンダリー",
+              "role": "敵の引き寄せ",
+              "bestFor": [
+                "周回",
+                "範囲制御"
+              ],
+              "note": "強力なエリア制御により、集まった敵の周回が効率的になります。"
+            },
+            {
+              "name": "マグマ",
+              "rarity": "レジェンダリー",
+              "role": "ダメージエリア",
+              "bestFor": [
+                "PvE",
+                "ボス戦"
+              ],
+              "note": "高いダメージとエリアへの圧力により、周回やボス戦で強力な果実です。"
+            },
+            {
+              "name": "毒",
+              "rarity": "レジェンダリー",
+              "role": "継続的なプレッシャー",
+              "bestFor": [
+                "PvE",
+                "PvP"
+              ],
+              "note": "継続的なプレッシャーと高いダメージ稼働率。"
+            },
+            {
+              "name": "ライト",
+              "rarity": "レア",
+              "role": "移動・周回",
+              "bestFor": [
+                "初心者",
+                "クエスト進行",
+                "機動力"
+              ],
+              "note": "素早い移動と安定したダメージにより、初心者にとって最も簡単なアップグレードの一つとなっています。"
+            },
+            {
+              "name": "レオパルド",
+              "rarity": "レジェンダリー",
+              "role": "変身戦闘",
+              "bestFor": [
+                "PvP",
+                "PvE"
+              ],
+              "note": "攻撃的なプレイヤー向けの強力な戦闘変身オプション。"
+            },
+            {
+              "name": "トレマー",
+              "rarity": "レジェンダリー",
+              "role": "広範囲への衝撃",
+              "bestFor": [
+                "周回",
+                "ボス戦"
+              ],
+              "note": "広範囲攻撃は、密集した敵の処理や安定したPvEダメージに役立ちます。"
+            },
+            {
+              "name": "ウルフ",
+              "rarity": "レジェンダリー",
+              "role": "近距離プレッシャー",
+              "bestFor": [
+                "PvP",
+                "ボス戦"
+              ],
+              "note": "直接的な戦闘プレッシャーを好むプレイヤー向けの、新しく追加された強力な悪魔の実。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "優れた進行",
+          "summary": "ゲーム序盤から中盤の進行、快適な周回、または特定のプレイスタイルに役立つ悪魔の実。",
+          "fruits": [
+            {
+              "name": "ソウル",
+              "rarity": "レジェンダリー",
+              "role": "範囲ユーティリティ",
+              "bestFor": [
+                "PvE",
+                "コントロール"
+              ],
+              "note": "範囲ダメージと柔軟な戦闘ルート構築に有用。"
+            },
+            {
+              "name": "マグネット",
+              "rarity": "レジェンダリー",
+              "role": "コントロールダメージ",
+              "bestFor": [
+                "PvE",
+                "敵のコントロール"
+              ],
+              "note": "優れたダメージとコントロール性能を持つが、トップティアの実よりは速度が劣る。"
+            },
+            {
+              "name": "アイス",
+              "rarity": "レア",
+              "role": "コントロールと安全性",
+              "bestFor": [
+                "初心者",
+                "PvE"
+              ],
+              "note": "信頼性の高いコントロールスキルにより、安全にクエストを進行できる。"
+            },
+            {
+              "name": "フレーム",
+              "rarity": "レア",
+              "role": "初心者向け範囲攻撃",
+              "bestFor": [
+                "初心者",
+                "クエスト進行"
+              ],
+              "note": "序盤から扱いやすいダメージと範囲攻撃により、新規プレイヤーの素早いレベル上げを支援する。"
+            },
+            {
+              "name": "ガス",
+              "rarity": "レア",
+              "role": "PvEダメージ",
+              "bestFor": [
+                "ファーミング",
+                "ボス戦"
+              ],
+              "note": "PvEでは優れた性能を発揮するが、PvPでの操作感は柔軟性に欠ける。"
+            },
+            {
+              "name": "グラビティ",
+              "rarity": "レア",
+              "role": "範囲バースト",
+              "bestFor": [
+                "PvE",
+                "コントロール"
+              ],
+              "note": "有用なダメージを与えるが、敵の位置がずれることで周回ルートの効率が落ちることがある。"
+            },
+            {
+              "name": "ブッダ",
+              "rarity": "アンコモン",
+              "role": "安全な周回",
+              "bestFor": [
+                "初心者",
+                "長期戦"
+              ],
+              "note": "より強力な実を手に入れるまでの間、序盤の耐久性に優れた選択肢となる。"
+            },
+            {
+              "name": "スノー",
+              "rarity": "アンコモン",
+              "role": "基本的なコントロール",
+              "bestFor": [
+                "序盤"
+              ],
+              "note": "上位ティアの実を引くまでの進行役として、十分に快適に使用できる。"
+            },
+            {
+              "name": "マンモス",
+              "rarity": "アンコモン",
+              "role": "耐久戦",
+              "bestFor": [
+                "長期戦"
+              ],
+              "note": "安定して攻略できるが、トップクラスのスピードには欠ける。"
+            },
+            {
+              "name": "String",
+              "rarity": "アンコモン",
+              "role": "機動力によるプレッシャー",
+              "bestFor": [
+                "移動",
+                "コンボ"
+              ],
+              "note": "機動力とユーティリティはまずまずだが、強力な選択肢に比べると周回速度は劣る。"
+            },
+            {
+              "name": "Love",
+              "rarity": "レア",
+              "role": "サポート性能",
+              "bestFor": [
+                "ユーティリティ",
+                "カジュアルPvE"
+              ],
+              "note": "ユーティリティ重視のプレイヤーなら使えるが、最速の攻略向けではない。"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "後で入れ替え",
+          "summary": "序盤や特定の状況では機能するが、より強力な選択肢が現れたら入れ替えるべき。",
+          "fruits": [
+            {
+              "name": "Operation",
+              "rarity": "レア",
+              "role": "ユーティリティ戦闘",
+              "bestFor": [
+                "PvPユーティリティ",
+                "中盤"
+              ],
+              "note": "性能は悪くないが、上位ティアの実に比べると全体的な制圧力は低い。"
+            },
+            {
+              "name": "Paw",
+              "rarity": "アンコモン",
+              "role": "単体へのプレッシャー",
+              "bestFor": [
+                "序盤PvE"
+              ],
+              "note": "ダメージは出せるが、効率的な周回のための範囲攻撃に欠ける。"
+            },
+            {
+              "name": "Smoke",
+              "rarity": "アンコモン",
+              "role": "初心者向けの周回",
+              "bestFor": [
+                "序盤"
+              ],
+              "note": "より強力なロギア系の実を手に入れるまでの、実用的なスターター用の実。"
+            },
+            {
+              "name": "Sand",
+              "rarity": "アンコモン",
+              "role": "初心者のコントロール",
+              "bestFor": [
+                "序盤"
+              ],
+              "note": "シンプルな序盤の選択肢だが、より強力な実が解放されると価値が下がる。"
+            },
+            {
+              "name": "バリア",
+              "rarity": "コモン",
+              "role": "防御ユーティリティ",
+              "bestFor": [
+                "生存"
+              ],
+              "note": "防御性能は有用だが、与ダメージは限られている。"
+            },
+            {
+              "name": "ボム",
+              "rarity": "コモン",
+              "role": "バーストスターター",
+              "bestFor": [
+                "ゲームのごく序盤"
+              ],
+              "note": "より優れた周回用の実が手に入るまでの基本的な瞬間ダメージ。"
+            },
+            {
+              "name": "バラバラ",
+              "rarity": "コモン",
+              "role": "序盤の安全性",
+              "bestFor": [
+                "序盤のプレイ"
+              ],
+              "note": "序盤の一時的な実としてのみ有用。"
+            }
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "弱いスターター",
+          "summary": "クエストやボス攻略をスムーズに進めるために、早めに交換すべき低火力の悪魔の実。",
+          "fruits": [
+            {
+              "name": "スケスケ",
+              "rarity": "コモン",
+              "role": "位置取りユーティリティ",
+              "bestFor": [
+                "序盤のプレイ"
+              ],
+              "note": "直接ダメージが限られているため、攻略を進める上では弱い。"
+            },
+            {
+              "name": "グルグル",
+              "rarity": "コモン",
+              "role": "基本的な移動",
+              "bestFor": [
+                "序盤の移動"
+              ],
+              "note": "移動の価値は、ダメージの低さを補うほどではない。"
+            },
+            {
+              "name": "トゲトゲ",
+              "rarity": "コモン",
+              "role": "基本ダメージ",
+              "bestFor": [
+                "序盤のプレイ"
+              ],
+              "note": "使いやすいが、より強力なほぼすべての悪魔の実にすぐに取って代わられる。"
+            }
+          ]
+        }
+      ]
+    },
+    "hazePieceFruitsAndStockGuide": {
+      "eyebrow": "悪魔の実と在庫",
+      "title": "Haze Pieceの悪魔の実、出現タイマー、在庫",
+      "subtitle": "すべてのHaze Seasの悪魔の実、ワールドの出現タイマー、消失までの時間、および悪魔の実を入手する主な方法を追跡します。",
+      "intro": "悪魔の実は60分ごとに木の下に出現し、20分後に消失します。VIPサーバーでは最大5つの出現した実を保持でき、プレイヤーは悪魔の実ディーラーのガチャ、トレード、スターター報酬ルートを通じて特定の能力を狙うこともできます。",
+      "rulesLabel": "出現と在庫のルール",
+      "routesLabel": "悪魔の実の入手方法",
+      "fruitsLabel": "Haze Seasの悪魔の実プール",
+      "rules": [
+        {
+          "name": "ワールドでの実の出現",
+          "value": "60分",
+          "details": "実は各島々の木の下に出現します。",
+          "note": "サーバーに入った後、または実の回収を確認した後にタイマーを開始し、次の出現チェックを計画しましょう。"
+        },
+        {
+          "name": "実の消失",
+          "value": "20分",
+          "details": "回収されなかった実は、デスポン時間を過ぎると消滅します。",
+          "note": "出現時間になったら、木を回るルートを素早く巡回しましょう。"
+        },
+        {
+          "name": "VIPサーバーの実の上限数",
+          "value": "5個",
+          "details": "VIPサーバーでは、出現した実を同時に最大5個まで保持できます。",
+          "note": "VIPサーバーでの実集めは、シンプルな島の周回ルートを繰り返すのが最も効率的です。"
+        }
+      ],
+      "routes": [
+        {
+          "name": "シンシアのフルーツディーラーガチャ",
+          "value": "フルーツディーラー巡回ルート",
+          "details": "始まりの島のディーラーやその後の島のディーラーを含む、シンシアのディーラー出現スポットで実をロールします。",
+          "note": "ワールドでの出現を待つ代わりに、能動的にロールを引きたいプレイヤーに最適です。"
+        },
+        {
+          "name": "トレード",
+          "value": "プレイヤー間取引",
+          "details": "ロールしたり出現を待ったりしたくない実を狙うために、他のプレイヤーとトレードしましょう。",
+          "note": "現在の需要を理解した上で、レアな実を狙うのに最適です。"
+        }
+      ],
+      "fruits": [
+        {
+          "name": "オオクチ",
+          "note": "ワールドでの出現、ディーラーガチャ、トレードで入手可能です。"
+        },
+        {
+          "name": "ウルフ",
+          "note": "変身系の実と合わせて追跡する価値があります。"
+        },
+        {
+          "name": "クリア",
+          "note": "序盤の周回ルートで狙う一般的な実です。"
+        },
+        {
+          "name": "チョップ",
+          "note": "序盤の周回ルートで狙う一般的な実です。"
+        },
+        {
+          "name": "スピン",
+          "note": "より強力な選択肢が手に入るまで代用できる、初心者向けの実です。"
+        },
+        {
+          "name": "スパイク",
+          "note": "より強力な選択肢が手に入るまで代用できる、初心者向けの実です。"
+        },
+        {
+          "name": "ボム",
+          "note": "基本的な進行に役立つ、序盤の戦闘用の実です。"
+        },
+        {
+          "name": "バリア",
+          "note": "防御スタイルの実の周回ルート。"
+        },
+        {
+          "name": "ポー",
+          "note": "ユーティリティと戦闘用の実の周回ルート。"
+        },
+        {
+          "name": "スモーク",
+          "note": "序盤の自然系（エレメンタル）スタイルのファーム用の選択肢です。"
+        },
+        {
+          "name": "スナ",
+          "note": "序盤の自然系周回向けの選択肢。"
+        },
+        {
+          "name": "イト",
+          "note": "機動力とコンボ重視のルート。"
+        },
+        {
+          "name": "マンモス",
+          "note": "変身系のルート。"
+        },
+        {
+          "name": "大仏",
+          "note": "巨大化戦闘向けのルート。"
+        },
+        {
+          "name": "ユキ",
+          "note": "自然系のルート。"
+        },
+        {
+          "name": "グラ",
+          "note": "周回とボス対策に優れた広範囲攻撃重視のルート。"
+        },
+        {
+          "name": "ガス",
+          "note": "ズシ"
+        },
+        {
+          "name": "重力操作系のルート。",
+          "note": "メラ"
+        },
+        {
+          "name": "序盤から中盤にかけて強力な自然系の周回用選択肢。",
+          "note": "カゲ"
+        },
+        {
+          "name": "周回、機動力、PvPに強いルート。",
+          "note": "ピカ"
+        },
+        {
+          "name": "移動、機動力、高速周回に便利。",
+          "note": "オペ"
+        },
+        {
+          "name": "ユーティリティ重視のルート。",
+          "note": "ヒエ"
+        },
+        {
+          "name": "コントロールと周回向けのルート。",
+          "note": "ゴロ"
+        },
+        {
+          "name": "優秀な広範囲攻撃、機動力、周回性能を持つルート。",
+          "note": "マグ"
+        },
+        {
+          "name": "高火力の自然系周回用ルート。",
+          "note": "メロ"
+        },
+        {
+          "name": "ユーティリティと遠距離プレッシャー重視のルート。",
+          "note": "ゴム"
+        },
+        {
+          "name": "ギア進行の核となるルート。",
+          "note": "ヤミ"
+        },
+        {
+          "name": "強力なクラウドコントロールと周回向けのルート。",
+          "note": "ジキ"
+        },
+        {
+          "name": "ダメージ重視のルート。",
+          "note": "フェニックス"
+        },
+        {
+          "name": "機動力、回復能力、PvPでのプレッシャーに優れたルート。",
+          "note": "機動力、回復スタイル、そしてPvPでのプレッシャーを重視したルート。"
+        },
+        {
+          "name": "Soul",
+          "note": "範囲攻撃とユーティリティ重視のルート。"
+        },
+        {
+          "name": "Leopard",
+          "note": "アクティブな戦闘向けの変身スタイルルート。"
+        },
+        {
+          "name": "Venom",
+          "note": "持続ダメージとボス戦でのプレッシャーを重視したルート。"
+        },
+        {
+          "name": "Dragon",
+          "note": "価値の高い変身を伴う、ゲーム終盤で狙うべき実。"
+        },
+        {
+          "name": "Dough",
+          "note": "価値の高いファーミングとボス攻略向けのルート。"
+        }
+      ]
+    },
+    "hazePieceRacesAndHakiGuide": {
+      "eyebrow": "Races & Haki",
+      "title": "Haze Piece の種族、種族リロール、覇気の解放",
+      "subtitle": "D. Clan、Dragonborne、Demon、Human、Beastborne、Skyborne、Fishborne、および主要な覇気の進行パスを比較。",
+      "intro": "種族はパッシブステータス、機動力、生存率、そして Conqueror's Haki へのアクセスを決定します。Buso Haki は武器と格闘スタイルのダメージを強化し、Observation Haki は回避を追加し、D. Clan は最も希少な種族ルートを追うプレイヤーのために Conqueror's Haki を解放します。",
+      "hakiHeading": "Haki Unlocks",
+      "racesHeading": "種族パッシブと V2 ルート",
+      "rarityLabel": "Rarity",
+      "bestForLabel": "おすすめの用途",
+      "haki": [
+        {
+          "name": "Buso Haki",
+          "unlock": "Old Man Silver / Logue City の Buso Trainer",
+          "requirements": "レベル350と$100,000",
+          "baseEffect": "発動中に武器と格闘スタイルのダメージ+2.5%",
+          "upgradePath": "Buso Haki で EXP を稼ぎ、Flower Capital で1,000回攻撃を受け、200 Gems を支払ってレベル5のクエストを完了する。",
+          "maxEffect": "レベル5でダメージ+15%とダメージ耐性+10%を付与。",
+          "bestFor": "剣ビルド、格闘スタイルビルド、Elemental ユーザーへの対策、ボス周回"
+        },
+        {
+          "name": "Observation Haki",
+          "unlock": "Marine Base Town の Observation Haki Trainer",
+          "requirements": "レベル600と$150,000",
+          "baseEffect": "初期状態で回避3回",
+          "upgradePath": "攻撃を回避して EXP を稼ぎ、Flower Capital でプレイヤー5人、島ボス10体を倒し、$10M を支払ってレベル6のクエストを完了する。",
+          "maxEffect": "レベル6で回避が8回になり、遠距離のプレイヤー情報を追加。",
+          "bestFor": "PvP での生存、ボス戦の安全性、終盤のスカウト"
+        },
+        {
+          "name": "Conqueror's Haki",
+          "unlock": "D. Clan の種族",
+          "requirements": "D. Clan をロールまたは入手",
+          "baseEffect": "周囲の弱い敵にダメージを与え、短時間スタンさせる。",
+          "upgradePath": "D. Clan V2 はスタミナ消費を250から200に軽減。",
+          "maxEffect": "独立したレベルトラックはありません。強さは D. Clan へのアクセスと V2 のスタミナ効率によって決まります。",
+          "bestFor": "PvP のプレッシャー、弱い敵へのクラウドコントロール、希少種族ビルド"
+        }
+      ],
+      "races": [
+        {
+          "name": "D. Clan",
+          "rarity": "ミシカル",
+          "v1": "+5% 体力、+5% スタミナ、覇王色の覇気（消費スタミナ250）",
+          "v2": "+10% 体力、+10% スタミナ、覇王色の覇気（消費スタミナ200）",
+          "rerollSources": "デイリー報酬、ドロップ、コード、およびAFKチャンバーでの種族リロールルート",
+          "bestFor": "生存力、スタミナ、そして限定の覇王色の覇気へのアクセスにおいて、最も万能な種族"
+        },
+        {
+          "name": "ドラゴンボーン",
+          "rarity": "レジェンダリー",
+          "v1": "+10% 体力、+10% 体力回復、最初の月歩ブースト+25%",
+          "v2": "+10% 体力、およびグライド能力",
+          "rerollSources": "デイリー報酬、ドロップ、コード、およびAFKチャンバーでの種族リロールルート",
+          "bestFor": "より頑丈なビルド、快適な移動、そしてDの一族以外の強力なルート"
+        },
+        {
+          "name": "デーモン",
+          "rarity": "レア",
+          "v1": "+2.5% ライフスティール",
+          "v2": "+3% ライフスティール、およびダッシュ時に10%の確率でヘルファイア・サークルを召喚",
+          "rerollSources": "デイリー報酬、ドロップ、コード、およびAFKチャンバーでの種族リロールルート",
+          "bestFor": "長期戦、サステインビルド、およびPvEまたはPvPにおける自己回復"
+        },
+        {
+          "name": "人間",
+          "rarity": "コモン",
+          "v1": "HP70%未満の時に移動速度+25%",
+          "v2": "HP70%未満の時に移動速度+50%、および見聞色の回避+1",
+          "rerollSources": "デイリー報酬、ドロップ、コード、およびAFKチャンバーでの種族リロールルート",
+          "bestFor": "低コストな機動力、緊急脱出、および見聞色の覇気のサポート"
+        },
+        {
+          "name": "ビーストボーン",
+          "rarity": "アンコモン",
+          "v1": "移動速度+20%、およびスタミナ+5%",
+          "v2": "移動速度+50%、およびスタミナ+10%",
+          "rerollSources": "デイリー報酬、ドロップ、コード、およびAFKチャンバーでの種族リロールルート",
+          "bestFor": "素早い移動、ダッシュを多用するプレイ、および快適なスタミナ管理"
+        },
+        {
+          "name": "スカイボーン",
+          "rarity": "アンコモン",
+          "v1": "最初の月歩ブースト+50%",
+          "v2": "グライド能力、および最初の月歩の威力が2倍",
+          "rerollSources": "デイリー報酬、ドロップ、コード、およびAFKチャンバーでの種族リロールルート",
+          "bestFor": "島々の移動、空中移動、および探索"
+        },
+        {
+          "name": "フィッシュボーン",
+          "rarity": "アンコモン",
+          "v1": "水泳速度+50%",
+          "v2": "水泳速度2倍、水から上がった後4秒間移動速度2倍、および悪魔の実の能力者の水ダメージ無効化",
+          "rerollSources": "デイリー報酬、ドロップ、コード、およびAFKチャンバーでの種族リロールルート",
+          "bestFor": "海上移動、能力者の安全性、そして水域中心のルーティング。"
+        }
+      ],
+      "raceV2Route": {
+        "name": "Race V2 Unlock Route",
+        "unlock": "第2の海の最初の島にいるRace Engineer",
+        "requirements": "レベル2200以上、Sea Beastの撃破、宝箱を50個回収、Zenith Bossの撃破、その後100万Beliと100 Gemsを支払う",
+        "baseEffect": "各種族のV2パッシブルートを解放します。",
+        "upgradePath": "どの種族でも繰り返し可能です。",
+        "maxEffect": "V2アップグレードにより、種族パッシブが主要な育成要素へと変化します。",
+        "bestFor": "ゲーム終盤の種族最適化"
+      }
+    },
+    "hazePieceSwordsAndFightingStyles": {
+      "eyebrow": "武器＆スタイル",
+      "title": "Haze Pieceの剣、武器、戦闘スタイル",
+      "subtitle": "剣のルートを計画し、戦闘スタイルを比較して、自身のビルドに合わない装備への無駄なアップグレードを避けましょう。",
+      "intro": "剣、悪魔の実、戦闘スタイルは、Haze Seasにおける3つの主要なダメージソースです。メインの武器カテゴリを1つ選び、そのマスタリームーブを解放した上で、ビルドに足りない射程や範囲を補う実やスタイルと組み合わせましょう。",
+      "movesLabel": "主要技",
+      "howToGetLabel": "入手方法",
+      "bestForLabel": "最適な用途",
+      "v2RouteLabel": "V2ルート",
+      "tiers": [
+        {
+          "tier": "S+",
+          "label": "S+ 剣",
+          "kind": "剣",
+          "summary": "剣メインのプレイヤーの終盤を決定づける、エンドゲームの剣と最終形態へのアップグレード。",
+          "entries": [
+            {
+              "name": "Dual Dark Blade",
+              "role": "エンドゲームの剣",
+              "moves": [
+                "Z - Midnight Havoc",
+                "X - Trillion Slashes",
+                "C - Soul Eruption"
+              ],
+              "howToGet": "Doran the Forgeにて、20x Ancient Blade Relics、25M Bounty、Dark Blade V2のマスタリー300、1x Abyssal Eye、20M Beliを消費してクラフト。",
+              "bestFor": "ゲーム終盤のPvE、ボスへのダメージ、PvPでの瞬間火力"
+            },
+            {
+              "name": "Three Sword Style V2",
+              "role": "エンドゲームの剣のアップグレード",
+              "moves": [
+                "Z - Soaring Phoenix",
+                "X - Purgatory Descent",
+                "C - Three Thousand Skies"
+              ],
+              "howToGet": "3SS V1、マスタリー300、5x Ancient Blade Relicsでクラフト。3SS V1の入手には、Land of GodsのRock Shrineに行く前に、Zenith、Shusui、Enmaのマスタリーを300にする必要があります。",
+              "bestFor": "剣メインの育成進行、瞬間火力、ゲーム終盤の周回"
+            },
+            {
+              "name": "Gryphon",
+              "role": "高プレッシャーの剣",
+              "moves": [
+                "Z - Crimson Barrage",
+                "X - Death Cross",
+                "C - Vanquishing Tornadoes"
+              ],
+              "howToGet": "Red Emperorから5%の確率でドロップ。",
+              "bestFor": "PvPでのプレッシャー、コンボルート、そして柔軟なPvE"
+            },
+            {
+              "name": "Ace",
+              "role": "レア報酬の剣",
+              "moves": [
+                "Z - God of War",
+                "X - Hell Bringer"
+              ],
+              "howToGet": "Final Questの報酬プールから0.1%の通常確率、または1%のInfinity確率でドロップします。",
+              "bestFor": "レア武器コレクターや高バーストダメージの剣ビルド向け"
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Sランクの剣",
+          "kind": "剣",
+          "summary": "中盤から終盤の進行において剣ビルドを支える、プレミアムな万能刀。",
+          "entries": [
+            {
+              "name": "Dark Blade V2",
+              "role": "プレミアムな万能刀",
+              "moves": [
+                "Z - Midnight Flash",
+                "X - Trillion Slashes",
+                "C - Midnight Havoc"
+              ],
+              "howToGet": "Foggy CastleにいるNikk0lapzにLegendary以上の実を捧げ、3SS BossまたはEnmaを撃破し、50 Gemsを支払ってDark Blade Bossを召喚して倒す。",
+              "bestFor": "万能なPvE、PvP、および中盤から終盤の進行"
+            },
+            {
+              "name": "Zenith",
+              "role": "ボス確定ドロップの剣",
+              "moves": [
+                "Z - Paradox Slashes",
+                "X - Zephyr Twister"
+              ],
+              "howToGet": "Shadow Islandの嵐イベント中にZenith Bossから確定ドロップ。",
+              "bestFor": "第2の海での剣の進行と3SS V1の準備"
+            },
+            {
+              "name": "Golden Staff V2",
+              "role": "雷属性と相性の良い武器",
+              "moves": [
+                "Z - Storm Surge",
+                "X - Thunder Shower",
+                "C - Electron Orbs"
+              ],
+              "howToGet": "Golden Staff V1を熟練度300、Raijin Core 1個、および200万Beliでアップグレードする。",
+              "bestFor": "雷の実とのシナジーと遠近両用のプレッシャー"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Aランクの剣",
+          "kind": "剣",
+          "summary": "三刀流 (Three Sword Style) や第2の海の進行を解放する、確実なルートの剣。",
+          "entries": [
+            {
+              "name": "Enma",
+              "role": "3SSルートの剣",
+              "moves": [
+                "Z - Inferno Impact",
+                "X - Twisting Blaze"
+              ],
+              "howToGet": "Enma Bossから10%の確率でドロップ。",
+              "bestFor": "三刀流への必須ルート"
+            },
+            {
+              "name": "秋水",
+              "role": "第一の海のボスドロップ刀",
+              "moves": [
+                "Z - スラストバラージ",
+                "X - スターインパクト"
+              ],
+              "howToGet": "Thriller BoatのRyummyから5%の確率でドロップ。",
+              "bestFor": "三刀流への必須ルート"
+            },
+            {
+              "name": "ドウ・トライデント",
+              "role": "ボスドロップ武器",
+              "moves": [
+                "Z - ドリルスラスト",
+                "X - トライデントスラム"
+              ],
+              "howToGet": "Mirror WorldのDough Bossからドロップ。",
+              "bestFor": "Dough Islandの進行とボスドロップ周回"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Aランクの格闘スタイル",
+          "kind": "スタイル",
+          "summary": "V2ルートを持ち、範囲攻撃、スタン、積極的な近接攻撃をカバーする強力な格闘スタイル。",
+          "entries": [
+            {
+              "name": "黒脚",
+              "role": "キック主体の範囲攻撃スタイル",
+              "moves": [
+                "Z - グラウンドスマッシュ",
+                "X - パーティーテーブル",
+                "C - エアーバラージ",
+                "V - ディアブロモード"
+              ],
+              "howToGet": "黒脚のトレーナーから50,000ベリーで購入。",
+              "v2Route": "Sage of Combatにて、マスタリー300、ファントムランタン2個、500万ベリーで進化。",
+              "bestFor": "一般的な素材集め、範囲コンボ、近接ビルド"
+            },
+            {
+              "name": "エレクトロ",
+              "role": "スタンとバーストスタイル",
+              "moves": [
+                "Z - エレクトリックタックル",
+                "X - ミンクディスチャージ",
+                "C - エレクトリックスラム"
+              ],
+              "howToGet": "Carolから450,000ベリーで購入。",
+              "v2Route": "マスタリー300、雷神のコア2個、500ジェムで進化。",
+              "bestFor": "スタンロックコンボ、剣との組み合わせ、アクティブなPvP"
+            },
+            {
+              "name": "竜爪拳",
+              "role": "アグレッシブな爪スタイル",
+              "moves": [
+                "Z - クローキック",
+                "X - ダイレクトフレイム",
+                "C - クローイングプル"
+              ],
+              "howToGet": "Dragon Masterから150ジェムで購入。",
+              "v2Route": "---",
+              "bestFor": "武道の賢者にて、300マスタリーと指定の素材、資金を消費して進化。"
+            }
+          ]
+        },
+        {
+          "tier": "バースト近接、攻撃的なPvP、プレミアムスタイルのルート",
+          "label": "B",
+          "kind": "Bランクの戦闘スタイル",
+          "summary": "スタイル",
+          "entries": [
+            {
+              "name": "重い一撃と近・遠距離のハイブリッドな攻めに適した、信頼できる低コストスタイル。",
+              "role": "魚人",
+              "moves": [
+                "重量級ブローラースタイル",
+                "Z - 鮫拳 (Shark Fist)",
+                "X - 鮫乱舞 (Shark Barrage)"
+              ],
+              "howToGet": "C - タイタニックスラム",
+              "v2Route": "ハッコンから450,000ベリで購入可能。",
+              "bestFor": "300マスタリー、海王類の心臓2個、500万ベリで進化。"
+            },
+            {
+              "name": "重い一撃、水属性ビルド、近距離のプレッシャー",
+              "role": "サイボーグ",
+              "moves": [
+                "近接・遠距離ハイブリッドスタイル",
+                "Z - サイボーグスマッシュ",
+                "X - サイボーグバレット"
+              ],
+              "howToGet": "C - サイボーグタックル",
+              "v2Route": "サイボーグ科学者から800,000ベリで購入可能。",
+              "bestFor": "300マスタリー、サターンのリング2個、500万ベリで進化。"
+            }
+          ]
+        }
+      ]
+    },
+    "hazePieceBossDropsAndMap": {
+      "eyebrow": "遠距離オプションを備えた近接プレッシャー",
+      "title": "ボスとマップ",
+      "subtitle": "Haze Piece ボスドロップ、島、進行マップ",
+      "intro": "島のボス、スーパーボス、召喚アイテム、レアアクセサリー、武器、そして第2の海の進行を妨げる要素を追跡。",
+      "islandLabel": "ボス周回は、アクセサリー、武器、召喚アイテム、素材、ジェム、賞金、進行のアンロックを得るための実用的なルートです。まずは30秒で復活する島のボスから始め、ビルドが十分なダメージを出せるようになったらスーパーボスに挑みましょう。",
+      "bossLabel": "島",
+      "spawnLabel": "ボス",
+      "dropsLabel": "出現条件",
+      "progressionLabel": "主なドロップ",
+      "groups": [
+        {
+          "sea": "進行メモ",
+          "heading": "第1の海 (Sea 1)",
+          "summary": "第1の海の島ボス",
+          "bosses": [
+            {
+              "island": "序盤のアクセサリーや武器集めの資金源となる、リスポーンの早い島のボス。",
+              "boss": "はじまりの島",
+              "spawn": "山賊のボス",
+              "drops": [
+                "倒してから30秒後にリスポーン",
+                "お金",
+                "経験値",
+                "アイパッチ（アクセサリー） - ドロップ率40%"
+              ],
+              "note": "最初のアクセサリー周回ルート。"
+            },
+            {
+              "island": "Clown Island",
+              "boss": "Clown Boss",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "クラウンノーズ（アクセサリー） - ドロップ率30%"
+              ],
+              "note": "スターターアイランド後の序盤アクセサリー周回ルート。"
+            },
+            {
+              "island": "Shark Park",
+              "boss": "Shark Boss",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "シャークブレード（武器）"
+              ],
+              "note": "序盤の重要な刀周回ターゲット。"
+            },
+            {
+              "island": "Sea Restaurant",
+              "boss": "Krieg Boss",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "ゴールドポールドロン（アクセサリー）"
+              ],
+              "note": "序盤の耐久力を高めるためのアクセサリー周回ルート。"
+            },
+            {
+              "island": "Logue City",
+              "boss": "Tashi Boss",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "メガネ（アクセサリー） - ドロップ率50%"
+              ],
+              "note": "ボス周回と覇気ルートの両方に役立つ島。"
+            },
+            {
+              "island": "Tall Woods",
+              "boss": "King Gorilla Boss",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "モンキークラウン（アクセサリー） - ドロップ率5%"
+              ],
+              "note": "より強力なスーパーボスルートに進む前の、アクセサリー集めの目標。"
+            },
+            {
+              "island": "海軍基地の町",
+              "boss": "海軍大佐",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "アイアンジョー（アクセサリー） - ドロップ率5%"
+              ],
+              "note": "見聞色の覇気の島ルート。"
+            },
+            {
+              "island": "スリーアイランド",
+              "boss": "ミノタウロスのボス",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "オーバーサイズヘルメット（アクセサリー） - ドロップ率5%"
+              ],
+              "note": "海軍本部に行く前の、アクセサリー周回の目的地。"
+            },
+            {
+              "island": "海軍本部",
+              "boss": "氷の大将",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "スリーピングマスク（アクセサリー） - ドロップ率5%",
+                "トレマーキー - ドロップ率5%"
+              ],
+              "note": "ここでトレマーキーを周回して入手し、スーパーボス「トレマーガール」のルートを解放しよう。"
+            },
+            {
+              "island": "空島",
+              "boss": "雷神",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "黄金のスタッフ（武器） - ドロップ率1%",
+                "雷太鼓（アクセサリー） - ドロップ率1%"
+              ],
+              "note": "黄金のスタッフのアップグレードを目指すプレイヤーにとって重要な武器ルート。"
+            },
+            {
+              "island": "インペルジェイル",
+              "boss": "署長ボス",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "Warden Hat（アクセサリー） - ドロップ率 2.5%",
+                "Match（召喚アイテム） - ドロップ率 5%"
+              ],
+              "note": "Fire Fistの召喚ルートを開始するために、ここでMatchをファームします。"
+            },
+            {
+              "island": "Hot Island",
+              "boss": "Vergo（ボス）",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "Black Shades（アクセサリー） - ドロップ率 2.5%"
+              ],
+              "note": "Sea 1中盤のアクセサリー周回ルート。"
+            },
+            {
+              "island": "Cold Island",
+              "boss": "Snow Harpy（ボス）",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "Ice Ore（素材） - ドロップ率 1%"
+              ],
+              "note": "後のクラフトルートに向けた素材収集ポイント。"
+            },
+            {
+              "island": "Fishman Island",
+              "boss": "Neptune（ボス）",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "Neptune Crown（アクセサリー） - ドロップ率 5%",
+                "Fork（アイテム） - ドロップ率 5%"
+              ],
+              "note": "Fishman Tridentの入手ルートのために、ここでForkをファームします。"
+            },
+            {
+              "island": "Skull Island",
+              "boss": "Shiryu（ボス）",
+              "spawn": "撃破から30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "Scroll（アイテム） - ドロップ率 5%"
+              ],
+              "note": "武器Raiuの進行に向けたScroll周回ルート。"
+            },
+            {
+              "island": "Bubble Island",
+              "boss": "G4（ボス）",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "ギア4の書（アイテム） - ドロップ確率5%"
+              ],
+              "note": "ゴムの能力者向けのギアルート・チェックポイント。"
+            },
+            {
+              "island": "スリラーボート",
+              "boss": "リュミー",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "経験値",
+                "懸賞金",
+                "秋水（武器） - ドロップ確率5%",
+                "青いスカーフ（アクセサリー）"
+              ],
+              "note": "三刀流にとって重要な秋水周回ルート。"
+            }
+          ]
+        },
+        {
+          "sea": "第1の海のスーパーボス",
+          "heading": "第1の海のスーパーボス",
+          "summary": "プレミアムな武器やアクセサリーの入手を制限する、連鎖召喚および時間制限付きのスーパーボス。",
+          "bosses": [
+            {
+              "island": "ローグシティ",
+              "boss": "二刀流の剣士",
+              "spawn": "60分ごとにリスポーン",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "書（素材） - ドロップ確率50%",
+                "緑のバンダナ（アクセサリー）"
+              ],
+              "note": "二刀流V2用の書物素材ルート。"
+            },
+            {
+              "island": "海軍基地の町の裏にある洞窟",
+              "boss": "メイスボス",
+              "spawn": "洞窟の大釜に溶岩鉱石を落として召喚",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "メイスV1（武器）",
+                "コーデッドマスク（アクセサリー）"
+              ],
+              "note": "メイスルートおよび初期スーパーボスの中継地点。"
+            },
+            {
+              "island": "海軍基地の町",
+              "boss": "トレマーガール",
+              "spawn": "ロックされた白ひげ海賊団の門でグラグラの鍵を使用",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "ホワイトオーブ",
+                "Bisento V1所持時のBisento V2"
+              ],
+              "note": "BisentoのアップグレードおよびTremorルートのチェックポイント。"
+            },
+            {
+              "island": "Tall Woods",
+              "boss": "火拳",
+              "spawn": "Warden Bossから入手したMatchを使用し、Tall Woodsのキャンプファイアに火をつけ、島のトーテムに4つの真珠を置く",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "アクセサリー「Pearl Necklace」",
+                "Flame Fruit - ドロップ率1%"
+              ],
+              "note": "フルーツとアクセサリーの報酬が得られる召喚チェーンボスルート。"
+            },
+            {
+              "island": "Rocky Pillars",
+              "boss": "Sea Beast",
+              "spawn": "Sea 1で30〜120分でリスポーン",
+              "drops": [
+                "お金",
+                "ジェム",
+                "EXP",
+                "懸賞金",
+                "称号「Beast Slayer」",
+                "素材「Sea Beast Core」",
+                "Sea Beast Hammer V1 - ドロップ率50%"
+              ],
+              "note": "主要な素材と武器の周回ターゲット。"
+            }
+          ]
+        },
+        {
+          "sea": "Sea 2",
+          "heading": "Sea 2の島ボス",
+          "summary": "スーパーボス召喚用のオーブやフラグメントをドロップするSea 2の島ボス。",
+          "bosses": [
+            {
+              "island": "Snowy Graveyard",
+              "boss": "3SSボス",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "EXP",
+                "懸賞金",
+                "アクセサリー「Green Cloak」 - ドロップ率5%"
+              ],
+              "note": "Three Sword StyleおよびDark Bladeルートの重要な経由地。"
+            },
+            {
+              "island": "Dragon Island",
+              "boss": "Mace V2ボス",
+              "spawn": "倒されてから30秒後にリスポーン",
+              "drops": [
+                "お金",
+                "EXP",
+                "懸賞金",
+                "龍のオーブ - ドロップ率1%"
+              ],
+              "note": "ドラゴンボスを召喚するために、ここで龍のオーブを集めましょう。"
+            },
+            {
+              "island": "ケーキアイランド",
+              "boss": "ソウルボス",
+              "spawn": "撃破後30秒で再出現",
+              "drops": [
+                "お金",
+                "EXP",
+                "懸賞金",
+                "鏡のかけら - ドロップ率1%"
+              ],
+              "note": "Dough Bossへアクセスするための鏡のかけらルート。"
+            },
+            {
+              "island": "冬島",
+              "boss": "スノーボス",
+              "spawn": "撃破後30秒で再出現",
+              "drops": [
+                "お金",
+                "EXP",
+                "懸賞金",
+                "スノーオーブ - ドロップ率1%"
+              ],
+              "note": "雪関連の進行に必要な素材ルート。"
+            },
+            {
+              "island": "スネークアマゾン",
+              "boss": "ラブボス",
+              "spawn": "撃破後30秒で再出現",
+              "drops": [
+                "お金",
+                "EXP",
+                "懸賞金",
+                "アクセサリー「蛇のピアス」 - ドロップ率1%"
+              ],
+              "note": "第2の海（Sea 2）におけるアクセサリー周回ターゲット。"
+            }
+          ]
+        },
+        {
+          "sea": "第2の海のスーパーボス",
+          "heading": "第2の海のスーパーボス（複数）",
+          "summary": "最強の刀、武器、称号を持つエンドゲームのスーパーボス。",
+          "bosses": [
+            {
+              "island": "花の都",
+              "boss": "閻魔ボス",
+              "spawn": "60分ごとに再出現",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "閻魔の刀 - ドロップ率10%"
+              ],
+              "note": "三刀流の進行に必要な刀ルート。"
+            },
+            {
+              "island": "ドラゴンアイランド",
+              "boss": "ドラゴンボス",
+              "spawn": "ドラゴンアイランドの祭壇にドラゴンオーブを置く",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "ツノのアクセサリー - ドロップ率10%",
+                "解放のドラム - ゴムの実使用時にドロップ率100%"
+              ],
+              "note": "ゴムの実の能力者向けの主要なギア進行ボス。"
+            },
+            {
+              "island": "ミラーワールド",
+              "boss": "モチボス",
+              "spawn": "鏡の破片ルートを使用し、NPC「Syn」のドーナツクエストを完了してミラーワールドを開き、50ジェムを使用してNPC「Spex」からスポーンさせる",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "モチマフラーのアクセサリー - ドロップ率10%",
+                "武器「モチトライデント」 - ドロップ率50%"
+              ],
+              "note": "武器とアクセサリーがドロップする高価値のモチルート。"
+            },
+            {
+              "island": "フォギーキャッスル",
+              "boss": "ダークブレードV2ボス",
+              "spawn": "フォギーキャッスルでダークブレードアップグレーダールートを完了する",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "称号「最強の剣士」",
+                "ナイトハットのアクセサリー - ドロップ率10%",
+                "ナイトネックレスのアクセサリー - ドロップ率0.1%",
+                "武器「ダークブレードV2」ルート"
+              ],
+              "note": "プレミアムソードユーザー向けのダークブレードアップグレードルート。"
+            },
+            {
+              "island": "シャドウアイランド",
+              "boss": "ゼニススーパーボス",
+              "spawn": "シャドウアイランドの嵐の間に自動的にスポーンする",
+              "drops": [
+                "お金",
+                "ジェム",
+                "懸賞金",
+                "ゼニスソード - ドロップ率100%"
+              ],
+              "note": "三刀流の準備に最適な、剣の確定ドロップターゲット。"
+            },
+            {
+              "island": "深海",
+              "boss": "海王類",
+              "spawn": "Sea 2で20〜60分でリスポーンする",
+              "drops": [
+                "お金",
+                "Gems",
+                "EXP",
+                "Bounty",
+                "Beast Slayer title",
+                "素材：Sea Beast Heart - ドロップ率25%",
+                "Sea Beast Hammer V2 - ドロップ率3.5%"
+              ],
+              "note": "Fishman V2や終盤の武器ファーミングに重要な素材ルート。"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Haze Piece",
+    "titleHighlight": "FAQ",
+    "subtitle": "Haze PieceおよびHaze Seasのプレイヤーが出航前に抱く、最も多い質問。",
+    "questions": [
+      {
+        "question": "Haze Pieceとは何ですか？また、Haze Seasとはどのような関係がありますか？",
+        "answer": "Haze PieceはオリジナルのRoblox海賊アクションRPGであり、Haze SeasはHaze Studiosによるその公式リワーク版です。Haze Piece Wikiでは両方の名称をカバーしているため、プレイヤーはどちらのタイトルで検索してもコード、フルーツ、ガイドを見つけることができます。"
+      },
+      {
+        "question": "Haze SeasでHaze Pieceのコードはどこで入力できますか？",
+        "answer": "Haze Seasでは、ゲーム内メニューを開き、宝箱またはギフトのアイコンを選択して、Haze Pieceのコードを貼り付け、「Redeem」を押してください。コードは大文字と小文字を区別するため、Haze Piece Wikiのコードリストに記載されている通りに正確にコピーしてください。"
+      },
+      {
+        "question": "Haze PieceにはいくつのDevil Fruitsがありますか？",
+        "answer": "Haze PieceとHaze Seasのリワーク版には35種類のDevil Fruitsが登場します。フルーツは60分ごとに木の下に出現し、20分後に消滅します。VIPサーバーでは最大5つのフルーツが同時に出現した状態を維持できます。"
+      },
+      {
+        "question": "Haze PieceはモバイルやXboxでプレイできますか？",
+        "answer": "はい。Haze Pieceのリワーク版であるHaze SeasはRobloxのエクスペリエンスであり、PC、モバイル、Xboxの操作に対応しているため、どのプラットフォームでも同じHaze Pieceの攻略ルートが使えます。"
+      },
+      {
+        "question": "Haze PieceのRace Spinsとは何ですか？",
+        "answer": "Race Spinsを使用すると、Haze Pieceのプレイヤーは自分の種族をリロールでき、D. Clanのようなレアな選択肢はさらなる価値を提供します。現在有効ないくつかのHaze SeasコードでRace Spinsを入手できるので、長時間のプレイを始める前に引き換えておきましょう。"
+      },
+      {
+        "question": "Haze PieceでHakiを解放するにはどうすればいいですか？",
+        "answer": "Haze PieceのHakiはレベルに応じて解放されます。レベル40でClown IslandにてFlash Step、レベル350でLuke TownのOld Man SilverからBuso Haki、そしてレベル600でMarine Base Town IslandにてObservation Hakiが習得可能です。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Haze Seasで出航する準備はできましたか？",
+    "description": "DiscordのHaze Studiosコミュニティに参加して、コード、フルーツのティアリスト、Hakiガイド、ボスドロップ、そして最新のHaze Seasアップデート情報を手に入れましょう！",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
+  },
+  "footer": {
+    "title": "Haze Piece Wiki",
+    "description": "Haze PieceおよびHaze Seasのコード、Devil Fruits、種族、Haki、武器、ボス、そして初心者ガイドを網羅した完全なリソースハブです。",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "robloxGame": "Roblox Game",
+    "youtube": "YouTube",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Haze Piece Wiki. Haze Studiosとは提携していません。",
+    "disclaimer": "非公式のファン作成リソースサイト。"
+  },
+  "pages": {
+    "codes": {
+      "title": "Haze Piece コード",
+      "description": "無料のジェム、ステータスチップ、トレイトリロールが手に入る最新のHaze Pieceコードに加え、引き換え手順ガイドと期限切れコードのリストを紹介。",
+      "metaTitle": "Haze Piece コード - 無料ジェム＆トレイトリロール",
+      "metaDescription": "有効なHaze Pieceコードで、無料のジェム、ステータスチップ、トレイトリロールを獲得しましょう。動作確認済みのコードと詳細な引き換え手順を毎日更新。",
+      "categoryLabel": "HAZE PIECE コード",
+      "whatIs": "Haze Pieceコードとは？",
+      "whatIsDescription": "Haze Studiosが配布するHaze Pieceのコードを使用すると、無料のジェム、ステータスチップ、トレイトリロール、イベント通貨を獲得できます。各コードには有効期限があり、大文字と小文字が区別されるため、Haze Seasのアップデートごとに有効なコードリスト、期限切れのステータス、正確な報酬を追跡しています。",
+      "why": "なぜHaze Pieceコードを引き換えるべきなのか？",
+      "whySteps": {
+        "step1Title": "無料の育成リソース",
+        "step1Description": "Robuxを消費することなく、Haze Seas序盤のレベル上げを高速化するジェム、ステータスチップ、リロールを受け取りましょう。",
+        "step2Title": "期間限定ドロップを獲得",
+        "step2Description": "Haze Studiosはアップデートごとにコードを入れ替えるため、期限が切れる前にコードを引き換えましょう。",
+        "step3Title": "引き換えエラーを回避",
+        "step3Description": "大文字・小文字を正確に入力し、そのコードがアカウントで既に使用されていないか確認してください。"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのHaze Pieceコード"
+    },
+    "guide": {
+      "title": "Haze Piece ガイド",
+      "description": "Haze Seasの初心者向け攻略、レベル上げルート、島の進行順、NPCの場所、そして第2の海と第3の海のガイド。",
+      "metaTitle": "Haze Piece ガイド - 初心者ルート＆進行手順",
+      "metaDescription": "Haze Seasの完全版Haze Pieceガイド：初心者向け攻略、最速レベル上げルート、島の順番、NPCクエストの場所、第2の海と第3の海の進行手順。",
+      "categoryLabel": "HAZE PIECE ガイド",
+      "whatIs": "Haze Pieceガイドとは？",
+      "whatIsDescription": "Haze Pieceガイドでは、最初の1時間のチェックリスト、最速レベル上げルート、島の順番、主要なNPCとクエストの場所、最大レベル攻略、第2の海と第3の海の解放条件など、Haze Seasのすべての進行ルートを網羅しています。",
+      "why": "なぜHaze Pieceガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "レベル上げルートの計画",
+        "step1Description": "無駄な周回をせずに最大レベルに到達するために、Haze Seasの最適な島の進行順に従いましょう。",
+        "step2Title": "クエストNPCを素早く発見",
+        "step2Description": "進行をスムーズにするために、各島のトレーナー、クエスト依頼者、重要なNPCの場所を特定しましょう。",
+        "step3Title": "新しい海を解放",
+        "step3Description": "第2の海と第3の海のコンテンツを進めるために、適切な悪魔の実、覇気、装備を用意しましょう。"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのHaze Pieceガイド"
+    },
+    "fruits": {
+      "title": "Haze Piece 悪魔の実",
+      "description": "全35種類のHaze Pieceの悪魔の実について、レア度、出現・消失タイマー、VIPサーバーの上限、覚醒ルート、および各悪魔の実の入手方法を紹介。",
+      "metaTitle": "Haze Piece 悪魔の実 - 悪魔の実リスト、出現場所＆レア度",
+      "metaDescription": "Haze Pieceの悪魔の実の完全データベース：全35種類の悪魔の実のレア度、60分での出現と20分での消失タイマー、VIPサーバーでの上限、覚醒ルート。",
+      "categoryLabel": "HAZE PIECE 悪魔の実",
+      "whatIs": "Haze Pieceの悪魔の実とは？",
+      "whatIsDescription": "Haze Pieceには、ユニークな戦闘能力や移動能力を授ける35種類の悪魔の実が登場します。悪魔の実は60分ごとに出現し、20分後に消失します。VIPサーバーでは最大5個までに制限されています。各悪魔の実にはレア度、覚醒ルートがあり、素材集め、ボス戦、PvPにおける最適な使用シナリオが存在します。",
+      "why": "Haze Pieceのフルーツを学ぶ理由は？",
+      "whySteps": {
+        "step1Title": "スポーンのルールを知る",
+        "step1Description": "60分ごとのスポーンと20分後の消失を把握し、必要なフルーツを手に入れよう",
+        "step2Title": "最適なフルーツを選ぶ",
+        "step2Description": "育成、ボス戦、PvP、移動などの目的に合わせて、レア度やスキルで選ぶ",
+        "step3Title": "覚醒の計画を立てる",
+        "step3Description": "Gear 2、Gear 4、Gear 5、Dragon、Rubberのフルーツ覚醒に向けて素材を貯めよう"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "Haze Pieceの全フルーツ一覧"
+    },
+    "haki": {
+      "title": "Haze Pieceの覇気",
+      "description": "Haze Seasで、見聞色、武装色（Buso）、覇王色、剃（Flash Step）、月歩（Sky Walk）の全覇気を解放・強化しよう。",
+      "metaTitle": "Haze Pieceの覇気 - 全種類の解放と強化",
+      "metaDescription": "Haze Seasで、見聞色の覇気、武装色の覇気、覇王色の覇気、剃、月歩、覇気V2をマスター。解放レベルや強化ルートも解説。",
+      "categoryLabel": "HAZE PIECE 覇気",
+      "whatIs": "Haze Pieceの覇気とは？",
+      "whatIsDescription": "Haze Pieceの覇気は戦闘や移動のパッシブ強化を解放します。見聞色は攻撃を回避、武装色はダメージを強化、覇王色は敵をスタンさせ、剃と月歩は機動力を高めます。各覇気にはレベル制限、トレーナーの場所、明確な強化ルートがあります。",
+      "why": "Haze Pieceの覇気を解放する理由は？",
+      "whySteps": {
+        "step1Title": "レベル制限をクリアする",
+        "step1Description": "レベル条件を満たしたらすぐに見聞色と武装色の覇気を解放しよう",
+        "step2Title": "覇気トレーナーを見つける",
+        "step2Description": "Haze Seasのマップで各覇気トレーナーの場所を特定し、必要な費用を支払おう",
+        "step3Title": "エンドコンテンツに向けて強化",
+        "step3Description": "第2・第3の海に向け、覇気V2、覇王色、移動スキルを極めよう"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "Haze Piece 覇気ガイド一覧"
+    },
+    "weapons": {
+      "title": "Haze Pieceの武器",
+      "description": "Haze Pieceの刀、戦闘スタイル、アクセサリー：刀のティア表、トレーナーの場所、ボスドロップ、各ビルドに最適な武器。",
+      "metaTitle": "Haze Pieceの武器 - 刀、スタイル、アクセサリー",
+      "metaDescription": "Haze Seasの武器完全ガイド：刀のティア表、全刀一覧、戦闘スタイル、三刀流、Bisento、Dark Blade、Enma、最高のアクセサリー。",
+      "categoryLabel": "HAZE PIECE 武器",
+      "whatIs": "Haze Pieceの武器とは？",
+      "whatIsDescription": "Haze Pieceの武器には、火力を決定づける刀、戦闘スタイル、アクセサリーが含まれます。刀のレア度、トレーナーの場所、Dark BladeやEnmaなどのボスドロップ、三刀流や二刀流のルート、ビルドを完成させるアクセサリーを学びましょう。",
+      "why": "Haze Pieceの武器を計画する理由は？",
+      "whySteps": {
+        "step1Title": "戦闘スタイルを選ぶ",
+        "step1Description": "刀、三刀流、二刀流から選び、適切な師匠のもとで修行しよう",
+        "step2Title": "ボスドロップを狙う",
+        "step2Description": "Dark Blade、Enma、Bisentoなどの強力な武器をドロップするボスを狙おう",
+        "step3Title": "アクセサリーで仕上げる",
+        "step3Description": "育成やPvPのビルドに合わせて、武器に最適なアクセサリーのバフを組み合わせよう"
+      },
+      "featured": "おすすめ＆必須ガイド",
+      "all": "Haze Pieceの全武器"
+    },
+    "bosses": {
+      "title": "Haze Pieceのボス",
+      "description": "Haze Seasの全島および海域イベントにおけるHaze Pieceボスの出現場所、レベル制限、ドロップ表、推奨攻略法。",
+      "metaTitle": "Haze Pieceのボス - 出現場所、ドロップ、攻略法",
+      "metaDescription": "Haze Seasの全Haze Pieceボスを撃破：各島の場所、レベル制限、カイドウのドロップを含むドロップ表、Sea Beastの出現場所、推奨攻略法。",
+      "categoryLabel": "HAZE PIECEのボス",
+      "whatIs": "Haze Pieceのボスとは？",
+      "whatIsDescription": "Haze Pieceのボスは各島を守っており、進行に欠かせない刀、アクセサリー、実をドロップします。各ボスにはレベル制限、固定ドロップ表、リスポーンタイマーが設定されており、Sea Beastなどの海域イベントではFirst SeaおよびSecond Seaを通じて希少で価値の高い戦利品を入手できます。",
+      "why": "なぜHaze Pieceのボスを狩るのか？",
+      "whySteps": {
+        "step1Title": "狙い通りのドロップを入手",
+        "step1Description": "自分のビルドに必要な武器、アクセサリー、実をどのボスがドロップするか把握しましょう",
+        "step2Title": "レベル制限への対応",
+        "step2Description": "レベル制限で周回が止まらないよう、適切な順番でボスに挑みましょう",
+        "step3Title": "海域イベントの攻略",
+        "step3Description": "希少なHaze Seasの戦利品をドロップするSea Beastやレイド形式のバトルに備えましょう"
+      },
+      "featured": "おすすめ・必須情報",
+      "all": "Haze Piece全ボス攻略ガイド"
+    }
   }
 }

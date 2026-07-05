@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Haze Piece Wiki - Códigos, Frutas e Tier List",
+      "description": "A Haze Piece Wiki cobre códigos ativos, frutas, tier lists, raças, Haki, armas, chefes e rotas para iniciantes do guia de rework de Haze Seas no Roblox.",
+      "keywords": "haze piece, haze seas, roblox, códigos, frutas, tier list, raças, haki, chefes",
+      "ogTitle": "Haze Piece Wiki - Códigos, Frutas e Tier List",
+      "ogDescription": "A Haze Piece Wiki cobre códigos ativos, frutas, tier lists, raças, Haki, armas, chefes e rotas para iniciantes do guia de rework de Haze Seas no Roblox.",
+      "twitterTitle": "Haze Piece Wiki - Códigos, Frutas e Tier List",
+      "twitterDescription": "A Haze Piece Wiki cobre códigos ativos, Frutas do Diabo, raças, Haki, armas, chefes e rotas para iniciantes do rework de Haze Seas no Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
@@ -6,5 +17,1960 @@
     "haki": "Haki",
     "weapons": "Armas",
     "bosses": "Chefes"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "RPG de Ação Pirata no Roblox",
+    "title": "Haze Piece Wiki",
+    "description": "Explore o rework de Haze Piece e Haze Seas no Roblox com códigos ativos, Frutas do Diabo, raças, Haki, armas, chefes, mapas e guias de progressão para iniciantes.",
+    "getFreeCodesCTA": "Obter Códigos Grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "243M+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "35",
+        "label": "Frutas Disponíveis"
+      },
+      "stat3": {
+        "value": "10+",
+        "label": "Códigos Ativos"
+      },
+      "stat4": {
+        "value": "50K+",
+        "label": "Pico de CCU"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Haze Piece",
+    "description": "Navegue pelos Haze Seas, gire Devil Fruits, domine o Haki, faça rerolls de raça e farme chefes pelas ilhas neste rework de RPG de ação pirata do Roblox de Haze Piece."
+  },
+  "tools": {
+    "title": "Haze Piece",
+    "titleHighlight": "Recursos",
+    "subtitle": "Códigos ativos de Haze Seas, links oficiais, rotas para iniciantes, tabelas de frutas, raças, Haki, armas e o mapa de chefes — todas as ferramentas de Haze Piece em um só lugar.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de Haze Piece",
+        "description": "Códigos ativos de Haze Seas para Giros de Raça, Gemas, Dinheiro e bônus de EXP"
+      },
+      {
+        "icon": "Link2",
+        "title": "Haze Piece Trello e Discord",
+        "description": "Links oficiais do Trello, Discord, Roblox, X e YouTube"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Haze Piece",
+        "description": "Rota da primeira hora, status de dano, frutas e desbloqueios de Haki"
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List de Frutas do Haze Piece",
+        "description": "Todas as 35 frutas do Haze Seas classificadas para farm, bosses e PvP"
+      },
+      {
+        "icon": "Maçã",
+        "title": "Haze Piece Frutas e Estoque",
+        "description": "Temporizadores de spawn de frutas, janelas de despawn, gacha do vendedor e o pool completo de frutas"
+      },
+      {
+        "icon": "DNA",
+        "title": "Raças e Haki de Haze Piece",
+        "description": "Passivas de raça, rotas V2, fontes de reroll e Haki Buso, Observação e do Conquistador"
+      },
+      {
+        "icon": "Espadas",
+        "title": "Haze Piece Espadas e Estilos de Luta",
+        "description": "Rotas de tier de espadas e estilos, movimentos de maestria e materiais de desbloqueio"
+      },
+      {
+        "icon": "Mapa",
+        "title": "Drops de Chefes e Mapa do Haze Piece",
+        "description": "Chefes de ilha, superchefes, taxas de drop, itens de invocação e rotas do Mar 2"
+      }
+    ]
+  },
+  "modules": {
+    "hazePieceCodes": {
+      "eyebrow": "Recompensas Grátis",
+      "title": "Códigos de Haze Piece para Haze Seas",
+      "subtitle": "Resgate o conjunto atual de códigos de Haze Seas para obter giros de raça, gemas, cash e boosts de EXP. Abra o menu do jogo, toque no ícone de Baú de Tesouro ou de Presente, cole o código e pressione Resgatar.",
+      "intro": "Haze Piece agora roda no Roblox como Haze Seas, então os jogadores buscam por ambos os nomes ao procurar códigos. Resgate os códigos ativos de atualização antes de subir de nível para que os boosts de EXP, giros de raça, gemas e cash ajudem na sua progressão inicial.",
+      "activeTabLabel": "Ativos",
+      "expiredTabLabel": "Expirados",
+      "copyLabel": "Copiar",
+      "copiedLabel": "Copiado",
+      "rewardLabel": "Recompensa",
+      "howToRedeemTitle": "Como Resgatar Códigos de Haze Piece",
+      "howToRedeem": "Abra o menu do jogo, selecione o ícone de Baú de Tesouro ou de Presente, cole um código de Haze Seas funcional e pressione Resgatar. Os códigos diferenciam maiúsculas de minúsculas, então copie-os exatamente como mostrado.",
+      "items": [
+        {
+          "code": "OKUCHI",
+          "reward": "5 Giros de Raça",
+          "category": "Giros de Raça",
+          "status": "ativo",
+          "requirement": "Resgatar no jogo"
+        },
+        {
+          "code": "Sub2XenoTy",
+          "reward": "Boost de EXP 2x de 20 minutos",
+          "category": "Boost de EXP",
+          "status": "ativo",
+          "requirement": "Resgatar no jogo"
+        },
+        {
+          "code": "Sub2CaptainMaui",
+          "reward": "Boost de EXP 2x de 20 minutos",
+          "category": "Boost de EXP",
+          "status": "ativo",
+          "requirement": "Resgatar no jogo"
+        },
+        {
+          "code": "PATCH",
+          "reward": "25 Gemas e 15 minutos de Boost de 2x EXP",
+          "category": "Gemas e EXP",
+          "status": "ativo",
+          "requirement": "Resgate no jogo"
+        },
+        {
+          "code": "Lançamento",
+          "reward": "1 hora de Boost de EXP 2x",
+          "category": "Boost de EXP",
+          "status": "ativo",
+          "requirement": "Resgatar no jogo"
+        },
+        {
+          "code": "DINHEIRO GRÁTIS",
+          "reward": "50.000 de Dinheiro",
+          "category": "Dinheiro",
+          "status": "ativo",
+          "requirement": "Resgatar no jogo"
+        },
+        {
+          "code": "GEMAS GRÁTIS",
+          "reward": "50 Gemas",
+          "category": "Gemas",
+          "status": "ativo",
+          "requirement": "Resgate no jogo"
+        },
+        {
+          "code": "SUBSCRIBETOHAZEYT",
+          "reward": "50.000 de Dinheiro",
+          "category": "Dinheiro",
+          "status": "ativo",
+          "requirement": "Resgatar no jogo"
+        },
+        {
+          "code": "Sub2Nikkolapz",
+          "reward": "20 minutos de Boost de EXP 2x",
+          "category": "Boost de EXP",
+          "status": "ativo",
+          "requirement": "Resgate no jogo"
+        },
+        {
+          "code": "Sub2BadiTubes",
+          "reward": "Boost de EXP 2x de 20 minutos",
+          "category": "Boost de EXP",
+          "status": "ativo",
+          "requirement": "Resgatar no jogo"
+        },
+        {
+          "code": "Sub2BrosSiam",
+          "reward": "Boost de EXP 2x de 20 minutos",
+          "category": "Boost de EXP",
+          "status": "ativo",
+          "requirement": "Resgate no jogo"
+        },
+        {
+          "code": "Sub2BuilderboyTV",
+          "reward": "20 minutos de Boost de EXP 2x",
+          "category": "Boost de EXP",
+          "status": "ativo",
+          "requirement": "Resgate no jogo"
+        },
+        {
+          "code": "HAZESEAS2026",
+          "reward": "10 Giros de Raça",
+          "category": "Giros de Raça",
+          "status": "ativo",
+          "requirement": "Resgate no jogo"
+        },
+        {
+          "code": "275KNEXTLETSGO",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "XMAS2023",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "NEXTCODEAT400KLIKES",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "NEXT300KCOOL",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "PRÓXIMO EM 350K CURTIDAS",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "VALENTINES2024",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "HAZEPIECE23",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "WOW325KMLG",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "GOGOGAGA",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "LETSGET450K2024",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "LETSGO375KHAZE",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "425KNEXTCODE123",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        },
+        {
+          "code": "Apenas Grupo",
+          "reward": "Recompensas expiradas",
+          "category": "Expirado",
+          "status": "expirado",
+          "requirement": "Não é mais resgatável"
+        }
+      ]
+    },
+    "hazePieceTrelloDiscord": {
+      "eyebrow": "Links Oficiais",
+      "title": "Haze Piece Trello, Discord, Roblox, X e YouTube",
+      "subtitle": "Use o hub de links oficial de Haze Seas para notícias de atualizações, lançamentos de códigos, dados do Trello, recompensas de grupo do Roblox e demonstrações em vídeo.",
+      "intro": "Estes são os principais destinos oficiais que um jogador de Haze Piece precisa: a página do jogo no Roblox, o Trello oficial, o convite do Discord, a comunidade Haze Studios no Roblox, a conta RealHazeStudios no X e o canal da Haze Studios no YouTube.",
+      "openLinkLabel": "Abrir",
+      "items": [
+        {
+          "label": "Trello Oficial",
+          "href": "https://trello.com/b/nn8bpTB0/haze-piece-official-trello",
+          "type": "Trello",
+          "badge": "Oficial",
+          "bestFor": "Frutas, armas, estilos de luta, raças, NPCs, chefes, itens e referências do sistema"
+        },
+        {
+          "label": "Servidor do Discord",
+          "href": "https://discord.com/invite/hazeseas",
+          "type": "Discord",
+          "badge": "Oficial",
+          "bestFor": "Códigos, prévias, postagens de atualização, ajuda da comunidade, relatórios de bugs e busca de grupos"
+        },
+        {
+          "label": "Página do Jogo Roblox",
+          "href": "https://www.roblox.com/games/6918802270/Haze-Seas",
+          "type": "Jogo Roblox",
+          "badge": "Oficial",
+          "bestFor": "Botão de jogar, descrição do jogo, suporte a plataformas, servidores, passes e alterações de título em tempo real"
+        },
+        {
+          "label": "Comunidade Roblox Haze Studios",
+          "href": "https://www.roblox.com/communities/6602131/HS-Haze-Studios",
+          "type": "Grupo Roblox",
+          "badge": "Oficial",
+          "bestFor": "Participação no grupo, avisos da comunidade, recompensas vinculadas ao grupo e postagens dos desenvolvedores"
+        },
+        {
+          "label": "RealHazeStudios no X",
+          "href": "https://x.com/RealHazeStudios",
+          "type": "X",
+          "badge": "Oficial",
+          "bestFor": "Anúncios curtos, lembretes de atualização, postagens de lançamento e mídias de desenvolvimento"
+        },
+        {
+          "label": "Haze Studios YouTube",
+          "href": "https://www.youtube.com/@RealHazeStudios",
+          "type": "YouTube",
+          "badge": "Oficial",
+          "bestFor": "Trailers, demonstrações de frutas, cutscenes, vídeos de lançamento e prévias de atualizações visuais"
+        }
+      ]
+    },
+    "hazePieceBeginnerGuide": {
+      "eyebrow": "Rota de Iniciante",
+      "title": "Guia de Iniciante de Haze Piece para Haze Seas",
+      "subtitle": "Siga uma rota simples de início de jogo: resgate códigos, complete missões de ilha, escolha um caminho de dano, consiga uma Fruit utilizável e desbloqueie as ferramentas principais de mobilidade e Haki.",
+      "intro": "Haze Seas recompensa a progressão focada. Novos jogadores de Haze Piece devem seguir missões de ilha, investir em um caminho de dano principal, manter Defense como atributo secundário e desbloquear ferramentas de mobilidade ou Haki assim que os requisitos de nível forem atingidos.",
+      "checklistLabel": "Checklist",
+      "items": [
+        {
+          "step": 1,
+          "title": "Comece a partir da página do jogo Roblox",
+          "summary": "Inicie o Haze Seas a partir da experiência oficial do Roblox e escolha seu caminho inicial como Pirata ou Marinheiro.",
+          "checklist": [
+            "Curta e favorite o jogo antes de resgatar as recompensas iniciais.",
+            "Junte-se à comunidade oficial do Roblox da Haze Studios para obter recompensas vinculadas ao grupo.",
+            "Use os controles de PC, celular ou Xbox; a página do Roblox lista o suporte para celular e Xbox."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Resgate códigos antes de começar o grind.",
+          "summary": "Abra o Menu, selecione o ícone do Baú de Tesouro ou Gift, insira um código ativo e pressione Resgatar.",
+          "checklist": [
+            "Resgate códigos de Race Spin antes de iniciar uma longa sessão.",
+            "Use códigos de boost de EXP antes de sequências de missões ou farm de chefes.",
+            "Use códigos de Cash e Gem antes de girar Frutas ou comprar upgrades iniciais."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Farme missões na ilha atual",
+          "summary": "NPCs de missões são a rota mais rápida para iniciantes porque recompensam com EXP e Cash enquanto te impulsionam para o próximo limite de nível.",
+          "checklist": [
+            "Aceite a missão da ilha em vez de farmar inimigos aleatórios.",
+            "Elimine os inimigos necessários ou o chefe, depois entregue a missão.",
+            "Vá para o próximo destino destacado quando o jogo liberar uma nova área."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Monte sua build em torno de um atributo de dano principal",
+          "summary": "Escolha Fruta, Espada ou Combate como seu caminho principal de dano e mantenha Defesa como o atributo secundário.",
+          "checklist": [
+            "Build de Fruta: priorize Fruta, depois Defesa.",
+            "Build de Espada: priorize Espada, depois Defesa.",
+            "Build de Estilo de Luta: priorize Combate, depois Defesa."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Consiga uma Devil Fruit útil cedo",
+          "summary": "Use a Cynthia the Fruit Dealer, recompensas de iniciante, spawns em árvores, recompensas diárias ou trocas para obter uma Fruit que acelere a conclusão de quests.",
+          "checklist": [
+            "A Fruit Dealer Cynthia pode girar uma Fruit aleatória por Cash ou Gems.",
+            "World Fruits surgem sob árvores a cada 60 minutos e desaparecem após 20 minutos.",
+            "Servidores VIP podem conter até 5 spawns de Fruit de uma só vez."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Desbloqueie ferramentas essenciais de movimento e Haki",
+          "summary": "Mobilidade e Haki tornam as viagens no meio do jogo e as lutas contra Logia mais fluidas, então não ignore os treinadores enquanto busca números de dano maiores.",
+          "checklist": [
+            "Flash Step vem do treinador na Clown Island no Nível 40.",
+            "Buso Haki vem do Old Man Silver em Luke Town no Nível 350.",
+            "Observation Haki vem do treinador na Marine Base Town Island no Nível 600."
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Use chefes depois que seu ciclo de missões estiver estável.",
+          "summary": "Vale a pena farmar chefes assim que você conseguir derrotá-los com segurança, pois eles concedem EXP, Cash e chances de drop de espadas ou acessórios.",
+          "checklist": [
+            "Lute contra os chefes que você encontrar naturalmente enquanto sobe de nível.",
+            "Não abandone missões eficientes apenas para buscar drops raros cedo demais.",
+            "Melhore seu caminho principal de dano antes de avançar para ilhas mais difíceis."
+          ]
+        }
+      ]
+    },
+    "hazePieceFruitsTierList": {
+      "eyebrow": "Ranking de Frutas",
+      "title": "Tier List de Frutas do Haze Piece",
+      "subtitle": "Compare o catálogo atual de Frutas do Haze Seas por velocidade de grind, valor contra bosses, pressão PvP, mobilidade e valor geral de progressão.",
+      "intro": "Haze Seas lista 35 Frutas na descrição da experiência no Roblox. As Frutas surgem a cada 60 minutos, desaparecem após 20 minutos, e servidores VIP podem ter até 5 spawns de Frutas, então esta grade foca no que os jogadores de Haze Piece devem manter, trocar ou substituir durante a progressão.",
+      "tierNote": "Esta tier list de frutas do Haze Piece reflete nosso ranking recomendado para cenários comuns de progressão. É um guia da comunidade, não uma classificação oficial do Haze Seas.",
+      "bestForLabel": "Melhor para",
+      "rarityLabel": "Raridade",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Escolhas Meta",
+          "summary": "Melhores Frutas gerais para dano alto, farm, pressão PvP, mobilidade ou escalonamento no late-game.",
+          "fruits": [
+            {
+              "name": "Dragão",
+              "rarity": "Mítica",
+              "role": "DPS de Transformação",
+              "bestFor": [
+                "Todo o conteúdo",
+                "Chefões",
+                "PvP"
+              ],
+              "note": "O grande AoE e o valor de transformação a tornam uma Fruta premium de endgame."
+            },
+            {
+              "name": "Massa",
+              "rarity": "Mítico",
+              "role": "Farm em área",
+              "bestFor": [
+                "Farm de missões",
+                "Enfrentar chefes",
+                "PvE"
+              ],
+              "note": "Ataques de área ampla a tornam uma das Frutas mais eficientes para limpar grupos de inimigos."
+            },
+            {
+              "name": "Borracha",
+              "rarity": "Mítico",
+              "role": "Escalonamento de forma",
+              "bestFor": [
+                "PvE",
+                "PvP",
+                "Late game"
+              ],
+              "note": "A progressão no estilo Gear dá a ele um forte valor de combate a longo prazo."
+            },
+            {
+              "name": "Eletricidade",
+              "rarity": "Mítico",
+              "role": "Pressão de AoE rápida",
+              "bestFor": [
+                "DPS de AoE",
+                "Mobilidade",
+                "PvP"
+              ],
+              "note": "Movimentos rápidos de raio e ferramentas de reposicionamento a tornam forte para combate ativo."
+            },
+            {
+              "name": "Fênix",
+              "rarity": "Lendário",
+              "role": "Mobilidade e sustentação",
+              "bestFor": [
+                "PvP",
+                "Viagem",
+                "Chefes"
+              ],
+              "note": "Voo, mobilidade e fortes ferramentas de combate a mantêm útil em vários modos."
+            },
+            {
+              "name": "Sombra",
+              "rarity": "Lendário",
+              "role": "Controle de área passivo",
+              "bestFor": [
+                "Farm",
+                "PvP",
+                "Mobilidade"
+              ],
+              "note": "Pressão de área e reposicionamento a tornam excelente para grind e lutas."
+            },
+            {
+              "name": "Okuchi",
+              "rarity": "Mítico",
+              "role": "Fruta da Atualização",
+              "bestFor": [
+                "PvP",
+                "Enfrentar Chefes",
+                "Fase final"
+              ],
+              "note": "Uma nova Fruta de alto valor vinculada à atualização Okuchi e ao ciclo de códigos atual."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Muito Forte",
+          "summary": "Frutas confiáveis que podem carregar no farm, chefes ou PvP sem exigir o giro mais raro de todos.",
+          "fruits": [
+            {
+              "name": "Escuridão",
+              "rarity": "Lendário",
+              "role": "Agrupamento de inimigos",
+              "bestFor": [
+                "Grinding",
+                "Controle de área"
+              ],
+              "note": "O forte controle de área torna eficiente o farm de inimigos agrupados."
+            },
+            {
+              "name": "Magma",
+              "rarity": "Lendário",
+              "role": "Zonas de dano",
+              "bestFor": [
+                "PvE",
+                "Enfrentar chefes"
+              ],
+              "note": "Alto dano e pressão de área a tornam uma Fruta forte para farm e chefes."
+            },
+            {
+              "name": "Veneno",
+              "rarity": "Lendário",
+              "role": "Pressão sustentada",
+              "bestFor": [
+                "PvE",
+                "PvP"
+              ],
+              "note": "Boa pressão ao longo do tempo e alto tempo de atividade de dano."
+            },
+            {
+              "name": "Luz",
+              "rarity": "Raro",
+              "role": "Farm de viagem",
+              "bestFor": [
+                "Iniciantes",
+                "Missões",
+                "Mobilidade"
+              ],
+              "note": "Movimento rápido e dano sólido a tornam uma das melhorias mais fáceis para iniciantes."
+            },
+            {
+              "name": "Leopardo",
+              "rarity": "Lendário",
+              "role": "Combate de transformação",
+              "bestFor": [
+                "PvP",
+                "PvE"
+              ],
+              "note": "Uma forte opção de transformação de combate para jogadores agressivos."
+            },
+            {
+              "name": "Tremor",
+              "rarity": "Lendário",
+              "role": "Grande impacto em área",
+              "bestFor": [
+                "Farmar",
+                "Bosses"
+              ],
+              "note": "Ataques de grande área ajudam com inimigos agrupados e dano PvE constante."
+            },
+            {
+              "name": "Lobo",
+              "rarity": "Lendária",
+              "role": "Pressão de curto alcance",
+              "bestFor": [
+                "PvP",
+                "Enfrentar Chefes"
+              ],
+              "note": "Uma Fruta forte e recente do catálogo para jogadores que gostam de pressão de combate direta."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Boa Progressão",
+          "summary": "Frutas úteis para progressão do início ao meio do jogo, conforto no farm ou estilos de jogo específicos.",
+          "fruits": [
+            {
+              "name": "Alma",
+              "rarity": "Lendário",
+              "role": "Utilidade AoE",
+              "bestFor": [
+                "PvE",
+                "Controle"
+              ],
+              "note": "Útil para dano em área e rotas de combate flexíveis."
+            },
+            {
+              "name": "Ímã",
+              "rarity": "Lendário",
+              "role": "Dano de controle",
+              "bestFor": [
+                "PvE",
+                "Controle de inimigos"
+              ],
+              "note": "Bom dano e controle, embora mais lento que as Frutas de alto nível."
+            },
+            {
+              "name": "Gelo",
+              "rarity": "Raro",
+              "role": "Controle e segurança",
+              "bestFor": [
+                "Iniciantes",
+                "PvE"
+              ],
+              "note": "Ferramentas de controle confiáveis a tornam segura para missões."
+            },
+            {
+              "name": "Chama",
+              "rarity": "Raro",
+              "role": "AoE para Iniciantes",
+              "bestFor": [
+                "Iniciantes",
+                "Missões"
+              ],
+              "note": "Dano inicial fácil e ataques em área ajudam novos jogadores a subir de nível mais rápido."
+            },
+            {
+              "name": "Gás",
+              "rarity": "Raro",
+              "role": "Dano PvE",
+              "bestFor": [
+                "Farm",
+                "Chefes"
+              ],
+              "note": "Bom desempenho PvE com uma sensação PvP menos flexível."
+            },
+            {
+              "name": "Gravidade",
+              "rarity": "Raro",
+              "role": "Explosão em área",
+              "bestFor": [
+                "PvE",
+                "Controle"
+              ],
+              "note": "Dano útil, mas o deslocamento de inimigos pode atrasar as rotas de farm."
+            },
+            {
+              "name": "Buda",
+              "rarity": "Incomum",
+              "role": "Farm seguro",
+              "bestFor": [
+                "Iniciantes",
+                "Lutas prolongadas"
+              ],
+              "note": "Uma opção inicial resistente enquanto procura por Frutas mais fortes."
+            },
+            {
+              "name": "Neve",
+              "rarity": "Incomum",
+              "role": "Controle básico",
+              "bestFor": [
+                "Início do jogo"
+              ],
+              "note": "Confortável o suficiente para a progressão antes de giros de nível mais alto."
+            },
+            {
+              "name": "Mamute",
+              "rarity": "Incomum",
+              "role": "Combate duradouro",
+              "bestFor": [
+                "Lutas longas"
+              ],
+              "note": "Funciona para limpezas constantes, mas carece de velocidade de alto nível."
+            },
+            {
+              "name": "Fio",
+              "rarity": "Incomum",
+              "role": "Pressão de mobilidade",
+              "bestFor": [
+                "Movimentação",
+                "Combos"
+              ],
+              "note": "Mobilidade e utilidade decentes, com velocidade de farm menor do que opções mais fortes."
+            },
+            {
+              "name": "Amor",
+              "rarity": "Raro",
+              "role": "Pressão de suporte",
+              "bestFor": [
+                "Utilidade",
+                "PvE casual"
+              ],
+              "note": "Jogável para usuários focados em utilidade, mas não é a escolha de progressão mais rápida."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Substituir Depois",
+          "summary": "Frutas de early game ou situacionais que funcionam, mas devem ser substituídas quando surgirem opções mais fortes.",
+          "fruits": [
+            {
+              "name": "Operação",
+              "rarity": "Raro",
+              "role": "Combate de utilidade",
+              "bestFor": [
+                "Utilidade PvP",
+                "Meio de jogo"
+              ],
+              "note": "Ferramentas decentes, mas pressão geral mais fraca do que Frutas de nível superior."
+            },
+            {
+              "name": "Pata",
+              "rarity": "Incomum",
+              "role": "Pressão em alvo único",
+              "bestFor": [
+                "PvE inicial"
+              ],
+              "note": "Dano utilizável, mas menor cobertura de área para farm rápido."
+            },
+            {
+              "name": "Fumaça",
+              "rarity": "Incomum",
+              "role": "Farm inicial",
+              "bestFor": [
+                "Início de jogo"
+              ],
+              "note": "Uma Fruta inicial viável enquanto evolui para escolhas de estilo Logia mais fortes."
+            },
+            {
+              "name": "Areia",
+              "rarity": "Incomum",
+              "role": "Controle inicial",
+              "bestFor": [
+                "Início do jogo"
+              ],
+              "note": "Uma opção inicial simples que perde valor à medida que Frutas mais fortes são desbloqueadas."
+            },
+            {
+              "name": "Barreira",
+              "rarity": "Comum",
+              "role": "Utilidade defensiva",
+              "bestFor": [
+                "Sobrevivência"
+              ],
+              "note": "O valor defensivo é útil, mas o dano causado é limitado."
+            },
+            {
+              "name": "Bomba",
+              "rarity": "Comum",
+              "role": "Iniciador de burst",
+              "bestFor": [
+                "Muito no início do jogo"
+              ],
+              "note": "Dano de burst básico antes que Frutas melhores para farmar estejam disponíveis."
+            },
+            {
+              "name": "Corte",
+              "rarity": "Comum",
+              "role": "Segurança inicial",
+              "bestFor": [
+                "Jogabilidade inicial"
+              ],
+              "note": "Boa apenas como uma Fruta temporária inicial."
+            }
+          ]
+        },
+        {
+          "tier": "Boa apenas como uma Fruta temporária para o início.",
+          "label": "D",
+          "summary": "Iniciais Fracos",
+          "fruits": [
+            {
+              "name": "Limpar",
+              "rarity": "Comum",
+              "role": "Utilidade de posicionamento",
+              "bestFor": [
+                "Jogabilidade inicial"
+              ],
+              "note": "O dano direto limitado o torna fraco para a progressão."
+            },
+            {
+              "name": "Girar",
+              "rarity": "Comum",
+              "role": "Movimentação básica",
+              "bestFor": [
+                "Viagem inicial"
+              ],
+              "note": "O valor de movimentação não compensa o dano baixo."
+            },
+            {
+              "name": "Espinho",
+              "rarity": "Comum",
+              "role": "Dano básico",
+              "bestFor": [
+                "Jogabilidade para iniciantes"
+              ],
+              "note": "Fácil de usar, mas rapidamente superada por quase todas as Frutas mais fortes."
+            }
+          ]
+        }
+      ]
+    },
+    "hazePieceFruitsAndStockGuide": {
+      "eyebrow": "Fácil de usar, mas rapidamente superada por quase qualquer Fruta mais forte.",
+      "title": "Frutas e Estoque",
+      "subtitle": "Frutas de Haze Piece, Temporizadores de Spawn e Estoque",
+      "intro": "Acompanhe cada fruta de Haze Seas, o temporizador de spawn do mundo, a janela de despawn e as principais formas de obter frutas.",
+      "rulesLabel": "As frutas surgem sob as árvores a cada 60 minutos e desaparecem após 20 minutos. Servidores VIP podem conter até cinco frutas geradas, e os jogadores também podem buscar poderes específicos através do gacha do vendedor de frutas, trocas e rotas de recompensa iniciais.",
+      "routesLabel": "Regras de Spawn e Estoque",
+      "fruitsLabel": "Como Obter Frutas",
+      "rules": [
+        {
+          "name": "Spawn de Frutas do Mundo",
+          "value": "60 minutos",
+          "details": "Frutas surgem debaixo de árvores pelas ilhas.",
+          "note": "Inicie um temporizador após entrar no servidor ou após uma coleta confirmada para planejar a próxima verificação de frutas."
+        },
+        {
+          "name": "Desaparecimento de Fruta",
+          "value": "20 minutos",
+          "details": "Frutas não coletadas desaparecem após a janela de desaparecimento.",
+          "note": "Faça suas rotas de árvores rapidamente assim que uma janela de surgimento abrir."
+        },
+        {
+          "name": "Limite de Frutas do Servidor VIP",
+          "value": "5 frutas",
+          "details": "Servidores VIP podem conter até Gramas cinco frutas geradas ao mesmo tempo.",
+          "note": "O farm de frutas em servidores VIP é mais eficiente com uma rota de ilhas simples e repetitiva."
+        }
+      ],
+      "routes": [
+        {
+          "name": "Gacha do Vendedor de Frutas Cynthia",
+          "value": "Rota do vendedor de frutas",
+          "details": "Gire frutas nos locais do vendedor Cynthia, incluindo o vendedor da Ilha Inicial e vendedores de ilhas posteriores.",
+          "note": "Melhor para jogadores que querem giros ativos em vez de esperar por spawns no mundo."
+        },
+        {
+          "name": "Trocas",
+          "value": "Troca entre jogadores",
+          "details": "Troque com outros jogadores para focar em frutas que você não quer girar ou esperar.",
+          "note": "Melhor para focar em frutas raras assim que você entender a demanda atual."
+        }
+      ],
+      "fruits": [
+        {
+          "name": "Okuchi",
+          "note": "Disponível em spawns pelo mundo, gacha do vendedor e rotas de troca."
+        },
+        {
+          "name": "Lobo",
+          "note": "Vale a pena monitorar junto com as frutas focadas em transformação."
+        },
+        {
+          "name": "Limpar",
+          "note": "Alvo comum de rota de frutas inicial."
+        },
+        {
+          "name": "Corte",
+          "note": "Alvo comum de rota de frutas inicial."
+        },
+        {
+          "name": "Giro",
+          "note": "Fruta ideal para iniciantes para substituir assim que opções mais fortes surgirem."
+        },
+        {
+          "name": "Espinho",
+          "note": "Fruta amigável para iniciantes para substituir assim que surgirem opções mais fortes."
+        },
+        {
+          "name": "Bomba",
+          "note": "Fruta de combate inicial para progressão básica."
+        },
+        {
+          "name": "Barreira",
+          "note": "Rota de fruta de estilo defensivo."
+        },
+        {
+          "name": "Pata",
+          "note": "Rota de fruta de utilidade e combate."
+        },
+        {
+          "name": "Fumaça",
+          "note": "Opção de farm inicial de estilo elemental."
+        },
+        {
+          "name": "Areia",
+          "note": "Opção inicial de farm de estilo elemental."
+        },
+        {
+          "name": "Fio",
+          "note": "Rota de fruta de mobilidade e estilo combo."
+        },
+        {
+          "name": "Mamute",
+          "note": "Rota de fruta do estilo transformação."
+        },
+        {
+          "name": "Buda",
+          "note": "Rota de fruta de combate de forma grande."
+        },
+        {
+          "name": "Snow",
+          "note": "Rota de fruta estilo Elemental."
+        },
+        {
+          "name": "Tremor",
+          "note": "Rota de fruta focada em AoE para farm e pressão em chefes."
+        },
+        {
+          "name": "Gás",
+          "note": "Rota de fruta de controle de área."
+        },
+        {
+          "name": "Gravidade",
+          "note": "Rota da fruta de controle de gravidade."
+        },
+        {
+          "name": "Chama",
+          "note": "Forte opção de farming elemental para o início ao meio de jogo."
+        },
+        {
+          "name": "Sombra",
+          "note": "Forte farm, mobilidade e rota de PvP."
+        },
+        {
+          "name": "Luz",
+          "note": "Útil para viagem, mobilidade e farm rápido."
+        },
+        {
+          "name": "Operação",
+          "note": "Rota de fruta focada em utilidade."
+        },
+        {
+          "name": "Gelo",
+          "note": "Rota de frutas de controle e farm."
+        },
+        {
+          "name": "Eletricidade",
+          "note": "Rota de farm, mobilidade e AoE de alto valor."
+        },
+        {
+          "name": "Magma",
+          "note": "Rota de farm elemental de alto dano."
+        },
+        {
+          "name": "Amor",
+          "note": "Rota de fruta de utilidade e pressão à distância."
+        },
+        {
+          "name": "Borracha",
+          "note": "Rota principal para a progressão de Gear."
+        },
+        {
+          "name": "Escuridão",
+          "note": "Forte controle de grupo e rota de farm."
+        },
+        {
+          "name": "Ímã",
+          "note": "Rota de fruta focada em dano."
+        },
+        {
+          "name": "Fênix",
+          "note": "Mobilidade, estilo de cura e rota de pressão PvP."
+        },
+        {
+          "name": "Alma",
+          "note": "Rota de fruta de AoE e utilidade."
+        },
+        {
+          "name": "Leopardo",
+          "note": "Rota de estilo de transformação para combate ativo."
+        },
+        {
+          "name": "Veneno",
+          "note": "Rota de dano por tempo e pressão em chefes."
+        },
+        {
+          "name": "Dragão",
+          "note": "Transformação de alto valor e fruta cobiçada de fim de jogo."
+        },
+        {
+          "name": "Massa",
+          "note": "Rota de farm e chefes de alto valor."
+        }
+      ]
+    },
+    "hazePieceRacesAndHakiGuide": {
+      "eyebrow": "Raças e Haki",
+      "title": "Raças de Haze Piece, Rerolls de Raça e Desbloqueios de Haki",
+      "subtitle": "Compare D. Clan, Dragonborne, Demon, Human, Beastborne, Skyborne, Fishborne e os principais caminhos de progressão de Haki.",
+      "intro": "As raças moldam atributos passivos, mobilidade, sobrevivência e o acesso ao Conqueror's Haki. O Buso Haki aumenta o dano de armas e estilos de luta, o Observation Haki adiciona esquivas e o D. Clan desbloqueia o Conqueror's Haki para jogadores que buscam a rota de raça mais rara.",
+      "hakiHeading": "Desbloqueios de Haki",
+      "racesHeading": "Passivas de Raça e Rotas V2",
+      "rarityLabel": "Raridade",
+      "bestForLabel": "Melhor Para",
+      "haki": [
+        {
+          "name": "Buso Haki",
+          "unlock": "Old Man Silver / Treinador de Buso em Logue City",
+          "requirements": "Nível 350 e $100.000",
+          "baseEffect": "+2,5% de dano de arma e estilo de luta enquanto ativo",
+          "upgradePath": "Ganhe EXP com Buso Haki, depois complete a missão de Nível 5 em Flower Capital recebendo 1.000 golpes e pagando 200 Gemas.",
+          "maxEffect": "O Nível 5 concede +15% de dano e +10% de resistência a dano.",
+          "bestFor": "Builds de espada, builds de estilo de luta, counterplay contra usuários de Elemental e farm de chefes."
+        },
+        {
+          "name": "Haki da Observação",
+          "unlock": "Treinador do Haki da Observação em Marine Base Town",
+          "requirements": "Nível 600 e $150.000",
+          "baseEffect": "Começa com 3 esquivas",
+          "upgradePath": "Esquive de ataques para ganhar EXP, depois complete a missão de Nível 6 em Flower Capital derrotando 5 jogadores, 10 Chefes de Ilha e pagando $10M.",
+          "maxEffect": "O Nível 6 alcança 8 esquivas e adiciona informações de jogadores a longa distância.",
+          "bestFor": "Sobrevivência no PvP, segurança contra chefes e reconhecimento no late-game"
+        },
+        {
+          "name": "Haki do Conquistador",
+          "unlock": "Raça do Clã D.",
+          "requirements": "Girar ou obter Clã D.",
+          "baseEffect": "Causa dano a inimigos mais fracos próximos e os atordoa brevemente.",
+          "upgradePath": "Clã D. V2 reduz o custo de stamina de 250 para 200.",
+          "maxEffect": "Sem progressão de nível separada; a força vem do acesso ao Clã D. e da eficiência de stamina do V2.",
+          "bestFor": "Pressão de PvP, controle de grupo contra inimigos mais fracos e builds de raça rara"
+        }
+      ],
+      "races": [
+        {
+          "name": "Clã D.",
+          "rarity": "Mítico",
+          "v1": "+5% de Vida, +5% de Estamina, Haki do Conquistador (custo de 250 de Estamina)",
+          "v2": "+10% de Vida, +10% de Estamina, Haki do Conquistador (custo de 200 de Estamina)",
+          "rerollSources": "Recompensas diárias, drops, códigos e rotas de reroll de raça da Sala AFK",
+          "bestFor": "Melhor raça geral para sobrevivência, estamina e acesso exclusivo ao Haki do Conquistador"
+        },
+        {
+          "name": "Nascido do Dragão",
+          "rarity": "Lendário",
+          "v1": "+10% de Vida, +10% de Regeneração de Vida, +25% de impulso no primeiro Skywalk",
+          "v2": "+10% de Vida e habilidade de Planar",
+          "rerollSources": "Recompensas diárias, drops, códigos e rotas de reroll de raça na AFK Chamber",
+          "bestFor": "Builds mais resistentes, conforto em viagens e uma rota forte de clã não-D."
+        },
+        {
+          "name": "Demônio",
+          "rarity": "Raro",
+          "v1": "+2,5% de Roubo de Vida",
+          "v2": "+3% de Roubo de Vida e 10% de chance de invocar um Círculo de Fogo do Inferno ao usar o dash",
+          "rerollSources": "Recompensas diárias, drops, códigos e rotas de reroll de raça da Câmara AFK",
+          "bestFor": "Lutas longas, builds de sustain e autocura em PvE ou PvP"
+        },
+        {
+          "name": "Humano",
+          "rarity": "Comum",
+          "v1": "+25% de Velocidade de movimento com menos de 70% de HP",
+          "v2": "+50% de Velocidade de movimento com menos de 70% de HP e +1 Desvio de Observação",
+          "rerollSources": "Recompensas diárias, drops, códigos e rotas de reroll de raça da Câmara AFK",
+          "bestFor": "Mobilidade de baixo custo, fugas de emergência e suporte de Haki da Observação"
+        },
+        {
+          "name": "Beastborne",
+          "rarity": "Incomum",
+          "v1": "+20% de Velocidade de Movimento e +5% de Estamina",
+          "v2": "+50% de Velocidade de Movimento e +10% de Estamina",
+          "rerollSources": "Recompensas diárias, drops, códigos e rotas de reroll de raça na Sala AFK",
+          "bestFor": "Movimentação rápida, estilo de jogo focado em esquivas e conforto de estamina"
+        },
+        {
+          "name": "Celeste",
+          "rarity": "Incomum",
+          "v1": "+50% de impulso no primeiro Skywalk",
+          "v2": "Habilidade de planar e o dobro de poder no primeiro Skywalk",
+          "rerollSources": "Recompensas diárias, drops, códigos e rotas de reroll de raça da Câmara AFK",
+          "bestFor": "Viagem entre ilhas, movimento aéreo e exploração"
+        },
+        {
+          "name": "Tritão",
+          "rarity": "Incomum",
+          "v1": "+50% de Velocidade de Nado",
+          "v2": "2x de Velocidade de Nado, 2x de Velocidade de Caminhada por 4 segundos após sair da água e imunidade a dano de água para usuários de fruta",
+          "rerollSources": "Recompensas diárias, drops, códigos e rotas de reroll de raça da Câmara AFK",
+          "bestFor": "Viagem marítima, segurança para usuários de fruta e rotas com muita água"
+        }
+      ],
+      "raceV2Route": {
+        "name": "Rota de Desbloqueio da Raça V2",
+        "unlock": "Engenheiro de Raça na primeira ilha do Sea 2",
+        "requirements": "Nível 2200+, derrote uma Sea Beast, colete 50 baús, derrote o Zenith Boss, depois pague $1M e 100 Gemas",
+        "baseEffect": "Desbloqueia a rota passiva V2 de cada raça.",
+        "upgradePath": "Repetível para qualquer raça.",
+        "maxEffect": "Melhorias V2 transformam as passivas de raça em ferramentas essenciais de progressão.",
+        "bestFor": "Otimização de raça para o late-game"
+      }
+    },
+    "hazePieceSwordsAndFightingStyles": {
+      "eyebrow": "Otimização de raça para o late-game",
+      "title": "Armas e Estilos",
+      "subtitle": "Espadas, Armas e Estilos de Luta de Haze Piece",
+      "intro": "Planeje uma rota de espadas, compare estilos de luta e evite desperdiçar upgrades em equipamentos que não combinam com sua build.",
+      "movesLabel": "Espadas, frutas e estilos de luta são as três principais vias de dano em Haze Seas. Escolha uma via de arma principal, desbloqueie seus movimentos de maestria e combine-a com uma fruta ou estilo que cubra o alcance que falta na sua build.",
+      "howToGetLabel": "Movimentos Principais",
+      "bestForLabel": "Como Obter",
+      "v2RouteLabel": "Melhor Para",
+      "tiers": [
+        {
+          "tier": "Rota V2",
+          "label": "S+",
+          "kind": "Espadas S+",
+          "summary": "espada",
+          "entries": [
+            {
+              "name": "Lâmina Negra Dupla",
+              "role": "Espada de endgame",
+              "moves": [
+                "Z - Caos da Meia-Noite",
+                "X - Trilhão de Cortes",
+                "C - Erupção da Alma"
+              ],
+              "howToGet": "Fabrique no Doran the Forge usando 20 Relíquias de Lâmina Antiga, 25M de Recompensa, 300 de Maestria na Lâmina Negra V2, 1 Olho Abissal e 20M de Beli.",
+              "bestFor": "PvE de late-game, dano contra chefes e burst de PvP"
+            },
+            {
+              "name": "Estilo de Três Espadas V2",
+              "role": "Melhoria de espada de endgame",
+              "moves": [
+                "Z - Fênix Ascendente",
+                "X - Descida do Purgatório",
+                "C - Três Mil Céus"
+              ],
+              "howToGet": "Forje com 3SS V1, 300 de Maestria e 5 Relíquias de Lâmina Antiga. 3SS V1 precisa de Zenith, Shusui e Enma com 300 de Maestria antes do Santuário de Pedra na Terra dos Deuses.",
+              "bestFor": "Progressão de main espada, dano de explosão e farming de endgame."
+            },
+            {
+              "name": "Gryphon",
+              "role": "Espada de alta pressão",
+              "moves": [
+                "Z - Barragem Carmesim",
+                "X - Cruz da Morte",
+                "C - Tornados Aniquiladores"
+              ],
+              "howToGet": "Dropa do Imperador Ruivo com 5% de chance de drop.",
+              "bestFor": "Pressão no PvP, rotas de combo e PvE flexível."
+            },
+            {
+              "name": "Ace",
+              "role": "Espada de recompensa rara",
+              "moves": [
+                "Z - Deus da Guerra",
+                "X - Portador do Inferno"
+              ],
+              "howToGet": "Dropa do grupo de recompensas da Missão Final com uma chance regular de 0,1% ou 1% de chance no Infinity.",
+              "bestFor": "Colecionadores de armas raras e builds de espada de alto burst"
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Espadas S",
+          "kind": "espada",
+          "summary": "Espadas premium versáteis que sustentam builds de espada durante a progressão média e tardia.",
+          "entries": [
+            {
+              "name": "Dark Blade V2",
+              "role": "Espada premium versátil",
+              "moves": [
+                "Z - Clarão da Meia-noite",
+                "X - Trilhões de Cortes",
+                "C - Devastação da Meia-noite"
+              ],
+              "howToGet": "Sacrifique uma fruta Lendária ou superior para Nikk0lapz em Foggy Castle, derrote o 3SS Boss ou Enma, pague 50 Gemas para invocar o Dark Blade Boss e, em seguida, derrote o boss.",
+              "bestFor": "Versátil para PvE, PvP e progressão de meio a fim de jogo."
+            },
+            {
+              "name": "Zenith",
+              "role": "Espada de chefe garantida",
+              "moves": [
+                "Z - Cortes Paradoxais",
+                "X - Tornado de Zéfiro"
+              ],
+              "howToGet": "Drop garantido do Chefe Zenith durante o evento de tempestade da Ilha das Sombras.",
+              "bestFor": "Progressão de espada do Mar 2 e preparação para 3SS V1"
+            },
+            {
+              "name": "Bastão Dourado V2",
+              "role": "Arma compatível com eletricidade",
+              "moves": [
+                "Z - Onda de Tempestade",
+                "X - Chuva de Trovões",
+                "C - Orbes de Elétrons"
+              ],
+              "howToGet": "Melhore o Bastão Dourado V1 com 300 de Maestria, 1 Núcleo de Raijin e 2M de Beli.",
+              "bestFor": "Sinergia com a fruta da eletricidade e pressão à distância e corpo a corpo"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Espadas A",
+          "kind": "espada",
+          "summary": "Espadas de rota sólida que desbloqueiam as cadeias de progressão do Estilo de Três Espadas e do Sea 2.",
+          "entries": [
+            {
+              "name": "Enma",
+              "role": "Espada da rota 3SS",
+              "moves": [
+                "Z - Impacto Infernal",
+                "X - Chama Retorcida"
+              ],
+              "howToGet": "10% de chance de drop do Chefe Enma.",
+              "bestFor": "Rota necessária para o Estilo de Três Espadas."
+            },
+            {
+              "name": "Shusui",
+              "role": "Espada dropada por chefe do Mar 1",
+              "moves": [
+                "Z - Barragem de Estocadas",
+                "X - Impacto Estelar"
+              ],
+              "howToGet": "5% de chance de drop do Ryummy no Thriller Boat.",
+              "bestFor": "Rota necessária para o Estilo de Três Espadas"
+            },
+            {
+              "name": "Tridente de Massa",
+              "role": "Arma de drop de chefe",
+              "moves": [
+                "Z - Estocada de Broca",
+                "X - Impacto de Tridente"
+              ],
+              "howToGet": "Dropa do Chefe Dough no Mirror World.",
+              "bestFor": "Progressão na Dough Island e farming de loot de chefe."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Estilos de Luta A",
+          "kind": "estilo",
+          "summary": "Estilos de luta fortes com rotas V2, cobrindo AoE, atordoamento e corpo a corpo agressivo.",
+          "entries": [
+            {
+              "name": "Perna Negra",
+              "role": "Estilo AoE baseado em chutes",
+              "moves": [
+                "Z - Esmagamento Terrestre",
+                "X - Mesa de Festa",
+                "C - Barragem Aérea",
+                "V - Modo Diablo"
+              ],
+              "howToGet": "Compre com o treinador do Perna Negra por 50.000 Beli.",
+              "v2Route": "Evolua no Sage of Combat com 300 de Maestria, 2 Lanternas Fantasma e 5M de Beli.",
+              "bestFor": "Farm geral, combos AoE e builds corpo a corpo"
+            },
+            {
+              "name": "Electro",
+              "role": "Estilo de atordoamento e explosão",
+              "moves": [
+                "Z - Investida Elétrica",
+                "X - Descarga Mink",
+                "C - Impacto Elétrico"
+              ],
+              "howToGet": "Compre da Carol por 450.000 Beli.",
+              "v2Route": "Evolua com 300 de Maestria, 2 Núcleos de Raijin e 500 Gemas.",
+              "bestFor": "Combos de stun-lock, combinação com espada e PvP ativo"
+            },
+            {
+              "name": "Garra de Dragão",
+              "role": "Estilo de garra agressivo",
+              "moves": [
+                "Z - Chute de Garra",
+                "X - Chama Direta",
+                "C - Puxão de Garra"
+              ],
+              "howToGet": "Compre do Mestre do Dragão por 150 Gemas.",
+              "v2Route": "Evolua no Sábio do Combate com 300 de Maestria mais o material vinculado e fundos.",
+              "bestFor": "Melee de explosão, PvP agressivo e roteamento de estilo premium."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Estilos de Luta B",
+          "kind": "estilo",
+          "summary": "Estilos econômicos confiáveis para golpes pesados e pressão híbrida corpo a corpo/longo alcance.",
+          "entries": [
+            {
+              "name": "Homem-Peixe",
+              "role": "Estilo de luta pesado",
+              "moves": [
+                "Z - Punho de Tubarão",
+                "X - Barragem de Tubarão",
+                "C - Impacto Titânico"
+              ],
+              "howToGet": "Compre de Hakkon por 450.000 Beli.",
+              "v2Route": "Evolua com 300 de Maestria, 2 Corações de Besta Marinha e 5M de Beli.",
+              "bestFor": "Golpes pesados, builds temáticas de água e pressão de curto alcance"
+            },
+            {
+              "name": "Ciborgue",
+              "role": "Estilo híbrido corpo a corpo e à distância",
+              "moves": [
+                "Z - Esmagamento Ciborgue",
+                "X - Bala Ciborgue",
+                "C - Investida Ciborgue"
+              ],
+              "howToGet": "Compre do Cientista Ciborgue por 800.000 Beli.",
+              "v2Route": "Evolua com 300 de Maestria, 2 Anéis de Saturno e 5M de Beli.",
+              "bestFor": "Pressão corpo a corpo com opções à distância."
+            }
+          ]
+        }
+      ]
+    },
+    "hazePieceBossDropsAndMap": {
+      "eyebrow": "Chefes e Mapa",
+      "title": "Drops de Chefes, Ilhas e Mapa de Progressão de Haze Piece",
+      "subtitle": "Rastreie chefes de ilha, superchefes, itens de invocação, acessórios raros, armas e bloqueios de progressão do Segundo Mar.",
+      "intro": "Farmar chefes é a rota prática para acessórios, armas, itens de invocação, materiais, gemas, recompensa e desbloqueios de progressão. Comece com chefes de ilha rápidos de 30 segundos e depois passe para os superchefes assim que sua build conseguir causar dano real.",
+      "islandLabel": "Ilha",
+      "bossLabel": "Chefe",
+      "spawnLabel": "Regra de Spawn",
+      "dropsLabel": "Drops Principais",
+      "progressionLabel": "Nota de Progressão",
+      "groups": [
+        {
+          "sea": "Mar 1",
+          "heading": "Chefes de Ilha do Mar 1",
+          "summary": "Chefes de ilha com respawn rápido que financiam suas rotas iniciais de acessórios e armas.",
+          "bosses": [
+            {
+              "island": "Ilha Inicial",
+              "boss": "Chefe Bandido",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Tapa-olho - 40% de chance de drop"
+              ],
+              "note": "Primeira rota de farm de acessórios."
+            },
+            {
+              "island": "Ilha do Palhaço",
+              "boss": "Chefe Palhaço",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Nariz de Palhaço - 30% de chance de drop"
+              ],
+              "note": "Rota de acessório inicial após a Ilha Inicial."
+            },
+            {
+              "island": "Parque dos Tubarões",
+              "boss": "Chefe Tubarão",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Arma Shark Blade"
+              ],
+              "note": "Alvo importante de farm de espadas no início."
+            },
+            {
+              "island": "Restaurante do Mar",
+              "boss": "Chefe Krieg",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Hombreiras de Ouro"
+              ],
+              "note": "Rota de acessórios para durabilidade inicial."
+            },
+            {
+              "island": "Cidade Logue",
+              "boss": "Chefe Tashi",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório de óculos - 50% de chance de drop"
+              ],
+              "note": "Ilha útil tanto para farmar chefes quanto para rotas de Haki."
+            },
+            {
+              "island": "Floresta Alta",
+              "boss": "Chefe Rei Gorila",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Coroa de Macaco - 5% de chance de drop"
+              ],
+              "note": "Acessório alvo antes de rotas de super chefes mais fortes."
+            },
+            {
+              "island": "Cidade da Base da Marinha",
+              "boss": "Capitão da Marinha",
+              "spawn": "Ressurge 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Mandíbula de Ferro - 5% de chance de drop"
+              ],
+              "note": "Rota da ilha do Haki da Observação"
+            },
+            {
+              "island": "Três Ilhas",
+              "boss": "Boss Minotauro",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Capacete Gigante - 5% de chance de drop"
+              ],
+              "note": "Parada de farm de acessórios antes do Marine HQ."
+            },
+            {
+              "island": "QG da Marinha",
+              "boss": "Almirante de Gelo",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Máscara de Dormir - 5% de chance de drop",
+                "Chave do Tremor - 5% de chance de drop"
+              ],
+              "note": "Farme a Chave do Tremor aqui para desbloquear a rota da superchefe Tremor Girl."
+            },
+            {
+              "island": "Ilhas do Céu",
+              "boss": "Deus do Trovão",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Arma Bastão Dourado - 1% de chance de drop",
+                "Acessório Tambores do Trovão - 1% de chance de drop"
+              ],
+              "note": "Rota de arma fundamental para jogadores que buscam upgrades do Bastão Dourado."
+            },
+            {
+              "island": "Prisão Impel",
+              "boss": "Chefe Carcereiro",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Chapéu do Carcereiro - 2,5% de chance de drop",
+                "Item de invocação Match - 5% de chance de drop"
+              ],
+              "note": "Farme Match aqui para iniciar a rota de invocação do Punho de Fogo"
+            },
+            {
+              "island": "Ilha Quente",
+              "boss": "Chefe Vergo",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Black Shades - 2,5% de chance de drop"
+              ],
+              "note": "Rota de farming de acessórios na cadeia do meio do Sea 1"
+            },
+            {
+              "island": "Ilha Gelada",
+              "boss": "Chefe Harpia da Neve",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Material Minério de Gelo - 1% de chance de drop"
+              ],
+              "note": "Parada de farm de materiais para futuras rotas de crafting"
+            },
+            {
+              "island": "Ilha dos Homens-Peixe",
+              "boss": "Chefe Neptune",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Neptune Crown - 5% de chance de drop",
+                "Item Garfo - 5% de chance de drop"
+              ],
+              "note": "Farme Garfo aqui para a rota do Tridente Fishman."
+            },
+            {
+              "island": "Ilha da Caveira",
+              "boss": "Chefe Shiryu",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Item de Pergaminho - 5% de chance de drop"
+              ],
+              "note": "Rota de pergaminho para progressão da arma Raiu"
+            },
+            {
+              "island": "Ilha das Bolhas",
+              "boss": "Chefe G4",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Item Livro do Gear 4 - 5% de chance de drop"
+              ],
+              "note": "Ponto de controle da rota do Gear para usuários da Gum."
+            },
+            {
+              "island": "Barco Thriller",
+              "boss": "Ryummy",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Arma Shusui - 5% de chance de drop",
+                "Acessório Cachecol Azul"
+              ],
+              "note": "Rota de farm importante da Shusui para o Estilo de Três Espadas"
+            }
+          ]
+        },
+        {
+          "sea": "Super Boss do Mar 1",
+          "heading": "Super Bosses do Mar 1",
+          "summary": "Super bosses de invocação em cadeia e temporizados que bloqueiam o acesso a armas e acessórios premium.",
+          "bosses": [
+            {
+              "island": "Cidade de Logue",
+              "boss": "Espadachim Duplo",
+              "spawn": "Renasce a cada 60 minutos",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Material de livro - 50% de chance de drop",
+                "Acessório Bandana Verde"
+              ],
+              "note": "Rota de material de livro para Estilo de Duas Espadas V2."
+            },
+            {
+              "island": "Caverna atrás da Marine Base Town",
+              "boss": "Chefe Mace",
+              "spawn": "Invoque ao soltar Lava Ore no caldeirão da caverna",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Arma Mace V1",
+                "Acessório Coded Mask"
+              ],
+              "note": "Rota do Mace e checkpoint de super chefe inicial"
+            },
+            {
+              "island": "Cidade da Base da Marinha",
+              "boss": "Garota do Tremor",
+              "spawn": "Use a Chave do Tremor no portão trancado dos Piratas do Barba Branca",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Orbe Branco",
+                "Bisento V2 ao possuir Bisento V1"
+              ],
+              "note": "Melhoria da Bisento e checkpoint da rota do Tremor."
+            },
+            {
+              "island": "Floresta Alta",
+              "boss": "Punho de Fogo",
+              "spawn": "Use o fósforo do Chefe Warden, acenda a fogueira da Floresta Alta e depois coloque quatro pérolas nos totens da ilha",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Acessório Colar de Pérolas",
+                "Fruta do Fogo - 1% de chance de drop"
+              ],
+              "note": "Rota de chefes de invocação em cadeia com recompensas de frutas e acessórios."
+            },
+            {
+              "island": "Pilares Rochosos",
+              "boss": "Besta do Mar",
+              "spawn": "Renasce em 30 a 120 minutos no Mar 1",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "EXP",
+                "Recompensa",
+                "Título de Caçador de Bestas",
+                "Material do Núcleo da Besta do Mar",
+                "Martelo da Besta do Mar V1 - 50% de chance de drop"
+              ],
+              "note": "Alvo principal de farm de materiais e armas."
+            }
+          ]
+        },
+        {
+          "sea": "Sea 2",
+          "heading": "Chefes de Ilha do Sea 2",
+          "summary": "Chefes de ilha do Sea 2 que dropam orbes e fragmentos para invocações de super chefes.",
+          "bosses": [
+            {
+              "island": "Cemitério Nevado",
+              "boss": "Chefe 3SS",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Capa Verde - 5% de chance de drop"
+              ],
+              "note": "Parada importante para as rotas do Estilo de Três Espadas e da Dark Blade."
+            },
+            {
+              "island": "Ilha do Dragão",
+              "boss": "Chefe Mace V2",
+              "spawn": "Reaparece 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Orbe do Dragão - 1% de chance de drop"
+              ],
+              "note": "Farme Orbe do Dragão aqui para invocar o Chefe Dragão."
+            },
+            {
+              "island": "Ilha do Bolo",
+              "boss": "Chefe Soul",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Fragmento de Espelho - 1% de chance de drop"
+              ],
+              "note": "Rota do Fragmento de Espelho para acesso ao Chefe Dough."
+            },
+            {
+              "island": "Ilha de Inverno",
+              "boss": "Chefe da Neve",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Orbe de Neve - 1% de chance de drop"
+              ],
+              "note": "Rota de materiais para progressão relacionada à Neve."
+            },
+            {
+              "island": "Amazonas Serpente",
+              "boss": "Chefe do Amor",
+              "spawn": "Renasce 30 segundos após a derrota",
+              "drops": [
+                "Dinheiro",
+                "EXP",
+                "Recompensa",
+                "Acessório Brincos de Serpente - 1% de chance de drop"
+              ],
+              "note": "Alvo de farm de acessório na sequência do Mar 2."
+            }
+          ]
+        },
+        {
+          "sea": "Super Boss do Mar 2",
+          "heading": "Super Bosses do Mar 2",
+          "summary": "Super bosses de endgame que possuem as espadas, armas e títulos mais fortes.",
+          "bosses": [
+            {
+              "island": "Capital das Flores",
+              "boss": "Chefe Enma",
+              "spawn": "Reaparece a cada 60 minutos",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Espada Enma - 10% de chance de drop"
+              ],
+              "note": "Rota de espada necessária para a progressão do Estilo de Três Espadas"
+            },
+            {
+              "island": "Ilha do Dragão",
+              "boss": "Chefe Dragão",
+              "spawn": "Coloque o Orbe do Dragão no altar da Ilha do Dragão",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Acessório de Chifres - 10% de chance de drop",
+                "Tambores da Libertação - 100% de chance de drop ao usar a Fruta da Borracha"
+              ],
+              "note": "Chefe principal de progressão de Gear para usuários da Fruta da Borracha."
+            },
+            {
+              "island": "Mundo dos Espelhos",
+              "boss": "Chefe Dough",
+              "spawn": "Use a rota do Fragmento de Espelho, complete a missão do donut do NPC Syn, abra o Mundo dos Espelhos e, em seguida, invoque através do NPC Spex usando 50 Gemas",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Acessório Cachecol Dough - 10% de chance de drop",
+                "Arma Tridente Dough - 50% de chance de drop"
+              ],
+              "note": "Rota do Dough de alto valor com drops de arma e acessório."
+            },
+            {
+              "island": "Castelo de Névoa",
+              "boss": "Chefe Darkblade V2",
+              "spawn": "Complete a rota do Upgrader da Dark Blade no Castelo de Névoa",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Título de Espadachim Mais Forte",
+                "Acessório Chapéu da Noite - 10% de chance de drop",
+                "Acessório Colar da Noite - 0,1% de chance de drop",
+                "Rota da arma Darkblade V2"
+              ],
+              "note": "Rota de melhoria da Dark Blade para usuários de espadas premium."
+            },
+            {
+              "island": "Ilha das Sombras",
+              "boss": "Super Chefe Zenith",
+              "spawn": "Surge automaticamente durante uma tempestade na Ilha das Sombras",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "Recompensa",
+                "Espada Zenith - 100% de chance de drop"
+              ],
+              "note": "Melhor alvo de espada garantida para a preparação do Estilo de Três Espadas"
+            },
+            {
+              "island": "Mares Profundos",
+              "boss": "Besta Marinha",
+              "spawn": "Reaparece em 20 a 60 minutos no Mar 2",
+              "drops": [
+                "Dinheiro",
+                "Gemas",
+                "EXP",
+                "Recompensa",
+                "Título Beast Slayer",
+                "Material Coração da Besta Marinha - 25% de chance de drop",
+                "Martelo da Besta Marinha V2 - 3.5% de chance de drop"
+              ],
+              "note": "Rota de materiais importante para Fishman V2 e farming de armas avançado."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Haze Piece",
+    "titleHighlight": "FAQ",
+    "subtitle": "As principais perguntas que os jogadores de Haze Piece e Haze Seas fazem antes de zarpar.",
+    "questions": [
+      {
+        "question": "O que é Haze Piece e como ele se relaciona com Haze Seas?",
+        "answer": "Haze Piece é o RPG de ação pirata original do Roblox, e Haze Seas é a sua reformulação oficial pela Haze Studios. A Haze Piece Wiki cobre ambos os nomes para que os jogadores possam encontrar códigos, frutas e guias, independentemente de qual título pesquisem."
+      },
+      {
+        "question": "Onde eu resgato códigos de Haze Piece no Haze Seas?",
+        "answer": "No Haze Seas, abra o Menu do jogo, selecione o ícone de Baú de Tesouro ou Presente, cole um código de Haze Piece e pressione Resgatar. Os códigos diferenciam maiúsculas de minúsculas, então copie-os exatamente como estão escritos na lista de códigos da Haze Piece Wiki."
+      },
+      {
+        "question": "Quantas Devil Fruits existem no Haze Piece?",
+        "answer": "O Haze Piece e a reformulação Haze Seas listam 35 Devil Fruits. As frutas surgem sob as árvores a cada 60 minutos, desaparecem após 20 minutos, e servidores VIP podem conter até 5 spawns de frutas ao mesmo tempo."
+      },
+      {
+        "question": "Posso jogar Haze Piece no celular e no Xbox?",
+        "answer": "Sim. Haze Seas, a reformulação do Haze Piece, é uma experiência do Roblox e suporta controles de PC, celular e Xbox, então a mesma rota de progressão do Haze Piece funciona em todas as plataformas."
+      },
+      {
+        "question": "O que são Race Spins no Haze Piece?",
+        "answer": "Os Race Spins permitem que os jogadores de Haze Piece rolem novamente sua raça, com opções raras como o D. Clan oferecendo valor extra. Vários códigos ativos de Haze Seas concedem Race Spins, então resgate-os antes de iniciar uma longa sessão."
+      },
+      {
+        "question": "Como eu desbloqueio o Haki no Haze Piece?",
+        "answer": "Os Hakis do Haze Piece são desbloqueados por nível: Flash Step no Nível 40 na Clown Island, Buso Haki com o Old Man Silver em Luke Town no Nível 350, e Observation Haki na Marine Base Town Island no Nível 600."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para zarpar no Haze Seas?",
+    "description": "Junte-se à comunidade da Haze Studios no Discord para obter códigos, tier lists de frutas, guias de Haki, drops de chefes e as últimas atualizações do Haze Seas!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Haze Piece Wiki",
+    "description": "Seu hub de recursos completo para códigos de Haze Piece e Haze Seas, Devil Fruits, raças, Haki, armas, chefes e guias para iniciantes.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "robloxGame": "Jogo no Roblox",
+    "youtube": "YouTube",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Haze Piece Wiki. Não afiliado à Haze Studios.",
+    "disclaimer": "Site não oficial de recursos criado por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Haze Piece",
+      "description": "Códigos ativos de Haze Piece para gemas grátis, stat chips e rerolls de traits, além de um guia de resgate passo a passo e lista de códigos expirados.",
+      "metaTitle": "Códigos de Haze Piece - Gemas Grátis e Rerolls de Traits",
+      "metaDescription": "Consiga gemas grátis, stat chips e rerolls de traits com códigos ativos de Haze Piece. Atualizado diariamente com códigos verificados e um tutorial completo de resgate.",
+      "categoryLabel": "CÓDIGOS DE HAZE PIECE",
+      "whatIs": "O que são os Códigos de Haze Piece?",
+      "whatIsDescription": "Os códigos de Haze Piece lançados pela Haze Studios dão gemas grátis, stat chips, rerolls de traits e moedas de evento. Cada código tem tempo limitado e diferencia maiúsculas de minúsculas, por isso rastreamos a lista ativa, o status de expiração e as recompensas exatas para cada atualização de Haze Seas.",
+      "why": "Por que resgatar códigos de Haze Piece?",
+      "whySteps": {
+        "step1Title": "Recursos de Progressão Gratuitos",
+        "step1Description": "Resgate gemas, stat chips e rerolls que aceleram o nivelamento inicial no Haze Seas sem gastar Robux",
+        "step2Title": "Aproveite Drops por Tempo Limitado",
+        "step2Description": "Resgate códigos antes que expirem, já que a Haze Studios os rotaciona a cada atualização",
+        "step3Title": "Evite Erros de Resgate",
+        "step3Description": "Use a capitalização exata e confirme se um código já foi resgatado em sua conta"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos de Haze Piece"
+    },
+    "guide": {
+      "title": "Guias de Haze Piece",
+      "description": "Tutoriais para iniciantes de Haze Piece, rotas de nivelamento, progressão de ilhas, localizações de NPCs e guias do Segundo e Terceiro Mar para Haze Seas.",
+      "metaTitle": "Guias de Haze Piece - Rotas para Iniciantes e Progressão",
+      "metaDescription": "GUIAS DE HAZE PIECE",
+      "categoryLabel": "O que são os Guias de Haze Piece?",
+      "whatIs": "Os guias de Haze Piece cobrem todo o caminho de progressão de Haze Seas: uma lista de tarefas para a primeira hora, as rotas de nivelamento mais rápidas, a ordem das ilhas, localizações de NPCs e missões importantes, estratégias de nível máximo e condições de desbloqueio do Segundo e Terceiro Mar.",
+      "whatIsDescription": "Por que ler guias de Haze Piece?",
+      "why": "Planeje sua Rota de Nivelamento",
+      "whySteps": {
+        "step1Title": "Planeje sua rota de evolução",
+        "step1Description": "Siga a ordem ideal de ilhas de Haze Seas para alcançar o nível máximo sem grind desnecessário",
+        "step2Title": "Encontre NPCs de missões rapidamente",
+        "step2Description": "Localize treinadores, doadores de missões e NPCs importantes em cada ilha para manter a progressão fluida",
+        "step3Title": "Desbloqueie novos mares",
+        "step3Description": "Prepare as frutas, Haki e equipamentos certos para avançar no conteúdo do Segundo e Terceiro Mar"
+      },
+      "featured": "Todos os Guias de Haze Piece",
+      "all": "Frutas de Haze Piece"
+    },
+    "fruits": {
+      "title": "Todas as 35 Devil Fruits de Haze Piece com raridade, cronômetros de spawn e despawn, limites de servidor VIP, rotas de despertar e como obter cada fruta.",
+      "description": "Frutas de Haze Piece - Lista de Devil Fruits, Spawns e Raridade",
+      "metaTitle": "FRUTAS DE HAZE PIECE",
+      "metaDescription": "O que são as Frutas de Haze Piece?",
+      "categoryLabel": "Haze Piece apresenta 35 Devil Fruits que concedem poderes únicos de combate e mobilidade. As frutas surgem (spawn) a cada 60 minutos e desaparecem (despawn) após 20 minutos, com servidores VIP limitados a 5 frutas. Cada fruta tem um nível de raridade, caminho de despertar e melhor cenário de uso para farm, chefes e PvP.",
+      "whatIs": "O que são as Frutas de Haze Piece?",
+      "whatIsDescription": "Haze Piece apresenta 35 Frutas do Diabo que concedem poderes únicos de combate e mobilidade. As frutas surgem a cada 60 minutos e desaparecem após 20 minutos, com servidores VIP limitados a 5 frutas. Cada fruta possui um nível de raridade, caminho de despertar e a melhor recomendação de uso para farm, bosses e PvP.",
+      "why": "Por que aprender sobre as frutas de Haze Piece?",
+      "whySteps": {
+        "step1Title": "Conheça as Regras de Spawn",
+        "step1Description": "Acompanhe os spawns de 60 minutos e despawns de 20 minutos para pegar as frutas que você precisa",
+        "step2Title": "Escolha a Fruta Certa",
+        "step2Description": "Combine a raridade e as habilidades da fruta com seus objetivos de farm, bosses, PvP ou mobilidade",
+        "step3Title": "Planeje os Despertares",
+        "step3Description": "Guarde recursos para os despertares das frutas Gear 2, Gear 4, Gear 5, Dragon e Rubber"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Frutas de Haze Piece"
+    },
+    "haki": {
+      "title": "Haze Piece Haki",
+      "description": "Desbloqueie e melhore todos os tipos de Haze Piece Haki: Observation, Armament (Buso), Conqueror, Flash Step e Sky Walk em Haze Seas.",
+      "metaTitle": "Haze Piece Haki - Desbloqueie e Melhore Todos os Tipos de Haki",
+      "metaDescription": "Domine o Haze Piece Haki em Haze Seas: Observation Haki, Buso (Armament) Haki, Conqueror Haki, Flash Step, Sky Walk e Haki V2 com níveis de desbloqueio e rotas de upgrade.",
+      "categoryLabel": "HAZE PIECE HAKI",
+      "whatIs": "O que é o Haze Piece Haki?",
+      "whatIsDescription": "O Haze Piece Haki desbloqueia bônus passivos de combate e mobilidade: Observation Haki desvia de ataques, Buso (Armament) Haki reforça o dano, Conqueror Haki atordoa grupos, e Flash Step e Sky Walk expandem a movimentação. Cada Haki possui um limite de nível, a localização do treinador e um caminho de upgrade claro.",
+      "why": "Por que desbloquear o Haze Piece Haki?",
+      "whySteps": {
+        "step1Title": "Alcance os portões de nível",
+        "step1Description": "Desbloqueie o Haki da Observação e o Buso Haki assim que os requisitos de nível forem liberados",
+        "step2Title": "Encontre os treinadores de Haki",
+        "step2Description": "Localize cada treinador de Haki no mapa do Haze Seas e pague o custo correto",
+        "step3Title": "Faça upgrades para o Endgame",
+        "step3Description": "Busque o Haki V2, Haki do Conquistador e técnicas de movimento para o conteúdo do Segundo e Terceiro Mar"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Haze Piece Haki"
+    },
+    "weapons": {
+      "title": "Armas de Haze Piece",
+      "description": "Espadas, estilos de luta e acessórios do Haze Piece: tier list de espadas, localizações de treinadores, drops de chefes e as melhores armas para cada build de Haze Seas.",
+      "metaTitle": "Armas de Haze Piece - Espadas, Estilos e Acessórios",
+      "metaDescription": "HAZE PIECE WEAPONS",
+      "categoryLabel": "O que são as Armas de Haze Piece?",
+      "whatIs": "As armas de Haze Piece englobam espadas, estilos de luta e acessórios que definem o seu dano. Conheça as raridades de espadas, localizações de treinadores, equipamentos dropados de chefes como Dark Blade e Enma, os caminhos de Three Sword Style e Dual Swordsman, e os acessórios que completam cada build.",
+      "whatIsDescription": "Por que planejar as armas de Haze Piece?",
+      "why": "Escolha um Estilo de Combate",
+      "whySteps": {
+        "step1Title": "Escolha um Estilo de Combate",
+        "step1Description": "Escolha Espada, Estilo de Três Espadas ou Espadachim Duplo e treine com o instrutor certo",
+        "step2Title": "Cace Drops de Chefes",
+        "step2Description": "Foque em chefes que dropam Dark Blade, Enma, Bisento e outras armas de alto nível",
+        "step3Title": "Complete com Acessórios",
+        "step3Description": "Combine armas com os buffs de acessórios certos para a sua build de farm ou PvP"
+      },
+      "featured": "Featured & Essential",
+      "all": "---"
+    },
+    "bosses": {
+      "title": "Todas as Armas de Haze Piece",
+      "description": "Chefes de Haze Piece",
+      "metaTitle": "Localizações dos chefes de Haze Piece, requisitos de nível, tabelas de drops e estratégias recomendadas em cada ilha e evento marítimo de Haze Seas.",
+      "metaDescription": "Chefes de Haze Piece - Localizações, Drops e Estratégias",
+      "categoryLabel": "Derrote todos os chefes de Haze Piece em Haze Seas: localizações das ilhas, requisitos de nível, tabelas de drops incluindo drops do Kaido, spawns de Sea Beast e estratégias recomendadas.",
+      "whatIs": "CHEFES DE HAZE PIECE",
+      "whatIsDescription": "O que são os Chefes de Haze Piece?",
+      "why": "Os chefes de Haze Piece guardam cada ilha e dropam as espadas, acessórios e frutas que impulsionam o progresso. Cada chefe tem um requisito de nível, uma tabela de drops fixa e um temporizador de respawn, enquanto eventos marítimos como o Sea Beast dropam saques raros e valiosos pelo First e Second Sea.",
+      "whySteps": {
+        "step1Title": "Foque nos Drops Certos",
+        "step1Description": "Saiba quais chefes dropam as armas, acessórios e frutas que a sua build precisa",
+        "step2Title": "Atenda aos Requisitos de Nível",
+        "step2Description": "Enfrente os chefes na ordem certa para que os limites de nível nunca bloqueiem o seu farm",
+        "step3Title": "Lide com Eventos Marítimos",
+        "step3Description": "Prepare-se para encontros com Sea Beast e estilo raid que dropam saques raros de Haze Seas"
+      },
+      "featured": "Prepare-se para o Sea Beast e encontros estilo raid que dropam saques raros de Haze Seas",
+      "all": "Destaques e Essenciais"
+    }
   }
 }
