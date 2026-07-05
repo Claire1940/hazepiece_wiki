@@ -42,6 +42,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gift: LucideIcons.Gift,
   Link2: LucideIcons.Link2,
   Crown: LucideIcons.Crown,
+  Apple: LucideIcons.Apple,
+  Dna: LucideIcons.Dna,
+  Swords: LucideIcons.Swords,
+  Map: LucideIcons.Map,
 
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,

@@ -58,7 +58,7 @@
   "tools": {
     "title": "Haze Piece",
     "titleHighlight": "Resources",
-    "subtitle": "Active Haze Seas codes, official links, beginner routes, and the fruit tier list — every Haze Piece tool in one place.",
+    "subtitle": "Active Haze Seas codes, official links, beginner routes, fruit tables, races, Haki, weapons, and the boss map — every Haze Piece tool in one place.",
     "cards": [
       {
         "icon": "Gift",
@@ -79,6 +79,26 @@
         "icon": "Crown",
         "title": "Haze Piece Fruits Tier List",
         "description": "All 35 Haze Seas fruits ranked for farming, bossing, and PvP"
+      },
+      {
+        "icon": "Apple",
+        "title": "Haze Piece Fruits and Stock",
+        "description": "Fruit spawn timers, despawn windows, dealer gacha, and the full fruit pool"
+      },
+      {
+        "icon": "Dna",
+        "title": "Haze Piece Races and Haki",
+        "description": "Race passives, V2 routes, reroll sources, and Buso, Observation, Conqueror's Haki"
+      },
+      {
+        "icon": "Swords",
+        "title": "Haze Piece Swords and Fighting Styles",
+        "description": "Sword and style tier routes, mastery moves, and unlock materials"
+      },
+      {
+        "icon": "Map",
+        "title": "Haze Piece Boss Drops and Map",
+        "description": "Island bosses, super bosses, drop rates, summon items, and Sea 2 routes"
       }
     ]
   },
@@ -697,6 +717,428 @@
               "bestFor": ["Starter play"],
               "note": "Easy to use but quickly outclassed by almost every stronger Fruit."
             }
+          ]
+        }
+      ]
+    },
+    "hazePieceFruitsAndStockGuide": {
+      "eyebrow": "Fruits & Stock",
+      "title": "Haze Piece Fruits, Spawn Timers, and Stock",
+      "subtitle": "Track every Haze Seas fruit, the world spawn timer, the despawn window, and the main ways to get fruits.",
+      "intro": "Fruits spawn under trees every 60 minutes and despawn after 20 minutes. VIP servers can hold up to five spawned fruits, and players can also chase specific powers through the fruit dealer gacha, trading, and starter reward routes.",
+      "rulesLabel": "Spawn & Stock Rules",
+      "routesLabel": "How to Get Fruits",
+      "fruitsLabel": "Haze Seas Fruit Pool",
+      "rules": [
+        {
+          "name": "World Fruit Spawn",
+          "value": "60 minutes",
+          "details": "Fruits spawn under trees across islands.",
+          "note": "Start a timer after server entry or a confirmed pickup to plan the next fruit check."
+        },
+        {
+          "name": "Fruit Despawn",
+          "value": "20 minutes",
+          "details": "Unclaimed fruits disappear after the despawn window.",
+          "note": "Run your tree routes quickly once a spawn window opens."
+        },
+        {
+          "name": "VIP Server Fruit Limit",
+          "value": "5 fruits",
+          "details": "VIP servers can hold up to five spawned fruits at once.",
+          "note": "VIP fruit farming is most efficient with a simple repeating island route."
+        }
+      ],
+      "routes": [
+        {
+          "name": "Cynthia Fruit Dealer Gacha",
+          "value": "Fruit dealer route",
+          "details": "Roll fruits at Cynthia's dealer spots, including the Starter Island dealer and later island dealers.",
+          "note": "Best for players who want active rolls instead of waiting on world spawns."
+        },
+        {
+          "name": "Trading",
+          "value": "Player exchange",
+          "details": "Trade with other players to target fruits you do not want to roll or wait for.",
+          "note": "Best for rare fruit targeting once you understand current demand."
+        }
+      ],
+      "fruits": [
+        { "name": "Okuchi", "note": "Available across world spawns, dealer gacha, and trading routes." },
+        { "name": "Wolf", "note": "Worth tracking alongside transformation-focused fruits." },
+        { "name": "Clear", "note": "Common early fruit route target." },
+        { "name": "Chop", "note": "Common early fruit route target." },
+        { "name": "Spin", "note": "Starter-friendly fruit to replace once stronger options appear." },
+        { "name": "Spike", "note": "Starter-friendly fruit to replace once stronger options appear." },
+        { "name": "Bomb", "note": "Early combat fruit for basic progression." },
+        { "name": "Barrier", "note": "Defensive-style fruit route." },
+        { "name": "Paw", "note": "Utility and combat fruit route." },
+        { "name": "Smoke", "note": "Early elemental-style farming option." },
+        { "name": "Sand", "note": "Early elemental-style farming option." },
+        { "name": "String", "note": "Mobility and combo-style fruit route." },
+        { "name": "Mammoth", "note": "Transformation-style fruit route." },
+        { "name": "Buddha", "note": "Large-form combat fruit route." },
+        { "name": "Snow", "note": "Elemental-style fruit route." },
+        { "name": "Tremor", "note": "AoE-heavy fruit route for farming and boss pressure." },
+        { "name": "Gas", "note": "Area-control fruit route." },
+        { "name": "Gravity", "note": "Gravity-control fruit route." },
+        { "name": "Flame", "note": "Strong early-to-mid elemental farming option." },
+        { "name": "Shadow", "note": "Strong farming, mobility, and PvP route." },
+        { "name": "Light", "note": "Useful for travel, mobility, and quick farming." },
+        { "name": "Operation", "note": "Utility-heavy fruit route." },
+        { "name": "Ice", "note": "Control and farming fruit route." },
+        { "name": "Electricity", "note": "High-value AoE, mobility, and farming route." },
+        { "name": "Magma", "note": "High-damage elemental farming route." },
+        { "name": "Love", "note": "Utility and ranged-pressure fruit route." },
+        { "name": "Gum", "note": "Core route for Gear progression." },
+        { "name": "Darkness", "note": "Strong crowd-control and farming route." },
+        { "name": "Magnet", "note": "Damage-focused fruit route." },
+        { "name": "Phoenix", "note": "Mobility, healing-style, and PvP pressure route." },
+        { "name": "Soul", "note": "AoE and utility fruit route." },
+        { "name": "Leopard", "note": "Transformation-style route for active combat." },
+        { "name": "Venom", "note": "Damage-over-time and boss-pressure route." },
+        { "name": "Dragon", "note": "High-value transformation and late-game chase fruit." },
+        { "name": "Dough", "note": "High-value farming and boss route." }
+      ]
+    },
+    "hazePieceRacesAndHakiGuide": {
+      "eyebrow": "Races & Haki",
+      "title": "Haze Piece Races, Race Rerolls, and Haki Unlocks",
+      "subtitle": "Compare D. Clan, Dragonborne, Demon, Human, Beastborne, Skyborne, Fishborne, and the main Haki progression paths.",
+      "intro": "Races shape passive stats, mobility, survivability, and access to Conqueror's Haki. Buso Haki boosts weapon and fighting-style damage, Observation Haki adds dodges, and D. Clan unlocks Conqueror's Haki for players chasing the rarest race route.",
+      "hakiHeading": "Haki Unlocks",
+      "racesHeading": "Race Passives and V2 Routes",
+      "rarityLabel": "Rarity",
+      "bestForLabel": "Best For",
+      "haki": [
+        {
+          "name": "Buso Haki",
+          "unlock": "Old Man Silver / Buso Trainer at Logue City",
+          "requirements": "Level 350 and $100,000",
+          "baseEffect": "+2.5% weapon and fighting-style damage while active",
+          "upgradePath": "Earn EXP with Buso Haki, then complete the Level 5 quest at Flower Capital by taking 1,000 hits and paying 200 Gems.",
+          "maxEffect": "Level 5 grants +15% damage and +10% damage resistance.",
+          "bestFor": "Sword builds, fighting-style builds, Elemental-user counterplay, and boss farming"
+        },
+        {
+          "name": "Observation Haki",
+          "unlock": "Observation Haki Trainer at Marine Base Town",
+          "requirements": "Level 600 and $150,000",
+          "baseEffect": "Starts with 3 dodges",
+          "upgradePath": "Dodge attacks to gain EXP, then complete the Level 6 quest at Flower Capital by defeating 5 players, 10 Island Bosses, and paying $10M.",
+          "maxEffect": "Level 6 reaches 8 dodges and adds long-range player information.",
+          "bestFor": "PvP survival, boss safety, and late-game scouting"
+        },
+        {
+          "name": "Conqueror's Haki",
+          "unlock": "D. Clan race",
+          "requirements": "Roll or obtain D. Clan",
+          "baseEffect": "Deals damage to nearby weaker enemies and stuns them briefly.",
+          "upgradePath": "D. Clan V2 reduces the stamina cost from 250 to 200.",
+          "maxEffect": "No separate level track; strength comes from D. Clan access and V2 stamina efficiency.",
+          "bestFor": "PvP pressure, crowd control against weaker enemies, and rare-race builds"
+        }
+      ],
+      "races": [
+        {
+          "name": "D. Clan",
+          "rarity": "Mythical",
+          "v1": "+5% Health, +5% Stamina, Conqueror's Haki (250 Stamina cost)",
+          "v2": "+10% Health, +10% Stamina, Conqueror's Haki (200 Stamina cost)",
+          "rerollSources": "Daily rewards, drops, codes, and AFK Chamber race reroll routes",
+          "bestFor": "Best all-around race for survivability, stamina, and exclusive Conqueror's Haki access"
+        },
+        {
+          "name": "Dragonborne",
+          "rarity": "Legendary",
+          "v1": "+10% Health, +10% Health Regen, +25% first Skywalk boost",
+          "v2": "+10% Health and Glide ability",
+          "rerollSources": "Daily rewards, drops, codes, and AFK Chamber race reroll routes",
+          "bestFor": "Tankier builds, travel comfort, and a strong non-D. Clan route"
+        },
+        {
+          "name": "Demon",
+          "rarity": "Rare",
+          "v1": "+2.5% Lifesteal",
+          "v2": "+3% Lifesteal and 10% chance to summon a Hellfire Circle on dash",
+          "rerollSources": "Daily rewards, drops, codes, and AFK Chamber race reroll routes",
+          "bestFor": "Long fights, sustain builds, and self-healing in PvE or PvP"
+        },
+        {
+          "name": "Human",
+          "rarity": "Common",
+          "v1": "+25% Walkspeed while under 70% HP",
+          "v2": "+50% Walkspeed while under 70% HP and +1 Observation Dodge",
+          "rerollSources": "Daily rewards, drops, codes, and AFK Chamber race reroll routes",
+          "bestFor": "Budget mobility, emergency escapes, and Observation Haki support"
+        },
+        {
+          "name": "Beastborne",
+          "rarity": "Uncommon",
+          "v1": "+20% Walkspeed and +5% Stamina",
+          "v2": "+50% Walkspeed and +10% Stamina",
+          "rerollSources": "Daily rewards, drops, codes, and AFK Chamber race reroll routes",
+          "bestFor": "Fast movement, dash-heavy play, and stamina comfort"
+        },
+        {
+          "name": "Skyborne",
+          "rarity": "Uncommon",
+          "v1": "+50% first Skywalk boost",
+          "v2": "Glide ability and doubled first Skywalk power",
+          "rerollSources": "Daily rewards, drops, codes, and AFK Chamber race reroll routes",
+          "bestFor": "Island travel, aerial movement, and exploration"
+        },
+        {
+          "name": "Fishborne",
+          "rarity": "Uncommon",
+          "v1": "+50% Swim Speed",
+          "v2": "2x Swim Speed, 2x Walkspeed for 4 seconds after leaving water, and water damage immunity for fruit users",
+          "rerollSources": "Daily rewards, drops, codes, and AFK Chamber race reroll routes",
+          "bestFor": "Sea travel, fruit-user safety, and water-heavy routing"
+        }
+      ],
+      "raceV2Route": {
+        "name": "Race V2 Unlock Route",
+        "unlock": "Race Engineer on the first Sea 2 island",
+        "requirements": "Level 2200+, defeat a Sea Beast, collect 50 chests, defeat the Zenith Boss, then pay $1M and 100 Gems",
+        "baseEffect": "Unlocks each race's V2 passive route.",
+        "upgradePath": "Repeatable for any race.",
+        "maxEffect": "V2 upgrades turn race passives into core progression tools.",
+        "bestFor": "Late-game race optimization"
+      }
+    },
+    "hazePieceSwordsAndFightingStyles": {
+      "eyebrow": "Weapons & Styles",
+      "title": "Haze Piece Swords, Weapons, and Fighting Styles",
+      "subtitle": "Plan a sword route, compare fighting styles, and avoid wasting upgrades on gear that does not match your build.",
+      "intro": "Swords, fruits, and fighting styles are the three main damage lanes in Haze Seas. Pick one main weapon lane, unlock its mastery moves, then pair it with a fruit or style that covers the range your build lacks.",
+      "movesLabel": "Key Moves",
+      "howToGetLabel": "How to Get",
+      "bestForLabel": "Best For",
+      "v2RouteLabel": "V2 Route",
+      "tiers": [
+        {
+          "tier": "S+",
+          "label": "S+ Swords",
+          "kind": "sword",
+          "summary": "Endgame swords and final-form upgrades that define a sword-main's late game.",
+          "entries": [
+            {
+              "name": "Dual Dark Blade",
+              "role": "Endgame sword",
+              "moves": ["Z - Midnight Havoc", "X - Trillion Slashes", "C - Soul Eruption"],
+              "howToGet": "Craft at Doran the Forge using 20 Ancient Blade Relics, 25M Bounty, 300 Mastery on Dark Blade V2, 1 Abyssal Eye, and 20M Beli.",
+              "bestFor": "Late-game PvE, boss damage, and PvP burst"
+            },
+            {
+              "name": "Three Sword Style V2",
+              "role": "Endgame sword upgrade",
+              "moves": ["Z - Soaring Phoenix", "X - Purgatory Descent", "C - Three Thousand Skies"],
+              "howToGet": "Craft with 3SS V1, 300 Mastery, and 5 Ancient Blade Relics. 3SS V1 needs Zenith, Shusui, and Enma at 300 Mastery before the Rock Shrine at Land of Gods.",
+              "bestFor": "Sword-main progression, burst damage, and endgame farming"
+            },
+            {
+              "name": "Gryphon",
+              "role": "High-pressure sword",
+              "moves": ["Z - Crimson Barrage", "X - Death Cross", "C - Vanquishing Tornadoes"],
+              "howToGet": "Drops from Red Emperor with a 5% drop chance.",
+              "bestFor": "PvP pressure, combo routes, and flexible PvE"
+            },
+            {
+              "name": "Ace",
+              "role": "Rare reward sword",
+              "moves": ["Z - God of War", "X - Hell Bringer"],
+              "howToGet": "Drops from the Final Quest reward pool with a 0.1% regular chance or 1% Infinity chance.",
+              "bestFor": "Rare weapon collectors and high-burst sword builds"
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "S Swords",
+          "kind": "sword",
+          "summary": "Premium all-round swords that carry sword builds through mid and late progression.",
+          "entries": [
+            {
+              "name": "Dark Blade V2",
+              "role": "Premium all-round sword",
+              "moves": ["Z - Midnight Flash", "X - Trillion Slashes", "C - Midnight Havoc"],
+              "howToGet": "Sacrifice a Legendary or higher fruit to Nikk0lapz in Foggy Castle, defeat 3SS Boss or Enma, pay 50 Gems to summon the Dark Blade Boss, then defeat the boss.",
+              "bestFor": "All-round PvE, PvP, and mid-to-late progression"
+            },
+            {
+              "name": "Zenith",
+              "role": "Guaranteed boss sword",
+              "moves": ["Z - Paradox Slashes", "X - Zephyr Twister"],
+              "howToGet": "Guaranteed drop from the Zenith Boss during the Shadow Island storm event.",
+              "bestFor": "Sea 2 sword progression and 3SS V1 preparation"
+            },
+            {
+              "name": "Golden Staff V2",
+              "role": "Electricity-friendly weapon",
+              "moves": ["Z - Storm Surge", "X - Thunder Shower", "C - Electron Orbs"],
+              "howToGet": "Upgrade Golden Staff V1 with 300 Mastery, 1 Raijin Core, and 2M Beli.",
+              "bestFor": "Electricity fruit synergy and ranged-melee pressure"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "A Swords",
+          "kind": "sword",
+          "summary": "Solid route swords that unlock the Three Sword Style and Sea 2 progression chains.",
+          "entries": [
+            {
+              "name": "Enma",
+              "role": "3SS route sword",
+              "moves": ["Z - Inferno Impact", "X - Twisting Blaze"],
+              "howToGet": "10% drop chance from the Enma Boss.",
+              "bestFor": "Required route toward Three Sword Style"
+            },
+            {
+              "name": "Shusui",
+              "role": "Sea 1 boss-drop sword",
+              "moves": ["Z - Thrust Barrage", "X - Star Impact"],
+              "howToGet": "5% drop chance from Ryummy at Thriller Boat.",
+              "bestFor": "Required route toward Three Sword Style"
+            },
+            {
+              "name": "Dough Trident",
+              "role": "Boss-drop weapon",
+              "moves": ["Z - Drill Thrust", "X - Trident Slam"],
+              "howToGet": "Drops from the Dough Boss in Mirror World.",
+              "bestFor": "Dough Island progression and boss loot farming"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "A Fighting Styles",
+          "kind": "style",
+          "summary": "Strong fighting styles with V2 routes, covering AoE, stun, and aggressive melee.",
+          "entries": [
+            {
+              "name": "Black Leg",
+              "role": "Kick-based AoE style",
+              "moves": ["Z - Ground Smash", "X - Party Table", "C - Air Barrage", "V - Diablo Mode"],
+              "howToGet": "Buy from the Black Leg trainer for 50,000 Beli.",
+              "v2Route": "Evolve at Sage of Combat with 300 Mastery, 2 Phantom Lanterns, and 5M Beli.",
+              "bestFor": "General farming, AoE combos, and melee builds"
+            },
+            {
+              "name": "Electro",
+              "role": "Stun and burst style",
+              "moves": ["Z - Electric Tackle", "X - Mink Discharge", "C - Electric Slam"],
+              "howToGet": "Buy from Carol for 450,000 Beli.",
+              "v2Route": "Evolve with 300 Mastery, 2 Raijin's Cores, and 500 Gems.",
+              "bestFor": "Stun-lock combos, sword pairing, and active PvP"
+            },
+            {
+              "name": "Dragon Claw",
+              "role": "Aggressive claw style",
+              "moves": ["Z - Claw Kick", "X - Direct Flame", "C - Clawing Pull"],
+              "howToGet": "Buy from the Dragon Master for 150 Gems.",
+              "v2Route": "Evolve at Sage of Combat with 300 Mastery plus the tied material and funds.",
+              "bestFor": "Burst melee, aggressive PvP, and premium style routing"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "B Fighting Styles",
+          "kind": "style",
+          "summary": "Reliable budget styles for heavy hits and hybrid melee-ranged pressure.",
+          "entries": [
+            {
+              "name": "Fishman",
+              "role": "Heavy brawler style",
+              "moves": ["Z - Shark Fist", "X - Shark Barrage", "C - Titanic Slam"],
+              "howToGet": "Buy from Hakkon for 450,000 Beli.",
+              "v2Route": "Evolve with 300 Mastery, 2 Seabeast Hearts, and 5M Beli.",
+              "bestFor": "Heavy hits, water-themed builds, and close-range pressure"
+            },
+            {
+              "name": "Cyborg",
+              "role": "Hybrid melee-ranged style",
+              "moves": ["Z - Cyborg Smash", "X - Cyborg Bullet", "C - Cyborg Tackle"],
+              "howToGet": "Buy from the Cyborg Scientist for 800,000 Beli.",
+              "v2Route": "Evolve with 300 Mastery, 2 Saturn's Rings, and 5M Beli.",
+              "bestFor": "Melee pressure with ranged options"
+            }
+          ]
+        }
+      ]
+    },
+    "hazePieceBossDropsAndMap": {
+      "eyebrow": "Bosses & Map",
+      "title": "Haze Piece Boss Drops, Islands, and Progression Map",
+      "subtitle": "Track island bosses, super bosses, summon items, rare accessories, weapons, and Second Sea progression blockers.",
+      "intro": "Boss farming is the practical route for accessories, weapons, summon items, materials, gems, bounty, and progression unlocks. Start with fast 30-second island bosses, then move into super bosses once your build can deal real damage.",
+      "islandLabel": "Island",
+      "bossLabel": "Boss",
+      "spawnLabel": "Spawn Rule",
+      "dropsLabel": "Key Drops",
+      "progressionLabel": "Progression Note",
+      "groups": [
+        {
+          "sea": "Sea 1",
+          "heading": "Sea 1 Island Bosses",
+          "summary": "Fast-respawning island bosses that fund your early accessory and weapon routes.",
+          "bosses": [
+            { "island": "Starter Island", "boss": "Bandit Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Eyepatch accessory - 40% drop chance"], "note": "First accessory farming route." },
+            { "island": "Clown Island", "boss": "Clown Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Clown Nose accessory - 30% drop chance"], "note": "Early accessory route after Starter Island." },
+            { "island": "Shark Park", "boss": "Shark Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Shark Blade weapon"], "note": "Important early sword farming target." },
+            { "island": "Sea Restaurant", "boss": "Krieg Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Gold Pauldrons accessory"], "note": "Accessory route for early durability." },
+            { "island": "Logue City", "boss": "Tashi Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Glasses accessory - 50% drop chance"], "note": "Useful island for both boss farming and Haki routing." },
+            { "island": "Tall Woods", "boss": "King Gorilla Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Monkey Crown accessory - 5% drop chance"], "note": "Accessory target before stronger super boss routes." },
+            { "island": "Marine Base Town", "boss": "Marine Captain", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Iron Jaw accessory - 5% drop chance"], "note": "Observation Haki island route." },
+            { "island": "Three Islands", "boss": "Minotaur Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Oversized Helmet accessory - 5% drop chance"], "note": "Accessory farming stop before Marine HQ." },
+            { "island": "Marine HQ", "boss": "Ice Admiral", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Sleeping Mask accessory - 5% drop chance", "Tremor Key - 5% drop chance"], "note": "Farm Tremor Key here to unlock the Tremor Girl super boss route." },
+            { "island": "Sky Islands", "boss": "Thunder God", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Golden Staff weapon - 1% drop chance", "Thunder Drums accessory - 1% drop chance"], "note": "Key weapon route for players building toward Golden Staff upgrades." },
+            { "island": "Impel Jail", "boss": "Warden Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Warden Hat accessory - 2.5% drop chance", "Match summon item - 5% drop chance"], "note": "Farm Match here to start the Fire Fist summon route." },
+            { "island": "Hot Island", "boss": "Vergo Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Black Shades accessory - 2.5% drop chance"], "note": "Accessory farming route in the mid Sea 1 chain." },
+            { "island": "Cold Island", "boss": "Snow Harpy Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Ice Ore material - 1% drop chance"], "note": "Material farming stop for later crafting routes." },
+            { "island": "Fishman Island", "boss": "Neptune Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Neptune Crown accessory - 5% drop chance", "Fork item - 5% drop chance"], "note": "Farm Fork here for Fishman Trident routing." },
+            { "island": "Skull Island", "boss": "Shiryu Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Scroll item - 5% drop chance"], "note": "Scroll route for Raiu weapon progression." },
+            { "island": "Bubble Island", "boss": "G4 Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Gear 4 Book item - 5% drop chance"], "note": "Gear route checkpoint for Gum users." },
+            { "island": "Thriller Boat", "boss": "Ryummy", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Shusui weapon - 5% drop chance", "Blue Scarf accessory"], "note": "Important Shusui farming route for Three Sword Style." }
+          ]
+        },
+        {
+          "sea": "Sea 1 Super Boss",
+          "heading": "Sea 1 Super Bosses",
+          "summary": "Summon-chain and timed super bosses that gate premium weapons and accessories.",
+          "bosses": [
+            { "island": "Logue City", "boss": "Dual Swordsman", "spawn": "Respawns every 60 minutes", "drops": ["Money", "Gems", "Bounty", "Book material - 50% drop chance", "Green Bandana accessory"], "note": "Book material route for Dual Sword Style V2." },
+            { "island": "Cave behind Marine Base Town", "boss": "Mace Boss", "spawn": "Summon by dropping Lava Ore in the cave cauldron", "drops": ["Money", "Gems", "Bounty", "Mace V1 weapon", "Coded Mask accessory"], "note": "Mace route and early super boss checkpoint." },
+            { "island": "Marine Base Town", "boss": "Tremor Girl", "spawn": "Use Tremor Key at the locked Whitebeard Pirates gate", "drops": ["Money", "Gems", "Bounty", "White Orb", "Bisento V2 when owning Bisento V1"], "note": "Bisento upgrade and Tremor route checkpoint." },
+            { "island": "Tall Woods", "boss": "Fire Fist", "spawn": "Use Match from Warden Boss, light the Tall Woods campfire, then place four pearls on the island totems", "drops": ["Money", "Gems", "Bounty", "Pearl Necklace accessory", "Flame Fruit - 1% drop chance"], "note": "Summon-chain boss route with fruit and accessory rewards." },
+            { "island": "Rocky Pillars", "boss": "Sea Beast", "spawn": "Respawns in 30 to 120 minutes in Sea 1", "drops": ["Money", "Gems", "EXP", "Bounty", "Beast Slayer title", "Sea Beast Core material", "Sea Beast Hammer V1 - 50% drop chance"], "note": "Major material and weapon farming target." }
+          ]
+        },
+        {
+          "sea": "Sea 2",
+          "heading": "Sea 2 Island Bosses",
+          "summary": "Sea 2 island bosses that drop orbs and fragments for super boss summons.",
+          "bosses": [
+            { "island": "Snowy Graveyard", "boss": "3SS Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Green Cloak accessory - 5% drop chance"], "note": "Important stop for Three Sword Style and Dark Blade routes." },
+            { "island": "Dragon Island", "boss": "Mace V2 Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Dragon Orb - 1% drop chance"], "note": "Farm Dragon Orb here to summon Dragon Boss." },
+            { "island": "Cake Island", "boss": "Soul Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Mirror Fragment - 1% drop chance"], "note": "Mirror Fragment route for Dough Boss access." },
+            { "island": "Winter Island", "boss": "Snow Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Snow Orb - 1% drop chance"], "note": "Material route for Snow-related progression." },
+            { "island": "Snake Amazon", "boss": "Love Boss", "spawn": "Respawns 30 seconds after defeat", "drops": ["Money", "EXP", "Bounty", "Snake Earrings accessory - 1% drop chance"], "note": "Accessory farming target in the Sea 2 chain." }
+          ]
+        },
+        {
+          "sea": "Sea 2 Super Boss",
+          "heading": "Sea 2 Super Bosses",
+          "summary": "Endgame super bosses carrying the strongest swords, weapons, and titles.",
+          "bosses": [
+            { "island": "Flower Capital", "boss": "Enma Boss", "spawn": "Respawns every 60 minutes", "drops": ["Money", "Gems", "Bounty", "Enma Sword - 10% drop chance"], "note": "Required sword route for Three Sword Style progression." },
+            { "island": "Dragon Island", "boss": "Dragon Boss", "spawn": "Place Dragon Orb on the Dragon Island altar", "drops": ["Money", "Gems", "Bounty", "Horns accessory - 10% drop chance", "Drums of Liberation - 100% drop chance when using Gum Fruit"], "note": "Major Gear progression boss for Gum users." },
+            { "island": "Mirror World", "boss": "Dough Boss", "spawn": "Use Mirror Fragment route, complete Syn NPC doughnut quest, open Mirror World, then spawn through Spex NPC using 50 Gems", "drops": ["Money", "Gems", "Bounty", "Dough Scarf accessory - 10% drop chance", "Dough Trident weapon - 50% drop chance"], "note": "High-value Dough route with weapon and accessory drops." },
+            { "island": "Foggy Castle", "boss": "Darkblade V2 Boss", "spawn": "Complete the Dark Blade Upgrader route at Foggy Castle", "drops": ["Money", "Gems", "Bounty", "Strongest Swordsman title", "Night Hat accessory - 10% drop chance", "Night Necklace accessory - 0.1% drop chance", "Darkblade V2 weapon route"], "note": "Dark Blade upgrade route for premium sword users." },
+            { "island": "Shadow Island", "boss": "Zenith Super Boss", "spawn": "Spawns automatically during a storm on Shadow Island", "drops": ["Money", "Gems", "Bounty", "Zenith Sword - 100% drop chance"], "note": "Best guaranteed sword target for Three Sword Style preparation." },
+            { "island": "Deep Seas", "boss": "Sea Beast", "spawn": "Respawns in 20 to 60 minutes in Sea 2", "drops": ["Money", "Gems", "EXP", "Bounty", "Beast Slayer title", "Sea Beast Heart material - 25% drop chance", "Sea Beast Hammer V2 - 3.5% drop chance"], "note": "Important material route for Fishman V2 and late weapon farming." }
           ]
         }
       ]

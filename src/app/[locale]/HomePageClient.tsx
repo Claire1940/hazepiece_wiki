@@ -2,20 +2,37 @@
 
 import { useState, Suspense, lazy } from "react";
 import {
+  Anchor,
+  Apple,
+  ArrowLeftRight,
   ArrowRight,
   AtSign,
   BookOpen,
   Check,
+  Clock,
   Copy,
+  Crosshair,
+  Crown,
+  Dna,
   ExternalLink,
+  Eye,
   Gamepad2,
   Gift,
+  Hand,
+  Hourglass,
   LayoutGrid,
   Link2,
+  Map,
   MessageCircle,
+  Ship,
+  Skull,
   Sparkles,
+  Store,
+  Swords,
+  TrendingUp,
   Users,
   Video,
+  Zap,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
@@ -41,12 +58,16 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
   />
 );
 
-// Tools Grid 卡片 → 锚点映射（4 张卡 ↔ 4 个 section，一一对应）
+// Tools Grid 卡片 → 锚点映射（8 张卡 ↔ 8 个 section，一一对应）
 const TOOL_CARD_SECTIONS = [
   "codes",
   "trello-discord",
   "beginner-guide",
   "fruits-tier-list",
+  "fruits-and-stock",
+  "races-and-haki",
+  "swords-and-styles",
+  "boss-drops-and-map",
 ] as const;
 
 // Trello & Discord 模块的链接类型 → 图标映射（统一使用非品牌安全图标）
@@ -59,13 +80,46 @@ const LINK_TYPE_ICON: Record<string, LucideIcon> = {
   YouTube: Video,
 };
 
-// 水果 Tier List 等级徽章样式（主题色 + 不同透明度区分 S/A/B/C/D，禁止硬编码颜色）
+// 水果 Tier List 等级徽章样式（主题色 + 不同透明度区分 S+/S/A/B/C/D，禁止硬编码颜色）
 const TIER_BADGE_CLASS: Record<string, string> = {
+  "S+": "bg-[hsl(var(--nav-theme))] text-white",
   S: "bg-[hsl(var(--nav-theme))] text-white",
   A: "bg-[hsl(var(--nav-theme)/0.85)] text-white",
   B: "bg-[hsl(var(--nav-theme)/0.65)] text-white",
   C: "bg-[hsl(var(--nav-theme)/0.45)] text-foreground",
   D: "bg-[hsl(var(--nav-theme)/0.3)] text-foreground",
+};
+
+// 模块 5：Fruits and Stock 规则图标（按索引分配不同图标）
+const FRUIT_RULE_ICON: LucideIcon[] = [Clock, Hourglass, Crown];
+// 模块 5：Fruits and Stock 获取路线图标（按索引分配不同图标）
+const FRUIT_ROUTE_ICON: LucideIcon[] = [Store, ArrowLeftRight];
+
+// 模块 6：Races and Haki — Haki 项图标（按索引分配不同图标）
+const HAKI_ICON: LucideIcon[] = [Zap, Eye, Sparkles];
+// 模块 6：Races and Haki — 稀有度徽章样式（主题色透明度梯度）
+const RARITY_BADGE_CLASS: Record<string, string> = {
+  Mythical: "bg-[hsl(var(--nav-theme))] text-white",
+  Legendary: "bg-[hsl(var(--nav-theme)/0.85)] text-white",
+  Rare: "bg-[hsl(var(--nav-theme)/0.65)] text-white",
+  Uncommon: "bg-[hsl(var(--nav-theme)/0.45)] text-foreground",
+  Common: "bg-[hsl(var(--nav-theme)/0.3)] text-foreground",
+};
+
+// 模块 7：Swords and Fighting Styles — tier kind（sword/style）图标
+const WEAPON_KIND_ICON: Record<string, LucideIcon> = {
+  sword: Swords,
+  style: Hand,
+};
+
+// 模块 8：Boss Drops and Map — sea 分组图标（每个分组不同图标）
+const SEA_GROUP_ICON: LucideIcon[] = [Ship, Skull, Anchor, Crosshair];
+// 模块 8：sea 分组整体徽章样式（区分普通岛 boss 与超级 boss）
+const SEA_GROUP_BADGE_CLASS: Record<string, string> = {
+  "Sea 1": "bg-[hsl(var(--nav-theme)/0.18)] text-[hsl(var(--nav-theme-light))] border-[hsl(var(--nav-theme)/0.4)]",
+  "Sea 1 Super Boss": "bg-[hsl(var(--nav-theme)/0.65)] text-white border-[hsl(var(--nav-theme)/0.7)]",
+  "Sea 2": "bg-[hsl(var(--nav-theme)/0.18)] text-[hsl(var(--nav-theme-light))] border-[hsl(var(--nav-theme)/0.4)]",
+  "Sea 2 Super Boss": "bg-[hsl(var(--nav-theme)/0.65)] text-white border-[hsl(var(--nav-theme)/0.7)]",
 };
 
 interface HomePageClientProps {
@@ -719,6 +773,503 @@ export default function HomePageClient({
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== Module 5: Haze Piece Fruits and Stock Guide ============================== */}
+      <section id="fruits-and-stock" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          {/* Header */}
+          <div className="text-center mb-8 md:mb-10 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+              <Apple className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs md:text-sm font-medium">
+                {t.modules.hazePieceFruitsAndStockGuide.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.hazePieceFruitsAndStockGuide.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.hazePieceFruitsAndStockGuide.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm md:text-base text-muted-foreground">
+              {t.modules.hazePieceFruitsAndStockGuide.intro}
+            </p>
+          </div>
+
+          {/* Spawn & Stock Rules */}
+          <div className="mb-10 md:mb-12 scroll-reveal">
+            <div className="mb-4 flex items-center gap-2">
+              <Clock className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="text-xl md:text-2xl font-bold">
+                {t.modules.hazePieceFruitsAndStockGuide.rulesLabel}
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+              {t.modules.hazePieceFruitsAndStockGuide.rules.map((rule: any, ri: number) => {
+                const RuleIcon = FRUIT_RULE_ICON[ri] || Clock;
+                return (
+                  <div
+                    key={ri}
+                    className="flex flex-col rounded-xl border border-border bg-white/5 p-4 md:p-5
+                               hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="mb-3 flex items-center gap-2">
+                      <span className="flex h-9 w-9 items-center justify-center rounded-lg
+                                      bg-[hsl(var(--nav-theme)/0.1)]">
+                        <RuleIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <span className="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold
+                                       bg-[hsl(var(--nav-theme))] text-white whitespace-nowrap">
+                        {rule.value}
+                      </span>
+                    </div>
+                    <h4 className="mb-1 font-bold">{rule.name}</h4>
+                    <p className="mb-2 text-xs text-muted-foreground">{rule.details}</p>
+                    <p className="text-xs text-muted-foreground">{rule.note}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* How to Get Fruits */}
+          <div className="mb-10 md:mb-12 scroll-reveal">
+            <div className="mb-4 flex items-center gap-2">
+              <Store className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="text-xl md:text-2xl font-bold">
+                {t.modules.hazePieceFruitsAndStockGuide.routesLabel}
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+              {t.modules.hazePieceFruitsAndStockGuide.routes.map((route: any, ri: number) => {
+                const RouteIcon = FRUIT_ROUTE_ICON[ri] || Store;
+                return (
+                  <div
+                    key={ri}
+                    className="flex flex-col rounded-xl border border-border bg-white/5 p-4 md:p-5
+                               hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="mb-3 flex items-center gap-2">
+                      <span className="flex h-9 w-9 items-center justify-center rounded-lg
+                                      bg-[hsl(var(--nav-theme)/0.1)]">
+                        <RouteIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <span className="inline-flex items-center rounded-full border border-[hsl(var(--nav-theme)/0.3)]
+                                       bg-[hsl(var(--nav-theme)/0.1)] px-2 py-0.5 text-xs font-medium whitespace-nowrap">
+                        {route.value}
+                      </span>
+                    </div>
+                    <h4 className="mb-1 font-bold">{route.name}</h4>
+                    <p className="mb-2 text-xs text-muted-foreground">{route.details}</p>
+                    <p className="text-xs text-muted-foreground">{route.note}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Fruit Pool */}
+          <div className="scroll-reveal">
+            <div className="mb-4 flex items-center gap-2">
+              <Apple className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="text-xl md:text-2xl font-bold">
+                {t.modules.hazePieceFruitsAndStockGuide.fruitsLabel}
+              </h3>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-3">
+              {t.modules.hazePieceFruitsAndStockGuide.fruits.map((fruit: any, fi: number) => (
+                <div
+                  key={fi}
+                  className="flex flex-col rounded-lg border border-border bg-white/5 p-3
+                             hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="mb-1 flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                    <h4 className="text-sm font-bold truncate">{fruit.name}</h4>
+                  </div>
+                  <p className="text-xs text-muted-foreground line-clamp-2">{fruit.note}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== Module 6: Haze Piece Races and Haki Guide ============================== */}
+      <section
+        id="races-and-haki"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          {/* Header */}
+          <div className="text-center mb-8 md:mb-10 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+              <Dna className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs md:text-sm font-medium">
+                {t.modules.hazePieceRacesAndHakiGuide.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.hazePieceRacesAndHakiGuide.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.hazePieceRacesAndHakiGuide.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm md:text-base text-muted-foreground">
+              {t.modules.hazePieceRacesAndHakiGuide.intro}
+            </p>
+          </div>
+
+          {/* Haki Unlocks */}
+          <div className="mb-10 md:mb-12 scroll-reveal">
+            <div className="mb-4 flex items-center gap-2">
+              <Zap className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="text-xl md:text-2xl font-bold">
+                {t.modules.hazePieceRacesAndHakiGuide.hakiHeading}
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+              {t.modules.hazePieceRacesAndHakiGuide.haki.map((haki: any, hi: number) => {
+                const HakiIcon = HAKI_ICON[hi] || Sparkles;
+                return (
+                  <div
+                    key={hi}
+                    className="flex flex-col rounded-xl border border-border bg-white/5 p-4 md:p-5
+                               hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="mb-3 flex items-center gap-2">
+                      <span className="flex h-9 w-9 items-center justify-center rounded-lg
+                                      bg-[hsl(var(--nav-theme)/0.1)]">
+                        <HakiIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <h4 className="font-bold">{haki.name}</h4>
+                    </div>
+                    <dl className="space-y-2 text-xs">
+                      <div>
+                        <dt className="font-semibold text-foreground/80">Unlock</dt>
+                        <dd className="text-muted-foreground">{haki.unlock}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-semibold text-foreground/80">Requirements</dt>
+                        <dd className="text-muted-foreground">{haki.requirements}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-semibold text-foreground/80">Base Effect</dt>
+                        <dd className="text-muted-foreground">{haki.baseEffect}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-semibold text-foreground/80">Upgrade Path</dt>
+                        <dd className="text-muted-foreground">{haki.upgradePath}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-semibold text-foreground/80">Max Effect</dt>
+                        <dd className="text-muted-foreground">{haki.maxEffect}</dd>
+                      </div>
+                    </dl>
+                    <p className="mt-3 pt-3 border-t border-border text-xs text-[hsl(var(--nav-theme-light))]">
+                      <span className="font-semibold">Best For: </span>{haki.bestFor}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Races */}
+          <div className="scroll-reveal">
+            <div className="mb-4 flex items-center gap-2">
+              <Dna className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="text-xl md:text-2xl font-bold">
+                {t.modules.hazePieceRacesAndHakiGuide.racesHeading}
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+              {t.modules.hazePieceRacesAndHakiGuide.races.map((race: any, ri: number) => (
+                <div
+                  key={ri}
+                  className="flex flex-col rounded-xl border border-border bg-white/5 p-4 md:p-5
+                             hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="mb-3 flex items-center justify-between gap-2">
+                    <h4 className="font-bold">{race.name}</h4>
+                    <span className={`inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold whitespace-nowrap ${
+                      RARITY_BADGE_CLASS[race.rarity] || RARITY_BADGE_CLASS.Common
+                    }`}>
+                      {race.rarity}
+                    </span>
+                  </div>
+                  <dl className="space-y-2 text-xs">
+                    <div>
+                      <dt className="font-semibold text-foreground/80">V1</dt>
+                      <dd className="text-muted-foreground">{race.v1}</dd>
+                    </div>
+                    <div>
+                      <dt className="font-semibold text-foreground/80">V2</dt>
+                      <dd className="text-muted-foreground">{race.v2}</dd>
+                    </div>
+                    <div>
+                      <dt className="font-semibold text-foreground/80">Reroll Sources</dt>
+                      <dd className="text-muted-foreground">{race.rerollSources}</dd>
+                    </div>
+                  </dl>
+                  <p className="mt-3 pt-3 border-t border-border text-xs text-[hsl(var(--nav-theme-light))]">
+                    <span className="font-semibold">Best For: </span>{race.bestFor}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Race V2 Route */}
+            {(() => {
+              const v2 = t.modules.hazePieceRacesAndHakiGuide.raceV2Route;
+              return (
+                <div className="mt-4 md:mt-5 scroll-reveal rounded-xl border border-[hsl(var(--nav-theme)/0.4)]
+                                bg-[hsl(var(--nav-theme)/0.06)] p-4 md:p-5">
+                  <div className="mb-3 flex items-center gap-2">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-lg
+                                    bg-[hsl(var(--nav-theme)/0.15)]">
+                      <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
+                    <h4 className="font-bold">{v2.name}</h4>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                    <div>
+                      <p className="font-semibold text-foreground/80">Unlock</p>
+                      <p className="text-muted-foreground">{v2.unlock}</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground/80">Requirements</p>
+                      <p className="text-muted-foreground">{v2.requirements}</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground/80">Base Effect</p>
+                      <p className="text-muted-foreground">{v2.baseEffect}</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground/80">Upgrade Path</p>
+                      <p className="text-muted-foreground">{v2.upgradePath}</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground/80">Max Effect</p>
+                      <p className="text-muted-foreground">{v2.maxEffect}</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground/80">Best For</p>
+                      <p className="text-muted-foreground">{v2.bestFor}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })()}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== Module 7: Haze Piece Swords and Fighting Styles ============================== */}
+      <section id="swords-and-styles" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          {/* Header */}
+          <div className="text-center mb-8 md:mb-10 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+              <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs md:text-sm font-medium">
+                {t.modules.hazePieceSwordsAndFightingStyles.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.hazePieceSwordsAndFightingStyles.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.hazePieceSwordsAndFightingStyles.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm md:text-base text-muted-foreground">
+              {t.modules.hazePieceSwordsAndFightingStyles.intro}
+            </p>
+          </div>
+
+          {/* Tier rows */}
+          <div className="space-y-6 md:space-y-8">
+            {t.modules.hazePieceSwordsAndFightingStyles.tiers.map((tier: any, ti: number) => {
+              const KindIcon = WEAPON_KIND_ICON[tier.kind] || Swords;
+              return (
+                <div key={ti} className="scroll-reveal">
+                  <div className="mb-3 flex items-center gap-3">
+                    <span
+                      className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg text-lg font-bold ${
+                        TIER_BADGE_CLASS[tier.tier] || TIER_BADGE_CLASS.D
+                      }`}
+                    >
+                      {tier.tier}
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <KindIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      <div>
+                        <h3 className="text-lg font-bold">{tier.label}</h3>
+                        <p className="text-xs text-muted-foreground">{tier.summary}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {tier.entries.map((entry: any, ei: number) => (
+                      <div
+                        key={ei}
+                        className="flex flex-col rounded-xl border border-border bg-white/5 p-4
+                                   hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                      >
+                        <div className="mb-2">
+                          <h4 className="font-bold">{entry.name}</h4>
+                          <p className="text-xs text-muted-foreground">{entry.role}</p>
+                        </div>
+                        <div className="mb-2">
+                          <p className="mb-1 flex items-center gap-1 text-xs font-semibold text-foreground/80">
+                            <Swords className="w-3 h-3" />
+                            {t.modules.hazePieceSwordsAndFightingStyles.movesLabel}
+                          </p>
+                          <ul className="space-y-0.5 text-xs text-muted-foreground">
+                            {entry.moves.map((m: string, mi: number) => (
+                              <li key={mi} className="flex items-start gap-1">
+                                <Check className="mt-0.5 w-3 h-3 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                                <span>{m}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        <p className="mb-2 text-xs text-muted-foreground">
+                          <span className="font-semibold text-foreground/80">
+                            {t.modules.hazePieceSwordsAndFightingStyles.howToGetLabel}: </span>
+                          {entry.howToGet}
+                        </p>
+                        {entry.v2Route && (
+                          <p className="mb-2 text-xs text-muted-foreground">
+                            <span className="font-semibold text-foreground/80">
+                              {t.modules.hazePieceSwordsAndFightingStyles.v2RouteLabel}: </span>
+                            {entry.v2Route}
+                          </p>
+                        )}
+                        <p className="mt-auto pt-2 border-t border-border text-xs text-[hsl(var(--nav-theme-light))]">
+                          <span className="font-semibold">
+                            {t.modules.hazePieceSwordsAndFightingStyles.bestForLabel}: </span>
+                          {entry.bestFor}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== Module 8: Haze Piece Boss Drops and Map ============================== */}
+      <section
+        id="boss-drops-and-map"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          {/* Header */}
+          <div className="text-center mb-8 md:mb-10 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+              <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs md:text-sm font-medium">
+                {t.modules.hazePieceBossDropsAndMap.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.hazePieceBossDropsAndMap.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3">
+              {t.modules.hazePieceBossDropsAndMap.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm md:text-base text-muted-foreground">
+              {t.modules.hazePieceBossDropsAndMap.intro}
+            </p>
+          </div>
+
+          {/* Sea Groups */}
+          <div className="space-y-8 md:space-y-10">
+            {t.modules.hazePieceBossDropsAndMap.groups.map((group: any, gi: number) => {
+              const SeaIcon = SEA_GROUP_ICON[gi] || Ship;
+              return (
+                <div key={gi} className="scroll-reveal">
+                  <div className="mb-4 flex flex-wrap items-center gap-3">
+                    <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg
+                                    bg-[hsl(var(--nav-theme)/0.1)]">
+                      <SeaIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <h3 className="text-lg md:text-xl font-bold">{group.heading}</h3>
+                        <span className={`inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium ${
+                          SEA_GROUP_BADGE_CLASS[group.sea] || ""
+                        }`}>
+                          {group.sea}
+                        </span>
+                      </div>
+                      <p className="text-xs text-muted-foreground">{group.summary}</p>
+                    </div>
+                  </div>
+
+                  {/* Boss rows */}
+                  <div className="space-y-2 md:space-y-3">
+                    {group.bosses.map((boss: any, bi: number) => (
+                      <div
+                        key={bi}
+                        className="rounded-lg border border-border bg-white/5 p-3 md:p-4
+                                   hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                      >
+                        <div className="grid grid-cols-1 gap-2 md:grid-cols-12 md:gap-4">
+                          <div className="md:col-span-3">
+                            <p className="text-xs font-semibold text-foreground/70">
+                              {t.modules.hazePieceBossDropsAndMap.islandLabel}
+                            </p>
+                            <p className="text-sm font-bold">{boss.island}</p>
+                            <p className="mt-1 flex items-center gap-1 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                              <Skull className="w-3.5 h-3.5" />
+                              {boss.boss}
+                            </p>
+                          </div>
+                          <div className="md:col-span-3">
+                            <p className="text-xs font-semibold text-foreground/70">
+                              {t.modules.hazePieceBossDropsAndMap.spawnLabel}
+                            </p>
+                            <p className="text-xs text-muted-foreground">{boss.spawn}</p>
+                          </div>
+                          <div className="md:col-span-4">
+                            <p className="text-xs font-semibold text-foreground/70">
+                              {t.modules.hazePieceBossDropsAndMap.dropsLabel}
+                            </p>
+                            <div className="mt-1 flex flex-wrap gap-1">
+                              {boss.drops.map((drop: string, di: number) => (
+                                <span
+                                  key={di}
+                                  className="inline-flex items-center rounded-md border border-border bg-white/5 px-1.5 py-0.5 text-xs text-muted-foreground"
+                                >
+                                  {drop}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                          <div className="md:col-span-2">
+                            <p className="text-xs font-semibold text-foreground/70">
+                              {t.modules.hazePieceBossDropsAndMap.progressionLabel}
+                            </p>
+                            <p className="text-xs text-muted-foreground">{boss.note}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
