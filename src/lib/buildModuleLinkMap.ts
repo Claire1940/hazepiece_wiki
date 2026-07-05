@@ -18,15 +18,23 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   hazePieceTrelloDiscord: { field: 'items', nameKey: 'label' },
   hazePieceBeginnerGuide: { field: 'items', nameKey: 'title' },
   hazePieceFruitsTierList: { field: 'tiers', nameKey: 'label' },
+  hazePieceFruitsAndStockGuide: { field: 'fruits', nameKey: 'name' },
+  hazePieceRacesAndHakiGuide: { field: 'haki', nameKey: 'name' },
+  hazePieceSwordsAndFightingStyles: { field: 'tiers', nameKey: 'label' },
+  hazePieceBossDropsAndMap: { field: 'groups', nameKey: 'heading' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  hazePieceCodes: ['code', 'redeem', 'reward', 'race', 'spin', 'reroll'],
+  hazePieceCodes: ['code', 'redeem', 'reward', 'gem', 'cash', 'boost', 'spin'],
   hazePieceTrelloDiscord: ['trello', 'discord', 'roblox', 'youtube', 'official', 'community'],
-  hazePieceBeginnerGuide: ['beginner', 'starter', 'progression', 'early', 'guide', 'route'],
+  hazePieceBeginnerGuide: ['beginner', 'starter', 'progression', 'early', 'guide', 'route', 'level'],
   hazePieceFruitsTierList: ['fruit', 'tier', 'ranking', 'devil', 'power', 'awakening'],
+  hazePieceFruitsAndStockGuide: ['fruit', 'spawn', 'stock', 'timer', 'dealer', 'gacha'],
+  hazePieceRacesAndHakiGuide: ['race', 'haki', 'reroll', 'buso', 'observation', 'conqueror', 'clan'],
+  hazePieceSwordsAndFightingStyles: ['sword', 'weapon', 'fighting', 'style', 'blade', 'loadout', 'mastery'],
+  hazePieceBossDropsAndMap: ['boss', 'drop', 'island', 'map', 'progression', 'loot', 'spawn'],
 }
 
 const FILLER_WORDS = ['haze', 'piece', 'seas', 'roblox', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
@@ -53,8 +61,8 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of game brand prefix, e.g. "Lucid Blocks" / "Haze Piece" / "Haze Seas")
-  const brandPrefixRe = /lucid blocks?\s*|haze (?:piece|seas)\s*/g
+  // Exact phrase match in title (stripped of game brand prefix, e.g. "Haze Piece" / "Haze Seas")
+  const brandPrefixRe = /haze (?:piece|seas)\s*/g
   const strippedQuery = normalizedQuery.replace(brandPrefixRe, '').trim()
   const strippedTitle = normalizedTitle.replace(brandPrefixRe, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
