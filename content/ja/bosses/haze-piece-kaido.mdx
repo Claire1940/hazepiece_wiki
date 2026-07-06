@@ -1,0 +1,173 @@
+import { Map, Swords, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece kaido: Dragon Island ボス戦の攻略とルート",
+  description: "Dragon Island における haze piece kaido のルートを、ボスの順番、報酬、強化条件、そして最速の周回ループまで含めて解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Dragon+Island+Boss+Route",
+  date: "2026-07-06",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="tip" title="クイックガイド">
+- **haze piece kaido** は通常、Dragon Island のボス連戦と強化ルートを指します。
+- **MaceV2 Boss** は、Dragon Orb と Mace V2 を狙う最初の周回対象です。
+- **Dragon Boss** は、Horns Accessory と Drums Of Liberation を狙う重要な地点です。
+- **Incurr Gear 5 Trainer** は、必要なアイテムと通貨を持ち込むことで Gear 5 を強化します。
+- **高速周回** の鍵は、洞窟、祭壇、右側の島へ進む無駄のないルートです。
+</Callout>
+
+<Section icon={Map} title="haze piece kaido ルート概要">
+
+**haze piece kaido** を探しているなら、最も役立つ答えは Dragon Island の進行ループです。島は水上に浮かび、船大工はその下にいます。重要なルートは、中島、洞窟、祭壇、そして右側のトレーナーへと続きます。
+
+地図をすぐ確認できるよう、周回中は [Dragon Island entry](https://haze-piece.fandom.com/wiki/Dragon_Island) をブックマークしておくと便利です。NPC とボスの位置を覚えれば配置は単純で、そのぶん周回はかなり速くなります。
+
+<Callout type="info" title="島の配置">
+Dragon Island は広い探索エリアではなく、中央の戦闘ラインを中心に作られています。つまり、効率的な周回では常に目的を持って移動する必要があります。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="下の島">
+    - **Erika** がクエスト窓口です
+    - 周回の開始地点として使います
+    - ルートをリセットしやすい場所です
+  </Card>
+  <Card title="中島">
+    - **Beast Pirate** と **Elite Beast** が出現します
+    - 進行のための主戦場です
+    - 洞窟と祭壇のループがあります
+  </Card>
+  <Card title="右の島">
+    - **Incurr Gear 5 Trainer** がいます
+    - Gear 5 強化の最終地点です
+    - ルートの最後に回すのが最適です
+  </Card>
+</CardGrid>
+
+| 目印 | 役割 | 重要な理由 |
+|---|---|---|
+| 下の島 | クエスト拠点であり開始地点 | 周回ループを整理しやすくなる |
+| 中島 | 敵集団と洞窟へのアクセス | 中央戦闘とボス進行の核になる |
+| 洞窟 | MaceV2 Boss の拠点 | 最初の大きな報酬地点 |
+| Dragon altar | Dragon Boss を召喚する | 次の報酬段階を解放する |
+| 右の島 | トレーナーの場所 | 報酬を Gear 5 進行に変える |
+
+きれいな Dragon Island 周回は、ランダムな戦闘よりも順番が重要です。より良い結果を出したいなら、島を自由に歩き回るマップではなく、チェックリストのように扱いましょう。低い位置から始めて中央を抜け、必要なドロップを確保してから右側で締めるのが基本です。
+
+</Section>
+
+<Section icon={Swords} title="ボスの順番、ドロップ、報酬">
+
+ボスの順番が重要なのは、それぞれの報酬が次の段階につながるからです。実際の周回では、**MaceV2 Boss** を準備戦、**Dragon Boss** を報酬戦、トレーナーをドロップを恒久的な進行に変える変換地点として考えるとよいでしょう。
+
+<Callout type="warning" title="洞窟は飛ばさないでください">
+洞窟を確認せずに祭壇へ直行すると、Dragon Orb と Mace V2 のルートを取り逃して時間を無駄にする可能性があります。
+</Callout>
+
+| 対象 | ドロップまたは内容 | 備考 |
+|---|---|---|
+| MaceV2 Boss | Dragon Orb | **1%** ドロップと記載されています |
+| MaceV2 Boss | Mace V2 | **1%** ドロップと記載されています |
+| Dragon Boss | Horns Accessory | **10%** ドロップと記載されています |
+| Dragon Boss | Drums Of Liberation | Gum を装備している場合は **100%** ドロップ |
+| Incurr Gear 5 Trainer | Gear 5 強化 | Drums Of Liberation、**500000 money**、Diamonds が必要です |
+
+報酬の構造を見ると、ループの流れが分かります。最初に洞窟ボスを倒して、レアなオーブと武器を狙います。次に、そのオーブを祭壇で使って Dragon Boss を召喚します。最後に、Gum を装備していれば確定の Drums ルートを回収し、その結果をトレーナーへ持ち込みます。
+
+| 周回対象 | 実行のベストタイミング | 主な価値 |
+|---|---|---|
+| MaceV2 Boss | 最初の祭壇召喚の前 | Dragon Orb ルートを解放する |
+| Dragon Boss | Dragon Orb を置いた後 | アクセサリーと Drums のルートを開く |
+| トレーナー訪問 | Drums Of Liberation 入手後 | ドロップを Gear 5 進行に変える |
+
+ここでの最適な考え方はシンプルです。1つのドロップだけで周回を判断しないこと。各地点が次の地点へ近づけているかで評価しましょう。それこそが Dragon Island を効率化する方法であり、同じルートを何度も繰り返す場面では特に重要です。
+
+</Section>
+
+<Section icon={Shield} title="高速周回ループと準備チェックリスト">
+
+速い Dragon Island 周回は、ほぼ自動で動ける感覚が理想です。ルートは十分短いので、一度覚えてしまえば、探索より戦闘に時間を使えます。すべての移動を報酬に結びつけるのが目的です。
+
+<Callout type="success" title="最適なルートの流れ">
+この順番で進めましょう: Erika、中島の敵、洞窟ボス、祭壇召喚、Dragon Boss、最後にトレーナー。
+</Callout>
+
+<Steps>
+  <Step num="1" title="下の島から始める">
+    船大工エリアから下の島へ移動し、Erika をルートの基準点にします。これで毎回の周回が安定します。
+  </Step>
+  <Step num="2" title="中島の道を片付ける">
+    上へ進みながら **Beast Pirate** と **Elite Beast** を倒していきます。遠回りをしないよう、ルートはコンパクトに保ちましょう。
+  </Step>
+  <Step num="3" title="まず洞窟ボスを周回する">
+    洞窟に入り、Dragon Orb か欲しい武器が手に入るまで **MaceV2 Boss** に集中します。これが全体ループの土台です。
+  </Step>
+  <Step num="4" title="ドラゴンループを召喚して締める">
+    祭壇に Dragon Orb を置いて **Dragon Boss** を召喚し、Drums Of Liberation の確定ルートを狙うなら Gum を装備したままにします。
+  </Step>
+</Steps>
+
+<Checklist
+  id="dragon-island-prep"
+  title="Dragon Island 準備リスト"
+  items={[
+    "Gear 5 強化に必要な十分な money を持っていく",
+    "トレーナーに会う前に Diamonds を用意する",
+    "Drums Of Liberation ルートを狙うなら Gum を装備する",
+    "ボスの隙に大きく削れる高火力ビルドを使う",
+    "アクセサリーと武器のドロップ用にインベントリの空きを確保する"
+  ]}
+/>
+
+| アイテム | 必要な理由 | 優先度 |
+|---|---|---|
+| Gum | Dragon Boss からの確定 Drums ルートを有効にする | 強化周回では必須 |
+| Money | Gear 5 強化に必要 | 必須 |
+| Diamonds | Gear 5 強化に必要 | 必須 |
+| Burst damage | ボス戦を短くし、待ち時間を減らす | とても有用 |
+| Mobility | 島から島への移動を速くする | 有用 |
+
+| よくあるミス | 起こること | 最善の対処 |
+|---|---|---|
+| MaceV2 Boss を飛ばす | オーブと武器のルートを取り逃す | まず洞窟を周回する |
+| Gum を忘れる | きれいな Drums ルートを失う | ドラゴン戦の前に Gum を装備する |
+| トレーナーに早く会いすぎる | 強化を完了できない | まず必要な通貨を揃える |
+| 島を無駄に歩き回る | 周回が遅くなる | 毎回同じループを通る |
+
+この項目で、多くのプレイヤーが最も時間を節約できます。ルートが体に染み込めば、残るのはダメージの調整と、トレーナーに話しかける前に正しいアイテムが揃っているかの確認だけです。
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="よくある質問">
+ここでは、Dragon Island を周回する前に多くのプレイヤーが尋ねる haze piece kaido 関連の質問に答えます。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "haze piece kaido は通常何を指しますか？",
+    answer: "通常は Dragon Island のボスルートを指します。つまり、洞窟戦、祭壇召喚、その後に続く Gear 5 強化の流れです。"
+  },
+  {
+    question: "Dragon Island で Drums Of Liberation を入手するには？",
+    answer: "Gum を装備した状態で Dragon Boss を倒します。Gum が有効なときは確定ドロップと記載されているため、これが最も分かりやすいルートです。"
+  },
+  {
+    question: "Gear 5 強化 NPC はどこにいますか？",
+    answer: "Incurr Gear 5 Trainer は右の島にいます。トレーナーに話しかける前に、Drums Of Liberation、500000 money、Diamonds を持っていきましょう。"
+  },
+  {
+    question: "Dragon Island で最初に何を周回すべきですか？",
+    answer: "まずは MaceV2 Boss で Dragon Orb と Mace V2 を狙い、その後 Dragon Boss ループに移って Horns Accessory と Drums Of Liberation を狙います。"
+  }
+]} />
+
+</Section>

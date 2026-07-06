@@ -1,0 +1,205 @@
+import { Map, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece whitebeard: White Orbのファーミングルートとコツ",
+  description: "Haze PieceでWhite Orbをどう集めるか、どこからドロップするのか、どこで使うのか、そしてTremor Cloakの準備を最速で進める方法を学びましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1E3A8A/fff?text=White+Orb+Farming+Route",
+  date: "2026-07-06",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece whitebeard** のプレイヤーは、White OrbをTremor進行の重要アイテムとして優先しましょう。
+- **White OrbはTremorgirlからドロップ**し、掲載ドロップ率は25%です。
+- **Marine HQのBella**は、オーブを手に入れるとTremor Cloakを販売します。
+- **最善のルート**は、まずドロップを狙い、その後すぐにビルド価値へ変換することです。
+</Callout>
+
+<Section icon={Target} title="WhitebeardルートでWhite Orbが果たす役割">
+
+**haze piece whitebeard** において、White Orbは進行の道筋を最も分かりやすく示すアイテムです。このアイテムはTremorgirlからドロップし、その後Marine HQにいるBisento売り場のBellaからTremor Cloakを購入するために使います。つまり、流れは短く実用的です。適切な敵を倒し、ドロップを確保し、それを本物の強化へつなげます。
+
+tremor系ビルドを進めるなら、このアイテムをインベントリに長く置いておくべきではありません。その価値は、何を解放するかにあります。
+
+| アイテム | 詳細 |
+|---|---|
+| White Orb | Tremorgirlからドロップ |
+| ドロップ率 | **25%** |
+| 主な用途 | **Tremor Cloak**の購入 |
+| 販売NPC | **Marine HQ**の**Bella** |
+| 関連ルート | Whitebeard風構成向けのTremor特化進行 |
+
+<Callout type="info" title="参考ポイント">
+ドロップと購入の流れを確認したい場合は、[White OrbのWikiページ](https://haze-piece.fandom.com/wiki/White_Orb)を簡単な確認用の目印として使えます。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="最速の価値化">
+    - オーブを集める
+    - Cloakに使う
+    - そのままビルドを進める
+  </Card>
+  <Card title="最も安全な価値化">
+    - ルートをシンプルに保つ
+    - 無駄な寄り道を避ける
+    - ドロップ周回に集中する
+  </Card>
+  <Card title="こんな人向け">
+    - Tremor志向のプレイヤー
+    - Whitebeard風の装備構成
+    - きれいな序盤進行
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="White Orbの最適ファーミングルート">
+
+ルート自体はシンプルですが、重要なのはタイミングです。White OrbはTremorgirlに紐づいているため、目的は無駄な移動を最小限にし、撃破回数を最大化することです。サーバー状況や湧きの流れでテンポが落ちると、掲載されている25%よりも入手しにくく感じることがあります。
+
+**動画の見どころ:**
+- 周回を始める前に、正しい敵を狙う
+- すべての撃破を新しいドロップ判定として扱う
+- オーブを手に入れた時だけMarine HQへ戻る
+- 待ち時間を減らすため、ルートは短く保つ
+
+<Steps>
+  <Step num="1" title="Tremorgirlのエリアへ向かう">
+    実際にWhite Orbをドロップする敵から始めましょう。関係ない対象にファーミング時間を分散させないでください。
+  </Step>
+  <Step num="2" title="再現可能な撃破ループを作る">
+    各戦闘の後にすぐリセットできるルートを組みます。短いループのほうが、長くて雑な移動ルートより有利なことが多いです。
+  </Step>
+  <Step num="3" title="25%のドロップ率を頭に入れておく">
+    25%なら十分高く見えますが、RNG次第では周回が長引きます。1回の撃破で出るとは思わずに進めましょう。
+  </Step>
+  <Step num="4" title="ドロップしたらすぐ撤退する">
+    White Orbが落ちたら、周回を止めてMarine HQのBellaへ向かいましょう。このアイテムの価値は使うことにあります。
+  </Step>
+</Steps>
+
+| ファーミング方法 | 強み | 弱み | 最適用途 |
+|---|---|---|---|
+| きっちりしたソロループ | シンプルで安定、連携不要 | ビルドが弱いと撃破が遅い | 短時間セッション |
+| パーティーファーム | 処理が速く、待ち時間が少ない | 連携が必要 | 活発な周回グループ |
+| ドロップ即終了ルート | オーブ入手後は効率的 | 落ちるまでは単調に感じやすい | 速さ重視のプレイヤー |
+
+<Callout type="warning" title="周回管理">
+25%のドロップ率は悪くありませんが、確定ではありません。RNGで時間を無駄にしないよう、ルートは効率的に保ちましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="White Orbを手に入れた後にすること">
+
+このルートにおいて、オーブの役割は1つだけです。Marine HQのBellaを通してTremor Cloakへ変えることです。つまり、White Orbはコレクションではなく、使うためのトークンとして扱うのが賢明です。tremorルートに進むと決めているなら、持ち続けることによる機会損失は、保管する利点より大きいことがほとんどです。
+
+| 選択肢 | 結果 | 向いている状況 |
+|---|---|---|---|
+| White Orbを保存する | 強化が遅れる | まだビルドを決め切れていない場合のみ |
+| Tremor Cloakを購入する | すぐに進行価値が得られる | オーブを確保できた時点で最適 |
+| ルートを無視する | ビルド変換なし | キャラの進行方向が別の場合 |
+
+<CardGrid cols={3}>
+  <Card title="すぐに使う">
+    オーブは装備に変わったときが最も有用です。
+  </Card>
+  <Card title="一時的に保留する">
+    まだビルドを試している場合だけ妥当です。
+  </Card>
+  <Card title="ルートを飛ばす">
+    Whitebeard風の進行にはあまり向いていません。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="ベストプラクティス">
+目標がWhitebeard風のtremor構成なら、購入可能になったらすぐにWhite OrbをTremor Cloakへ変えましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Whitebeardビルド準備チェックリスト">
+
+周回を始める前に、ルートの準備ができているか確認しましょう。最大のミスは、White Orbを追いながら、その先の使い道を明確にしていないことです。少し準備するだけで、周回がきれいになり、寄り道も減らせます。
+
+<Checklist
+  id="whiteorb-prep"
+  title="ファーム準備チェックリスト:"
+  items={[
+    "Tremorgirlの場所を把握しておく",
+    "Marine HQへ戻る短いルートを計画する",
+    "ドロップ後の目的地がBellaだと確認する",
+    "関係ないファーミング対象を避けて時間を節約する",
+    "高速な反復撃破に合わせてビルドを整える"
+  ]}
+/>
+
+| 準備項目 | 重要な理由 | 優先度 |
+|---|---|---|---|
+| Tremorgirlへのルート | 無駄な移動を防ぐ | 高 |
+| Marine HQへの道筋 | Bellaへ早く着ける | 高 |
+| インベントリ容量 | 周回中のごちゃつきを防ぐ | 中 |
+| ビルドの集中 | 撃破速度と安定性を上げる | 高 |
+
+<Callout type="tip" title="編集メモ">
+アイテムに用途が1つしかないなら、最短ルートがたいてい最善です。White Orbの周回を複雑にしすぎないでください。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="ファーミング優先順位とよくあるミス">
+
+White Orbで最善を目指す方法は、より多くのことをすることではありません。正しい順番で正しいことをすることです。まずTremorgirlを狙う。次にオーブを確保する。最後にTremor Cloakへ使う。この順番なら、投じた時間がそのままビルド進行につながります。
+
+| よくあるミス | より良い方法 |
+|---|---|
+| 間違った敵を狙って周回する | Tremorgirlだけに絞る |
+| ドロップ後にうろつく | すぐにMarine HQのBellaへ向かう |
+| オーブを任意扱いにする | ビルド解放アイテムとして使う |
+| RNGにセッションを壊させる | ループを短く、再現可能に保つ |
+
+**優先順位リスト**
+1. ドロップ元を確保する。
+2. ルートを短く保つ。
+3. アイテムを装備へ変える。
+4. 購入後にビルドを見直す。
+
+<Callout type="info" title="これが機能する理由">
+集中したルートは摩擦を減らします。実際には、それが1分あたりの試行回数を増やし、周回から戦力化までを速めることにつながります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "haze piece whitebeard ビルドでWhite Orbの主な用途は何ですか？",
+    answer: "White OrbはMarine HQのBellaからTremor Cloakを購入するために使います。つまり、tremor重視のWhitebeard風ルートでは重要なアイテムです。"
+  },
+  {
+    question: "White Orbはどこからドロップしますか？",
+    answer: "Tremorgirlからドロップし、掲載ドロップ率は25%です。"
+  },
+  {
+    question: "White Orbは後で使うために取っておくべきですか？",
+    answer: "通常はいいえ。すでにtremorルートに進むビルドが固まっているなら、入手したらすぐTremor Cloakに使うのが最も価値があります。"
+  },
+  {
+    question: "最適なファーミング方法は？",
+    answer: "Tremorgirlを短く再現可能なループで周回し、White Orbが落ちたらすぐMarine HQのBellaへ向かいましょう。"
+  }
+]} />
+
+<Callout type="info" title="最終確認">
+目標がWhitebeard風の進行なら、White Orbはファームと報酬をつなぐ橋です。
+</Callout>
+
+</Section>

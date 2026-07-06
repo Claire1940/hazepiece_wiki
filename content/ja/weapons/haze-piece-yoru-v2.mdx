@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece yoru v2: ダークブレードのステータス、ムーブセット、コツ",
+  description: "haze piece yoru v2 の入手方法、熟練度の解放条件、各攻撃の比較、そしてダークブレードを軸にしたきれいなコンボの組み方を学びましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Dark+Blade+Guide",
+  date: "2026-07-06",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece yoru v2** は神話級のダークブレードで、高い瞬間火力を求めるプレイヤー向けに作られています。
+- **入手方法** は 1200 Robux で購入するか、他のプレイヤーから Game Pass を贈ってもらうことです。その後、Blacksmith で強化します。
+- **Z と X** はそれぞれ熟練度 50 と 150 で解放され、X はスタンと Instinct Break 圧力を備えています。
+- **相性が良い相手** は Ice、Dark、Rumble のようなスタン重視のフルーツで、安定したコンボ始動に向いています。
+- **慎重に使いましょう**：このブレードは高価なので、しっかり剣を使い込むプレイヤーに最適です。
+</Callout>
+
+<Section icon={Shield} title="haze piece yoru v2 の概要">
+
+haze piece yoru v2 は、ダークブレードのプレミアムなビルド経路として扱うのが最適です。神話級の剣で、購入ハードルは高いものの、熟練度条件はシンプルで、専用の剣枠を割く価値に足るだけの火力があります。この武器は大量の技を覚えることを求めません。代わりに、タイミング、間合い、準備を徹底することを求めます。そのため、混沌とした押し付けよりも、きれいな確定を好む剣メインにとって魅力的です。
+
+<Callout type="info" title="基本コンセプト">
+ダークブレードは直接的な圧力に特化しています。長い牽制戦よりも、短く निर्ण然としたやり取りを高く評価します。
+</Callout>
+
+| 属性 | 値 | 重要な理由 |
+|---|---|---|
+| レアリティ | 神話級 | 終盤向けの投資であることを示す |
+| 入手方法 | 1200 Robux または贈られた Game Pass | プレミアムアクセス専用 |
+| 強化 NPC | Blacksmith | 正しい場所から進行が始まる |
+| 更新履歴 | 第1回アップデートで追加 | 新規実験ではなく、実績のある武器 |
+| 視覚効果 | Green Buso aura | 追加ダメージではなく演出 |
+
+<Callout type="warning" title="重要な入手メモ">
+これは入手に Game Pass が必要な唯一の剣なので、無料プレイ前提の計画で気軽に手に入るものではありません。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ダークブレードの入手と強化方法">
+
+入手経路はシンプルですが、必要な投資は簡単ではありません。この武器が欲しいなら、まず解放の計画を立て、その次にビルドを考えましょう。現時点の公開情報では購入ルートと Blacksmith での強化経路は確認できますが、グレード表自体はまだ未完成に見えます。つまり、強化は完全に固定されたチェックリストではなく、進行中のシステムとして扱うべきです。
+
+<Callout type="tip" title="資源計画">
+最新のゲーム内要件の流れを確認し、狙っているグレードを確定するまでは、強化資源を使わないでください。
+</Callout>
+
+<Steps>
+  <Step num="1" title="まずアクセスを確保する">
+    Dark Blade の Game Pass を 1200 Robux で購入するか、他のプレイヤーから贈り物として受け取ります。
+  </Step>
+  <Step num="2" title="Blacksmith を見つける">
+    Blacksmith に話しかけて強化を開始します。ここが剣の成長経路の正しい出発点です。
+  </Step>
+  <Step num="3" title="現在のグレード情報を確認する">
+    公開されている強化表はまだ不完全なので、資源を投入する前に現行の必要条件を確認してください。
+  </Step>
+  <Step num="4" title="投資しすぎる前に武器を試す">
+    熟練度の解放条件を満たしたら、ビルドをどこまで伸ばすか決める前に、制御された戦闘で剣を試しましょう。
+  </Step>
+</Steps>
+
+| 手順 | 行動 | 結果 |
+|---|---|---|
+| 1 | Game Pass を入手する | Dark Blade が使用可能になる |
+| 2 | Blacksmith に話しかける | 強化経路が開く |
+| 3 | 現在のグレード情報を確認する | 無駄な資源を減らせる |
+| 4 | 確認後に投資する | 進行判断がより正確になる |
+
+参考ページ: [Haze Piece Wiki - Yoru (Dark Blade)](https://haze-piece.fandom.com/wiki/Yoru_(Dark_Blade))
+
+</Section>
+
+<Section icon={Swords} title="ムーブセット、熟練度、ダメージ">
+
+キットはコンパクトですが、数値の意味は大きいです。Z は早い段階で解放され、X は後から登場し、両方の技は扱い次第でつなげることができます。重要なのは、Dark Blade が無限の自由度を前提にした武器ではなく、強い判断を一度押し付け、その後相手が逃げる前に回収することを目的としている点です。また、技データが分かりやすいため、シンプルな熟練度の節目を好むプレイヤーにも読みやすい武器です。
+
+<Callout type="success" title="戦闘の見立て">
+このムーブセットは反応重視のプレイに向いています。タイミングが正確なら、技の少なさからは想像できないほど強く感じられるでしょう。
+</Callout>
+
+| 技 | 熟練度 | 効果 | 最適な使い方 |
+|---|---|---|---|
+| Z: Dark Slash | 50 | 緑のエネルギーによる長射程の縦斬り | 安全な始動、移動の咎め、距離調整の強制 |
+| X: Thousand Slices | 150 | Instinct Break、約 0.75 秒のスタン、技中に M1 可 | バースト確定、コンボ延長、圧力のリセット |
+
+| 攻撃 | ダメージ | 備考 |
+|---|---|---|
+| M1 | 1353 ATK | 5段ヒット |
+| Z | 2030 | 1ヒット |
+| X | 6613 | 13ヒット |
+
+<Callout type="info" title="ビルドの概要">
+記載数値は、アクセサリーなし・剣ステータス 3560 のスナップショットに基づいているため、最終的な出力はバフやビルド変更で変化する可能性があります。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="おすすめの組み合わせとコンボの流れ">
+
+Dark Blade は、単独で振る武器としてではなく、フィニッシャーとして扱い始めたときに一気に脅威が増します。元データでは Ice、Dark、Rumble のようなスタン重視のフルーツが推されており、その助言には納得できます。Dark Slash は距離を作り、移動を強制し、Thousand Slices は相手の逃げ道が少なくなった瞬間に決め切ります。相手の反応をコントロールできれば、この剣のダメージは格段に当てやすくなります。
+
+<Callout type="tip" title="コンボの基本ルール">
+Z で移動を強制し、相手が機動力を使い切る、ガードが遅れる、またはスタンに捕まった瞬間に X を確定させましょう。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="まずスタン">
+    - Ice 系の制御
+    - X を当てやすい
+    - バーストの安全圏が広い
+  </Card>
+  <Card title="圧力制御">
+    - Dark 系の拘束
+    - 反応が読みやすい
+    - Z 後の間合い管理が良い
+  </Card>
+  <Card title="妨害">
+    - Rumble 系の圧力
+    - ダッシュ習慣を狩りやすい
+    - リセットの機会を作る
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="間合いを取って始動する">
+    相手が動く、跳ぶ、またはガードせざるを得ない距離から Z: Dark Slash を使います。
+  </Step>
+  <Step num="2" title="相手の反応を読む">
+    スタン、遅い回避、強制ガードを狙って観察します。Dark Blade は最初のきれいな隙を評価します。
+  </Step>
+  <Step num="3" title="X で回収する">
+    相手が無防備になったら、Thousand Slices で重い確定と長い圧力時間を取ります。
+  </Step>
+  <Step num="4" title="きれいにリセットする">
+    コンボ後は位置を取り直します。この剣は次の攻防を支配しているときに最も強くなります。
+  </Step>
+</Steps>
+
+| 組み合わせタイプ | 例 | 利点 |
+|---|---|---|
+| 強スタン | Ice | X への安定した起点 |
+| 制御 | Dark | 予測しやすい反応を強制 |
+| 妨害 | Rumble | より多くの隙を生む |
+| 機動狩り | 高速ダッシュ系 | Z 後の移動を捕まえやすい |
+
+</Section>
+
+<Section icon={Trophy} title="チェックリスト、総評、FAQ">
+
+しっかり準備して、その見返りに高いバースト火力を得たい剣なら、これはかなり良い選択肢です。最大の壁は腕前ではなくコストです。セットアップ型の戦闘をすでに楽しんでいるプレイヤーは、単に無料解放を早く欲しいだけのプレイヤーよりも大きな価値を得られるでしょう。この武器の本質はシンプルです。高価で、直線的で、残りの装備がそれを支えているほど強くなります。
+
+<Callout type="success" title="最終評価">
+Dark Blade は、セットアップを軸にビルドを組み、確定を正確に決め、プレミアム解放を正当化できる剣メインに最適です。
+</Callout>
+
+<Checklist
+  id="dark-blade-readiness"
+  title="導入前に確認すること:"
+  items={[
+    "プレミアムな剣ビルドを使いたいか確認する",
+    "Game Pass 用の通貨またはアクセスを十分に用意する",
+    "まず熟練度 50 で Z を解放する計画を立てる",
+    "次に熟練度 150 で X を解放する計画を立てる",
+    "スタン重視の相方と一緒に剣を試す"
+  ]}
+/>
+
+| 使う場面 | 見送る場面 |
+|---|---|
+| バースト重視の剣圧が欲しい | 無料入手ルートを優先したい |
+| スタンと組み合わせられる | 弱いセットアップで単独運用する |
+| 熟練度ベースの進行が好き | 技の数がとにかく多い武器を望む |
+| きれいな確定を重視する | プレミアム限定ツールを避けたい |
+
+<FAQ items={[
+  {
+    question: "Haze Piece で haze piece yoru v2 を入手するにはどうすればいいですか？",
+    answer: "Dark Blade は 1200 Robux で購入するか、Dark Blade Game Pass を贈り物として受け取ることで入手できます。"
+  },
+  {
+    question: "Dark Blade の技にはどれくらいの熟練度が必要ですか？",
+    answer: "Z: Dark Slash は熟練度 50 で解放され、X: Thousand Slices は熟練度 150 で解放されます。"
+  },
+  {
+    question: "Dark Blade はコンボ向きですか？",
+    answer: "はい。高いコンボ性能があり、両方の技をつなげることができ、X は Instinct Break も持っています。"
+  },
+  {
+    question: "Dark Blade にはどんなビルドが合いますか？",
+    answer: "Ice、Dark、Rumble 系のセットアップのような、スタン重視または制御重視の選択肢と相性が良いです。"
+  }
+]} />
+
+<Callout type="info" title="参考">
+現行の公開情報については、[Haze Piece Wiki - Yoru (Dark Blade)](https://haze-piece.fandom.com/wiki/Yoru_(Dark_Blade)) をゲーム内検証とあわせて確認してください。
+</Callout>
+
+</Section>

@@ -1,0 +1,248 @@
+import { Map, Target, Swords, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "haze piece dark blade v2: 技、コスト、強化のコツ",
+  description: "Haze Piece の Dark Blade v2 ガイド。入手方法、熟練度の到達ライン、コンボのメモ、PvP重視プレイヤー向けの強化のコツを紹介します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2b1b47/fff?text=Dark+Blade+Guide",
+  date: "2026-07-06",
+  author: "haze piece Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **haze piece dark blade v2** は、コンボの圧力と長射程の咎めに向いた Mythical の剣です。
+- **入手方法** は Dark Blade の gamepass を購入するか、他のプレイヤーからギフトとして受け取る方法です。
+- **Z は熟練度 50 で解放**、**X は熟練度 150 で解放**され、全技を使えるようになります。
+- **Ice、Dark、Rumble** のような拘束系のフルーツと組み合わせると、確定がより強力になります。
+- **入手後は Blacksmith で強化** しつつ、熟練度を伸ばしていきましょう。
+</Callout>
+
+<Section icon={Map} title="haze piece dark blade v2 の概要">
+
+Dark Blade は Haze Piece Wiki では **Yoru (Dark Blade)** とも表記される Mythical の剣で、強力なコンボ性能と低めの熟練度条件が特徴です。攻めの間合い管理を軸にしたビルドなら、純粋な瞬間火力型よりも、圧力重視のスタイルによりよく合います。
+
+<Callout type="tip" title="基本的な特徴">
+Dark Blade は、きれいなタイミング、短い確定猶予、そして相性のよいフルーツ選びを重視します。相手に反応を強いてから、剣の連撃で咎めると最も強く機能します。
+</Callout>
+
+| 属性 | 値 | 備考 |
+| --- | --- | --- |
+| レア度 | **Mythical** | 上位クラスの剣 |
+| 入手方法 | **Gamepass またはギフト** | 通常の周回入手ルートはなし |
+| 購入価格 | **1200 Robux** | ギフトでも入手可能 |
+| Z の熟練度 | **50** | Dark Slash |
+| X の熟練度 | **150** | Thousand Slices |
+| 強化 NPC | **Blacksmith** | 強化に使用 |
+| 最適な相性 | **Ice, Dark, Rumble** | 強力な拘束サポート |
+
+<CardGrid cols={3}>
+  <Card title="向いている用途">
+    - **コンボ始動**
+    - 中距離の圧力
+    - 反応咎め
+  </Card>
+  <Card title="弱点">
+    - 高い初期コスト
+    - タイミング依存
+    - 雑な操作の余地が少ない
+  </Card>
+  <Card title="プレイスタイル">
+    - **攻撃的**
+    - 制圧重視
+    - 実力依存
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="参考メモ">
+現在の Wiki 項目は [Yoru (Dark Blade)](https://haze-piece.fandom.com/wiki/Yoru_(Dark_Blade)) を確認してください。強化、熟練度、技の挙動を比較する際の基準になります。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dark Blade の入手方法">
+
+入手手順自体はシンプルですが、本当の壁はコストです。これは gamepass 形式の解放に直結する数少ない剣のひとつで、Haze Piece の進行計画の中でも存在感があります。
+
+<Callout type="warning" title="コスト注意">
+Dark Blade は、通常の剣の進行と比べるとかなり高価です。Robux を使う前に、自分のアカウント計画に合うか必ず確認しましょう。
+</Callout>
+
+<Steps>
+  <Step num="1" title="入手方法を決める">
+    gamepass を直接購入するのか、他のプレイヤーから **Dark Blade** の gamepass をギフトで受け取るのかを決めます。
+  </Step>
+  <Step num="2" title="剣を解放する">
+    **1200 Robux** で購入するか、ギフトされた gamepass を受け取ります。解放されると、剣の選択肢に追加されます。
+  </Step>
+  <Step num="3" title="Blacksmith を訪ねる">
+    入手後は Blacksmith に行って強化を進めます。これで、後の育成に向けた準備が整います。
+  </Step>
+</Steps>
+
+| 方法 | 条件 | 長所 | 短所 |
+| --- | --- | --- | --- |
+| gamepass を購入 | **1200 Robux** | 直接すぐに解放できる | 初期コストが高い |
+| ギフトされた gamepass | 他プレイヤーがギフトする | 自分の Robux を使わない | 相手次第 |
+| 解放後の強化 | Blacksmith にアクセス | 進行を止めずに進められる | 後で素材が必要 |
+
+<Checklist
+  id="dark-blade-prep"
+  title="購入前に確認すること:"
+  items={[
+    "1200 Robux が自分の予算に合うか確認する",
+    "剣中心のビルドにしたいか決める",
+    "コンボ安定用の拘束フルーツを用意する",
+    "熟練度 50 と 150 まで上げる準備をする",
+    "強化用に Blacksmith の場所を把握しておく"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="技構成、熟練度、コンボ">
+
+Dark Blade の技構成はコンパクトですが、相手を圧迫し、隙を確実に拾うには十分な制御力があります。本当の価値は、2 つの技がどれだけきれいにつながるか、そして M1 の追撃をどれだけ支えられるかにあります。
+
+<Callout type="success" title="戦闘力">
+この剣は、ただ連打する武器としてではなく、コンボ用の道具として使ったときに最も強くなります。つまり、ボタン数よりもタイミングと位置取りのほうが重要です。
+</Callout>
+
+| 技 | 熟練度 | 主な効果 | 戦闘での使い方 |
+| --- | --- | --- | --- |
+| **Z: Dark Slash** | **50** | 遠距離の縦斬り・緑の斬撃 | 始動、間合い管理、咎め手段 |
+| **X: Thousand Slices** | **150** | 約 **0.75 秒のスタン**、Instinct Break 可 | 確定用、コンボ締め、圧力の立て直し |
+| **M1 連撃** | N/A | 5 段の攻撃パターン | 基本ダメージ、連続圧力 |
+
+| 特性 | 影響 | 実戦での結果 |
+| --- | --- | --- |
+| 長射程 | Z のリーチが長い | 離れた位置から安全に差しやすい |
+| Instinct Break | X で Instinct を破壊可能 | 確定の価値が高い |
+| 技中の M1 | 圧力を継続できる | 連撃の伸びしろが大きい |
+| コンボ接続 | 技同士がつながる | スムーズな追撃ルートを作れる |
+
+<CardGrid cols={3}>
+  <Card title="Z: Dark Slash">
+    - **長射程**
+    - 縦方向の圧力
+    - 間合いを作るのに有効
+  </Card>
+  <Card title="X: Thousand Slices">
+    - **Instinct Break 可**
+    - 短いスタン
+    - 確定後に使いやすい
+  </Card>
+  <Card title="M1 追撃">
+    - 5 段リズム
+    - 連続攻撃を支援
+    - 正確なタイミングが重要
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="コンボのコツ">
+まず拘束系フルーツか、相手に反応を強いる状況を作り、Z で圧力を開始してから X で確実に回収します。相手が自由に離脱できない状況ほど、この剣は輝きます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="相性のよい組み合わせとビルド価値">
+
+Dark Blade は単体で選ぶタイプの剣ではありません。周囲のビルドが、求められる始動とロックダウンを支えたときに最も強く機能します。スタン重視のフルーツは、確定の猶予を作りやすいので最も相性がよいです。
+
+<Callout type="info" title="ビルドの考え方">
+すでに隙を作れるビルドなら、Dark Blade はその隙を咎める役割を追加します。逆に、隙を作れないビルドでは、この剣は安定して扱いづらく感じやすいです。
+</Callout>
+
+| 組み合わせ | 相性がよい理由 | 結果 |
+| --- | --- | --- |
+| **Ice** | 安定した拘束サポート | 確定を取りやすい |
+| **Dark** | 制圧寄りの圧力 | 剣技へつなぎやすい |
+| **Rumble** | 反応を強要しやすい | バーストの猶予が広がる |
+| **自由型の近接** | 柔軟だが安全性は低め | 実力差が出やすい |
+
+| ビルドの質問 | 良い答え | 重要な理由 |
+| --- | --- | --- |
+| 近距離の圧力が好きですか？ | **はい** | Dark Blade は至近距離の制圧を活かせる |
+| スタンから確定を取れますか？ | **はい** | X の価値が上がる |
+| 低い熟練度から始めたいですか？ | **はい** | Z と X の解放が比較的早い |
+| 高めのコストは気になりませんか？ | **いいえ** | 解放コストは安くない |
+
+<Checklist
+  id="build-fit"
+  title="相性のよいビルド条件:"
+  items={[
+    "タイミングが報われる剣を使いたい",
+    "拘束系フルーツと組み合わせられる",
+    "純粋な射程より圧力を重視している",
+    "Robux を使う、または gamepass をギフトで受け取ることに抵抗がない"
+  ]}
+/>
+
+<Callout type="success" title="価値があるのはこんな時">
+Dark Blade は、コンボの安定性、長射程の差し込み、そしてプレイヤーの腕で伸びる武器を重視するなら、かなり有力な選択肢です。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="強化メモと小ネタ">
+
+剣を手に入れたら、強化の流れはわかりやすいです。Blacksmith に行き、熟練度の節目を意識しながら育てていきます。また、この武器の小ネタには、ゲーム内で特別な位置づけにある理由が表れています。
+
+<Callout type="tip" title="強化のリマインド">
+所有しているだけでなく、熟練度にも注目しましょう。両方の技が解放され、フルキットで圧力をかけられるようになると、Dark Blade はさらに使いやすくなります。
+</Callout>
+
+| トピック | 詳細 | 重要な理由 |
+| --- | --- | --- |
+| 強化場所 | **Blacksmith** | 強化を行う場所 |
+| 追加時期 | **1st Update** | 歴史的な位置づけ |
+| 固有特性 | gamepass が必要な唯一の剣 | 通常の剣より珍しい |
+| Buso の効果 | 緑のオーラが出る | 発動時の見た目の変化 |
+| M1 ステータス | **1353 atk** のパターン | ダメージ把握に役立つ |
+| Z ダメージ | **2030** | 単発ダメージの目安 |
+| X ダメージ | **6613** | 多段ヒットの目安 |
+
+| 進行 चरण | 注目点 | 結果 |
+| --- | --- | --- |
+| 解放 | Gamepass またはギフト | 剣が使えるようになる |
+| 熟練度 50 | Z を覚える | 遠距離圧力を開始 |
+| 熟練度 150 | X を覚える | フルコンボ制御を獲得 |
+| 強化 | Blacksmith | 武器の伸びしろを上げる |
+
+<Callout type="warning" title="知っておくべき小ネタ">
+Dark Blade は gamepass 解放に結びついているため、通常の周回で入手する剣とは別のルートにあります。そのため、プレイヤーがこの剣に出会う時期にも違いが出ます。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="info" title="クイック回答">
+これらの答えを使って、Dark Blade が今のビルドに合うか、次の武器枠に入れるべきかを判断しましょう。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "haze piece dark blade v2 とは何ですか？",
+    answer: "Haze Piece における Dark Blade の項目を指し、Yoru (Dark Blade) とも表記されます。強力なコンボ性能を持つ Mythical の剣です。"
+  },
+  {
+    question: "Haze Piece で Dark Blade はどうやって入手しますか？",
+    answer: "1200 Robux で購入するか、他のプレイヤーから Dark Blade の gamepass をギフトとして受け取れます。"
+  },
+  {
+    question: "技を使うにはどの熟練度が必要ですか？",
+    answer: "Z: Dark Slash は熟練度 50 で解放され、X: Thousand Slices は熟練度 150 で解放されます。"
+  },
+  {
+    question: "Dark Blade は PvP に向いていますか？",
+    answer: "射程、Instinct Break の可能性、そして追撃圧力のおかげで、拘束系フルーツと組み合わせると PvP で強くなれます。"
+  }
+]} />
+
+</Section>
