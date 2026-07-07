@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "haze piece ice admiral: ボスドロップ＆レベル900クエスト攻略",
+  description: "Haze PieceのIce Admiral（氷の海軍大将）をレベル900ボスガイドで撃破しましょう。Tremorbeard Key（震動髭の鍵）やSleeping Mask（アイマスク）のドロップ率、戦闘戦略を解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ice+Admiral+Boss+Guide",
+  date: "2026-07-07",
+  author: "haze piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主な目標**: メインの島の建物の屋上にいるレベル900ボス **haze piece ice admiral**（氷の海軍大将）を倒す。
+- **クエスト報酬**: 地元のクエストギバーからクエストを受注し、8,250ベリーと4,000,000 EXPを獲得する。
+- **限定ドロップ**: ドロップ率5%のアクセサリー「Sleeping Mask（アイマスク）」と「Tremorbeard Key（震動髭の鍵）」を狙って周回する。
+- **鍵の用途**: Tremorbeard Keyを使用して、エンドゲーム進行に必要な強力なスーパーボス「Tremorgirl」を出現させる。
+</Callout>
+
+<Section icon={Map} title="クエストの場所と概要">
+
+ゲームでレベル900に到達することは重要な節目であり、ゲーム中盤から終盤の進行において最も周回されるボスの1人へのアクセスが解放されます。ボスを倒すクエストは、島のメイン港の近くにいるレベル900クエストギバーから受注できます。クエストを引き受けた後、プレイヤーは中央の最も高い建物に登り、最上階で待ち受ける強力な属性能力者と対峙することになります。
+
+**動画の見どころ:**
+- **クエストの受注**: 島のふもとにいるレベル900クエストギバーを見つける。
+- **建物を登る**: 移動アビリティや月歩（Geppo）を使って屋上に到達する。
+- **ボスの紹介**: 戦闘エリアと攻撃範囲のビジュアルガイド。
+- **ドロップアイテムの公開**: クエスト完了報酬とボスドロップの実演。
+
+<YouTubeEmbed videoId="qI15YkNifI4" title="Quest Lvl 900: Ice Admiral | Roblox HAZE PIECE" />
+
+効率を最大化するため、クエストをアクティブにしない状態でこのボスと戦うことは避けてください。獲得できる経験値は、次のレベリングゾーンに移行するために不可欠です。
+
+| クエスト指標 | 詳細 |
+|---|---|
+| 必要レベル | レベル900 |
+| ベリー報酬 | 8,250ベリー |
+| EXP報酬 | 4,000,000 EXP |
+| 目標 | Ice Admiralを1体撃破 |
+
+<Callout type="warning" title="レベル制限">
+レベル900に達する前にボスに挑むことは強く推奨されません。クエストを受注できないため、4,000,000 EXPという莫大な経験値報酬を逃すことになります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="ドロップ率と報酬">
+
+このボスは価値のあるドロップテーブルを持っているため、周回に非常に人気があります。通常のクエスト報酬に加えて、ボスはキャラクターの進行や高度なボスの召喚に不可欠な2つのユニークアイテムをドロップする可能性があります。
+
+| アイテム名 | ドロップ率 | アイテムタイプ | 主な用途 |
+|---|---|---|---|
+| Sleeping Mask（アイマスク） | 5% | アクセサリー | キャラクターのステータス上昇 |
+| Tremorbeard Key（震動髭の鍵） | 5% | 召喚アイテム | スーパーボス「Tremorgirl」を出現させる |
+
+<CardGrid cols={3}>
+  <Card title="Tremorbeard Key">
+    - **ドロップ率5%**
+    - 召喚アイテム
+    - ハイクラスのドロップを狙えるスーパーボス「Tremorgirl」を出現させるために使用。
+  </Card>
+  <Card title="Sleeping Mask">
+    - **ドロップ率5%**
+    - 頭部アクセサリー
+    - 防御力やユーティリティのボーナスを提供する装備アイテム。
+  </Card>
+  <Card title="ベリー＆EXP稼ぎ">
+    - **100%確定**
+    - 通貨とレベリング
+    - クエストを完了するたびに、8,250ベリーと4,000,000 EXPを獲得。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="周回のコツ">
+どちらのレアアイテムもドロップ率が5%であるため、少なくとも1つのレアアイテムを入手するにはボスを約20回倒す必要があります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="ボスの戦闘メカニズムと戦略">
+
+ボスは氷の実（Ice Fruit）のスキルセットを使用するため、近距離と中距離の両方で危険な相手となります。彼の行動パターンには、キャラクターを一時的に凍らせて身動きを封じ、追撃コンボに繋げる氷結攻撃が含まれています。不必要なダメージを避けるためには、彼の攻撃パターンを理解することが重要です。
+
+| 攻撃名 | ダメージタイプ | 効果 | 対策方法 |
+|---|---|---|---|
+| Ice Lance（氷の槍） | 遠距離 | 高ダメージの飛び道具 | 予備動作に入ったら横方向にダッシュする |
+| Ice Age（氷河期） | 範囲攻撃（AoE） | 範囲内のプレイヤーを凍結させる | 距離を保つか、ブロックを使用する |
+| Ice Surge（氷の波動） | 直線範囲攻撃 | ノックバックとダメージ | ジャンプまたは月歩（Geppo）で軌道上を飛び越える |
+
+<Steps>
+  <Step num="1" title="遠距離武器や悪魔の実を装備する">
+    光（Light）やマグマ（Magma）など、高い機動力と射程を持つ悪魔の実を使用することで、ボスの氷結エリアの外から安定してダメージを与えることができます。
+  </Step>
+  <Step num="2" title="Ice Age（氷河期）を誘発させる">
+    一時的にボスに近づいて範囲凍結を誘発させ、すぐに後方にダッシュします。アビリティがクールダウンに入ったら、メインの攻撃コンボを開始しましょう。
+  </Step>
+  <Step num="3" title="月歩（Geppo）による空中回避の活用">
+    ボスが地上での直線攻撃を実行するときは、空中歩行アビリティを使って空中に留まり、ダメージを与え続けます。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="覇気の活用">
+戦闘中は常に武装色の覇気（Armament Haki）をアクティブにして、ボスの属性防御に対する物理攻撃や剣撃のダメージを強化してください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="効率的な周回セットアップ">
+
+Tremorbeard Keyの周回プロセスをスピードアップするために、キャラクターのビルドとサーバーの設定を最適化することを強くお勧めします。1キルにかかる時間を最小限に抑えることで、1時間あたりの試行回数を増やすことができます。
+
+| 悪魔の実 / ビルド | 相性評価 | 戦略 |
+|---|---|---|
+| マグマの実（Magma Fruit） | 最適 | 高い持続ダメージと地面の炎上効果 |
+| 光の実（Light Fruit） | 優秀 | 高い機動力と弾速の速い遠距離飛び道具 |
+| 黒足の技（Black Leg Style） | 良好 | ガード崩し性能の高い堅実な近接コンボ |
+
+<Checklist
+  id="farming-prep"
+  title="周回準備チェックリスト:"
+  items={[
+    "レベル900に到達し、近くにリスポーン地点を設定する",
+    "高ダメージの遠距離向け悪魔の実または剣ビルドを装備する",
+    "武装色の覇気（Armament Haki）を完全に解放しておく",
+    "リスポーンを早めるために、プライベートサーバーを作成するか、低遅延のパブリックサーバーを見つける"
+  ]}
+/>
+
+<Callout type="info" title="サーバーホッピング（サーバー変更）">
+パブリックサーバーで周回する場合は、ボスを倒した直後にサーバーを切り替えることで、ボスのリスポーンタイマーをスキップし、1時間あたりのドロップ獲得数を大幅に増やすことができます。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "haze piece ice admiralは具体的にどこにいますか？",
+    answer: "レベル900の島にあるメインの建物の最上部にいます。屋上のアリーナに到達するには、壁を登るか月歩（Geppo）を使用する必要があります。"
+  },
+  {
+    question: "Tremorbeard Keyのドロップ率はどのくらいですか？",
+    answer: "Tremorbeard Keyのドロップ率は5%です。スーパーボス「Tremorgirl」を出現させるために使用されます。"
+  },
+  {
+    question: "アクセサリー「Sleeping Mask」にはステータス効果がありますか？",
+    answer: "はい、Sleeping Maskは5%の確率でドロップする装備可能なアクセサリーで、ゲーム中盤の進行に役立つステータス上昇効果を提供します。"
+  },
+  {
+    question: "レベル900のクエストを受けずにボスを周回することはできますか？",
+    answer: "はい、5%の確率でドロップを狙ってボスを倒すことは可能ですが、8,250ベリーと4,000,000 EXPのクエスト報酬は獲得できません。"
+  }
+]} />
+
+<Callout type="success" title="最終結論">
+このボスの周回は、エンドゲームコンテンツへの移行を目指すプレイヤーにとって重要なステップであり、急速なレベリングの機会と、スーパーボス召喚に必要な鍵の両方を提供します。
+</Callout>
+
+</Section>
