@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Haze Piece Fishing: Rod Comparison & Reward Guide",
+  description: "Learn how to master Haze Piece fishing. Compare all fishing rods, analyze catch rates, and discover the best rewards like gems and devil fruits.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Haze+Piece+Fishing+Guide",
+  date: "2026-07-08",
+  author: "haze piece Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Haze Piece Fishing**: A progression mechanic where players catch four distinct rarities of fish for EXP, Beli, Gems, and Devil Fruits.
+- **Rarity Odds**: Common fish have a 70% catch rate, Rare fish have 28.9%, Legendary fish have 1%, and Mythical fish have 0.1%.
+- **Rod Performance**: Standard testing reveals that the expensive Legendary Fishing Rod does not significantly outperform the basic Wooden Rod due to marginal actual percentage increases.
+- **Top Rewards**: Catching Legendary or Mythical fish rewards players with free random Devil Fruits, extra levels, and premium Gems.
+</Callout>
+
+<Section icon={Map} title="Haze Piece Fishing Overview & Mechanics">
+
+Fishing in Haze Piece serves as an alternative, passive method to level up your character, earn Beli, and secure rare items. Players can cast their lines into any body of water across the map to reel in fish of varying rarities. Each catch yields immediate progression benefits upon selling your haul to the appropriate fish merchant.
+
+**Video Highlights:**
+- Direct comparison between the starter Wooden Rod, Rare Rod, and Robux-purchased Legendary Rod.
+- Breakdown of why the 50% luck boost on the Legendary Rod is mathematically misleading.
+- Real-world test results showing identical catch rarities across different tiers of rods.
+
+<YouTubeEmbed videoId="o3c7fWR_9-0" title="(Haze Piece) Is The Legendary Fishing Rod Worth It? I Compare Them All!!" />
+
+Understanding the exact drop rates and reward brackets is crucial before dedicating hours to the docks. Below is the complete breakdown of the base fishing rates and rewards available in the game:
+
+| Rarity | Catch Chance | EXP Reward | Beli Reward | Bonus Rewards |
+| :--- | :--- | :--- | :--- | :--- |
+| **Common** | 70% | +15% of Current Level | $300 | None |
+| **Rare** | 28.9% | +25% of Current Level | $1,000 | None |
+| **Legendary** | 1% | +3 Levels | $10,000 | +5 Gems, Random Uncommon Devil Fruit |
+| **Mythical** | 0.1% | +10 Levels | $100,000 | +25 Gems, Random Rare Devil Fruit, +1 Race Spin |
+
+<Callout type="warning" title="Level Scaling Warning">
+Because Common and Rare fish reward percentage-based EXP (+15% and +25% of your current level respectively), it is highly recommended to save and sell your fish at higher levels to maximize the total experience gained.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fishing Rod Comparison: Is the Legendary Rod Worth It?">
+
+Players can choose between three primary fishing rods to catch fish. While the game shop advertises premium rods with luck multipliers, practical testing reveals a different reality. The table below outlines the core differences between the available equipment:
+
+| Rod Tier | Acquisition Method | Advertised Bonus | Practical Performance | Recommendation |
+| :--- | :--- | :--- | :--- | :--- |
+| **Wooden Rod** | Standard Starter | None | Baseline performance | Highly Recommended |
+| **Rare Rod** | In-game Progression | Moderate Luck Boost | Negligible difference | Optional |
+| **Legendary Rod** | 599 Robux | +50% Luck Boost | Marginal actual increase | Not Recommended |
+
+To understand why the Legendary Rod is widely considered a waste of Robux, we must look at how the 50% luck boost is mathematically applied. 
+
+<CardGrid cols={3}>
+  <Card title="The Math Illusion">
+    A **50% boost** does not add flat probability. It multiplies the base rate by 1.5. For a 1% Legendary fish, your new rate is only **1.5%**.
+  </Card>
+  <Card title="Mythical Reality">
+    For a **0.1% Mythical fish**, a 50% boost only increases your final catch rate to **0.15%**, which feels virtually identical during gameplay.
+  </Card>
+  <Card title="Test Results">
+    Controlled tests of 5 consecutive casts with both the Wooden and Legendary rods frequently yield the exact same distribution of Common and Rare fish.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Saves Your Robux">
+Do not spend 599 Robux on the Legendary Fishing Rod. The progression value is mathematically insignificant. Stick to the basic Wooden Rod or standard in-game upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Fishing & Selling Process">
+
+To begin your fishing journey and exchange your catches for valuable rewards, follow this straightforward process:
+
+<Steps>
+  <Step num="1" title="Equip Your Rod">
+    Purchase your preferred rod from the starter island or equip your existing rod from your inventory hotbar.
+  </Step>
+  <Step num="2" title="Find Water & Cast">
+    Approach any deep ocean border on any island. Select your rod, aim at the water, and click to cast your line.
+  </Step>
+  <Step num="3" title="Reel in the Catch">
+    Wait for the bite indicator to appear on your screen, then click promptly to successfully reel in your fish.
+  </Step>
+  <Step num="4" title="Visit the Fish Merchant">
+    Locate the Fish Merchant NPC on the docks to sell your inventory. Selling triggers your EXP, Beli, and bonus item drops.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Inventory Management">
+Ensure you have open inventory slots before selling Legendary or Mythical fish, as the bonus Uncommon or Rare Devil Fruits will be placed directly into your bag.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fishing Milestones & Goals">
+
+Use this checklist to track your progression and make the most out of the fishing system:
+
+<Checklist
+  id="fishing-goals"
+  title="Fishing Milestones:"
+  items={[
+    "Acquire the starter Wooden Rod from the docks",
+    "Reach level 100+ to maximize percentage-based EXP returns",
+    "Catch a Legendary fish to secure a free random Uncommon Devil Fruit",
+    "Catch a Mythical fish to claim 25 Gems and a free Race Spin",
+    "Sell a full inventory of rare fish for a massive Beli boost"
+  ]}
+/>
+
+<Callout type="info" title="Race Spins & Gems">
+Mythical fish are one of the few passive ways to earn premium Race Spins and Gems without engaging in high-level boss fights or raids.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the Legendary Fishing Rod guarantee better fish in Haze Piece?",
+    answer: "No. The Legendary Fishing Rod only provides a 1.5x multiplier to base rates. This means a 1% Legendary rate only becomes 1.5%, making the difference imperceptible during normal play."
+  },
+  {
+    question: "What is the best reward you can get from haze piece fishing?",
+    answer: "The best reward comes from catching a Mythical fish (0.1% chance), which grants you $100,000 Beli, +10 character levels, +25 Gems, a random Rare Devil Fruit, and +1 Race Spin."
+  },
+  {
+    question: "Can I get Devil Fruits from fishing?",
+    answer: "Yes. Catching a Legendary fish awards a random Uncommon Devil Fruit, while catching a Mythical fish awards a random Rare Devil Fruit."
+  },
+  {
+    question: "Where is the best place to fish in the game?",
+    answer: "You can fish in any open water area across all islands. There are no location-specific catch rate bonuses, so fishing near safe-zone docks is highly recommended."
+  }
+]} />
+
+</Section>

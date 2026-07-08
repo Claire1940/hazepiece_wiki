@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pesca no Haze Piece: Comparação de Varas e Guia de Recompensas",
+  description: "Aprenda a dominar a pesca no Haze Piece. Compare todas as varas de pescar, analise as taxas de captura e descubra as melhores recompensas, como gemas e frutas do diabo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Haze+Piece+Fishing+Guide",
+  date: "2026-07-08",
+  author: "Equipe do Wiki de Haze Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Pesca no Haze Piece**: Uma mecânica de progressão onde os jogadores pescam quatro raridades distintas de peixes para obter EXP, Beli, Gemas e Frutas do Diabo.
+- **Chances de Raridade**: Peixes Comuns têm uma taxa de captura de 70%, peixes Raros têm 28,9%, peixes Lendários têm 1% e peixes Míticos têm 0,1%.
+- **Desempenho da Vara**: Testes padrão revelam que a cara Vara de Pescar Lendária não supera significativamente a Vara de Madeira básica devido a aumentos percentuais reais marginais.
+- **Melhores Recompensas**: Capturar peixes Lendários ou Míticos recompensa os jogadores com Frutas do Diabo aleatórias gratuitas, níveis extras e Gemas premium.
+</Callout>
+
+<Section icon={Map} title="Visão Geral e Mecânicas de Pesca no Haze Piece">
+
+A pesca no Haze Piece serve como um método alternativo e passivo para subir o nível do seu personagem, ganhar Beli e obter itens raros. Os jogadores podem lançar suas linhas em qualquer corpo de água pelo mapa para pescar peixes de várias raridades. Cada captura gera benefícios imediatos de progressão ao vender sua pescaria para o comerciante de peixes adequado.
+
+**Destaques do Vídeo:**
+- Comparação direta entre a Vara de Madeira inicial, a Vara Rara e a Vara Lendária comprada com Robux.
+- Explicação de por que o bônus de 50% de sorte na Vara Lendária é matematicamente enganoso.
+- Resultados de testes reais mostrando raridades de captura idênticas em diferentes níveis de varas.
+
+<YouTubeEmbed videoId="o3c7fWR_9-0" title="(Haze Piece) Is The Legendary Fishing Rod Worth It? I Compare Them All!!" />
+
+Entender as taxas exatas de queda e as faixas de recompensa é crucial antes de dedicar horas às docas. Abaixo está a tabela completa das taxas básicas de pesca e recompensas disponíveis no jogo:
+
+| Raridade | Chance de Captura | Recompensa de EXP | Recompensa de Beli | Recompensas Extras |
+| :--- | :--- | :--- | :--- | :--- |
+| **Comum** | 70% | +15% do Nível Atual | $300 | Nenhuma |
+| **Raro** | 28,9% | +25% do Nível Atual | $1.000 | Nenhuma |
+| **Lendário** | 1% | +3 Níveis | $10.000 | +5 Gemas, Fruta do Diabo Incomum Aleatória |
+| **Mítico** | 0,1% | +10 Níveis | $100.000 | +25 Gemas, Fruta do Diabo Rara Aleatória, +1 Giro de Raça |
+
+<Callout type="warning" title="Aviso de Escalonamento de Nível">
+Como os peixes Comuns e Raros recompensam com EXP baseada em porcentagem (+15% e +25% do seu nível atual, respectivamente), é altamente recomendável guardar e vender seus peixes em níveis mais altos para maximizar a experiência total obtida.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparação de Varas de Pescar: A Vara Lendária Vale a Pena?">
+
+Os jogadores podem escolher entre três varas de pescar principais para capturar peixes. Embora a loja do jogo anuncie varas de pescar premium com multiplicadores de sorte, os testes práticos revelam uma realidade diferente. A tabela abaixo descreve as principais diferenças entre os equipamentos disponíveis:
+
+| Nível da Vara | Método de Obtenção | Bônus Anunciado | Desempenho Prático | Recomendação |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vara de Madeira** | Inicial Padrão | Nenhum | Desempenho de referência | Altamente Recomendada |
+| **Vara Rara** | Progressão no Jogo | Aumento de Sorte Moderado | Diferença insignificante | Opcional |
+| **Vara Lendária** | 599 Robux | +50% de Aumento de Sorte | Aumento real marginal | Não Recomendada |
+
+Para entender por que a Vara Lendária é amplamente considerada um desperdício de Robux, devemos observar como o bônus de 50% de sorte é aplicado matematicamente.
+
+<CardGrid cols={3}>
+  <Card title="A Ilusão Matemática">
+    Um **bônus de 50%** não adiciona probabilidade direta. Ele multiplica a taxa básica por 1,5. Para um peixe Lendário de 1%, sua nova taxa é de apenas **1,5%**.
+  </Card>
+  <Card title="Realidade Mítica">
+    Para um **peixe Mítico de 0,1%**, um bônus de 50% aumenta sua taxa de captura final para apenas **0,15%**, o que parece virtualmente idêntico durante o jogo.
+  </Card>
+  <Card title="Resultados dos Testes">
+    Testes controlados de 5 lançamentos consecutivos com a Vara de Madeira e a Vara Lendária frequentemente geram exatamente a mesma distribuição de peixes Comuns e Raros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Economize Seus Robux">
+Não gaste 599 Robux na Vara de Pescar Lendária. O valor de progressão é matematicamente insignificante. Fique com a Vara de Madeira básica ou com as melhorias padrão do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processo de Pesca e Venda Passo a Passo">
+
+Para começar sua jornada de pesca e trocar suas capturas por recompensas valiosas, siga este processo simples:
+
+<Steps>
+  <Step num="1" title="Equipe sua Vara">
+    Compre sua vara de preferência na ilha inicial ou equipe sua vara existente a partir da sua barra de atalho do inventário.
+  </Step>
+  <Step num="2" title="Encontre Água e Lance">
+    Aproxime-se de qualquer borda de oceano profundo em qualquer ilha. Selecione sua vara, aponte para a água e clique para lançar a linha.
+  </Step>
+  <Step num="3" title="Puxe a Captura">
+    Espere o indicador de fisgada aparecer na tela e clique prontamente para puxar o peixe com sucesso.
+  </Step>
+  <Step num="4" title="Visite o Comerciante de Peixes">
+    Encontre o NPC Comerciante de Peixes nas docas para vender seu inventário. A venda ativa seus ganhos de EXP, Beli e drops de itens bônus.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Gerenciamento de Inventário">
+Certifique-se de ter espaços vazios no inventário antes de vender peixes Lendários ou Míticos, pois as Frutas do Diabo Incomuns ou Raras de bônus serão colocadas diretamente na sua bolsa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos e Objetivos de Pesca">
+
+Use esta lista de verificação para acompanhar sua progressão e aproveitar ao máximo o sistema de pesca:
+
+<Checklist
+  id="fishing-goals"
+  title="Marcos de Pesca:"
+  items={[
+    "Adquirir a Vara de Madeira inicial nas docas",
+    "Alcançar o nível 100+ para maximizar os retornos de EXP baseados em porcentagem",
+    "Capturar um peixe Lendário para garantir uma Fruta do Diabo Incomum aleatória gratuita",
+    "Capturar um peixe Mítico para resgatar 25 Gemas e um Giro de Raça gratuito",
+    "Vender um inventário cheio de peixes raros para um grande aumento de Beli"
+  ]}
+/>
+
+<Callout type="info" title="Giros de Raça e Gemas">
+Os peixes Míticos são uma das poucas maneiras passivas de ganhar Giros de Raça premium e Gemas sem precisar participar de lutas contra chefes de nível alto ou raids.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A Vara de Pescar Lendária garante peixes melhores no Haze Piece?",
+    answer: "Não. A Vara de Pescar Lendária fornece apenas um multiplicador de 1,5x para as taxas básicas. Isso significa que uma taxa de 1% para Lendário se torna apenas 1,5%, tornando a diferença imperceptível durante o jogo normal."
+  },
+  {
+    question: "Qual é a melhor recompensa que você pode obter na pesca do Haze Piece?",
+    answer: "A melhor recompensa vem ao capturar um peixe Mítico (0,1% de chance), que concede $100.000 Beli, +10 níveis de personagem, +25 Gemas, uma Fruta do Diabo Rara aleatória e +1 Giro de Raça."
+  },
+  {
+    question: "É possível obter Frutas do Diabo pescando?",
+    answer: "Sim. Capturar um peixe Lendário concede uma Fruta do Diabo Incomum aleatória, enquanto capturar um peixe Mítico concede uma Fruta do Diabo Rara aleatória."
+  },
+  {
+    question: "Qual é o melhor lugar para pescar no jogo?",
+    answer: "Você pode pescar em qualquer área de água aberta em todas as ilhas. Não há bônus de taxa de captura específicos de locais, então pescar perto das docas em zonas seguras é altamente recomendado."
+  }
+]} />
+
+</Section>

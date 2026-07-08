@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Flame, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Haze Piece Ace: Guía Paso a Paso para Invocar al Superjefe",
+  description: "Domina el proceso de invocación del superjefe Ace en Haze Piece. Aprende cómo obtener el Fósforo en Impel Down, encontrar todas las Perlas de la Jungla y reclamar las recompensas de la Fruta Llama.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Haze+Piece+Ace+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Haze Piece",
+  keywords: "haze piece, ace, superjefe, guía, fruta llama, fósforo, impel down"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Haze piece ace** es un Superjefe ubicado en la Jungla que requiere un ritual de invocación de varios pasos que involucra objetos específicos y acertijos.
+- **Objeto Fósforo (Match)**: Debes obtener el Fósforo derrotando al jefe Alcaide (Warden) en Impel Down, el cual tiene una tasa de caída notablemente baja del 1%.
+- **Acertijo de las Perlas**: Al encender la fogata de la Jungla con el Fósforo, aparecerán cuatro perlas ocultas que deben colocarse en tótems.
+- **Mejores Recompensas**: Derrotar a Ace otorga 20 Gemas y ofrece una rara oportunidad de obtener la poderosa Fruta Llama (Flame Fruit).
+- **Nivel de Dificultad**: Recomendado para jugadores de nivel alto debido a la fuerza del Alcaide y los ataques de fuego en área (AOE) de gran daño de Ace.
+</Callout>
+
+<Section icon={Flame} title="Descripción General del Superjefe Ace en Haze Piece">
+
+En el vasto mundo de Haze Piece, pocos encuentros son tan gratificantes o mecánicamente complejos como la batalla contra Ace Puño de Fuego. Como Superjefe, Ace no deambula simplemente por el mapa; requiere que los jugadores completen una secuencia específica de eventos en múltiples islas. Este encuentro es fundamental para los jugadores que buscan avanzar al contenido de final de juego, ofreciendo una moneda esencial y una de las frutas más icónicas del juego.
+
+**Puntos Destacados del Video:**
+- Guía detallada de la lucha contra el Alcaide en Impel Down para asegurar el Fósforo.
+- Ubicaciones visuales de las cuatro perlas ocultas dentro de la Isla de la Jungla.
+- Demostración de la secuencia de activación de los tótems para activar la aparición de Ace.
+- Muestra de combate que presenta el conjunto de movimientos de Ace y estrategias efectivas de esquiva.
+
+<YouTubeEmbed videoId="RIenny-uJ7M" title="CÓMO INVOCAR AL SUPERJEFE ACE PUÑO DE FUEGO | TUTORIAL HAZE PIECE" />
+
+Interactuar con éxito con el contenido de **haze piece ace** requiere paciencia, particularmente durante la fase inicial de farmeo. Los jugadores a menudo pasan horas en Impel Down antes de siquiera comenzar el acertijo de la Jungla. Comprender las tasas de caída y el diseño geográfico de las islas requeridas es el primer paso hacia la maestría.
+
+<Callout type="tip" title="Consejo Pro">
+Lleva una fruta con alta movilidad, como Luz (Light) o Fénix (Phoenix), para acelerar el viaje entre Impel Down y la Jungla, ya que es probable que realices este viaje varias veces.
+</Callout>
+
+| Característica del Jefe | Detalle |
+| :--- | :--- |
+| **Nombre del Jefe** | Ace Puño de Fuego |
+| **Requisito de Nivel** | Recomendado 1500+ |
+| **Ubicación de Aparición** | Isla de la Jungla (Área de Tótems) |
+| **Recompensa Principal** | 20 Gemas |
+| **Recompensa Rara** | Fruta Llama (Mera Mera no Mi) |
+| **Tipo de Invocación** | Acertijo basado en objetos |
+
+</Section>
+
+<Section icon={Map} title="Fase 1: Obtener el Fósforo en Impel Down">
+
+El viaje para invocar a Ace comienza en la formidable prisión de Impel Down. Esta ubicación de alta seguridad es el hogar del Alcaide, el guardián del ritual de invocación. Para proceder, debes derrotar al Alcaide repetidamente hasta que suelte el Fósforo (Match).
+
+El Alcaide es un oponente desafiante para jugadores de nivel medio. Utiliza ataques cuerpo a cuerpo de gran daño y habilidades de área que pueden abrumar rápidamente a los desprevenidos. Farmear a este jefe es la parte que más tiempo consume del proceso debido a la tasa de caída extremadamente baja del objeto Fósforo.
+
+| Objeto Soltado | Probabilidad de Caída | Utilidad |
+| :--- | :--- | :--- |
+| **Fósforo (Match)** | 1% | Esencial para encender la fogata de la Jungla |
+| **Sombrero de Alcaide** | 5% | Cosmético y mejora menor de estadísticas |
+| **Beli** | 100% | Moneda estándar para mejoras |
+| **Experiencia** | 100% | Gran cantidad para subir de nivel |
+
+<Callout type="warning" title="Advertencia Crítica">
+La tasa de caída del 1% para el Fósforo no está garantizada dentro de las 100 muertes. Algunos jugadores informan que necesitan más de 300 intentos. La consistencia y los tiempos de eliminación rápidos son vitales.
+</Callout>
+
+Para optimizar tu farmeo en Impel Down, enfócate en builds de alto DPS (daño por segundo) que puedan aturdir al Alcaide. Si juegas en grupo, asegúrate de que todos sepan que solo el jugador que inflija más daño o dé el golpe final (dependiendo de las mecánicas actuales del servidor) podría tener la mejor oportunidad de obtener el objeto raro. Una vez que el Fósforo aparezca en tu inventario, no reinicies ni salgas del juego, ya que debes llevarlo a la siguiente ubicación.
+
+</Section>
+
+<Section icon={Target} title="Fase 2: El Acertijo de las Perlas de la Jungla">
+
+Con el Fósforo en tu poder, dirígete a la Isla de la Jungla. Esta isla se caracteriza por su densa vegetación y ruinas centrales. Tu objetivo es localizar la fogata situada cerca del centro de la isla.
+
+Interactuar con esta fogata mientras sostienes el Fósforo activará la siguiente fase del ritual. Al encender el fuego, cuatro perlas místicas se dispersarán por diferentes rincones de la Jungla. Debes encontrar las cuatro para continuar.
+
+<Steps>
+  <Step num="1" title="Encender la Fogata">
+    Equipa el Fósforo e interactúa con la fogata apagada en las ruinas de la Jungla. Un mensaje confirmará que las perlas se han dispersado.
+  </Step>
+  <Step num="2" title="Explorar el Perímetro">
+    Las perlas suelen estar escondidas detrás de los árboles o cerca de los acantilados rocosos de la isla. Revisa primero las costas norte y sur.
+  </Step>
+  <Step num="3" title="Recolectar las Cuatro Perlas">
+    Camina sobre cada perla para recogerla. No ocupan espacio en el inventario en el sentido tradicional, pero son rastreadas por el script del acertijo.
+  </Step>
+  <Step num="4" title="Activar los Tótems">
+    Localiza los cuatro pequeños tótems de piedra cerca del altar de aparición de Ace. Coloca una perla en cada tótem para completar el circuito.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Invocación Exitosa">
+Una vez activado el cuarto tótem, la pantalla temblará y Ace Puño de Fuego aparecerá inmediatamente en el altar. ¡Prepárate para el combate!
+</Callout>
+
+| Número de Perla | Pista de Ubicación Común |
+| :--- | :--- |
+| **Perla 1** | Cerca de las grandes raíces de los árboles por la orilla |
+| **Perla 2** | Detrás del pilar de piedra cerca de la fogata |
+| **Perla 3** | Escondida en los arbustos en el lado del acantilado elevado |
+| **Perla 4** | Cerca de los NPCs que dan misiones en la entrada |
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate para Ace Puño de Fuego">
+
+Luchar contra **haze piece ace** es una prueba de tu habilidad para gestionar las acumulaciones de quemaduras y esquivar ataques de proyectiles rápidos. Ace utiliza una variedad de movimientos basados en fuego, incluyendo "Pilar de Fuego" (Fire Pillar) e "Higan" (Pistola de Fuego). Estos ataques infligen daño continuo a lo largo del tiempo, por lo que la regeneración de salud o los escudos defensivos son esenciales.
+
+<CardGrid cols={2}>
+  <Card title="Estrategia a Distancia">
+    - Mantén la distancia máxima para evitar el AOE del Pilar de Fuego.
+    - Usa frutas como Hielo (Ice) o Magma para un daño constante a larga distancia.
+    - Enfócate en infligir daño poco a poco mientras Ace está en sus animaciones de enfriamiento.
+  </Card>
+  <Card title="Estrategia Cuerpo a Cuerpo">
+    - Solo ataca después de que Ace use su embestida "Puño de Fuego".
+    - Utiliza Haki para ignorar la posible intangibilidad elemental.
+    - Asegúrate de tener mucha salud o accesorios de "Robo de Vida" (Life Leech).
+  </Card>
+</CardGrid>
+
+Ace tiene una reserva de salud significativa en comparación con los jefes estándar de las islas. Si vas a enfrentarte al jefe en solitario, espera que la lucha dure varios minutos. Si mueres durante el encuentro, podrías perder la aparición a menos que un compañero de equipo mantenga al jefe en combate.
+
+<Callout type="info" title="Distribución de Recompensas">
+Tras la derrota de Ace, todos los jugadores que hayan contribuido con suficiente daño recibirán 20 Gemas. La caída de la Fruta Llama es individual y significativamente más rara.
+</Callout>
+
+| Movimiento de Ace | Tipo de Daño | Cómo Evitarlo |
+| :--- | :--- | :--- |
+| **Puño de Fuego** | Embestida Lineal | Paso lateral o embestida perpendicular |
+| **Pilar de Fuego** | AOE Circular | Salta o mantente fuera del círculo rojo |
+| **Higan** | Proyectil Rápido | Movimiento continuo o bloqueo |
+| **Enkai** | Explosión Masiva | Muévete al borde de la arena |
+
+</Section>
+
+<Section icon={Sparkles} title="Maximizar tus Recompensas">
+
+La razón principal por la que los jugadores farmean a Ace son las **Gemas**. En Haze Piece, las Gemas son la moneda premium utilizada para girar nuevas frutas y comprar mejoras de alto nivel. Dado que Ace es un Superjefe repetible (siempre que obtengas otro Fósforo), es una fuente confiable para aquellos que han dominado la ruta de Impel Down.
+
+<Checklist
+  id="ace-farm-goals"
+  title="Lista de Verificación para Farmear a Ace:"
+  items={[
+    "Asegurar el Fósforo del Alcaide (1% de caída)",
+    "Navegar a la Jungla y encender la fogata",
+    "Localizar y recolectar las 4 perlas ocultas",
+    "Activar los 4 tótems para invocar a Ace",
+    "Derrotar a Ace para reclamar 20 Gemas",
+    "Revisar el inventario para la rara caída de la Fruta Llama"
+  ]}
+/>
+
+Más allá de la moneda, la Fruta Llama (Mera Mera no Mi) sigue siendo una opción de primer nivel tanto para PVP como para PVE. Ofrece una alta movilidad a través de su movimiento de vuelo y un potencial masivo para limpiar la pantalla con su habilidad definitiva.
+
+<Callout type="tip" title="Consejo de Eficiencia">
+Saltar de servidor (Server hopping) suele ser más rápido que esperar a que el Alcaide reaparezca si el servidor está lleno. Sin embargo, asegúrate de tener el Fósforo antes de cambiar a un servidor enfocado en la Jungla.
+</Callout>
+
+| Comparación de Frutas | Daño | Movilidad | Rango de Farmeo |
+| :--- | :--- | :--- | :--- |
+| **Llama (Ace)** | Alto | Excelente | Rango S |
+| **Magma** | Extremo | Moderado | Rango S |
+| **Luz** | Moderado | El mejor | Rango A |
+| **Hielo** | Alto | Bueno | Rango A |
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿El Fósforo permanece en mi inventario si salgo del juego?",
+    answer: "No, normalmente los objetos de misión como el Fósforo en Haze Piece se pierden al salir del servidor o reiniciar. Es mejor usarlo inmediatamente después de obtenerlo del Alcaide."
+  },
+  {
+    question: "¿Pueden varias personas usar un solo Fósforo para luchar contra Ace?",
+    answer: "Sí, solo una persona necesita el Fósforo para comenzar el acertijo e invocar a Ace. Todos en el servidor pueden participar en la batalla y ganar recompensas."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de llegar a la Jungla desde Impel Down?",
+    answer: "Usar una fruta voladora rápida o la función de 'establecer hogar' (set home) en la Jungla antes de ir a Impel Down es el método más eficiente para el ritual de Ace en Haze Piece."
+  },
+  {
+    question: "¿Cuántas Gemas obtienes por cada muerte de Ace?",
+    answer: "Recibes 20 Gemas por cada derrota exitosa del superjefe Ace, lo que lo convierte en uno de los mejores métodos de farmeo de gemas en el juego."
+  }
+]} />
+
+</Section>

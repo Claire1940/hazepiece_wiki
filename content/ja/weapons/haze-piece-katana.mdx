@@ -1,0 +1,141 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Haze Pieceの刀（Katana）：初期入手場所、スキル、進行ガイド",
+  description: "Haze Pieceでの刀（Katana）の入手方法、スキルの解放、そして2SS（二刀流）や3SS（三刀流）といった高度な剣術スタイルへの進行方法を解説します（2026年最新版）。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Haze+Piece+Katana+Guide",
+  date: "2026-07-08",
+  author: "Haze Piece Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Haze Pieceの刀（Katana）**: 初心者向けの必須となる初期武器で、初期の島（Starter Island）の武器屋にあります。
+- **必要費用**: 非常に安価で、わずか**3,000 Beli**（商人の割引によっては**1,200 Beli**）で購入できます。
+- **主要スキル**: 剣術レベル30で**獅子歌歌（Lion Song）**、レベル50で**飛ぶ斬撃（Air Cut / Air Slash）**が解放されます。
+- **進行ルート**: 二刀流（2SS）や三刀流（3SS）にアップグレードする前の、基本となる踏み台として機能します。
+- **特殊な無効化**: **バラバラの実（Chop Fruit）**の能力者には、パッシブ効果により剣による攻撃でダメージを与えられない点に注意してください。
+</Callout>
+
+<Section icon={Map} title="Haze Pieceでの刀の入手方法">
+
+**Haze Pieceの刀（Katana）**は、多くの剣士志望のプレイヤーがゲーム内で最初に手にする武器です。基本の近接攻撃と同等のダメージですが、剣術ステータス（Sword stats）のレベル上げを開始するために、早い段階で購入することを強くお勧めします。
+
+**動画のハイライト:**
+- **初期位置**: 初期の島（Starter Island）の武器屋の場所。
+- **購入手順**: 悪魔の実のディーラー（Fruit Dealer）の隣にいるNPCの商人に話しかける。
+- **スキル紹介**: 獅子歌歌（Lion Song）と飛ぶ斬撃（Air Slash）の実演。
+
+<YouTubeEmbed videoId="Aw9avXHW6eU" title="【Haze Piece】二刀流（2SS）＆V2の入手方法チュートリアル" />
+
+刀を購入するには、**初期の島（Starter Island）**へ向かいます。悪魔の実のディーラーの右側にある武器屋を探してください。武器屋は、刀が横に置かれた木製の台と、その脇に立てかけられた大きな黒刀（夜 / Yoru）が目印です。武器商人（Sword Dealer）のNPCに話しかけるだけで購入できます。
+
+| 商人の場所 | アイテム名 | Beli価格 | レア度 | 与ダメージ |
+| :--- | :--- | :--- | :--- | :--- |
+| **初期の島（Starter Island）** | **刀（Katana）** | **3,000 Beli** | コモン | 基本の近接攻撃と同等 |
+
+<Callout type="tip" title="プロのアドバイス">
+スポーンしたらすぐに刀を購入しましょう。ゲーム内で最も弱い武器ですが、後により高ランクの刀のスキルを解放するためには、剣術の熟練度（Sword mastery）を上げておく必要があります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="刀の技（ムーブセット）とアビリティ">
+
+刀には、近距離から中距離の敵にダメージを与えることができる2つの代表的なアビリティがあります。これらの技を解放するには、剣術ステータス（Sword stat）を上げる必要があります。
+
+| スキル名 | キーバインド | 必要な剣術レベル | スキルの説明 |
+| :--- | :--- | :--- | :--- |
+| **獅子歌歌（Lion Song）** | **Zキー** | **レベル30** | 前方に跳び、軌道上のすべてを切り裂く。 |
+| **飛ぶ斬撃（Air Cut / Air Slash）** | **Xキー** | **レベル50** | 標的に向けて巨大な飛ぶ斬撃の飛び道具を放つ。 |
+
+<Callout type="warning" title="バラバラの実の無効化について">
+**バラバラの実（Chop Fruit）**を使用しているプレイヤーやボスには、剣の攻撃が無効化されるパッシブ特性があるため、ダメージを与えられないことに注意してください。この制限は道化師のボス（Clown Boss）にも適用されます（ただし、1/3の確率で貫通するわずかなチャンスがあります）。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="剣士の進行ルート：刀から三刀流（3SS）まで">
+
+基本的な**Haze Pieceの刀（Katana）**から始めるのは、ほんの序の口にすぎません。第1の海（First Sea）および第2の海（Second Sea）を進むにつれて、戦闘スタイルを複数刃の剣術へとアップグレードしていくことができます。
+
+<Steps>
+  <Step num="1" title="刀を入手する">
+    初期の島（Starter Island）で基本的な刀を3,000 Beliで購入し、熟練度の育成を開始します。
+  </Step>
+  <Step num="2" title="二刀流（2SS）を解放する">
+    第1の海にある**ローグシティ（Logue City）**（レベル350の島）へ向かいます。ミスター・ホワイト（Mr. White）に**100,000 Beli**を支払い、二刀流（Dual Katana）スタイルを習得します。
+  </Step>
+  <Step num="3" title="二刀流V2（2SS V2）にアップグレードする">
+    丘の上のボス**二刀流の剣士（Dual Swordsman）**を倒し（本のドロップ率10%）、それをミスター・ホワイトに渡して2SS V2を解放します [Aw9avXHW6eU]。
+  </Step>
+  <Step num="4" title="三刀流（3SS）を極める">
+    **第2の海（Second Sea）**へ移動し、**雪の墓場（Snowy Graveyard）**（レベル2550の島）へ向かいます。レベル2650の**三刀流ボス（3SS Boss - ゾロ）**を倒し、1%の確率でドロップする三刀流を入手します。
+  </Step>
+</Steps>
+
+<Callout type="success" title="ステータスポイントの振り分け">
+二刀流（2SS）や三刀流（3SS）への移行を計画している場合は、ダメージの倍率を最大化するために、ステータスポイントを**剣術（Sword）**カテゴリに集中して振り分けてください。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="第1の海の剣の比較">
+
+初期の**Haze Pieceの刀**からステップアップしたい場合、第1の海には他にもいくつかの剣が散らばっています。次のアップグレードを計画する際、この比較表を参考にしてください：
+
+| 武器 | レア度 | 入手方法 | 費用 / ドロップ率 |
+| :--- | :--- | :--- | :--- |
+| **刀（Katana）** | コモン | 初期の島の武器屋 | **3,000 Beli** |
+| **シャークブレード（Shark Blade）** | レア | シャークボス（シャークパーク）を撃破 | **ドロップ率 5%** |
+| **金棒（Mace）** | レア | メイスボスを撃破 | **ドロップ率 100%** |
+| **ソウルケイン（Soul Cane）** | レア | ミスター・スケルトンから購入 | **100,000 Beli** |
+| **雷雨（Raiu）** | レジェンダリー | 雨のシリュウ（巻物商人）を撃破 | **巻物のドロップ率に準ずる** |
+
+</Section>
+
+<Section icon={Trophy} title="剣士の節目目標（マイルストーン）">
+
+<Checklist
+  id="swordsman-progression"
+  title="剣士にとって必須の目標："
+  items={[
+    "初期の島（Starter Island）で刀を購入する",
+    "剣術レベル50に到達し、刀のすべての技を解放する",
+    "ローグシティ（Logue City）で二刀流を習得するために100,000 Beliを貯める",
+    "二刀流の剣士（Dual Swordsman）を倒してV2の本をドロップさせる",
+    "第2の海に到達し、三刀流（3SS）や閻魔（Enma）を求めて周回する"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問（FAQ）">
+
+<FAQ items={[
+  {
+    question: "Haze Pieceの刀はどこにありますか？",
+    answer: "刀は、初期の島（Starter Island）の悪魔の実のディーラーのすぐ隣にある武器屋にて、3,000 Beliで購入できます。"
+  },
+  {
+    question: "刀はPvPで強いですか？",
+    answer: "いいえ、基本的な刀はゲーム内で最も弱い武器であり、基本の近接攻撃と同等のダメージしか与えられません。あくまでゲーム序盤のレベル上げ用です。"
+  },
+  {
+    question: "刀で一部の敵にダメージを与えられないのはなぜですか？",
+    answer: "バラバラの実（Chop Fruit）を使用している敵やプレイヤーは、すべての剣撃に対してパッシブな無効化特性を持っています。ダメージを与えるには、格闘スタイルや悪魔の実の能力を使用する必要があります。"
+  },
+  {
+    question: "二刀流（2SS）を入手するために刀は必要ですか？",
+    answer: "刀を装備し続ける必要はありませんが、剣術ステータスを鍛えておく必要があり、またローグシティのミスター・ホワイトから二刀流（2SS）を購入するために100,000 Beliを貯めておく必要があります。"
+  }
+]} />
+
+</Section>

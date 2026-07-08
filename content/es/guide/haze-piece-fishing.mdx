@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pesca en Haze Piece: Comparación de Cañas y Guía de Recompensas",
+  description: "Aprende a dominar la pesca en Haze Piece. Compara todas las cañas de pescar, analiza las tasas de captura y descubre las mejores recompensas como gemas y frutas del diablo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Haze+Piece+Fishing+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Haze Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Pesca en Haze Piece**: Una mecánica de progresión donde los jugadores capturan peces de cuatro rarezas distintas para obtener EXP, Beli, Gemas y Frutas del Diablo.
+- **Probabilidades de Rareza**: Los peces Comunes tienen una tasa de captura del 70%, los Raros del 28.9%, los Legendarios del 1% y los Míticos del 0.1%.
+- **Rendimiento de las Cañas**: Las pruebas estándar revelan que la costosa Caña de Pescar Legendaria no supera significativamente a la Caña de Madera básica debido a que los aumentos porcentuales reales son marginales.
+- **Mejores Recompensas**: Capturar peces Legendarios o Míticos recompensa a los jugadores con Frutas del Diablo aleatorias gratuitas, niveles extra y Gemas premium.
+</Callout>
+
+<Section icon={Map} title="Resumen y Mecánicas de Pesca en Haze Piece">
+
+La pesca en Haze Piece sirve como un método alternativo y pasivo para subir de nivel a tu personaje, ganar Beli y asegurar objetos raros. Los jugadores pueden lanzar sus sedales en cualquier masa de agua del mapa para pescar peces de diversas rarezas. Cada captura otorga beneficios de progresión inmediatos al vender tu botín al comerciante de peces correspondiente.
+
+**Puntos Destacados del Vídeo:**
+- Comparación directa entre la Caña de Madera inicial, la Caña Rara y la Caña Legendaria comprada con Robux.
+- Desglose de por qué el aumento de suerte del 50% en la Caña Legendaria es matemáticamente engañoso.
+- Resultados de pruebas en el mundo real que muestran rarezas de captura idénticas en diferentes niveles de cañas.
+
+<YouTubeEmbed videoId="o3c7fWR_9-0" title="(Haze Piece) ¿Vale la pena la Caña de Pescar Legendaria? ¡Las comparo todas!" />
+
+Comprender las tasas de aparición exactas y los niveles de recompensa es crucial antes de dedicar horas a los muelles. A continuación se muestra el desglose completo de las tasas de pesca base y las recompensas disponibles en el juego:
+
+| Rareza | Probabilidad de Captura | Recompensa de EXP | Recompensa de Beli | Recompensas Extra |
+| :--- | :--- | :--- | :--- | :--- |
+| **Común** | 70% | +15% del Nivel Actual | $300 | Ninguna |
+| **Raro** | 28.9% | +25% del Nivel Actual | $1,000 | Ninguna |
+| **Legendario** | 1% | +3 Niveles | $10,000 | +5 Gemas, Fruta del Diablo Poco Común Aleatoria |
+| **Mítico** | 0.1% | +10 Niveles | $100,000 | +25 Gemas, Fruta del Diablo Rara Aleatoria, +1 Giro de Raza |
+
+<Callout type="warning" title="Advertencia de Escalado de Nivel">
+Debido a que los peces Comunes y Raros otorgan EXP basada en porcentajes (+15% y +25% de tu nivel actual respectivamente), se recomienda encarecidamente guardar y vender tus peces en niveles más altos para maximizar la experiencia total ganada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de Cañas: ¿Vale la Pena la Caña Legendaria?">
+
+Los jugadores pueden elegir entre tres cañas de pescar principales. Aunque la tienda del juego anuncia cañas premium con multiplicadores de suerte, las pruebas prácticas revelan una realidad diferente. La siguiente tabla describe las diferencias principales entre el equipo disponible:
+
+| Nivel de Caña | Método de Obtención | Bonificación Anunciada | Rendimiento Práctico | Recomendación |
+| :--- | :--- | :--- | :--- | :--- |
+| **Caña de Madera** | Inicial Estándar | Ninguna | Rendimiento base | Muy Recomendada |
+| **Caña Rara** | Progresión en el Juego | Aumento de Suerte Moderado | Diferencia insignificante | Opcional |
+| **Caña Legendaria** | 599 Robux | +50% de Aumento de Suerte | Incremento real marginal | No Recomendada |
+
+Para entender por qué la Caña Legendaria es ampliamente considerada un desperdicio de Robux, debemos observar cómo se aplica matemáticamente el aumento de suerte del 50%.
+
+<CardGrid cols={3}>
+  <Card title="La Ilusión Matemática">
+    Un **aumento del 50%** no añade probabilidad plana. Multiplica la tasa base por 1.5. Para un pez Legendario del 1%, tu nueva tasa es solo del **1.5%**.
+  </Card>
+  <Card title="Realidad Mítica">
+    Para un **pez Mítico del 0.1%**, un aumento del 50% solo incrementa tu tasa de captura final al **0.15%**, lo cual se siente virtualmente idéntico durante el juego.
+  </Card>
+  <Card title="Resultados de Pruebas">
+    Pruebas controladas de 5 lanzamientos consecutivos tanto con la caña de Madera como con la Legendaria frecuentemente arrojan la misma distribución de peces Comunes y Raros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Ahorra tus Robux">
+No gastes 599 Robux en la Caña de Pescar Legendaria. El valor de progresión es matemáticamente insignificante. Quédate con la Caña de Madera básica o las mejoras estándar del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de Pesca y Venta Paso a Paso">
+
+Para comenzar tu viaje de pesca y canjear tus capturas por valiosas recompensas, sigue este sencillo proceso:
+
+<Steps>
+  <Step num="1" title="Equipa tu Caña">
+    Compra tu caña preferida en la isla inicial o equipa tu caña existente desde tu barra de acceso rápido del inventario.
+  </Step>
+  <Step num="2" title="Encuentra Agua y Lanza">
+    Acércate a cualquier borde de océano profundo en cualquier isla. Selecciona tu caña, apunta al agua y haz clic para lanzar el sedal.
+  </Step>
+  <Step num="3" title="Recoge la Captura">
+    Espera a que aparezca el indicador de picada en tu pantalla, luego haz clic rápidamente para recoger tu pez con éxito.
+  </Step>
+  <Step num="4" title="Visita al Comerciante de Peces">
+    Localiza al NPC Comerciante de Peces en los muelles para vender tu inventario. La venta activa tus beneficios de EXP, Beli y obtención de objetos extra.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Gestión de Inventario">
+Asegúrate de tener espacios libres en el inventario antes de vender peces Legendarios o Míticos, ya que las Frutas del Diablo Poco Comunes o Raras de bonificación se colocarán directamente en tu bolsa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos y Objetivos de Pesca">
+
+Utiliza esta lista de verificación para seguir tu progresión y aprovechar al máximo el sistema de pesca:
+
+<Checklist
+  id="fishing-goals"
+  title="Hitos de Pesca:"
+  items={[
+    "Adquirir la Caña de Madera inicial en los muelles",
+    "Alcanzar el nivel 100+ para maximizar el retorno de EXP basado en porcentajes",
+    "Capturar un pez Legendario para asegurar una Fruta del Diablo Poco Común aleatoria gratuita",
+    "Capturar un pez Mítico para reclamar 25 Gemas y un Giro de Raza gratuito",
+    "Vender un inventario completo de peces raros para un impulso masivo de Beli"
+  ]}
+/>
+
+<Callout type="info" title="Giros de Raza y Gemas">
+Los peces Míticos son una de las pocas formas pasivas de ganar Giros de Raza premium y Gemas sin participar en combates contra jefes de alto nivel o incursiones.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿La Caña de Pescar Legendaria garantiza mejores peces en Haze Piece?",
+    answer: "No. La Caña de Pescar Legendaria solo proporciona un multiplicador de 1.5x a las tasas base. Esto significa que una tasa Legendaria del 1% solo se convierte en 1.5%, lo que hace que la diferencia sea imperceptible durante el juego normal."
+  },
+  {
+    question: "¿Cuál es la mejor recompensa que puedes obtener de la pesca en Haze Piece?",
+    answer: "La mejor recompensa proviene de capturar un pez Mítico (0.1% de probabilidad), que te otorga $100,000 Beli, +10 niveles de personaje, +25 Gemas, una Fruta del Diablo Rara aleatoria y +1 Giro de Raza."
+  },
+  {
+    question: "¿Puedo obtener Frutas del Diablo pescando?",
+    answer: "Sí. Capturar un pez Legendario otorga una Fruta del Diablo Poco Común aleatoria, mientras que capturar un pez Mítico otorga una Fruta del Diablo Rara aleatoria."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para pescar en el juego?",
+    answer: "Puedes pescar en cualquier área de aguas abiertas en todas las islas. No hay bonificaciones de tasa de captura específicas por ubicación, por lo que se recomienda pescar cerca de los muelles en zonas seguras."
+  }
+]} />
+
+</Section>
